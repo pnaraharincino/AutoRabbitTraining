@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Deposit Rate Structure --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- WK DepAct DocPrep --></label>
+        <name>WKDDP__WK_DepAct_DocPrep</name>
+    </fieldSets>
+    <fields>
+        <label>テンプレート</label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <label>タイプ</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Progressive</masterLabel>
+            <translation>進行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single</masterLabel>
+            <translation>単一</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiered</masterLabel>
+            <translation><!-- Tiered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Time-Based</masterLabel>
+            <translation>時間ベースの</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Deposit Rate Structure Name --></nameFieldLabel>
+</CustomObjectTranslation>

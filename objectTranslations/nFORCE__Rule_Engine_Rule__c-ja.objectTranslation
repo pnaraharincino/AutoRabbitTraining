@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Rule Engine Rule --></value>
+    </caseValues>
+    <fields>
+        <label>有効</label>
+        <name>nFORCE__Active__c</name>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>nFORCE__Description__c</name>
+    </fields>
+    <fields>
+        <label>終了日</label>
+        <name>nFORCE__End_Date__c</name>
+    </fields>
+    <fields>
+        <label>ルールエンジンコンテキストルール</label>
+        <name>nFORCE__Rule_Engine_Context_Rule__c</name>
+        <relationshipLabel>ルールエンジンの規則</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ルールエンジンルール名</label>
+        <name>nFORCE__Rule_Engine_Rule_Name__c</name>
+    </fields>
+    <fields>
+        <label>ルールエンジンルール参照</label>
+        <name>nFORCE__Rule_Engine_Rule_Reference__c</name>
+    </fields>
+    <fields>
+        <label>ルールエンジン</label>
+        <name>nFORCE__Rule_Engine__c</name>
+    </fields>
+    <fields>
+        <label>開始日</label>
+        <name>nFORCE__Start_Date__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

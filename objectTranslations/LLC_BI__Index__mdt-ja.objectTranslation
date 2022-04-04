@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Index --></value>
+    </caseValues>
+    <fields>
+        <help>このインデックスが使用されていることを示します。</help>
+        <label>有効</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <help>カテゴリー</help>
+        <label>カテゴリー</label>
+        <name>LLC_BI__Category__c</name>
+    </fields>
+    <fields>
+        <help>説明</help>
+        <label>説明</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <help>デフォルトのソースURL</help>
+        <label>デフォルトのソースURL</label>
+        <name>LLC_BI__External_Source__c</name>
+    </fields>
+    <fields>
+        <help>頻度更新</help>
+        <label>修正スケジュール</label>
+        <name>LLC_BI__Modification_Schedule__c</name>
+    </fields>
+    <fields>
+        <help>インデックス名</help>
+        <label>名前</label>
+        <name>LLC_BI__Name__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>資金調達方法</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Checking Account Form --></label>
+        <name>Checking_Account_Form</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Debit Card --></label>
+        <name>Debit_Card</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WK_DepAct_DocPrep --></label>
+        <name>WKDDP__WK_DepAct_DocPrep</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account Number --></label>
+        <name>AccountNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Located on the back of the card. --></help>
+        <label><!-- CVV code --></label>
+        <name>CVVcode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Debit Card Number --></label>
+        <name>DebitCardNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter in the format XX/XX --></help>
+        <label><!-- Expiration Date --></label>
+        <name>ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label>口座タイプ</label>
+        <name>LLC_BI__Account_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business Checking</masterLabel>
+            <translation>法人当座口座</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Savings</masterLabel>
+            <translation>ビジネス預金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Checking</masterLabel>
+            <translation>当座預金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MMA Checking</masterLabel>
+            <translation>MMA当座預金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MMA Savings</masterLabel>
+            <translation>MMA普通預金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savings</masterLabel>
+            <translation>貯蓄</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>資金完了ID</label>
+        <name>LLC_BI__Funding_Completion_ID__c</name>
+    </fields>
+    <fields>
+        <label>資金不良の詳細</label>
+        <name>LLC_BI__Funding_Failure_Detail__c</name>
+    </fields>
+    <fields>
+        <label>資金調達方法タイプ</label>
+        <name>LLC_BI__Funding_Method_Type__c</name>
+        <relationshipLabel>資金調達方法</relationshipLabel>
+    </fields>
+    <fields>
+        <label>資金調達セッションID</label>
+        <name>LLC_BI__Funding_Session_ID__c</name>
+    </fields>
+    <fields>
+        <label>資金調達の状況</label>
+        <name>LLC_BI__Funding_Status__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting Trial Deposits</masterLabel>
+            <translation><!-- Awaiting Trial Deposits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funding Failure</masterLabel>
+            <translation>資金の失敗</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funding Success</masterLabel>
+            <translation>資金成功</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Progress</masterLabel>
+            <translation>進行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Deposit Failure</masterLabel>
+            <translation>トライアルデポジット失敗</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Deposit Reject</masterLabel>
+            <translation>トライアルデポジット拒否</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Deposit Success</masterLabel>
+            <translation>トライアルデポジット成功</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>資金調達対象ID</label>
+        <name>LLC_BI__Funding_Target_ID__c</name>
+    </fields>
+    <fields>
+        <label>ユーザーIDの資金調達</label>
+        <name>LLC_BI__Funding_User_ID__c</name>
+    </fields>
+    <fields>
+        <help>固有の外部識別子を入力してください。</help>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Routing Number --></label>
+        <name>RoutingNumber__c</name>
+    </fields>
+    <nameFieldLabel>資金調達方法</nameFieldLabel>
+</CustomObjectTranslation>

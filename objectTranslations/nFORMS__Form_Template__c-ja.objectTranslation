@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>フォームテンプレート</value>
+    </caseValues>
+    <fields>
+        <help><!-- Links a form template to a Closing Checklist in order to create placeholders with predefined values. --></help>
+        <label><!-- Closing Checklist --></label>
+        <name>nFORMS__Closing_Checklist__c</name>
+        <relationshipLabel><!-- Form Templates --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>nFORMS__Description__c</name>
+    </fields>
+    <fields>
+        <label>FLSを有効にします</label>
+        <name>nFORMS__Enable_FLS__c</name>
+    </fields>
+    <fields>
+        <label>マスキングを強制する</label>
+        <name>nFORMS__Enforce_Masking__c</name>
+    </fields>
+    <fields>
+        <help>フォームテンプレートは、このフィルタ基準を満たすオブジェクトにのみ利用可能です。</help>
+        <label>フィルター</label>
+        <name>nFORMS__Filter__c</name>
+    </fields>
+    <fields>
+        <label>フォーム目的</label>
+        <name>nFORMS__Form_Purpose__c</name>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation>全般的</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>有効</label>
+        <name>nFORMS__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label>出力タイプ</label>
+        <name>nFORMS__Output_Type__c</name>
+    </fields>
+    <fields>
+        <label>主なオブジェクト</label>
+        <name>nFORMS__Primary_Object__c</name>
+    </fields>
+    <fields>
+        <label>文書管理に保存</label>
+        <name>nFORMS__Save_To_Docman__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORMS__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel>フォームテンプレート</nameFieldLabel>
+</CustomObjectTranslation>

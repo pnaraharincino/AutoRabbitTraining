@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Email Template Institution --></value>
+    </caseValues>
+    <fields>
+        <help>このテキストフィールドに、機関のユーザーに送信される電子メールテンプレートのSalesforce IDを入力します。</help>
+        <label>電子メールテンプレート</label>
+        <name>LLC_BI__EmailTemplate__c</name>
+    </fields>
+    <fields>
+        <label>電子メールテンプレート目的</label>
+        <name>LLC_BI__Email_Template_Purpose__c</name>
+        <picklistValues>
+            <masterLabel>Account Document Assigned - Bulk</masterLabel>
+            <translation>割り当てられたアカウント文書 - バルク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Document Rejected</masterLabel>
+            <translation>アカウント文書が拒否されました</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Borrower Added (Existing)</masterLabel>
+            <translation>債務者追加（既存）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Borrower Added (New)</masterLabel>
+            <translation>債務者追加（新規）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Owner Added (Existing)</masterLabel>
+            <translation>共同所有者が追加されました（既存）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Owner Added (New)</masterLabel>
+            <translation>共同所有者追加（新規）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit Document Rejected</masterLabel>
+            <translation>預金文書が拒否されました</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit Documents Assigned</masterLabel>
+            <translation>割り当てられたドキュメントを入金しました</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guarantor Added (Existing)</masterLabel>
+            <translation>保証人追加（既存）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guarantor Added (New)</masterLabel>
+            <translation>保証人追加（新規）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Document Assigned Email - Bulk</masterLabel>
+            <translation>融資文書が割り当てられた電子メール - バルク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Document Rejected Email</masterLabel>
+            <translation>融資文書拒否Eメール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Save and Continue</masterLabel>
+            <translation>保存して続行</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>組織</label>
+        <name>LLC_BI__Institution__c</name>
+        <relationshipLabel>組織</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Email Template Institution Name --></nameFieldLabel>
+</CustomObjectTranslation>

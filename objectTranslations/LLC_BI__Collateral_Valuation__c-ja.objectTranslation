@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>担保評価</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Document Transfer --></label>
+        <name>WKDDP__Document_Transfer</name>
+    </fieldSets>
+    <fields>
+        <help>バリュエーションがアクティブか、インアクティブかを示します。</help>
+        <label>有効</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <label>担保タイプ/サブタイプ</label>
+        <name>LLC_BI__Collateral_Type_SubType__c</name>
+    </fields>
+    <fields>
+        <label>担保</label>
+        <name>LLC_BI__Collateral__c</name>
+        <relationshipLabel>担保評価</relationshipLabel>
+    </fields>
+    <fields>
+        <label>コメント</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <help>担保の主要なバリュエーションを示します。</help>
+        <label>主要</label>
+        <name>LLC_BI__Primary__c</name>
+    </fields>
+    <fields>
+        <help>担保バリュエーションの源泉</help>
+        <label>評価基準</label>
+        <name>LLC_BI__Source__c</name>
+        <picklistValues>
+            <masterLabel>Account Balance / Statement</masterLabel>
+            <translation>アカウント残高/声明</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appraisal</masterLabel>
+            <translation>鑑定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Officer</masterLabel>
+            <translation>クレジットオフィサー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Statement</masterLabel>
+            <translation>財務諸表</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Agent</masterLabel>
+            <translation>保険代理店</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Valuation</masterLabel>
+            <translation>内部評価</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory Report</masterLabel>
+            <translation>在庫レポート</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice / Bill of Sale</masterLabel>
+            <translation>請求書/売り出し請求書</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Abundance of Caution</masterLabel>
+            <translation>不動産豊富</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Evaluation</masterLabel>
+            <translation>不動産評価</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Restricted Appraisal</masterLabel>
+            <translation>不動産制限審査</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receivables Aging</masterLabel>
+            <translation><!-- Receivables Aging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Party Source</masterLabel>
+            <translation>サードパーティの情報源</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valuation Service Vendor</masterLabel>
+            <translation>評価サービスのベンダー</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>担保バリュエーションのタイプ</help>
+        <label>評価方法</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Actual Cash Value</masterLabel>
+            <translation>実際の現金価値</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Complete Value</masterLabel>
+            <translation><!-- As Complete Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Is Value</masterLabel>
+            <translation><!-- As Is Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Stabilized Value</masterLabel>
+            <translation><!-- As Stabilized Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balance Sheet</masterLabel>
+            <translation>貸借対照表</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Book Value</masterLabel>
+            <translation>帳簿価格</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Balance</masterLabel>
+            <translation>現金残高</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contents Value</masterLabel>
+            <translation>コンテンツバリュー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair Market Value - Equipment / Transportation</masterLabel>
+            <translation>公正な市場価値 - 機器/輸送</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair Market Value - Real Estate</masterLabel>
+            <translation>フェアマーケットバリュー - 不動産</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net Orderly Liquidation Value</masterLabel>
+            <translation>正味の整理清算値</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orderly Liquidation Value</masterLabel>
+            <translation>整理値</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preliminary Value</masterLabel>
+            <translation>予備価値</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase Price</masterLabel>
+            <translation>購入金額</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replacement Cost Value</masterLabel>
+            <translation>交換費用価値</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waived Value</masterLabel>
+            <translation>除外された値</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>担保バリュエーション日</help>
+        <label>評価日</label>
+        <name>LLC_BI__Valuation_Date__c</name>
+    </fields>
+    <fields>
+        <label>評価の説明</label>
+        <name>LLC_BI__Valuation_Description__c</name>
+    </fields>
+    <fields>
+        <help>このシステムが加えた欄は関連車両バリュエーション統合から受領した車両詳細IDを自動的に加えます。</help>
+        <label>バリュエーション詳細</label>
+        <name>LLC_BI__Valuation_Details__c</name>
+    </fields>
+    <fields>
+        <help>担保価値を把握するための引用</help>
+        <label>担保価値</label>
+        <name>LLC_BI__Value__c</name>
+    </fields>
+    <nameFieldLabel>担保番号</nameFieldLabel>
+</CustomObjectTranslation>

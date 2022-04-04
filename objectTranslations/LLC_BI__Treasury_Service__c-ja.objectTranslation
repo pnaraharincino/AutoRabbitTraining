@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>付帯サービス</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Address Fields --></label>
+        <name>Address_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Deactivate Service --></label>
+        <name>Deactivate_Service</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Package Treasury Services FS --></label>
+        <name>LLC_BI__Product_Package_Treasury_Services_FS</name>
+    </fieldSets>
+    <fieldSets>
+        <label>サービス詳細</label>
+        <name>LLC_BI__Service_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label>付帯サービス概要</label>
+        <name>LLC_BI__Treasury_Services_Summary_UI</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Exception Pricing --></label>
+        <name>LLC_BI__UI_Exception_Pricing</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for ACH --></label>
+        <name>LLC_BI__UI_Order_Entry_for_ACH</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Cash --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Cash</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Depository --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Depository</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Direct File Transfer --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Direct_File_Transfer</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Disbursement --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Disbursement</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Loan Module --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Loan_Module</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Lockbox --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Lockbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Miscellaneous --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Miscellaneous</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Multi Factor Auth --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Multi_Factor_Auth</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Online ACH --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Online_ACH</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Online Banking --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Online_Banking</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Online Bill Pay --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Online_Bill_Pay</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for RDC --></label>
+        <name>LLC_BI__UI_Order_Entry_for_RDC</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Reconciliation --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Reconciliation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Reporting --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Reporting</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Sweep --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Sweep</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Wire --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Wire</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Order Entry for Zero Balance --></label>
+        <name>LLC_BI__UI_Order_Entry_for_Zero_Balance</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Product Summary --></label>
+        <name>LLC_BI__UI_Product_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for ACH --></label>
+        <name>LLC_BI__UI_Setup_for_ACH</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Cash --></label>
+        <name>LLC_BI__UI_Setup_for_Cash</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Depository --></label>
+        <name>LLC_BI__UI_Setup_for_Depository</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Direct File Tansfer --></label>
+        <name>LLC_BI__UI_Setup_for_Direct_File_Tansfer</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Disbursement --></label>
+        <name>LLC_BI__UI_Setup_for_Disbursement</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Lockbox --></label>
+        <name>LLC_BI__UI_Setup_for_Lockbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Miscellaneous --></label>
+        <name>LLC_BI__UI_Setup_for_Miscellaneous</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Online ACH --></label>
+        <name>LLC_BI__UI_Setup_for_Online_ACH</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Online Banking --></label>
+        <name>LLC_BI__UI_Setup_for_Online_Banking</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Online Bill Pay --></label>
+        <name>LLC_BI__UI_Setup_for_Online_Bill_Pay</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for RDC --></label>
+        <name>LLC_BI__UI_Setup_for_RDC</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Reconciliation --></label>
+        <name>LLC_BI__UI_Setup_for_Reconciliation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Reporting --></label>
+        <name>LLC_BI__UI_Setup_for_Reporting</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Sweep --></label>
+        <name>LLC_BI__UI_Setup_for_Sweep</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Wire --></label>
+        <name>LLC_BI__UI_Setup_for_Wire</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Setup for Zero Balance --></label>
+        <name>LLC_BI__UI_Setup_for_Zero_Balance</name>
+    </fieldSets>
+    <fieldSets>
+        <label>OA Online Banking</label>
+        <name>OA_Online_Banking</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Treasury Service Details --></label>
+        <name>Treasury_Service_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WK_DepAct_DocPrep --></label>
+        <name>WKDDP__WK_DepAct_DocPrep</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Portal_UI_Test --></label>
+        <name>nPortal__Portal_UI_Test</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label>アカウントID</label>
+        <name>LLC_BI__Account_ID__c</name>
+    </fields>
+    <fields>
+        <help>このルックアップフィールドを使用して、アプリケーションレコードをこの自己サービスレコードに関連付けます。</help>
+        <label>申請</label>
+        <name>LLC_BI__Application__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>自動クリアハウスサービス</label>
+        <name>LLC_BI__Automated_Clearing_House_Service__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>支店</label>
+        <name>LLC_BI__Branch__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>カード番号</label>
+        <name>LLC_BI__Card_Number__c</name>
+    </fields>
+    <fields>
+        <label>現金サービス</label>
+        <name>LLC_BI__Cash_Service__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>法人オフィサー</label>
+        <name>LLC_BI__Commercial_Officer__c</name>
+        <relationshipLabel>付帯サービス (Commercial Officer)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このフィールドには、財務サービスが変換されたオブジェクトのIDが含まれています</help>
+        <label>コンバージョンオブジェクト</label>
+        <name>LLC_BI__Conversion_Object__c</name>
+    </fields>
+    <fields>
+        <label>稟議書</label>
+        <name>LLC_BI__Credit_Memo__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このフィールドは、このレコードのNCINOユーザーインターフェイス内のデフォルトページを決定します。</help>
+        <label>申請</label>
+        <name>LLC_BI__Default_App__c</name>
+    </fields>
+    <fields>
+        <label>寄託サービス</label>
+        <name>LLC_BI__Depository_Service__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>払い戻しサービス</label>
+        <name>LLC_BI__Disbursement_Service__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <help>製品の設定の最も早い日付。</help>
+        <label>発効日</label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help>顧客が財務管理サービスに請求されるべき最初の月。</help>
+        <label>最初の請求月</label>
+        <name>LLC_BI__First_Billing_Month__c</name>
+        <picklistValues>
+            <masterLabel>April</masterLabel>
+            <translation>4月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>August</masterLabel>
+            <translation>8月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>December</masterLabel>
+            <translation>12月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>February</masterLabel>
+            <translation>2月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>January</masterLabel>
+            <translation>1月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>July</masterLabel>
+            <translation>7月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>June</masterLabel>
+            <translation>6月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>March</masterLabel>
+            <translation>3月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>May</masterLabel>
+            <translation>5月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>November</masterLabel>
+            <translation>11月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>October</masterLabel>
+            <translation>10月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>September</masterLabel>
+            <translation>9月</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>実装命令</label>
+        <name>LLC_BI__Implementation_Instructions__c</name>
+    </fields>
+    <fields>
+        <label>ATMカードです</label>
+        <name>LLC_BI__Is_ATM_Card__c</name>
+    </fields>
+    <fields>
+        <label>有効</label>
+        <name>LLC_BI__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label>ロックボックスサービス</label>
+        <name>LLC_BI__Lockbox_Service__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>メンテナンスアプリ</label>
+        <name>LLC_BI__Maintenance_App__c</name>
+    </fields>
+    <fields>
+        <label>その他のサービス</label>
+        <name>LLC_BI__Miscellaneous_Service__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>オンラインバンキングサービス</label>
+        <name>LLC_BI__Online_Banking_Service__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>当座貸越の同意</label>
+        <name>LLC_BI__Overdraft_Consent__c</name>
+        <picklistValues>
+            <masterLabel>Refuse overdraft service</masterLabel>
+            <translation>当座貸越サービスのご利用停止</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request overdraft service</masterLabel>
+            <translation>当座貸越サービスのお申し込み</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>デビットカードに表示される主名を入力してください。</help>
+        <label>主エンボス名</label>
+        <name>LLC_BI__Primary_Emboss_Name__c</name>
+    </fields>
+    <fields>
+        <label>案件パッケージ</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>商品</label>
+        <name>LLC_BI__Product_Reference__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>サスペンド/キャンセルの理由</label>
+        <name>LLC_BI__Reason_for_Suspend_Cancel__c</name>
+        <picklistValues>
+            <masterLabel>Client Resource Availability</masterLabel>
+            <translation>顧客の人的リソースの空き状況</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Technical Requirements</masterLabel>
+            <translation>顧客の技術要件</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Provider Delay</masterLabel>
+            <translation>顧客の提供遅延</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service No Longer Needed</masterLabel>
+            <translation>不要なサービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor Delay</masterLabel>
+            <translation>ベンダー遅延</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>和解サービス</label>
+        <name>LLC_BI__Reconciliation_Service__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>取引先</label>
+        <name>LLC_BI__Relationship__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>リモートデポジットキャプチャサービス</label>
+        <name>LLC_BI__Remote_Deposit_Capture_Service__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>レポートサービス</label>
+        <name>LLC_BI__Reporting_Service__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>シナリオ</label>
+        <name>LLC_BI__Scenario__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <help>デビットカードに表示されるセカンダリ名を入力してください。</help>
+        <label>二次エンボスの名前</label>
+        <name>LLC_BI__Secondary_Emboss_Name__c</name>
+    </fields>
+    <fields>
+        <label>フェーズ</label>
+        <name>LLC_BI__Stage__c</name>
+        <picklistValues>
+            <masterLabel>Implementation</masterLabel>
+            <translation>実装</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Entry</masterLabel>
+            <translation>オーダー入力</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Setup</masterLabel>
+            <translation>設定</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>有効</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>キャンセル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>期限切れ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>未確定</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>スイープサービス</label>
+        <name>LLC_BI__Sweep_Service__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>TM Officer</label>
+        <name>LLC_BI__TM_Officer__c</name>
+        <relationshipLabel>付帯サービス (TM役員)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ワイヤーサービス</label>
+        <name>LLC_BI__Wire_Service__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ゼロバランスアカウントサービス</label>
+        <name>LLC_BI__Zero_Balance_Account_Service__c</name>
+        <relationshipLabel>付帯サービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>付帯サービス番号</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation><!-- AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation><!-- IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation><!-- KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation><!-- MN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation><!-- MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation><!-- ND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation><!-- NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation><!-- NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation><!-- NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation><!-- NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation><!-- RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation><!-- SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation><!-- VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation><!-- VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation><!-- WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation><!-- WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation><!-- WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation><!-- WY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ZIP --></label>
+        <name>ZIP__c</name>
+    </fields>
+    <nameFieldLabel>付帯サービス</nameFieldLabel>
+    <webLinks>
+        <label>稟議書</label>
+        <name>LLC_BI__Credit_Memo</name>
+    </webLinks>
+    <webLinks>
+        <label>フォーム生成</label>
+        <name>LLC_BI__Form_Generation</name>
+    </webLinks>
+    <webLinks>
+        <label>マスアクション</label>
+        <name>LLC_BI__Mass_Actions</name>
+    </webLinks>
+    <webLinks>
+        <label>分析アカウント追加</label>
+        <name>LLC_BI__Mass_Add_Analyzed_Accounts</name>
+    </webLinks>
+    <webLinks>
+        <label>権限者追加</label>
+        <name>LLC_BI__Mass_Add_Authorized_Users</name>
+    </webLinks>
+    <webLinks>
+        <label>オーダー入力</label>
+        <name>LLC_BI__Order_Entry</name>
+    </webLinks>
+</CustomObjectTranslation>

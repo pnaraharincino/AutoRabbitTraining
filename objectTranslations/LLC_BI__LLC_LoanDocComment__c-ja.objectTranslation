@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- LLC_LoanDocComment --></value>
+    </caseValues>
+    <fields>
+        <label><!-- LLC_LoanDocument --></label>
+        <name>LLC_BI__LLC_LoanDocument__c</name>
+        <relationshipLabel><!-- LLC_LoanDocuments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>コメント</label>
+        <name>LLC_BI__comment__c</name>
+    </fields>
+    <nameFieldLabel><!-- LLC_LoanDocComment Name --></nameFieldLabel>
+</CustomObjectTranslation>

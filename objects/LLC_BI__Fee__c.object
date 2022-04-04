@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <fullName>LLC_BI__Adjustments</fullName>
+        <active>true</active>
+        <description>Record Type for Adjustments Page Layout</description>
+        <label>Adjustments</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Costs</fullName>
+        <active>true</active>
+        <description>Record Type for Costs Page Layout</description>
+        <label>Costs</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Fees</fullName>
+        <active>true</active>
+        <description>Record Type for Fees Page Layout</description>
+        <label>Fees</label>
+    </recordTypes>
+</CustomObject>

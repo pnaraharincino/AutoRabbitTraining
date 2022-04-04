@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StaticResource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <cacheControl>Public</cacheControl>
+    <contentType>image/svg+xml</contentType>
+    <description>This no connection state image displays on the Calculating Cash to Close subroute when an error occurs while loading the snapshot data.</description>
+</StaticResource>

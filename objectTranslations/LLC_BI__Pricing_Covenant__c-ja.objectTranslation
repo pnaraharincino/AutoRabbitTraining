@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>プライシング - コベナンツ</value>
+    </caseValues>
+    <fields>
+        <label>有効</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <label>コベナンツ管理</label>
+        <name>LLC_BI__Covenant2__c</name>
+        <relationshipLabel>価格設定</relationshipLabel>
+    </fields>
+    <fields>
+        <label>価格設定部品</label>
+        <name>LLC_BI__Pricing_Rate_Component__c</name>
+        <relationshipLabel>価格設定</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ルール</label>
+        <name>LLC_BI__Rules__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel>プライシング - コベナンツ</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Id Document Type --></value>
+    </caseValues>
+    <fields>
+        <label>エージェンシー</label>
+        <name>LLC_BI__Agency__c</name>
+        <picklistValues>
+            <masterLabel>DMV</masterLabel>
+            <translation><!-- DMV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation>政府</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>ID文書の表示順序を決定するための番号を入力してください。</help>
+        <label>表示順</label>
+        <name>LLC_BI__Display_Order__c</name>
+    </fields>
+    <fields>
+        <help>ID文書タイプ名の代わりに表示するID文書名を入力してください。</help>
+        <label>外部ID文書名</label>
+        <name>LLC_BI__External_Id_Document_Name__c</name>
+    </fields>
+    <fields>
+        <help>文書カテゴリを選択してください。</help>
+        <label>ID文書カテゴリー</label>
+        <name>LLC_BI__ID_Document_Category__c</name>
+        <picklistValues>
+            <masterLabel>Driver License</masterLabel>
+            <translation>運転免許証</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID Card</masterLabel>
+            <translation>IDカード</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passport</masterLabel>
+            <translation>パスポート</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>システムがキャプチャする必要がある辺を決定するのを助けるためにID文書の種類を選択します。</help>
+        <label>ID文書サイド</label>
+        <name>LLC_BI__ID_Document_Sides__c</name>
+    </fields>
+    <fields>
+        <help>オンラインでホストされているイメージのイメージのURLを入力してください。それでも機能しない場合は、画像を文書にアップロードし、画像の表示をpublicに設定してから、画像のURLを入力してください。</help>
+        <label>ID文書画像（戻る）</label>
+        <name>LLC_BI__Id_Document_Image_Back__c</name>
+    </fields>
+    <fields>
+        <help>オンラインでホストされているイメージのイメージのURLを入力してください。それでも機能しない場合は、画像を文書にアップロードし、画像の表示をpublicに設定してから、画像のURLを入力してください。</help>
+        <label>ID文書画像（前面）</label>
+        <name>LLC_BI__Id_Document_Image_Front__c</name>
+    </fields>
+    <fields>
+        <label>ID文書の要件</label>
+        <name>LLC_BI__Id_Document_Requirement__c</name>
+        <relationshipLabel>ID文書の種類</relationshipLabel>
+    </fields>
+    <fields>
+        <help>ID文書を有効にするには、チェックボックスをオンにします。</help>
+        <label>ポータルが有効</label>
+        <name>LLC_BI__Is_Portal_Enabled__c</name>
+    </fields>
+    <fields>
+        <help>プレースホルダの名前を入力してください。</help>
+        <label>プレースホルダーの名前</label>
+        <name>LLC_BI__Placeholder_Name__c</name>
+    </fields>
+    <fields>
+        <help>ID文書のアップロード処理を案内するには、この機能を選択します。</help>
+        <label>クイックヒント</label>
+        <name>LLC_BI__Quick_Tips__c</name>
+    </fields>
+    <fields>
+        <label>画面セクション</label>
+        <name>LLC_BI__Screen_Section__c</name>
+        <relationshipLabel>身分証明タイプ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the description of the &apos;other&apos; type of identification the additional signature provides. --></help>
+        <label><!-- Identification Type Other Description --></label>
+        <name>WKDDP__Id_Type_Other_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the type of identification the additional signature provides. --></help>
+        <label><!-- Identification Type Code --></label>
+        <name>WKDDP__Identification_Type_Code__c</name>
+        <picklistValues>
+            <masterLabel>Driver&apos;s License</masterLabel>
+            <translation><!-- Driver&apos;s License --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military Identification Card</masterLabel>
+            <translation><!-- Military Identification Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NATO ID</masterLabel>
+            <translation><!-- NATO ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Military Status of Forces ID</masterLabel>
+            <translation><!-- Other Military Status of Forces ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passport</masterLabel>
+            <translation><!-- Passport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Issued Identification Card</masterLabel>
+            <translation><!-- State Issued Identification Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Department of Homeland Security ID</masterLabel>
+            <translation><!-- U.S. Department of Homeland Security ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Department of State ID</masterLabel>
+            <translation><!-- U.S. Department of State ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United States Citizenship and Immigration Services (USCIS) Documentation</masterLabel>
+            <translation><!-- United States Citizenship and Immigration Services (USCIS) Documentation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter a description of the &apos;other&apos; type of identification provided by the additional signature. --></help>
+        <label><!-- Other Description --></label>
+        <name>WKDDP__Other_Description__c</name>
+    </fields>
+    <nameFieldLabel><!-- Id Document Type Name --></nameFieldLabel>
+</CustomObjectTranslation>

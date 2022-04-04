@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>An individual step inside an exercise for the Grading component to check. Looks up to a Grading Exercise Metadata record.</description>
+    <fields>
+        <fullName>nCHECK__Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Controlling_Value__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>For Dependent Picklists, this is the Controlling Value from the Main Field</inlineHelpText>
+        <label>Controlling Value</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Criteria_Values__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Additional criteria values</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Criteria Values</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Criteria__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Additional criteria</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Criteria</label>
+        <metadataRelationshipControllingField>nCHECK__Grading_Step__mdt.nCHECK__Object__c</metadataRelationshipControllingField>
+        <referenceTo>FieldDefinition</referenceTo>
+        <relationshipLabel>Grading_Steps2</relationshipLabel>
+        <relationshipName>Grading_Steps2</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Dependent_Field__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Use when checking Dependent Picklists, this is the Dependent Field</inlineHelpText>
+        <label>Dependent Field</label>
+        <metadataRelationshipControllingField>nCHECK__Grading_Step__mdt.nCHECK__Object__c</metadataRelationshipControllingField>
+        <referenceTo>FieldDefinition</referenceTo>
+        <relationshipLabel>Grading_Steps1</relationshipLabel>
+        <relationshipName>Grading_Steps1</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Exercise_Filter__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Exercise Filter</label>
+        <length>250</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Field__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Main Field</label>
+        <metadataRelationshipControllingField>nCHECK__Grading_Step__mdt.nCHECK__Object__c</metadataRelationshipControllingField>
+        <referenceTo>FieldDefinition</referenceTo>
+        <relationshipLabel>Grading_Steps</relationshipLabel>
+        <relationshipName>Grading_Steps</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Grading_Exercise__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Grading Exercise</label>
+        <referenceTo>nCHECK__Grading_Exercise__mdt</referenceTo>
+        <relationshipLabel>Grading Steps</relationshipLabel>
+        <relationshipName>Grading_Steps</relationshipName>
+        <required>true</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Metadata_Object__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Metadata Object</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Object__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Object</label>
+        <referenceTo>EntityDefinition</referenceTo>
+        <relationshipLabel>Grading_Steps</relationshipLabel>
+        <relationshipName>Grading_Steps</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Parameter1_Values__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Parameter1 Values</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Parameter1__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Parameter1</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Parameter_Values__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Parameter Values</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Parameter__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Parameter</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Step__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Step #</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Check Picklist Values</fullName>
+                    <default>true</default>
+                    <label>Check Picklist Values</label>
+                </value>
+                <value>
+                    <fullName>Check Dependent Picklist Values</fullName>
+                    <default>false</default>
+                    <label>Check Dependent Picklist Values</label>
+                </value>
+                <value>
+                    <fullName>RBC Validation</fullName>
+                    <default>false</default>
+                    <label>RBC Validation</label>
+                </value>
+                <value>
+                    <fullName>Check Metadata</fullName>
+                    <default>false</default>
+                    <label>Check Metadata</label>
+                </value>
+                <value>
+                    <fullName>Approval History</fullName>
+                    <default>false</default>
+                    <label>Approval History</label>
+                </value>
+                <value>
+                    <fullName>Field Set</fullName>
+                    <default>false</default>
+                    <label>Field Set</label>
+                </value>
+                <value>
+                    <fullName>Rule</fullName>
+                    <default>false</default>
+                    <label>Rule</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Values__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Comma separated list of values. For Dependent Picklists, these are the list of Dependent Values</inlineHelpText>
+        <label>Values</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Grading Step</label>
+    <listViews>
+        <fullName>nCHECK__Full_View</fullName>
+        <columns>nCHECK__Grading_Exercise__c</columns>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>nCHECK__Type__c</columns>
+        <columns>nCHECK__Object__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Full View</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>Grading Steps</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

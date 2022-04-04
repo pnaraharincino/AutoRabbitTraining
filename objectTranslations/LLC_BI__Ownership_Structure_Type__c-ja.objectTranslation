@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Ownership Structure Type --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- WK_DepAct_DocPrep --></label>
+        <name>WKDDP__WK_DepAct_DocPrep</name>
+    </fieldSets>
+    <fields>
+        <help>所有権構造の種類を選択する状態を選択します。</help>
+        <label>該当都道府県</label>
+        <name>LLC_BI__Applicable_States__c</name>
+    </fields>
+    <fields>
+        <help>アカウントの種類この所有権タイプはに関連しています</help>
+        <label>カテゴリー</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Association</masterLabel>
+            <translation>協会団体</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporation</masterLabel>
+            <translation>株式会社</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation>政府</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Household</masterLabel>
+            <translation>関係組織</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>個人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Liability Company</masterLabel>
+            <translation>有限会社</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partnership</masterLabel>
+            <translation>協同組合</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sole Proprietorship</masterLabel>
+            <translation>個人事業主</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust</masterLabel>
+            <translation>信託</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>このシステム入力フィールドには、所有権構造タイプの固有の識別子が表示されます。</help>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is required in order to use the CSi DocPrep integration. It is used to store the mapping code relating Ownership Types in nCino to CSi. --></help>
+        <label><!-- CSi Mapping Code --></label>
+        <name>WKDDP__CSI_Mapping_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a description of the other rights at death option. --></help>
+        <label><!-- Description --></label>
+        <name>WKDDP__Description__c</name>
+    </fields>
+    <nameFieldLabel><!-- Ownership Structure Type Name --></nameFieldLabel>
+</CustomObjectTranslation>

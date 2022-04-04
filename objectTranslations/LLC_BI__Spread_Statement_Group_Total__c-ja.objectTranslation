@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- -D Spread Statement Group Total --></value>
+    </caseValues>
+    <fields>
+        <label>バランスチェックです</label>
+        <name>LLC_BI__Is_Balance_Check__c</name>
+    </fields>
+    <fields>
+        <label>範囲外の期間</label>
+        <name>LLC_BI__Period_Out_Of_Range__c</name>
+    </fields>
+    <fields>
+        <label>四半期</label>
+        <name>LLC_BI__Quarter__c</name>
+    </fields>
+    <fields>
+        <label>スプレッドステートメントレコードの合計</label>
+        <name>LLC_BI__Spread_Statement_Record_Total__c</name>
+        <relationshipLabel>Y - Deprecated Spread Statement Group Totals</relationshipLabel>
+    </fields>
+    <fields>
+        <label>値</label>
+        <name>LLC_BI__Value__c</name>
+    </fields>
+    <fields>
+        <label>年間の範囲</label>
+        <name>LLC_BI__Year_Out_Range__c</name>
+    </fields>
+    <fields>
+        <label>年</label>
+        <name>LLC_BI__Year__c</name>
+    </fields>
+    <nameFieldLabel><!-- Spread Statement Group Total Name --></nameFieldLabel>
+</CustomObjectTranslation>

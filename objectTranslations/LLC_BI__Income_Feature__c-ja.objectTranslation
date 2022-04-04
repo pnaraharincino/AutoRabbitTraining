@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Income Feature --></value>
+    </caseValues>
+    <fields>
+        <help>この収入タイプのために収集するすべての必要なフィールドを持つフィールドセットの名前を入力してください。</help>
+        <label>追加 所得タイプフィールド</label>
+        <name>LLC_BI__Additional_Income_Type_Fields__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドを使用して、収入タイプを指定します。</help>
+        <label>収入タイプ</label>
+        <name>LLC_BI__Income_Type__c</name>
+        <picklistValues>
+            <masterLabel>Alimony Support</masterLabel>
+            <translation>慰謝料サポート</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Bonus/Commission</masterLabel>
+            <translation>年間ボーナス/委員会</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financially Analyzed Income</masterLabel>
+            <translation>財政的に収入を分析しました</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gross Annual Income</masterLabel>
+            <translation>年間総収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment/Trust Income</masterLabel>
+            <translation>投資/信託収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military Income</masterLabel>
+            <translation>軍の収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Income</masterLabel>
+            <translation>その他の収益・収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part Time Income</masterLabel>
+            <translation>パートタイム収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental Income</masterLabel>
+            <translation>賃貸料所得</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self Employment Income</masterLabel>
+            <translation>個人事業所得</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable Income</masterLabel>
+            <translation>課税所得</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Before Tax Income</masterLabel>
+            <translation>税収入前の合計</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unemployment Benefits</masterLabel>
+            <translation>失業率の利益</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

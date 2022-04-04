@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Fee --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Appraisal Fee Field Set --></label>
+        <name>Appraisal_Fee_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Edit Fees --></label>
+        <name>Edit_Fees</name>
+    </fieldSets>
+    <fieldSets>
+        <label>個別手数料追加</label>
+        <name>LLC_BI__Add_Non_Standard_Fee</name>
+    </fieldSets>
+    <fieldSets>
+        <label>法人稟議書</label>
+        <name>LLC_BI__Commercial_Credit_Memo</name>
+    </fieldSets>
+    <fieldSets>
+        <label>手数料管理</label>
+        <name>LLC_BI__Manage_Fees</name>
+    </fieldSets>
+    <fieldSets>
+        <label>手数料管理</label>
+        <name>LLC_BI__Manage_Fees_Enhanced</name>
+    </fieldSets>
+    <fieldSets>
+        <label>手数料管理一覧</label>
+        <name>LLC_BI__Manage_Fees_List_Enhanced</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Manage Pricing Fees --></label>
+        <name>LLC_BI__Manage_Pricing_Fees</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Package Fees --></label>
+        <name>LLC_BI__Product_Package_Fees</name>
+    </fieldSets>
+    <fieldSets>
+        <label>稟議書 標準案件パッケージ</label>
+        <name>LLC_BI__Standard_Product_Package_Credit_Memo</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Lookup Fields --></label>
+        <name>LLC_BI__UI_Lookup_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MTG - Add Non Standard Fee --></label>
+        <name>MTG_Add_Non_Standard_Fee</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MTG - Manage Fees Enhanced --></label>
+        <name>MTG_Manage_Fees_Enhanced</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MTG - Manage Fees List Enhanced --></label>
+        <name>MTG_Manage_Fees_List_Enhanced</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Snapshot Fee</label>
+        <name>Snapshot_Fee</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Additional Standard TRID Fees --></label>
+        <name>nRetail__Additional_Standard_TRID_Fees</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Escrow Fees Table --></label>
+        <name>nRetail__Escrow_Fees_Table</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Standard Escrow Fees --></label>
+        <name>nRetail__Standard_Escrow_Fees</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Standard Prepaid Fees --></label>
+        <name>nRetail__Standard_Prepaid_Fees</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- TRID Tolerances Snapshot --></label>
+        <name>nRetail__TRID_Tolerances_Snapshot</name>
+    </fieldSets>
+    <fields>
+        <label>財務費用に追加</label>
+        <name>LLC_BI__Add_To_Finance_Charge__c</name>
+    </fields>
+    <fields>
+        <help>手数料がMAPR計算に含まれている場合、この欄を選択してください。</help>
+        <label>MAPRに追加</label>
+        <name>LLC_BI__Add_To_MAPR__c</name>
+    </fields>
+    <fields>
+        <label>元本に追加</label>
+        <name>LLC_BI__Add_To_Principal__c</name>
+    </fields>
+    <fields>
+        <label>元本に追加</label>
+        <name>LLC_BI__Add_To_Principle__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field to see the change of amount after you edit a fee from its original amount. --></help>
+        <label><!-- Amount Changed --></label>
+        <name>LLC_BI__Amount_Changed__c</name>
+    </fields>
+    <fields>
+        <label>回収金額</label>
+        <name>LLC_BI__Amount_Collected__c</name>
+    </fields>
+    <fields>
+        <help>手数料で支払われた金額</help>
+        <label>支払金額</label>
+        <name>LLC_BI__Amount_Paid__c</name>
+    </fields>
+    <fields>
+        <label>残額</label>
+        <name>LLC_BI__Amount_Remaining__c</name>
+    </fields>
+    <fields>
+        <label>金額</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the annual payment amount for the fee. --></help>
+        <label><!-- Annual Payment Amount --></label>
+        <name>LLC_BI__Annual_Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <help>基準額を記入してください。システムはこの欄を定率手数料計算に使用します。</help>
+        <label>基準額</label>
+        <name>LLC_BI__Basis_Amount__c</name>
+    </fields>
+    <fields>
+        <help>融資金額、金利総額などの定率手数料の基準又は別の融資欄を選択してください。</help>
+        <label>基準ソース</label>
+        <name>LLC_BI__Basis_Source__c</name>
+        <picklistValues>
+            <masterLabel>Loan Amount</masterLabel>
+            <translation>融資金額</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>計算タイプ</label>
+        <name>LLC_BI__Calculation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Flat Amount</masterLabel>
+            <translation>均一金額</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percentage</masterLabel>
+            <translation>パーセント</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>この料金が適用されている関連担保評価記録を検索します。</help>
+        <label>担保評価</label>
+        <name>LLC_BI__Collateral_Valuation__c</name>
+        <relationshipLabel>手数料</relationshipLabel>
+    </fields>
+    <fields>
+        <label>支払方法</label>
+        <name>LLC_BI__Collection_Method__c</name>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation>現金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financed</masterLabel>
+            <translation>融資済</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>支払日</label>
+        <name>LLC_BI__Date_Collected__c</name>
+    </fields>
+    <fields>
+        <help>料金レコードをロックする必要があり、基準の変更に基づいて自動的に更新されない場合は、これを選択してください。</help>
+        <label>自動更新を無効にします</label>
+        <name>LLC_BI__Disable_Auto_Updates__c</name>
+    </fields>
+    <fields>
+        <label>手数料コード</label>
+        <name>LLC_BI__Fee_Code__c</name>
+        <picklistValues>
+            <masterLabel>001</masterLabel>
+            <translation>1</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>「融資」欄に表示するため手数料からデータをロールアップするオブジェクト</help>
+        <label>手数料融資総額</label>
+        <name>LLC_BI__Fee_Loan_Aggregate__c</name>
+        <relationshipLabel>手数料</relationshipLabel>
+    </fields>
+    <fields>
+        <label>市に対する支払手数料</label>
+        <name>LLC_BI__Fee_Payable_To_City__c</name>
+    </fields>
+    <fields>
+        <label>州に対する支払手数料</label>
+        <name>LLC_BI__Fee_Payable_To_State__c</name>
+    </fields>
+    <fields>
+        <label>住所に対する支払手数料</label>
+        <name>LLC_BI__Fee_Payable_To_Street__c</name>
+    </fields>
+    <fields>
+        <label>郵便番号に対する支払手数料</label>
+        <name>LLC_BI__Fee_Payable_To_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label>支払いor受取り</label>
+        <name>LLC_BI__Fee_Payable_To__c</name>
+        <relationshipLabel>手数料</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fee Status --></label>
+        <name>LLC_BI__Fee_Status__c</name>
+    </fields>
+    <fields>
+        <help>手数料タイプが別の場合、この欄が手数料タイプを示します。</help>
+        <label>手数料タイプ説明</label>
+        <name>LLC_BI__Fee_Type_Description__c</name>
+    </fields>
+    <fields>
+        <label>手数料タイプ</label>
+        <name>LLC_BI__Fee_Type__c</name>
+        <picklistValues>
+            <masterLabel>Appraisal</masterLabel>
+            <translation>評価</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation>弁護士</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Report</masterLabel>
+            <translation>信用報告書</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DMV</masterLabel>
+            <translation>DMV（車車管理論）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government Recording</masterLabel>
+            <translation>政府記録</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Origination</masterLabel>
+            <translation>融資組成</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly Maintenance</masterLabel>
+            <translation><!-- Monthly Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settlement/Close</masterLabel>
+            <translation>決済/クローズ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Tax Stamps</masterLabel>
+            <translation>収入印紙</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey</masterLabel>
+            <translation>調査</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title Insurance</masterLabel>
+            <translation>権原保険</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title Search</masterLabel>
+            <translation>権原調査</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Tracks which pricing option fee the system copies to the loan&apos;s fee when a user selects the pricing option. --></help>
+        <label><!-- Fee --></label>
+        <name>LLC_BI__Fee__c</name>
+        <relationshipLabel><!-- Fees --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter the date of the first payout from the escrow account. --></help>
+        <label><!-- First Payout Date --></label>
+        <name>LLC_BI__First_Payout_Date__c</name>
+    </fields>
+    <fields>
+        <help>このシステム入力フィールドは、料金が追加料金集計合計に含まれています。</help>
+        <label>追加料金です</label>
+        <name>LLC_BI__Is_Additional_Charge__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this field if the fee is an income fee. --></help>
+        <label><!-- Is Income --></label>
+        <name>LLC_BI__Is_Income__c</name>
+    </fields>
+    <fields>
+        <label>借入者支払</label>
+        <name>LLC_BI__Is_Paid_By_Borrower__c</name>
+    </fields>
+    <fields>
+        <label>貸与者支払</label>
+        <name>LLC_BI__Is_Paid_By_Lender__c</name>
+    </fields>
+    <fields>
+        <label>売却者支払</label>
+        <name>LLC_BI__Is_Paid_By_Seller__c</name>
+    </fields>
+    <fields>
+        <label>契約締結時支払</label>
+        <name>LLC_BI__Is_Paid_at_Closing__c</name>
+    </fields>
+    <fields>
+        <help>手数料がこの商品の手数料標準セットの一部かどうかを決定します。</help>
+        <label>標準</label>
+        <name>LLC_BI__Is_Standard__c</name>
+    </fields>
+    <fields>
+        <help>この料金が適用されている関連エンティティの関与レコードを検索します。</help>
+        <label>関係者関与</label>
+        <name>LLC_BI__Legal_Entities__c</name>
+        <relationshipLabel>手数料</relationshipLabel>
+    </fields>
+    <fields>
+        <help>この料金が適用されている関連する充実した担保記録を検索します。</help>
+        <label>担保付担保</label>
+        <name>LLC_BI__Loan_Collateral2__c</name>
+        <relationshipLabel>手数料</relationshipLabel>
+    </fields>
+    <fields>
+        <help>この料金が適用されている関連する契約記録を検索します。</help>
+        <label>融資コベナンツ</label>
+        <name>LLC_BI__Loan_Covenant__c</name>
+        <relationshipLabel>手数料</relationshipLabel>
+    </fields>
+    <fields>
+        <label>融資</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>手数料</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field indicates the monthly payment amount for the fee. --></help>
+        <label><!-- Monthly Payment Amount --></label>
+        <name>LLC_BI__Monthly_Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field indicates the total number of months, including the cushion, the borrower pays at closing for their escrow account. --></help>
+        <label><!-- Number of Escrow Months --></label>
+        <name>LLC_BI__Number_Of_Escrow_Months__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of months the borrower prepays for the fee at closing. --></help>
+        <label><!-- Number of Prepaid Months --></label>
+        <name>LLC_BI__Number_Of_Prepaid_Months__c</name>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field indicates the number of days of prepaid interest due at closing. --></help>
+        <label><!-- Number of Days --></label>
+        <name>LLC_BI__Number_of_Days__c</name>
+    </fields>
+    <fields>
+        <label>支払</label>
+        <name>LLC_BI__Paid_By__c</name>
+        <picklistValues>
+            <masterLabel>Borrower</masterLabel>
+            <translation>借り手</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lender</masterLabel>
+            <translation>貸し手</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seller</masterLabel>
+            <translation>売り手</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>契約締結時支払</label>
+        <name>LLC_BI__Paid_at_Closing__c</name>
+        <picklistValues>
+            <masterLabel>At Closing</masterLabel>
+            <translation>取引終了時</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outside of Closing</masterLabel>
+            <translation>受注外</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the desired payout frequency for the escrow account. --></help>
+        <label><!-- Payout Frequency --></label>
+        <name>LLC_BI__Payout_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation><!-- Annually --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annually</masterLabel>
+            <translation><!-- Semi-Annually --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field indicates the daily amount of prepaid interest due at closing. --></help>
+        <label><!-- Per Diem --></label>
+        <name>LLC_BI__Per_Diem__c</name>
+    </fields>
+    <fields>
+        <help>基準価値に基づく手数料計算のためにシステムが使用してほしい割合を記入します。</help>
+        <label>割合</label>
+        <name>LLC_BI__Percentage__c</name>
+    </fields>
+    <fields>
+        <help>本欄はそれに割り当てられるべき手数料を有すべきプライシング・オプションを表示します。</help>
+        <label>価格設定オプション</label>
+        <name>LLC_BI__Pricing_Option__c</name>
+        <relationshipLabel>手数料</relationshipLabel>
+    </fields>
+    <fields>
+        <help>手数料、コスト又は調節の記録タイプを選択してください。</help>
+        <label>レコードタイプ</label>
+        <name>LLC_BI__Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>Adjustments</masterLabel>
+            <translation>調整</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costs</masterLabel>
+            <translation>コスト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fees</masterLabel>
+            <translation>手数料</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>サービスのために買い物をした場合は、選択したショップを選択しましょう。債務者がサービスのために買い物をしなかった場合は、選択しました。</help>
+        <label><!-- Service Shopped For --></label>
+        <name>LLC_BI__Service_Shopped_For__c</name>
+        <picklistValues>
+            <masterLabel>Did Not Shop For</masterLabel>
+            <translation><!-- Did Not Shop For --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Did Shop For</masterLabel>
+            <translation><!-- Did Shop For --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>顧客がこのサービスで買い物ができない場合、「キャンノット・ショップ・サービス」を選択してください。顧客がこのサービスで買い物できる場合、「ショッパブル・サービス」を選択してください。</help>
+        <label>ショッパブル・カテゴリー</label>
+        <name>LLC_BI__Shoppable_Category__c</name>
+        <picklistValues>
+            <masterLabel>Service You Can Shop For</masterLabel>
+            <translation>購入できるサービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service You Cannot Shop For</masterLabel>
+            <translation>購入できないサービス</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>顧客が手数料、コスト及び調節のサービスを買いに行く場合、このユーザー生成欄が表示します。</help>
+        <label>購入</label>
+        <name>LLC_BI__Shopped_For__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドにはこの料金の現在の状態が含まれています。</help>
+        <label>ステータス</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>有効</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>無効</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>手数料のTRID開示カテゴリーを選択してください。</help>
+        <label>TRID開示カテゴリー</label>
+        <name>LLC_BI__TRID_Disclosure_Category__c</name>
+        <picklistValues>
+            <masterLabel>Initial Escrow Payment at Closing</masterLabel>
+            <translation><!-- Initial Escrow Payment at Closing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Origination Charges</masterLabel>
+            <translation><!-- Origination Charges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepaids</masterLabel>
+            <translation>プリペイド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services You Can Shop For</masterLabel>
+            <translation>購入可能なサービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services You Cannot Shop For</masterLabel>
+            <translation>購入可能なサービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxes and Other Government Fees</masterLabel>
+            <translation>税金およびその他の政府料金</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>料金のTRID許容誤差カテゴリーを選択してください。</help>
+        <label>Trid Tolerancesカテゴリー</label>
+        <name>LLC_BI__TRID_Tolerances_Category__c</name>
+        <picklistValues>
+            <masterLabel>0% Tolerance</masterLabel>
+            <translation>0％の許容範囲</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10% Cumulative Tolerance</masterLabel>
+            <translation>10％累積耐性</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unlimited Tolerance</masterLabel>
+            <translation>無制限の許容範囲</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>手数料がそこから生成されたテンプレート記録です。</help>
+        <label>テンプレート記録</label>
+        <name>LLC_BI__Template_Record__c</name>
+        <relationshipLabel>手数料</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このシステム生成ルックアップ欄は手数料が関連する第三者サービスを含んでいます。</help>
+        <label>サードパーティサービス詳細</label>
+        <name>LLC_BI__Third_Party_Service_Detail__c</name>
+        <relationshipLabel>手数料</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このフィールドには、売り手が申請者の貿易担保に支払う金額が表示されます。</help>
+        <label>取引手当</label>
+        <name>LLC_BI__Trade_In_Allowance__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドには、申請者の取引担保を支払う金額が表示されます。</help>
+        <label>トレードインバランス</label>
+        <name>LLC_BI__Trade_In_Balance__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドには、申請者の取引車両に既存の先取特権を持つ金融機関の名前が表示されます。</help>
+        <label>貿易in Lien Holder</label>
+        <name>LLC_BI__Trade_In_Lien_Holder__c</name>
+    </fields>
+    <nameFieldLabel><!-- Fee Number --></nameFieldLabel>
+    <recordTypes>
+        <description>調整ページレイアウトのレコードタイプ</description>
+        <label>調整</label>
+        <name>LLC_BI__Adjustments</name>
+    </recordTypes>
+    <recordTypes>
+        <description>コストページレイアウトのレコードタイプ</description>
+        <label>コスト</label>
+        <name>LLC_BI__Costs</name>
+    </recordTypes>
+    <recordTypes>
+        <description>手数料ページレイアウトのレコードタイプ</description>
+        <label>手数料</label>
+        <name>LLC_BI__Fees</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Trid DisclosureカテゴリとTRID許容範囲カテゴリは、貸付金の種類とコストを治療するために必要とされません。続行するには、これらのフィールドから任意の値を削除します。</errorMessage>
+        <name>LLC_BI__Credit_Disclosure_Tolerances_Categories</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>治療のためのコストは既にローンのために存在します。編集するコストを更新するには、[編集]をクリックします。</errorMessage>
+        <name>LLC_BI__Duplicate_Cost_to_Cure</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A seller-paid fee cannot be added when Add to Finance Charge is selected. Deselect Add to Finance Charge. --></errorMessage>
+        <name>LLC_BI__Exclude_Seller_Paid_Fee_From_APR</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>ローンがTRID許容誤差の対象となる場合にのみ、各料金の適切なTRID開示カテゴリとTRID許容誤差カテゴリを選択します。</errorMessage>
+        <name>LLC_BI__Fee_Disclosure_Tolerances_Categories</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The General Lender Credit or Cost to Cure cannot be paid by the Borrower or Seller. Select Paid By Lender or leave this field blank. --></errorMessage>
+        <name>LLC_BI__Lender_Paid_Fee_Types</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>エラー：治療料に無効なコストがかかります。肯定的な量の料金を入力してください。</errorMessage>
+        <name>LLC_BI__Negative_Cost_to_Cure</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter a positive value in the Fee Amount field. TRID tolerances require a positive value. --></errorMessage>
+        <name>LLC_BI__Negative_Trid_Fee</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>システムが百分率計算タイプを計算できるように、必ず基準ソースと百分率に数値を記入してください。</errorMessage>
+        <name>LLC_BI__Percentage_Fee_Required_Fields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>選択リストのために買い物をしたサービスは、Trid開示カテゴリの値があなたが買うことができるサービスである料金にのみ適用されます。</errorMessage>
+        <name>LLC_BI__Service_Shopped_For</name>
+    </validationRules>
+    <webLinks>
+        <label>手数料管理</label>
+        <name>LLC_BI__Manage_Fees</name>
+    </webLinks>
+</CustomObjectTranslation>

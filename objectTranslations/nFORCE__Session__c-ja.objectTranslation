@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>セッション</value>
+    </caseValues>
+    <fields>
+        <label>カテゴリー</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Commercial Loan</masterLabel>
+            <translation>法人融資</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Loans</masterLabel>
+            <translation><!-- Consumer Loans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit Maintenance</masterLabel>
+            <translation>預金口座メンテナンス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit Origination</masterLabel>
+            <translation>預金口座作成</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Commercial Loan Application</masterLabel>
+            <translation>オンライン法人ローンアプリケーション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Consumer Loan Application</masterLabel>
+            <translation>オンライン個人ローンアプリケーション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Deposit Application</masterLabel>
+            <translation>オンライン口座アプリケーション</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>アプリ 解決済</label>
+        <name>nFORCE__App_Resolved__c</name>
+    </fields>
+    <fields>
+        <label>コンテキストID</label>
+        <name>nFORCE__Context_Id__c</name>
+    </fields>
+    <fields>
+        <label>コンテキストページ</label>
+        <name>nFORCE__Context_Page__c</name>
+    </fields>
+    <fields>
+        <label>セッションデータ</label>
+        <name>nFORCE__Data__c</name>
+    </fields>
+    <fields>
+        <label>ルートグループ</label>
+        <name>nFORCE__Route_Group__c</name>
+        <relationshipLabel>セッション</relationshipLabel>
+    </fields>
+    <fields>
+        <label>セッションURL</label>
+        <name>nFORCE__Session_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Type --></label>
+        <name>nFORCE__Type__c</name>
+    </fields>
+    <nameFieldLabel>セッション</nameFieldLabel>
+    <webLinks>
+        <label>オープンセッション</label>
+        <name>nFORCE__Open_Session</name>
+    </webLinks>
+</CustomObjectTranslation>

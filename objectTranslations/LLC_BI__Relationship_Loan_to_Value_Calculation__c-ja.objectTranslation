@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Relationship Loan to Value Calculation --></value>
+    </caseValues>
+    <fields>
+        <help>このシステム入力フィールドにはRLTVの計算が表示されます。</help>
+        <label>RLTV通貨値</label>
+        <name>LLC_BI__RLTV_Currency_Value__c</name>
+    </fields>
+    <fields>
+        <help>このシステム入力フィールドにはRLTVの計算が表示されます。</help>
+        <label>RLTVパーセント値</label>
+        <name>LLC_BI__RLTV_Percent_Value__c</name>
+    </fields>
+    <fields>
+        <help>このシステム入力フィールドには、計算データが入力されている構成レコードの名前が表示されます。</help>
+        <label>取引先LTV計算設定</label>
+        <name>LLC_BI__Relationship_Loan_to_Value_Calc_Config__c</name>
+        <relationshipLabel>取引先LTV計算</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このシステム入力フィールドには、計算に関連付けられている関係の名前が表示されます。</help>
+        <label>関係</label>
+        <name>LLC_BI__Relationship__c</name>
+        <relationshipLabel>取引先LTV計算</relationshipLabel>
+    </fields>
+    <nameFieldLabel><!-- Relationship Loan to Value Calc Name --></nameFieldLabel>
+</CustomObjectTranslation>

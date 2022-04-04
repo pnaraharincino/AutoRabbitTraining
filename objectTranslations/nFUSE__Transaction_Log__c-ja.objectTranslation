@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Transaction Log --></value>
+    </caseValues>
+    <fields>
+        <label>アクション</label>
+        <name>nFUSE__Action__c</name>
+    </fields>
+    <fields>
+        <label>APIバージョン</label>
+        <name>nFUSE__Api_Version__c</name>
+    </fields>
+    <fields>
+        <label>アプリプラグイン</label>
+        <name>nFUSE__App_Plugin__c</name>
+    </fields>
+    <fields>
+        <label>コメント</label>
+        <name>nFUSE__Comments__c</name>
+    </fields>
+    <fields>
+        <help>このオプションフィールドには、ベンダーのレコードが作成された日時が表示されます。</help>
+        <label>作成日時</label>
+        <name>nFUSE__Creation_DateTime__c</name>
+    </fields>
+    <fields>
+        <label>外部ID</label>
+        <name>nFUSE__External_Id__c</name>
+    </fields>
+    <fields>
+        <label>ログタイプ</label>
+        <name>nFUSE__Log_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Object Id --></label>
+        <name>nFUSE__Object_Id__c</name>
+    </fields>
+    <fields>
+        <label>主オブジェクトID</label>
+        <name>nFUSE__Primary_Object_Id__c</name>
+    </fields>
+    <fields>
+        <label>requestingUserid</label>
+        <name>nFUSE__Requested_By_User_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D RequestingUserId --></label>
+        <name>nFUSE__Requesting_User_Id__c</name>
+    </fields>
+    <fields>
+        <label>反応時間</label>
+        <name>nFUSE__Response_Time__c</name>
+    </fields>
+    <fields>
+        <label>二次オブジェクトID</label>
+        <name>nFUSE__Secondary_Object_Id__c</name>
+    </fields>
+    <fields>
+        <label>送信時間</label>
+        <name>nFUSE__Sent_Time__c</name>
+    </fields>
+    <fields>
+        <label>取引詳細</label>
+        <name>nFUSE__Transaction_Detail__c</name>
+    </fields>
+    <fields>
+        <label>取引スタータス</label>
+        <name>nFUSE__Transaction_Status__c</name>
+    </fields>
+    <fields>
+        <label>ベンダーの状況</label>
+        <name>nFUSE__Vendor_Status__c</name>
+    </fields>
+    <nameFieldLabel><!-- Transaction Log Name --></nameFieldLabel>
+</CustomObjectTranslation>

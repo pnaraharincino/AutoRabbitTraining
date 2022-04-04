@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Feature --></value>
+    </caseValues>
+    <fields>
+        <label><!-- -D Active --></label>
+        <name>nFORCE__Active__c</name>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>nFORCE__Description__c</name>
+    </fields>
+    <fields>
+        <label>開発者が有効にしました</label>
+        <name>nFORCE__Developer_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>開発者は許可されています</label>
+        <name>nFORCE__Developer_Permitted__c</name>
+    </fields>
+    <fields>
+        <label>有効</label>
+        <name>nFORCE__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label>有効な機能パラメータ</label>
+        <name>nFORCE__LMO_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>許可された機能パラメータ</label>
+        <name>nFORCE__LMO_Permitted__c</name>
+    </fields>
+    <fields>
+        <label>親機能名</label>
+        <name>nFORCE__Parent_Feature_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

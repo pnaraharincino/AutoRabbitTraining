@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>信用調査</value>
+    </caseValues>
+    <fields>
+        <label>コンタクト</label>
+        <name>LLC_BI__Contact__c</name>
+        <relationshipLabel>信用報告書</relationshipLabel>
+    </fields>
+    <fields>
+        <label>FICOスコア</label>
+        <name>LLC_BI__FICO_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- OFAC --></label>
+        <name>LLC_BI__OFAC__c</name>
+    </fields>
+    <nameFieldLabel>信用調査名</nameFieldLabel>
+</CustomObjectTranslation>

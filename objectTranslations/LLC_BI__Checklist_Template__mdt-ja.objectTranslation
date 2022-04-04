@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Checklist Template --></value>
+    </caseValues>
+    <fields>
+        <help>この必須フィールドには、このチェックリストテンプレートが関連するSObjectタイプの完全修飾名が含まれています。このテンプレートから作成されたチェックリストレコードのコンテキストタイプフィールドにコピーする必要があります。</help>
+        <label>コンテキストタイプ</label>
+        <name>LLC_BI__Context_Type__c</name>
+    </fields>
+    <fields>
+        <help>この必須フィールドにはコンテキスト関係が含まれています。</help>
+        <label>コンテキスト</label>
+        <name>LLC_BI__Context__c</name>
+        <relationshipLabel>チェックリスト・テンプレート</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このオプションフィールドには、このモデルに基づいてチェックリストを完成させると予想される日数が含まれています。これは、このテンプレートから作成されたチェックリストレコードの予想期間の日数にコピーされるべきです。</help>
+        <label>予定期間</label>
+        <name>LLC_BI__Expected_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help>この必須フィールドには、このモデルに基づいてチェックリストの名前が直面しています。このテンプレートから作成されたチェックリストレコードの名前フィールドにコピーする必要があります。</help>
+        <label>タイトル</label>
+        <name>LLC_BI__Title__c</name>
+    </fields>
+</CustomObjectTranslation>

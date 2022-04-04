@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Remote Deposit Capture Service --></value>
+    </caseValues>
+    <fields>
+        <label>ドル金額をカスタマイズします</label>
+        <name>LLC_BI__Customize_Dollar_Amount__c</name>
+        <picklistValues>
+            <masterLabel>Auto-Populate</masterLabel>
+            <translation><!-- Auto-Populate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAR/LAR</masterLabel>
+            <translation><!-- CAR/LAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neither</masterLabel>
+            <translation>ない</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>場所数</label>
+        <name>LLC_BI__Number_of_Locations__c</name>
+    </fields>
+    <fields>
+        <label>リモートデポジットキャプチャー</label>
+        <name>LLC_BI__Remote_Deposit_Capture__c</name>
+    </fields>
+    <fields>
+        <label>リモートデポジット制限が変わります</label>
+        <name>LLC_BI__Remote_Deposit_Limits_Change__c</name>
+    </fields>
+    <fields>
+        <label>付帯サービス リファレンス</label>
+        <name>LLC_BI__Treasury_Service_Reference__c</name>
+        <relationshipLabel>リモートデポジットキャプチャサービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>仮想承認</label>
+        <name>LLC_BI__Virtual_Endorsement__c</name>
+    </fields>
+    <nameFieldLabel><!-- Remote Deposit  Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>財務分析 - 決算書合計グループ</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Upgradeable Fields --></label>
+        <name>LLC_BI__Upgradeable_Fields</name>
+    </fieldSets>
+    <fields>
+        <label>デビット</label>
+        <name>LLC_BI__Debit__c</name>
+    </fields>
+    <fields>
+        <label>グローバル分析タイプ</label>
+        <name>LLC_BI__Global_Analysis_Type__c</name>
+        <picklistValues>
+            <masterLabel>Adjusted Total Assets</masterLabel>
+            <translation>総資産調整</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adjusted Total Equity</masterLabel>
+            <translation>総株式調整</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adjusted Total Liabilities</masterLabel>
+            <translation>合計負債調整</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Flow</masterLabel>
+            <translation>現金流量</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debt Service</masterLabel>
+            <translation>債務サービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Assets</masterLabel>
+            <translation>総資産</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Equity</masterLabel>
+            <translation>総株式</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Liabilities</masterLabel>
+            <translation>負債合計</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>グループタイプ</label>
+        <name>LLC_BI__Group_Type__c</name>
+        <picklistValues>
+            <masterLabel>Decimal</masterLabel>
+            <translation>小数</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial</masterLabel>
+            <translation>金融</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percentage</masterLabel>
+            <translation>百分率</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>すべてのレコードを隠す</label>
+        <name>LLC_BI__Hide_All_Records__c</name>
+    </fields>
+    <fields>
+        <help>グループの下の列合計の可視性を制御します。</help>
+        <label>列の合計を隠す</label>
+        <name>LLC_BI__Hide_Column_Totals__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Hide Currency Symbol --></label>
+        <name>LLC_BI__Hide_Currency_Symbol__c</name>
+    </fields>
+    <fields>
+        <label>合計に含める</label>
+        <name>LLC_BI__Include_In_Total__c</name>
+    </fields>
+    <fields>
+        <label>バランスチェックです</label>
+        <name>LLC_BI__Is_Balance_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Is Grand Total --></label>
+        <name>LLC_BI__Is_Grand_Total__c</name>
+    </fields>
+    <fields>
+        <help>通常、このタイプのグループは、ステートメント内の各レコードのグループごとに列の合計を表示するために使用されます。</help>
+        <label>is_summary_group.</label>
+        <name>LLC_BI__Is_Summary_Group__c</name>
+    </fields>
+    <fields>
+        <label>ハイライトタイプ</label>
+        <name>LLC_BI__KPI_Type__c</name>
+        <picklistValues>
+            <masterLabel>Standard Highlight</masterLabel>
+            <translation>スタンダードハイライト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Highlight</masterLabel>
+            <translation>ユーザーハイライト</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>合計が初期化されたときに他のアプリケーションが実行されるのを許可するようにこの値を設定します。</help>
+        <label><!-- Publish On Init Event --></label>
+        <name>LLC_BI__Publish_On_Init_Event__c</name>
+    </fields>
+    <fields>
+        <help>合計が更新されたときに他のアプリケーションが実行できるようにするためにこの値を設定します。</help>
+        <label>アップデートイベントに公開します</label>
+        <name>LLC_BI__Publish_On_Update_Event__c</name>
+    </fields>
+    <fields>
+        <label>行番号</label>
+        <name>LLC_BI__Row_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Math --></label>
+        <name>LLC_BI__Show_Math__c</name>
+    </fields>
+    <fields>
+        <label>ソースグループ</label>
+        <name>LLC_BI__Source_Group__c</name>
+        <relationshipLabel>複製化されたスプレッドステートメント総グループ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>スプレッドステートメントタイプ</label>
+        <name>LLC_BI__Spread_Statement_Type__c</name>
+        <relationshipLabel>スプレッドステートメント総グループ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>タイトル</label>
+        <name>LLC_BI__Title__c</name>
+    </fields>
+    <fields>
+        <label>総タイプ</label>
+        <name>LLC_BI__Total_Type__c</name>
+        <picklistValues>
+            <masterLabel>Knockout</masterLabel>
+            <translation>ノックアウト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>標準</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel>財務分析 - 決算書合計グループ</nameFieldLabel>
+</CustomObjectTranslation>

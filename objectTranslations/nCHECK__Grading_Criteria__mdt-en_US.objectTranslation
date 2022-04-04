@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>nCHECK__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Controlling Field --></label>
+        <name>nCHECK__Controlling_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Controlling Value --></label>
+        <name>nCHECK__Controlling_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error --></label>
+        <name>nCHECK__Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field --></label>
+        <name>nCHECK__Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grading Step --></label>
+        <name>nCHECK__Grading_Step__c</name>
+        <relationshipLabel><!-- Grading Criterias --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Step --></label>
+        <name>nCHECK__Step__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>nCHECK__Value__c</name>
+    </fields>
+</CustomObjectTranslation>

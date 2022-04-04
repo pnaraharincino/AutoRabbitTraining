@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Asset --></value>
+    </caseValues>
+    <fieldSets>
+        <label>資産追加</label>
+        <name>nRetail__Add_Asset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Asset Schedule --></label>
+        <name>nRetail__Asset_Schedule</name>
+    </fieldSets>
+    <fields>
+        <label>口座</label>
+        <name>nRetail__Account__c</name>
+        <relationshipLabel>資産</relationshipLabel>
+    </fields>
+    <fields>
+        <label>資産タイプ</label>
+        <name>nRetail__Asset_Type__c</name>
+        <picklistValues>
+            <masterLabel>Automobile</masterLabel>
+            <translation>自動車</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation>現金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homestead</masterLabel>
+            <translation>ホームステッド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Insurance Cash Value</masterLabel>
+            <translation>生命保険の現金価値</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgages and Contracts Held By You</masterLabel>
+            <translation>あなたが保有する住宅ローンと契約</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Assets</masterLabel>
+            <translation>その他の資産</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Real Estate</masterLabel>
+            <translation>その他の不動産</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Property</masterLabel>
+            <translation>個人財産</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profit Sharing &amp; Pensions</masterLabel>
+            <translation>利益分配と年金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retirement Accounts - Include IRA Acct.</masterLabel>
+            <translation>退職金口座 - IRA口座を含む。</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Securities</masterLabel>
+            <translation>証券</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>資産の説明を入力します。</help>
+        <label>資産</label>
+        <name>nRetail__Asset__c</name>
+    </fields>
+    <fields>
+        <label>問い合わせ先</label>
+        <name>nRetail__Contact__c</name>
+        <relationshipLabel>資産</relationshipLabel>
+    </fields>
+    <fields>
+        <label>評価額</label>
+        <name>nRetail__Estimated_Value__c</name>
+    </fields>
+    <fields>
+        <label>融資</label>
+        <name>nRetail__Loan__c</name>
+        <relationshipLabel>資産</relationshipLabel>
+    </fields>
+    <nameFieldLabel><!-- Asset Name --></nameFieldLabel>
+</CustomObjectTranslation>

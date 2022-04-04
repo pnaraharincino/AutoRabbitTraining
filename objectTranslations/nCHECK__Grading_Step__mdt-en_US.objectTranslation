@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>nCHECK__Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- For Dependent Picklists, this is the Controlling Value from the Main Field --></help>
+        <label><!-- Controlling Value --></label>
+        <name>nCHECK__Controlling_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Criteria Values --></label>
+        <name>nCHECK__Criteria_Values__c</name>
+    </fields>
+    <fields>
+        <label><!-- Criteria --></label>
+        <name>nCHECK__Criteria__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use when checking Dependent Picklists, this is the Dependent Field --></help>
+        <label><!-- Dependent Field --></label>
+        <name>nCHECK__Dependent_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exercise Filter --></label>
+        <name>nCHECK__Exercise_Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Field --></label>
+        <name>nCHECK__Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grading Exercise --></label>
+        <name>nCHECK__Grading_Exercise__c</name>
+        <relationshipLabel><!-- Grading Steps --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Metadata Object --></label>
+        <name>nCHECK__Metadata_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>nCHECK__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter1 Values --></label>
+        <name>nCHECK__Parameter1_Values__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter1 --></label>
+        <name>nCHECK__Parameter1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter Values --></label>
+        <name>nCHECK__Parameter_Values__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parameter --></label>
+        <name>nCHECK__Parameter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Step # --></label>
+        <name>nCHECK__Step__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>nCHECK__Type__c</name>
+        <picklistValues>
+            <masterLabel>Approval History</masterLabel>
+            <translation><!-- Approval History --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check Dependent Picklist Values</masterLabel>
+            <translation><!-- Check Dependent Picklist Values --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check Metadata</masterLabel>
+            <translation><!-- Check Metadata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check Picklist Values</masterLabel>
+            <translation><!-- Check Picklist Values --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Set</masterLabel>
+            <translation><!-- Field Set --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RBC Validation</masterLabel>
+            <translation><!-- RBC Validation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rule</masterLabel>
+            <translation><!-- Rule --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Comma separated list of values. For Dependent Picklists, these are the list of Dependent Values --></help>
+        <label><!-- Values --></label>
+        <name>nCHECK__Values__c</name>
+    </fields>
+</CustomObjectTranslation>

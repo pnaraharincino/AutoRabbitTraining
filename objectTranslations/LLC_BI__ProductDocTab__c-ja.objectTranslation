@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- ProductDocTab --></value>
+    </caseValues>
+    <fields>
+        <label>文書タブ</label>
+        <name>LLC_BI__DocTab__c</name>
+        <relationshipLabel><!-- ProductDocTabs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>商品</label>
+        <name>LLC_BI__Product__c</name>
+        <relationshipLabel><!-- ProductDocTabs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>固有の外部識別子を入力してください。</help>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Product Tab Name --></nameFieldLabel>
+</CustomObjectTranslation>

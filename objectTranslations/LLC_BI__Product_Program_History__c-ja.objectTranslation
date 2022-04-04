@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Product Program History --></value>
+    </caseValues>
+    <fields>
+        <label>融資</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>商品プログラム履歴項目</relationshipLabel>
+    </fields>
+    <nameFieldLabel><!-- Product Program History Name --></nameFieldLabel>
+</CustomObjectTranslation>

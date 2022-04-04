@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Data Source Item --></value>
+    </caseValues>
+    <fields>
+        <label>データソースセクション</label>
+        <name>LLC_BI__Data_Source_Section__c</name>
+        <relationshipLabel>データソースセクション項目</relationshipLabel>
+    </fields>
+    <fields>
+        <label>データソース</label>
+        <name>LLC_BI__Data_Source__c</name>
+        <relationshipLabel>データソース項目</relationshipLabel>
+    </fields>
+    <fields>
+        <label>外部名</label>
+        <name>LLC_BI__External_Name__c</name>
+    </fields>
+    <fields>
+        <label>ソート順</label>
+        <name>LLC_BI__Sort_Order__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Data Source Item Name --></nameFieldLabel>
+</CustomObjectTranslation>

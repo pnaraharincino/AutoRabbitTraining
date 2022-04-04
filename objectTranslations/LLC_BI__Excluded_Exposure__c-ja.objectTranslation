@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Excluded Exposure --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Exposure Exclusion Disable --></label>
+        <name>LLC_BI__Exposure_Exclusion_Disable</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Exposure Exclusion Enable --></label>
+        <name>LLC_BI__Exposure_Exclusion_Enable</name>
+    </fieldSets>
+    <fields>
+        <label>アカウント</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>エクスポージャ(除外)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>有効</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <label>コメント</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label>負債</label>
+        <name>LLC_BI__Debt__c</name>
+        <relationshipLabel>エクスポージャ(除外)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>除外理由</label>
+        <name>LLC_BI__Exclude_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Debt Consolidation</masterLabel>
+            <translation>債務統合</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance</masterLabel>
+            <translation>借換え</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term-Out Refinance</masterLabel>
+            <translation>借り換え</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>融資</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>エクスポージャ(除外)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>案件パッケージ</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>エクスポージャ(除外)</relationshipLabel>
+    </fields>
+    <nameFieldLabel><!-- Excluded Exposure Name --></nameFieldLabel>
+</CustomObjectTranslation>

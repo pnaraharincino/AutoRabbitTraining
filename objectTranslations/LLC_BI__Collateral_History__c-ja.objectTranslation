@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>担保評価履歴</value>
+    </caseValues>
+    <fields>
+        <help>不動産の評価額に対応する過去の鑑定評価日</help>
+        <label>評価日</label>
+        <name>LLC_BI__Appraisal_Date__c</name>
+    </fields>
+    <fields>
+        <label>担保評価額</label>
+        <name>LLC_BI__Collateral_Value__c</name>
+    </fields>
+    <fields>
+        <label>融資担保</label>
+        <name>LLC_BI__Loan_Collateral__c</name>
+        <relationshipLabel>担保評価履歴</relationshipLabel>
+    </fields>
+    <fields>
+        <label>メモ</label>
+        <name>LLC_BI__Notes__c</name>
+    </fields>
+    <fields>
+        <label>タイプ</label>
+        <name>LLC_BI__Type__c</name>
+    </fields>
+    <nameFieldLabel>担保評価履歴番号</nameFieldLabel>
+</CustomObjectTranslation>

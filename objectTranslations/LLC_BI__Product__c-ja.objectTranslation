@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>商品名</value>
+    </caseValues>
+    <fieldSets>
+        <label>商品ライン</label>
+        <name>LLC_BI__Product_Line</name>
+    </fieldSets>
+    <fieldSets>
+        <label>関連リスト名</label>
+        <name>LLC_BI__Related_List</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WK DepAct DocPrep --></label>
+        <name>WKDDP__WK_DepAct_DocPrep</name>
+    </fieldSets>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドは、このレコードのNCINOユーザーインターフェイス内のデフォルトページを決定します。</help>
+        <label>デフォルトアプリ</label>
+        <name>LLC_BI__Default_App__c</name>
+    </fields>
+    <fields>
+        <label>預金レート構造</label>
+        <name>LLC_BI__Deposit_Rate_Structure__c</name>
+        <relationshipLabel>商品</relationshipLabel>
+    </fields>
+    <fields>
+        <help>ID文書がDocument Managerに保存するのを防ぐために、このチェックボックスをオンにします。</help>
+        <label>ID書類存在化</label>
+        <name>LLC_BI__Disable_Id_Document_Save__c</name>
+    </fields>
+    <fields>
+        <label>ポータル</label>
+        <name>LLC_BI__Institution__c</name>
+        <relationshipLabel>商品</relationshipLabel>
+    </fields>
+    <fields>
+        <label>メンテナンスApp</label>
+        <name>LLC_BI__Maintenance_App__c</name>
+    </fields>
+    <fields>
+        <help>画面セクションの一意の識別子を入力してください。</help>
+        <label>メンテナンス画面セクション</label>
+        <name>LLC_BI__Maintenance_Screen_Section__c</name>
+        <relationshipLabel>商品（メンテナンス）</relationshipLabel>
+    </fields>
+    <fields>
+        <label>最大ファンド金額</label>
+        <name>LLC_BI__Maximum_Funding_Amount__c</name>
+    </fields>
+    <fields>
+        <label>最小ファンド金額</label>
+        <name>LLC_BI__Minimum_Funding_Amount__c</name>
+    </fields>
+    <fields>
+        <help>他の開示の説明を入力してくださいアカウント保有者は、シグニチャカードの受信を確認します。</help>
+        <label>オファー開示概要</label>
+        <name>LLC_BI__Other_Disclosures_Description__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドを選択して、シグニチャカードで事前定義された開示以外の開示の受信を確認します。</help>
+        <label>オファー開示 受取</label>
+        <name>LLC_BI__Other_Disclosures_Received__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドを変更したら、[NCINO管理]タブに移動し、[アップデートのインストールを実行し、この製品が既存のローンに関連している場合はバッチアップデートをインストールします。</help>
+        <label>商品機能</label>
+        <name>LLC_BI__Product_Feature__c</name>
+        <relationshipLabel>商品</relationshipLabel>
+    </fields>
+    <fields>
+        <label>商品ライン</label>
+        <name>LLC_BI__Product_Line_Name__c</name>
+    </fields>
+    <fields>
+        <label>商品タイプ</label>
+        <name>LLC_BI__Product_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label>商品タイプ</label>
+        <name>LLC_BI__Product_Type__c</name>
+        <relationshipLabel>商品</relationshipLabel>
+    </fields>
+    <fields>
+        <help>この製品に不動産が含まれている場合、どのような種類の不動産があります。注：「なし」以外のものがチェックされている場合は、隠された「不動産」のチェックボックスフィールドがTRUEに設定されます。</help>
+        <label>不動産タイプ</label>
+        <name>LLC_BI__RealEstate_Type__c</name>
+        <picklistValues>
+            <masterLabel>Single Family Home</masterLabel>
+            <translation>住宅用</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>T/F</help>
+        <label>不動産</label>
+        <name>LLC_BI__RealEstate__c</name>
+    </fields>
+    <fields>
+        <label>画面セクション</label>
+        <name>LLC_BI__Screen_Section__c</name>
+        <relationshipLabel>商品</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a description of the account product. --></help>
+        <label><!-- Description --></label>
+        <name>WKDDP__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox to indicate that when a Customer Portal user is applying for this product, they can pledge multiple pieces of collateral. --></help>
+        <label>複数担保差し入れ許可</label>
+        <name>nPortal__Can_Pledge_Multiple_Collateral__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the product name that should be displayed to external users in Customer Portal. If no name is provided here, the internal product name will be shown. --></help>
+        <label>商品名</label>
+        <name>nPortal__External_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this rich text field to configure the approval message when auto decision approves the online application. --></help>
+        <label>OA 承認後ネクストステップ</label>
+        <name>nPortal__OA_Approval_Next_Steps__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox field to indicate if auto-decision is being used for online applications for this product. --></help>
+        <label>OA 自動決定有効</label>
+        <name>nPortal__OA_Auto_Decision_Enabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the API name for the collapsed offer card field set. --></help>
+        <label>OA  失敗オファー概要</label>
+        <name>nPortal__OA_Collapsed_Offer_Card_Summary__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox if the user must add collateral during an online application for this product. --></help>
+        <label>OA 担保必須</label>
+        <name>nPortal__OA_Collateral_Required__c</name>
+    </fields>
+    <fields>
+        <label>OA 預金ファンディングエラー ネクストステップ</label>
+        <name>nPortal__OA_Deposit_Funding_Failure_Next_Steps__c</name>
+    </fields>
+    <fields>
+        <label>OA 預金ファインディング ネクストステップ</label>
+        <name>nPortal__OA_Deposit_Funding_Next_Steps__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the API name for the expanded offer card field set. --></help>
+        <label>OA  拡張オファー概要</label>
+        <name>nPortal__OA_Expanded_Offer_Summary_Card__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter an offers accepted message. --></help>
+        <label>OA オファー了承時ネクストステップ</label>
+        <name>nPortal__OA_Offers_Accepted_Next_Steps__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox field to indicate if offers automatically generate in online applications for this product. --></help>
+        <label>OA オファー有効</label>
+        <name>nPortal__OA_Offers_Enabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- For an image hosted online, use the image URL. Alternately, upload an image to Documents, make image visibility public, and populate the field with the image URL. --></help>
+        <label>OA 画像</label>
+        <name>nPortal__OA_Product_Image__c</name>
+    </fields>
+    <fields>
+        <label>OA 補助サービス画面</label>
+        <name>nPortal__Online_Application_AS_Screen__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Check this field to enable this product for Customer Portal online applications. --></help>
+        <label>オンラインアプリケーション</label>
+        <name>nPortal__Online_Application_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>OA グループ</label>
+        <name>nPortal__Online_Application_Group__c</name>
+        <relationshipLabel><!-- Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter Header text to be displayed on the Self Registration page for this product. --></help>
+        <label>OA ヘッダーテキスト</label>
+        <name>nPortal__Online_Application_Header_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter Subheader text to be displayed beneath the Header text on the Self Registration page for this product. --></help>
+        <label>OA サブヘッダー</label>
+        <name>nPortal__Online_Application_Subheader_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the name of the existing field set that should be used to render a summary of this product in the Online Applications topbar. If one is not entered, the default field set will be used. --></help>
+        <label>OA トップバー項目セット</label>
+        <name>nPortal__Online_Application_Topbar_Fieldset__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the text you would like to display in the topbar in Online Applications for this product. If left blank, the default topbar text will be displayed. --></help>
+        <label>OA トップバーテキスト</label>
+        <name>nPortal__Online_Application_Topbar_Text__c</name>
+    </fields>
+    <fields>
+        <label>OA タイプ</label>
+        <name>nPortal__Online_Application_Type__c</name>
+        <picklistValues>
+            <masterLabel>Online Deposit Application</masterLabel>
+            <translation>オンライン預金申込</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Loan Application</masterLabel>
+            <translation>オンライン融資申込</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the name of the existing field set that should be used to render a summary of this product in the Your Account page. If one is not entered, the default field set will be used. --></help>
+        <label>OA アカウント項目セット</label>
+        <name>nPortal__Online_Application_Your_Account_Fieldset__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the content you wish to display to Customer Portal users interested in applying for this product. This is a rich text field. --></help>
+        <label>商品詳細</label>
+        <name>nPortal__Product_Marketing__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox to indicate that when a Customer Portal user is applying for this product, they should be able to see applicable suggested collateral. --></help>
+        <label>推奨担保</label>
+        <name>nPortal__Suggested_Collateral_Enabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the API name of the field set to be displayed on the Your Products component of the Customer Engagement Solution dashboard. --></help>
+        <label>商品コンポーネント項目セット</label>
+        <name>nPortal__Your_Products_Component_Field_Set__c</name>
+    </fields>
+    <nameFieldLabel>商品名</nameFieldLabel>
+</CustomObjectTranslation>

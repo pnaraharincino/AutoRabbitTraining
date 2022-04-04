@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Pricing Stream --></value>
+    </caseValues>
+    <fieldSets>
+        <label>価格設定オプション　スケジュール詳細</label>
+        <name>LLC_BI__Pricing_Option_Schedule_Details</name>
+    </fieldSets>
+    <fields>
+        <label>コンテキストID</label>
+        <name>LLC_BI__Context_Id__c</name>
+    </fields>
+    <fields>
+        <label>発効日</label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label>終了日</label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <label>支払いストリームです</label>
+        <name>LLC_BI__Is_Payment_Stream__c</name>
+    </fields>
+    <fields>
+        <label>レートストリームです</label>
+        <name>LLC_BI__Is_Rate_Stream__c</name>
+    </fields>
+    <fields>
+        <help>このシステム入力Lookupフィールドには、レートと支払い構造に関連付けられているローンが表示されます。</help>
+        <label>融資</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>価格のストリーム</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field displays a value based on field mappings for rate and payment structure. --></help>
+        <label><!-- Period Type --></label>
+        <name>LLC_BI__Period_Type__c</name>
+        <picklistValues>
+            <masterLabel>Draw</masterLabel>
+            <translation><!-- Draw --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repayment</masterLabel>
+            <translation><!-- Repayment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teaser</masterLabel>
+            <translation><!-- Teaser --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field displays the unique identifier for the Pricing Option record. --></help>
+        <label><!-- Pricing Option --></label>
+        <name>LLC_BI__Pricing_Option__c</name>
+        <relationshipLabel><!-- Pricing Streams --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>シーケンス</label>
+        <name>LLC_BI__Sequence__c</name>
+    </fields>
+    <fields>
+        <label>期間の長さ</label>
+        <name>LLC_BI__Term_Length__c</name>
+    </fields>
+    <fields>
+        <label>期間の単位</label>
+        <name>LLC_BI__Term_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Unit_Annually</masterLabel>
+            <translation><!-- Unit_Annually --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Bi_Monthly</masterLabel>
+            <translation><!-- Unit_Bi_Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Monthly</masterLabel>
+            <translation><!-- Unit_Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Quarterly</masterLabel>
+            <translation><!-- Unit_Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Semi_Annually</masterLabel>
+            <translation><!-- Unit_Semi_Annually --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit_Semi_Monthly</masterLabel>
+            <translation><!-- Unit_Semi_Monthly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

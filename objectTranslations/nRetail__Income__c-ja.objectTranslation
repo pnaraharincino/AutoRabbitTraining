@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- -D Income --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Add Income --></label>
+        <name>nRetail__Add_Income</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Income Schedule --></label>
+        <name>nRetail__Income_Schedule</name>
+    </fieldSets>
+    <fields>
+        <label>口座</label>
+        <name>nRetail__Account__c</name>
+        <relationshipLabel>収入</relationshipLabel>
+    </fields>
+    <fields>
+        <label>問い合わせ先</label>
+        <name>nRetail__Contact__c</name>
+        <relationshipLabel>収入</relationshipLabel>
+    </fields>
+    <fields>
+        <label>収入源</label>
+        <name>nRetail__Income_Source__c</name>
+        <picklistValues>
+            <masterLabel>Pay Stubs</masterLabel>
+            <translation>収入証明</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Return</masterLabel>
+            <translation>納税申告書</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W2</masterLabel>
+            <translation><!-- W2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>収入タイプ</label>
+        <name>nRetail__Income_Type__c</name>
+        <picklistValues>
+            <masterLabel>Alimony Support</masterLabel>
+            <translation>扶養手当</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Bonus/Commission</masterLabel>
+            <translation>年間給与/賞与</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gross Annual Income</masterLabel>
+            <translation>総年間収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment/Trust Income</masterLabel>
+            <translation>投資/信託収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military Income</masterLabel>
+            <translation>軍事関連収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Income</masterLabel>
+            <translation>その他の収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part Time Income</masterLabel>
+            <translation>パートタイム収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental Income</masterLabel>
+            <translation>賃貸料収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self Employment Income</masterLabel>
+            <translation>自営業収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable Income</masterLabel>
+            <translation>課税収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Before Tax Income</masterLabel>
+            <translation>税前収入合計</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unemployment Benefits</masterLabel>
+            <translation>失業手当</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>融資</label>
+        <name>nRetail__Loan__c</name>
+        <relationshipLabel>収入</relationshipLabel>
+    </fields>
+    <fields>
+        <label>月間所得</label>
+        <name>nRetail__Monthly_Income__c</name>
+    </fields>
+    <fields>
+        <label>年収</label>
+        <name>nRetail__Yearly_Income__c</name>
+    </fields>
+    <nameFieldLabel><!-- Income Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Monthly income must be 1/12 of yearly income. --></errorMessage>
+        <name>nRetail__Monthly_Yearly_Income</name>
+    </validationRules>
+</CustomObjectTranslation>

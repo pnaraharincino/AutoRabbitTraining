@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Online Banking Service --></value>
+    </caseValues>
+    <fields>
+        <label>自動スケジューリングソフトウェア</label>
+        <name>LLC_BI__Automated_Scheduling_Software__c</name>
+    </fields>
+    <fields>
+        <label>通信設定</label>
+        <name>LLC_BI__Communication_Setup__c</name>
+        <picklistValues>
+            <masterLabel>FRP (File Transfer Protocol) with PGP Encrytion</masterLabel>
+            <translation>PGP暗号化によるFRP（ファイル転送プロトコル）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFTP (Preferred)</masterLabel>
+            <translation>SFTP（優先）</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>信用限度</label>
+        <name>LLC_BI__Credit_Limit__c</name>
+    </fields>
+    <fields>
+        <label>顧客全体のACHの制限</label>
+        <name>LLC_BI__Customer_Overall_ACH_Limit__c</name>
+    </fields>
+    <fields>
+        <label>有効化日</label>
+        <name>LLC_BI__Date_of_Activation__c</name>
+    </fields>
+    <fields>
+        <label>デビットの制限</label>
+        <name>LLC_BI__Debit_Limit__c</name>
+    </fields>
+    <fields>
+        <label>デュアルコントロール</label>
+        <name>LLC_BI__Dual_Control__c</name>
+    </fields>
+    <fields>
+        <label>有効期限/次へ</label>
+        <name>LLC_BI__Expiration_Date_Date_of_Next_Review__c</name>
+    </fields>
+    <fields>
+        <label>ワンタイムパスコード</label>
+        <name>LLC_BI__One_Time_Passcode__c</name>
+    </fields>
+    <fields>
+        <help>このオンラインバンキング機能を有効にするには、このオンラインバンキング機能を有効にするチェックボックスをオンにします。</help>
+        <label>オンラインバンキングを有効にしました</label>
+        <name>LLC_BI__Online_Banking_Enabled__c</name>
+    </fields>
+    <fields>
+        <help>顧客に関連付けられている固有のオンラインIDを入力してください。</help>
+        <label>オンラインバンキングID</label>
+        <name>LLC_BI__Online_Banking_ID__c</name>
+    </fields>
+    <fields>
+        <label>スケジューリングソフトウェアの説明</label>
+        <name>LLC_BI__Scheduling_Software_Description__c</name>
+    </fields>
+    <fields>
+        <label>開始チェック番号</label>
+        <name>LLC_BI__Starting_Check_Number__c</name>
+    </fields>
+    <fields>
+        <label>付帯サービス リファレンス</label>
+        <name>LLC_BI__Treasury_Service_Reference__c</name>
+        <relationshipLabel>オンラインバンキングサービス</relationshipLabel>
+    </fields>
+    <nameFieldLabel><!-- Online Banking Service Name --></nameFieldLabel>
+</CustomObjectTranslation>

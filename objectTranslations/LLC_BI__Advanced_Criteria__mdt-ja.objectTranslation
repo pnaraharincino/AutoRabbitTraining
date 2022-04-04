@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Advanced Criteria --></value>
+    </caseValues>
+    <fields>
+        <help>基準</help>
+        <label>基準</label>
+        <name>LLC_BI__Criteria__c</name>
+    </fields>
+</CustomObjectTranslation>

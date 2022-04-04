@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Agreement Text --></label>
+        <name>nPortal__Agreement_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the Salesforce ID of the Document you wish to display for agreement on a particular Route in an Online Application. --></help>
+        <label><!-- Document --></label>
+        <name>nPortal__Document__c</name>
+    </fields>
+    <fields>
+        <help><!-- UI Route which will display this document on an Online Application --></help>
+        <label><!-- Route --></label>
+        <name>nPortal__Route__c</name>
+        <relationshipLabel><!-- Route Terms --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>nPortal__lookupKey__c</name>
+    </fields>
+</CustomObjectTranslation>

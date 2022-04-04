@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- DocuSign Template --></value>
+    </caseValues>
+    <fields>
+        <label>データマッピング</label>
+        <name>LLC_BI__Data_Mapping__c</name>
+    </fields>
+    <fields>
+        <label>文書管理クラス</label>
+        <name>LLC_BI__Doc_Man_Class__c</name>
+        <relationshipLabel>DocuSignテンプレート</relationshipLabel>
+    </fields>
+    <fields>
+        <label>文書管理タブ</label>
+        <name>LLC_BI__Doc_Man_Tab__c</name>
+        <relationshipLabel>DocuSignテンプレート</relationshipLabel>
+    </fields>
+    <fields>
+        <label>文書管理タイプ</label>
+        <name>LLC_BI__Doc_Man_Type__c</name>
+        <relationshipLabel>DocuSignテンプレート</relationshipLabel>
+    </fields>
+    <fields>
+        <label>文書管理</label>
+        <name>LLC_BI__Doc_Man__c</name>
+        <relationshipLabel>DocuSignテンプレート</relationshipLabel>
+    </fields>
+    <fields>
+        <label>マスキングを強制する</label>
+        <name>LLC_BI__Enforce_Masking__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Filter --></label>
+        <name>LLC_BI__Filter__c</name>
+    </fields>
+    <fields>
+        <label>フィルター</label>
+        <name>LLC_BI__Object_Filter__c</name>
+    </fields>
+    <fields>
+        <label>オブジェクトタイプ</label>
+        <name>LLC_BI__Object_Type__c</name>
+    </fields>
+    <fields>
+        <label>関係</label>
+        <name>LLC_BI__Relationship__c</name>
+    </fields>
+    <fields>
+        <label>テンプレートID</label>
+        <name>LLC_BI__Template_Id__c</name>
+    </fields>
+    <nameFieldLabel><!-- DocuSign Template Name --></nameFieldLabel>
+</CustomObjectTranslation>

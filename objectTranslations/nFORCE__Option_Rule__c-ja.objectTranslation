@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Option Rule --></value>
+    </caseValues>
+    <fields>
+        <label>条件</label>
+        <name>nFORCE__Condition__c</name>
+        <picklistValues>
+            <masterLabel>equal to</masterLabel>
+            <translation>等しい</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equal to</masterLabel>
+            <translation>等しくない</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>条件付き質問</label>
+        <name>nFORCE__Conditional_Question__c</name>
+        <relationshipLabel>オプションルール（conditional_question）</relationshipLabel>
+    </fields>
+    <fields>
+        <label>オプション</label>
+        <name>nFORCE__Option__c</name>
+        <relationshipLabel>オプションの規則</relationshipLabel>
+    </fields>
+    <fields>
+        <label>質問</label>
+        <name>nFORCE__Question__c</name>
+        <relationshipLabel>オプションの規則</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Option Rule Name --></nameFieldLabel>
+</CustomObjectTranslation>

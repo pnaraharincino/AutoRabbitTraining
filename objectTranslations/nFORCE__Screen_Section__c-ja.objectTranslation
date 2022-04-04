@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Screen Section --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- UI Config Builder with Conditional Fields --></label>
+        <name>nFORCE__Conditional_Screen_Section</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Config Builder --></label>
+        <name>nFORCE__UI_Config_Builder</name>
+    </fieldSets>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference --></label>
+        <name>Reference__c</name>
+    </fields>
+    <fields>
+        <help>ユーザーが画面セクションの列をソートできるようにするには、このチェックボックスをオンにします。</help>
+        <label>項目ソート</label>
+        <name>nFORCE__Are_Columns_Sortable__c</name>
+    </fields>
+    <fields>
+        <label>自動保存</label>
+        <name>nFORCE__Auto_Save__c</name>
+    </fields>
+    <fields>
+        <help>印刷時にセクションの後にページブレークを強制します。</help>
+        <label>ブレイクベージ後</label>
+        <name>nFORCE__Break_Page_After__c</name>
+    </fields>
+    <fields>
+        <help>印刷時にセクションの前にページブレークを強制します。</help>
+        <label>ブレイクベージ前</label>
+        <name>nFORCE__Break_Page_Before__c</name>
+    </fields>
+    <fields>
+        <label>表示条件クライテリア</label>
+        <name>nFORCE__Conditional_Display_Criteria__c</name>
+    </fields>
+    <fields>
+        <label>デフォルト編集可能</label>
+        <name>nFORCE__Default_Editable__c</name>
+    </fields>
+    <fields>
+        <label>デフォルトレンダー</label>
+        <name>nFORCE__Default_Rendered__c</name>
+    </fields>
+    <fields>
+        <label>印刷不可</label>
+        <name>nFORCE__Disable_Print__c</name>
+    </fields>
+    <fields>
+        <label>表示順序</label>
+        <name>nFORCE__Display_Order__c</name>
+    </fields>
+    <fields>
+        <label>トグルエフェクト表示</label>
+        <name>nFORCE__Display_Toggle_Effect__c</name>
+        <picklistValues>
+            <masterLabel>fade</masterLabel>
+            <translation>フェード</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>slide</masterLabel>
+            <translation><!-- slide --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>トグルヘッダー表示</label>
+        <name>nFORCE__Display_Toggle_Header__c</name>
+    </fields>
+    <fields>
+        <label>トグルリンク表示</label>
+        <name>nFORCE__Display_Toggle_Link__c</name>
+    </fields>
+    <fields>
+        <label>ヘッダー無し</label>
+        <name>nFORCE__Headless__c</name>
+    </fields>
+    <fields>
+        <label>無効</label>
+        <name>nFORCE__Inactive__c</name>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>nFORCE__Instructions_Text__c</name>
+    </fields>
+    <fields>
+        <label>編集可能</label>
+        <name>nFORCE__Is_Editable__c</name>
+    </fields>
+    <fields>
+        <label>レイアウト</label>
+        <name>nFORCE__Layout__c</name>
+        <relationshipLabel>画面セクション</relationshipLabel>
+    </fields>
+    <fields>
+        <help>画面セクションがテーブルを表示している場合、これはテーブルに表示される列の数です。</help>
+        <label>カラム数</label>
+        <name>nFORCE__Number_of_Columns__c</name>
+    </fields>
+    <fields>
+        <label>親画面セクション</label>
+        <name>nFORCE__Parent_Screen_Section__c</name>
+        <relationshipLabel>画面セクション</relationshipLabel>
+    </fields>
+    <fields>
+        <label>画面ビュー</label>
+        <name>nFORCE__Screen_View__c</name>
+        <relationshipLabel>画面セクション</relationshipLabel>
+    </fields>
+    <fields>
+        <label>画面</label>
+        <name>nFORCE__Screen__c</name>
+        <relationshipLabel>画面セクション</relationshipLabel>
+    </fields>
+    <fields>
+        <label>セクションリソース</label>
+        <name>nFORCE__Section_Resource__c</name>
+        <picklistValues>
+            <masterLabel>ComparableScreenResource</masterLabel>
+            <translation><!-- ComparableScreenResource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ConfiguredSObjectScreenResource</masterLabel>
+            <translation>ConfiguredSobjectScreenResource</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ContextRecordScreenResource</masterLabel>
+            <translation><!-- ContextRecordScreenResource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GrandchildScreenResource</masterLabel>
+            <translation>GrandchildscreenResource.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MappedSObjectHierarchyScreenResource</masterLabel>
+            <translation>MappedSobjectHierarchScreenResource</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MappedSObjectListScreenResource</masterLabel>
+            <translation><!-- MappedSObjectListScreenResource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MappedSObjectScreenResource</masterLabel>
+            <translation>MappedSobjectScreenResource.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ReferenceFilteredHierarchyScreenResource</masterLabel>
+            <translation><!-- ReferenceFilteredHierarchyScreenResource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RelatedHierarchyScreenResource</masterLabel>
+            <translation><!-- RelatedHierarchyScreenResource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SObjectScreenResource</masterLabel>
+            <translation>SObjectScreenResource.</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>検証サービス</label>
+        <name>nFORCE__Validation_Service__c</name>
+    </fields>
+    <fields>
+        <label>ウィジェット</label>
+        <name>nFORCE__Widget__c</name>
+        <relationshipLabel>画面セクション</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>sObjectタイプ</label>
+        <name>nFORCE__sObject_Type__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation>取引先</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact</masterLabel>
+            <translation>コンタクト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Address__c</masterLabel>
+            <translation><!-- LLC_BI__Address__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Application__c</masterLabel>
+            <translation><!-- LLC_BI__Application__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Collateral__c</masterLabel>
+            <translation><!-- LLC_BI__Collateral__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Connection__c</masterLabel>
+            <translation><!-- LLC_BI__Connection__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Contingent_Liabilty__c</masterLabel>
+            <translation><!-- LLC_BI__Contingent_Liabilty__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Debt__c</masterLabel>
+            <translation><!-- LLC_BI__Debt__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Deposit__c</masterLabel>
+            <translation><!-- LLC_BI__Deposit__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Fee_Loan_Aggregate__c</masterLabel>
+            <translation><!-- LLC_BI__Fee_Loan_Aggregate__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Fee__c</masterLabel>
+            <translation><!-- LLC_BI__Fee__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Funding_Method__c</masterLabel>
+            <translation><!-- LLC_BI__Funding_Method__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Income__c</masterLabel>
+            <translation><!-- LLC_BI__Income__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Legal_Entities__c</masterLabel>
+            <translation><!-- LLC_BI__Legal_Entities__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Loan__c</masterLabel>
+            <translation><!-- LLC_BI__Loan__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Product_Package__c</masterLabel>
+            <translation><!-- LLC_BI__Product_Package__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Treasury_Service_Involvement__c</masterLabel>
+            <translation><!-- LLC_BI__Treasury_Service_Involvement__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLC_BI__Treasury_Service__c</masterLabel>
+            <translation><!-- LLC_BI__Treasury_Service__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This value is displayed in Customer Portal for Sections which are used for dynamic UI generation, such as a page on an Online Application, and varies from header text which might appear internally. --></help>
+        <label>ポータルヘッダーテキスト</label>
+        <name>nPortal__Portal_Header_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- This optional value provides supplementary text to go with the Portal Header Text field. --></help>
+        <label>ポータルサブヘッダーテキスト</label>
+        <name>nPortal__Portal_Subheader_Text__c</name>
+    </fields>
+    <nameFieldLabel><!-- Screen Section Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>セクションリソースを選択してください。</errorMessage>
+        <name>nFORCE__Mandatory</name>
+    </validationRules>
+    <webLinks>
+        <label>セクション作成</label>
+        <name>nFORCE__Build_Layout</name>
+    </webLinks>
+</CustomObjectTranslation>

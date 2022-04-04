@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Business Credit Report --></value>
+    </caseValues>
+    <fields>
+        <label>取引先名</label>
+        <name>nXBI__Account__c</name>
+        <relationshipLabel>事業信用報告書</relationshipLabel>
+    </fields>
+    <fields>
+        <label>信用報告書 ID</label>
+        <name>nXBI__Credit_Bureau_ID__c</name>
+    </fields>
+    <fields>
+        <label>信用調査名</label>
+        <name>nXBI__Credit_Bureau_Name__c</name>
+    </fields>
+    <fields>
+        <label>CIF番号</label>
+        <name>nXBI__Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label>ファイル作成日</label>
+        <name>nXBI__File_Creation_Date__c</name>
+    </fields>
+    <nameFieldLabel><!-- Business Credit Report Name --></nameFieldLabel>
+</CustomObjectTranslation>

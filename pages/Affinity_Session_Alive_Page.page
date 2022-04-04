@@ -1,0 +1,19 @@
+<apex:page >
+    <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        const keepAliveURL = "{!JSENCODE($User.KEEP_ALIVE_URL__c)}";
+        const REFRESH_TIME= 10000;
+        const handleAjaxRequest = function(url) {
+          fetch(url)
+          .then(
+              response => {
+                  if(response.status != 200) {
+                   clearInterval(refreshInterVal);
+                }
+              }
+          )
+        }
+        const refreshInterVal = setInterval(handleAjaxRequest, REFRESH_TIME, keepAliveURL);
+    });
+    </script>
+</apex:page>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Dimension --></value>
+    </caseValues>
+    <fields>
+        <help>関連するディメンション定義を選択してください。</help>
+        <label>寸法定義</label>
+        <name>LLC_BI__Dimension_Definition__c</name>
+        <relationshipLabel>寸法</relationshipLabel>
+    </fields>
+    <fields>
+        <help>関連付けられている行列を選択してください。</help>
+        <label>マトリックス</label>
+        <name>LLC_BI__Matrix__c</name>
+        <relationshipLabel>寸法</relationshipLabel>
+    </fields>
+    <fields>
+        <label>オーダー</label>
+        <name>LLC_BI__Order__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Dimension Name --></nameFieldLabel>
+</CustomObjectTranslation>

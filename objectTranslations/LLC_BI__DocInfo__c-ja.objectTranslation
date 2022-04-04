@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- DocInfo --></value>
+    </caseValues>
+    <fields>
+        <label>文書クラス</label>
+        <name>LLC_BI__DocClass__c</name>
+        <relationshipLabel>文書情報</relationshipLabel>
+    </fields>
+    <fields>
+        <label>文書タイプ</label>
+        <name>LLC_BI__DocType__c</name>
+        <relationshipLabel>文書情報</relationshipLabel>
+    </fields>
+    <fields>
+        <label>現在の添付ファイルID</label>
+        <name>LLC_BI__attachmentId__c</name>
+    </fields>
+    <fields>
+        <label>ファイルサイズ</label>
+        <name>LLC_BI__fileSize__c</name>
+    </fields>
+    <fields>
+        <label><!-- isFolder --></label>
+        <name>LLC_BI__isFolder__c</name>
+    </fields>
+    <fields>
+        <label>OwnerObjectID</label>
+        <name>LLC_BI__ownerObjectId__c</name>
+    </fields>
+    <fields>
+        <label><!-- parentId --></label>
+        <name>LLC_BI__parentId__c</name>
+    </fields>
+    <fields>
+        <label>バージョン</label>
+        <name>LLC_BI__version__c</name>
+    </fields>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+    <webLinks>
+        <label>文書管理</label>
+        <name>LLC_BI__docManager</name>
+    </webLinks>
+</CustomObjectTranslation>

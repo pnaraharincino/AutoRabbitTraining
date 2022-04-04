@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Xml Response Test --></label>
+        <name>nFORCE__Xml_Response_Test</name>
+    </fieldSets>
+    <fields>
+        <label>支店</label>
+        <name>LLC_BI__Branch__c</name>
+        <relationshipLabel>商談</relationshipLabel>
+    </fields>
+    <fields>
+        <label>失注案件理由詳細</label>
+        <name>LLC_BI__Closed_Lost_Reason_Notes__c</name>
+    </fields>
+    <fields>
+        <label>失注案件理由</label>
+        <name>LLC_BI__Closed_Lost_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Competitor- Other</masterLabel>
+            <translation>競合 - その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor- Price</masterLabel>
+            <translation>競合金額</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor- Product/Service Set Gap,</masterLabel>
+            <translation>競合他社 - 製品/サービスセットギャップ、</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor-Product/Service Functionality Gap</masterLabel>
+            <translation>競合他社 - 製品/サービス機能ギャップ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Does not need services</masterLabel>
+            <translation>サービスは必要ありません</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost Loan Relationship.</masterLabel>
+            <translation>融資取引先を失いました。</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation>価格</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product/Service Functionality Gap</masterLabel>
+            <translation>商品/サービス機能ギャップ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product/Service Gap</masterLabel>
+            <translation>商品/サービスギャップ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>競合他社</label>
+        <name>LLC_BI__Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Anchor Bank</masterLabel>
+            <translation><!-- Anchor Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Associated</masterLabel>
+            <translation>関連</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BMO Harris</masterLabel>
+            <translation><!-- BMO Harris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOA</masterLabel>
+            <translation><!-- BOA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank of America</masterLabel>
+            <translation>バンク・オブ・アメリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chase</masterLabel>
+            <translation>追跡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fifth Third</masterLabel>
+            <translation><!-- Fifth Third --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Midwest</masterLabel>
+            <translation><!-- First Midwest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MB</masterLabel>
+            <translation>MB.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNC</masterLabel>
+            <translation><!-- PNC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smaller Community Bank</masterLabel>
+            <translation><!-- Smaller Community Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Private Bank</masterLabel>
+            <translation><!-- The Private Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Bank</masterLabel>
+            <translation><!-- US Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wells Fargo</masterLabel>
+            <translation><!-- Wells Fargo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wintrust</masterLabel>
+            <translation><!-- Wintrust --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>コンバート日</label>
+        <name>LLC_BI__Converted_Date__c</name>
+    </fields>
+    <fields>
+        <label>コンバートされた預金</label>
+        <name>LLC_BI__Converted_Deposit__c</name>
+        <relationshipLabel>商談</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- -D Current Generator(s) --></label>
+        <name>LLC_BI__CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label>現在の銀行</label>
+        <name>LLC_BI__Current_Bank__c</name>
+        <picklistValues>
+            <masterLabel>Anchor Bank</masterLabel>
+            <translation><!-- Anchor Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Associated</masterLabel>
+            <translation>関連</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BMO Harris</masterLabel>
+            <translation><!-- BMO Harris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOA</masterLabel>
+            <translation><!-- BOA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank of America</masterLabel>
+            <translation>バンク・オブ・アメリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chase</masterLabel>
+            <translation>追跡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fifth Third</masterLabel>
+            <translation><!-- Fifth Third --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Midwest</masterLabel>
+            <translation><!-- First Midwest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MB</masterLabel>
+            <translation><!-- MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNC</masterLabel>
+            <translation><!-- PNC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smaller Community Bank</masterLabel>
+            <translation><!-- Smaller Community Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Private Bank</masterLabel>
+            <translation><!-- The Private Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Bank</masterLabel>
+            <translation><!-- US Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wells Fargo</masterLabel>
+            <translation><!-- Wells Fargo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wintrust</masterLabel>
+            <translation><!-- Wintrust --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>融資が成立した日</label>
+        <name>LLC_BI__Date_Loan_Closed__c</name>
+    </fields>
+    <fields>
+        <label>現フェーズでの日数</label>
+        <name>LLC_BI__Days_at_Current_Stage__c</name>
+    </fields>
+    <fields>
+        <label>納入/据付ステータス</label>
+        <name>LLC_BI__DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>完了済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation>実行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation>未開始</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>推定総手数料割引</label>
+        <name>LLC_BI__Estimated_Gross_Fee_Discount__c</name>
+    </fields>
+    <fields>
+        <label>既存顧客?</label>
+        <name>LLC_BI__Existing_Customer__c</name>
+    </fields>
+    <fields>
+        <label>コンバートした商談</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>コンバートした商談</relationshipLabel>
+    </fields>
+    <fields>
+        <label>主要競争相手</label>
+        <name>LLC_BI__MainCompetitors__c</name>
+    </fields>
+    <fields>
+        <label>オーダー番号</label>
+        <name>LLC_BI__OrderNumber__c</name>
+    </fields>
+    <fields>
+        <label>商品ライン</label>
+        <name>LLC_BI__Product_Line_Reference__c</name>
+        <relationshipLabel>商談</relationshipLabel>
+    </fields>
+    <fields>
+        <label>商品ライン</label>
+        <name>LLC_BI__Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>Business Deposits</masterLabel>
+            <translation><!-- Business Deposits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation>法人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Deposits</masterLabel>
+            <translation><!-- Consumer Deposits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>案件パッケージ</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>商談</relationshipLabel>
+    </fields>
+    <fields>
+        <label>商品</label>
+        <name>LLC_BI__Product_Reference__c</name>
+        <relationshipLabel>商談</relationshipLabel>
+    </fields>
+    <fields>
+        <label>商品タイプ</label>
+        <name>LLC_BI__Product_Type_Reference__c</name>
+        <relationshipLabel>商談</relationshipLabel>
+    </fields>
+    <fields>
+        <label>商品タイプ</label>
+        <name>LLC_BI__Product_Type__c</name>
+        <picklistValues>
+            <masterLabel>Auto Loan</masterLabel>
+            <translation><!-- Auto Loan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Checking</masterLabel>
+            <translation><!-- Business Checking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Savings</masterLabel>
+            <translation><!-- Business Savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Checking</masterLabel>
+            <translation><!-- Consumer Checking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Savings</masterLabel>
+            <translation><!-- Consumer Savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line of Credit</masterLabel>
+            <translation><!-- Line of Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Real Estate</masterLabel>
+            <translation><!-- Non Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate</masterLabel>
+            <translation>不動産</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>商品</label>
+        <name>LLC_BI__Product__c</name>
+        <picklistValues>
+            <masterLabel>Commercial Checking Account</masterLabel>
+            <translation><!-- Commercial Checking Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Savings Account</masterLabel>
+            <translation><!-- Commercial Savings Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>建設</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation>装置</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line of Credit</masterLabel>
+            <translation>極度融資</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Auto Loan</masterLabel>
+            <translation><!-- New Auto Loan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Checking Account</masterLabel>
+            <translation><!-- Preferred Checking Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Savings Account</masterLabel>
+            <translation><!-- Preferred Savings Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revolving Credit Card</masterLabel>
+            <translation><!-- Revolving Credit Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syndication</masterLabel>
+            <translation><!-- Syndication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term Loan</masterLabel>
+            <translation>期間ローン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Used Auto Loan</masterLabel>
+            <translation><!-- Used Auto Loan --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>関心ある商品</label>
+        <name>LLC_BI__Products_Interested_In__c</name>
+    </fields>
+    <fields>
+        <label>見込年間収益</label>
+        <name>LLC_BI__Prospect_Annual_Revenue__c</name>
+    </fields>
+    <fields>
+        <label>見込位置範囲</label>
+        <name>LLC_BI__Prospect_Location_Scope__c</name>
+        <picklistValues>
+            <masterLabel>International</masterLabel>
+            <translation>国際的</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local</masterLabel>
+            <translation>ローカル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National</masterLabel>
+            <translation>全国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional</masterLabel>
+            <translation>地域の</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>RFP？</label>
+        <name>LLC_BI__RFP__c</name>
+    </fields>
+    <fields>
+        <label>Start Date at Current Stage</label>
+        <name>LLC_BI__Start_Date_at_Current_Stage__c</name>
+    </fields>
+    <fields>
+        <label>預金総額</label>
+        <name>LLC_BI__Total_Deposits__c</name>
+    </fields>
+    <fields>
+        <label>問い合わせ番号</label>
+        <name>LLC_BI__TrackingNumber__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Code --></label>
+        <name>Opportunity_Code__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Link this Opportunity to a Parent Opportunity in order to convert multiple opportunities at a time. --></help>
+        <label><!-- Parent Opportunity --></label>
+        <name>Parent_Opportunity__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>追跡番号</label>
+        <name>nFORMS__TrackingNumber__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- Select for a New Commercial Loan Opportunity --></description>
+        <label><!-- Commercial Loan --></label>
+        <name>Commercial_Loan</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Select for a New Deposit Opportunity --></description>
+        <label><!-- Deposit --></label>
+        <name>Deposit</name>
+    </recordTypes>
+    <recordTypes>
+        <description>新規融資商談を選択</description>
+        <label>融資</label>
+        <name>LLC_BI__Loan</name>
+    </recordTypes>
+    <recordTypes>
+        <description>新規財務管理商談を選択</description>
+        <label>財務管理</label>
+        <name>LLC_BI__Treasury_Management</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Select for a New Retail Loan Opportunity --></description>
+        <label><!-- Retail Loan --></label>
+        <name>Retail_Loan</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Convert_to_Product_Package_Custom --></label>
+        <name>Convert_to_Product_Package_Custom</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert_to_nCino --></label>
+        <name>Convert_to_nCino</name>
+    </webLinks>
+    <webLinks>
+        <label>預金案件作成</label>
+        <name>LLC_BI__Convert_To_Deposit</name>
+    </webLinks>
+    <webLinks>
+        <label>新規案件パッケージ</label>
+        <name>LLC_BI__Convert_to_Product_Package</name>
+    </webLinks>
+    <webLinks>
+        <label>付帯サービス案件作成</label>
+        <name>LLC_BI__Convert_to_Treasury_Services</name>
+    </webLinks>
+    <webLinks>
+        <label>配送状況</label>
+        <name>LLC_BI__DeliveryStatus</name>
+    </webLinks>
+    <webLinks>
+        <label>新規見積</label>
+        <name>LLC_BI__New_Proforma</name>
+    </webLinks>
+    <webLinks>
+        <label>オーダー入力</label>
+        <name>LLC_BI__Order_Entry</name>
+    </webLinks>
+    <webLinks>
+        <label>見積概要</label>
+        <name>LLC_BI__Proforma_Summary</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Proforma_Summary --></label>
+        <name>Proforma_Summary</name>
+    </webLinks>
+    <webLinks>
+        <label>配送状況</label>
+        <name>nFORMS__DeliveryStatus</name>
+    </webLinks>
+    <webLinks>
+        <label>新規小売融資</label>
+        <name>nRetail__Convert_Retail_Loan</name>
+    </webLinks>
+</CustomObjectTranslation>

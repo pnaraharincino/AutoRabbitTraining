@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Tile --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Body --></label>
+        <name>nFORCE__Body__c</name>
+    </fields>
+    <fields>
+        <label>ヘッダ</label>
+        <name>nFORCE__Header__c</name>
+    </fields>
+    <fields>
+        <help>&apos;...アイコン/&apos;の後にSLDSアイコン（カスタム、標準、またはユーティリティ）へのパスを入力してください。たとえば、アカウント標準のアイコンパスは &apos;Standard-Sprite / SVG / Symbols.svg＃アカウント&apos;です。</help>
+        <label>アイコンパス</label>
+        <name>nFORCE__Icon_Path__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Tile Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- DocInfo Template --></value>
+    </caseValues>
+    <fields>
+        <label>文書クラス</label>
+        <name>LLC_BI__DocClass__c</name>
+        <relationshipLabel>文書テンプレート</relationshipLabel>
+    </fields>
+    <fields>
+        <label>文書タイプ</label>
+        <name>LLC_BI__DocType__c</name>
+        <relationshipLabel>文書テンプレート</relationshipLabel>
+    </fields>
+    <fields>
+        <label>融資タイプ</label>
+        <name>LLC_BI__LoanType__c</name>
+        <picklistValues>
+            <masterLabel>Acquisition</masterLabel>
+            <translation>買収</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expansion</masterLabel>
+            <translation>拡張</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance</masterLabel>
+            <translation>借換え</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start-up</masterLabel>
+            <translation>起動</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>フェーズ</label>
+        <name>LLC_BI__Stage__c</name>
+    </fields>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

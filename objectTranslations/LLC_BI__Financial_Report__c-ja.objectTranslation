@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>財務報告</value>
+    </caseValues>
+    <fields>
+        <label>アドバックコメント</label>
+        <name>LLC_BI__Addback_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amort Source --></label>
+        <name>LLC_BI__Amort_Source__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation><!-- BTR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>暫定金融</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation><!-- PFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation><!-- PTR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>償却</label>
+        <name>LLC_BI__Amortization__c</name>
+    </fields>
+    <fields>
+        <label>年間生活費</label>
+        <name>LLC_BI__Annual_Cost_of_Living__c</name>
+    </fields>
+    <fields>
+        <label>年間債務サービス</label>
+        <name>LLC_BI__Annual_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>COGS％REV</label>
+        <name>LLC_BI__COGS_Rev__c</name>
+    </fields>
+    <fields>
+        <label><!-- COGS --></label>
+        <name>LLC_BI__COGS__c</name>
+    </fields>
+    <fields>
+        <label>現金残高日</label>
+        <name>LLC_BI__Cash_Balance_Date__c</name>
+    </fields>
+    <fields>
+        <label>現金残高</label>
+        <name>LLC_BI__Cash_Balance__c</name>
+    </fields>
+    <fields>
+        <help>電子メールに含まれるコメントは自動的に送信されました</help>
+        <label>コメント</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comp. Adj. Source --></label>
+        <name>LLC_BI__Comp__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation><!-- BTR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>暫定金融</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation><!-- PFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation><!-- PTR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>現在のAP</label>
+        <name>LLC_BI__Current_AP__c</name>
+    </fields>
+    <fields>
+        <label>DSC比（ポストOC）</label>
+        <name>LLC_BI__DSC_Ratio_Post_OC__c</name>
+    </fields>
+    <fields>
+        <label>DSC比（PRE OC）</label>
+        <name>LLC_BI__DSC_Ratio_Pre_OC__c</name>
+    </fields>
+    <fields>
+        <help>システムのデフォルトは現在の毎月の支払いになります。ローンの変更などの場合は上書きしたい場合にのみ使用してください。</help>
+        <label>債務サービスの上書き</label>
+        <name>LLC_BI__Debt_Service_Override__c</name>
+    </fields>
+    <fields>
+        <label>債務サービス</label>
+        <name>LLC_BI__Debt_Service_Value__c</name>
+    </fields>
+    <fields>
+        <label>債務サービス</label>
+        <name>LLC_BI__Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label><!-- Depr. Source --></label>
+        <name>LLC_BI__Depr_Source__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation><!-- BTR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>暫定金融</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation><!-- PFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation><!-- PTR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>減価償却</label>
+        <name>LLC_BI__Depreciation__c</name>
+    </fields>
+    <fields>
+        <label>EPCの情報源</label>
+        <name>LLC_BI__EPC_Source__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation><!-- BTR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>暫定金融</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation><!-- PFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation><!-- PTR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>総費用</label>
+        <name>LLC_BI__Expenses__c</name>
+    </fields>
+    <fields>
+        <label>財務報告書のバージョン</label>
+        <name>LLC_BI__Financial_Report_Version__c</name>
+    </fields>
+    <fields>
+        <label>財務期間</label>
+        <name>LLC_BI__Financials_Period__c</name>
+    </fields>
+    <fields>
+        <label>個人的な年間債務サービス</label>
+        <name>LLC_BI__Global_Annual_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>グローバルキャッシュフロー</label>
+        <name>LLC_BI__Global_Cash_Flow__c</name>
+    </fields>
+    <fields>
+        <label>Global Cashflowが口コミを投稿しました</label>
+        <name>LLC_BI__Global_Cashflow_Reviewed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>グローバルDSC比</label>
+        <name>LLC_BI__Global_DSCR__c</name>
+    </fields>
+    <fields>
+        <label>グローバル債務サービス</label>
+        <name>LLC_BI__Global_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>その他の債務の支払い年金</label>
+        <name>LLC_BI__Global_Other_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include in DSCR Calc --></label>
+        <name>LLC_BI__Include_in_DSCR_Calc__c</name>
+    </fields>
+    <fields>
+        <label>金利</label>
+        <name>LLC_BI__Interest_Source__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation><!-- BTR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>暫定金融</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation><!-- PFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation><!-- PTR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>金利</label>
+        <name>LLC_BI__Interest__c</name>
+    </fields>
+    <fields>
+        <label>月額債務サービス</label>
+        <name>LLC_BI__Monthly_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>当期純利益</label>
+        <name>LLC_BI__Net_Income__c</name>
+    </fields>
+    <fields>
+        <label>営業純利益</label>
+        <name>LLC_BI__Net_Operating_Income__c</name>
+    </fields>
+    <fields>
+        <label>純営業利益率</label>
+        <name>LLC_BI__Net_Operating_Margin__c</name>
+    </fields>
+    <fields>
+        <label>非現金情報源</label>
+        <name>LLC_BI__Non_Cash_Source__c</name>
+        <picklistValues>
+            <masterLabel>BTR</masterLabel>
+            <translation><!-- BTR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interim Financial</masterLabel>
+            <translation>暫定金融</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation><!-- PFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTR</masterLabel>
+            <translation><!-- PTR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>役員調整</label>
+        <name>LLC_BI__Officer_Comp__c</name>
+    </fields>
+    <fields>
+        <label>営業経費</label>
+        <name>LLC_BI__Operating_Expenses__c</name>
+    </fields>
+    <fields>
+        <label>その他の債務サービス</label>
+        <name>LLC_BI__Other_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>その他の並外れた費用</label>
+        <name>LLC_BI__Other_Extraordinary_Expenses__c</name>
+    </fields>
+    <fields>
+        <label>その他の外収入</label>
+        <name>LLC_BI__Other_Income__c</name>
+    </fields>
+    <fields>
+        <label>その他のキャッシュチャージ</label>
+        <name>LLC_BI__Other_Non_Cash_Charge__c</name>
+    </fields>
+    <fields>
+        <label>アカウント</label>
+        <name>LLC_BI__Practice__c</name>
+        <relationshipLabel>財務報告</relationshipLabel>
+    </fields>
+    <fields>
+        <label>EPCの家賃</label>
+        <name>LLC_BI__Rent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Req. Comp. Source --></label>
+        <name>LLC_BI__Req_Comp_Source__c</name>
+        <picklistValues>
+            <masterLabel>Credit Report Debt Service * 2</masterLabel>
+            <translation>クレジットレポート債務サービス* 2.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial Loan Approval Summary</masterLabel>
+            <translation>初期ローン承認の概要</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>必須 役員報酬</label>
+        <name>LLC_BI__Required_Officer_Comp__c</name>
+    </fields>
+    <fields>
+        <label>収益</label>
+        <name>LLC_BI__Revenue__c</name>
+    </fields>
+    <fields>
+        <label>審査</label>
+        <name>LLC_BI__Reviewed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>レビューアー</label>
+        <name>LLC_BI__Reviewer__c</name>
+        <picklistValues>
+            <masterLabel>NCINO</masterLabel>
+            <translation><!-- NCINO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>売り手の債務サービス</label>
+        <name>LLC_BI__Seller_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>配偶者の給料</label>
+        <name>LLC_BI__Spouses_Salary__c</name>
+    </fields>
+    <fields>
+        <label>スタッフ労働＆給与</label>
+        <name>LLC_BI__Staff_Labor_Payroll__c</name>
+    </fields>
+    <fields>
+        <label>スタッフ％収入</label>
+        <name>LLC_BI__Staff_Rev__c</name>
+    </fields>
+    <fields>
+        <label>ステートメント日付</label>
+        <name>LLC_BI__Statement_Date__c</name>
+    </fields>
+    <fields>
+        <label>売り手の債務PMTは許可されていますか？</label>
+        <name>LLC_BI__Subdebt_Paid__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>サードパーティの家賃％rev.</label>
+        <name>LLC_BI__Third_Party_Rent_Rev__c</name>
+    </fields>
+    <fields>
+        <label>サードパーティの家賃</label>
+        <name>LLC_BI__Third_Party_Rent__c</name>
+    </fields>
+    <fields>
+        <label>第三者によって制作された</label>
+        <name>LLC_BI__Third_Party__c</name>
+    </fields>
+    <nameFieldLabel>財務報告</nameFieldLabel>
+</CustomObjectTranslation>

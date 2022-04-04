@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>融資変更</value>
+    </caseValues>
+    <fields>
+        <help>この変更が承認のためにColsonに送信された日付</help>
+        <label>コルソンの日付</label>
+        <name>LLC_BI__Date_to_Colson__c</name>
+    </fields>
+    <fields>
+        <label>発効日</label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help>なぜこのローンの変更が提案されているのかを特定してください</help>
+        <label>説明</label>
+        <name>LLC_BI__Explanation__c</name>
+    </fields>
+    <fields>
+        <label>融資番号</label>
+        <name>LLC_BI__Loan_Lookup_Key__c</name>
+    </fields>
+    <fields>
+        <help>ローンの変更の具体的な詳細を入力してください。</help>
+        <label>融資変更詳細</label>
+        <name>LLC_BI__Loan_Mod_Detail__c</name>
+    </fields>
+    <fields>
+        <help>ローンの変更が送信されたときにこのボックスをオンにしてください</help>
+        <label>融資変更送信済み</label>
+        <name>LLC_BI__Loan_Modification_Sent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field Deprecated.  Replaced by Loan_Lookup_Key__c. --></help>
+        <label><!-- -D Loan Number --></label>
+        <name>LLC_BI__Loan_Number__c</name>
+    </fields>
+    <fields>
+        <label>融資</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>融資変更</relationshipLabel>
+    </fields>
+    <fields>
+        <label>変更種別</label>
+        <name>LLC_BI__Mod_Type__c</name>
+        <picklistValues>
+            <masterLabel>Approval</masterLabel>
+            <translation>承認</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notification</masterLabel>
+            <translation>連絡</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>変更種別</label>
+        <name>LLC_BI__Modification_Type__c</name>
+        <picklistValues>
+            <masterLabel>Correct Existing Note</masterLabel>
+            <translation>既存内容の修正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extend Amortization</masterLabel>
+            <translation>返済期間延長</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase Loan Amount</masterLabel>
+            <translation>融資額増額</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interest Only</masterLabel>
+            <translation>期限一括返済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interest Rate Reduction</masterLabel>
+            <translation>利子引き下げ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Deferral</masterLabel>
+            <translation>支払延期</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduce Loan Amount</masterLabel>
+            <translation>融資金額減少</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>該当する場合は、新たに提案された金額を入力してください</help>
+        <label>変更後残高</label>
+        <name>LLC_BI__New_Amount__c</name>
+    </fields>
+    <fields>
+        <help>該当する場合は、新たな提案額を入力してください</help>
+        <label>変更後金利</label>
+        <name>LLC_BI__New_Rate__c</name>
+    </fields>
+    <fields>
+        <help>この修正が達成したいのかを特定してください</help>
+        <label>目的</label>
+        <name>LLC_BI__Objective__c</name>
+    </fields>
+    <fields>
+        <label>所有者</label>
+        <name>LLC_BI__Owner__c</name>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>コンプライアンス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>クレジット</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation>財務</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Ops</masterLabel>
+            <translation>融資事務担当者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicing</masterLabel>
+            <translation>サービス</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>承認済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>レビュー中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>却下</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>融資変更番号</nameFieldLabel>
+</CustomObjectTranslation>

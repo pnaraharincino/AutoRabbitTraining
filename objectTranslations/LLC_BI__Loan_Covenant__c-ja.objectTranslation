@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>融資コベナンツ</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- LoanCovenant_ReviewSubmit --></label>
+        <name>ATBK__LoanCovenant_ReviewSubmit</name>
+    </fieldSets>
+    <fieldSets>
+        <label>稟議書 標準案件パッケージ</label>
+        <name>LLC_BI__Credit_Memo_Standard_Product_Package</name>
+    </fieldSets>
+    <fields>
+        <label>有効</label>
+        <name>LLC_BI__Active__c</name>
+    </fields>
+    <fields>
+        <label>コベナント2</label>
+        <name>LLC_BI__Covenant2__c</name>
+        <relationshipLabel>融資</relationshipLabel>
+    </fields>
+    <fields>
+        <label>融資</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>コベナンツ</relationshipLabel>
+    </fields>
+    <nameFieldLabel>融資コベナンツ番号</nameFieldLabel>
+    <webLinks>
+        <label>新規コベナンツ</label>
+        <name>LLC_BI__New_Covenant</name>
+    </webLinks>
+</CustomObjectTranslation>

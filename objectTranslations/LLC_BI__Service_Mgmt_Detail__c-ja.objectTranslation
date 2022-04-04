@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Service Mgmt Detail --></value>
+    </caseValues>
+    <fields>
+        <help>サービスがカバーする合計金額を入力してください。</help>
+        <label>カバレッジ額</label>
+        <name>LLC_BI__Coverage_Amount__c</name>
+    </fields>
+    <fields>
+        <help>控除可能な総サービスを入力してください。</help>
+        <label>控除可能</label>
+        <name>LLC_BI__Deductible__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドを使用して、サービスがいつ有効になるかを判断します。</help>
+        <label>発効日</label>
+        <name>LLC_BI__Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドを使用して、サービスがいつ有効になっていないかを判断します。</help>
+        <label>有効期限</label>
+        <name>LLC_BI__Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <help>発生ごとに合計額を入力してください。</help>
+        <label>発生量</label>
+        <name>LLC_BI__Occurrence_Amount__c</name>
+    </fields>
+    <fields>
+        <help>サービスに関連付けられているポリシー番号を表示します。</help>
+        <label>規約の番号</label>
+        <name>LLC_BI__Policy_Number__c</name>
+    </fields>
+    <fields>
+        <help>サービス管理レコードの検索</help>
+        <label>サービス管理</label>
+        <name>LLC_BI__Service_Mgmt__c</name>
+        <relationshipLabel>サービス管理詳細</relationshipLabel>
+    </fields>
+    <fields>
+        <help>サービスの適切なステータスを選択してください。</help>
+        <label>ステータス</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>有効</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>無効</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>未確定</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>サービスサブタイプを選択</help>
+        <label>サブタイプ</label>
+        <name>LLC_BI__Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Builder Risk</masterLabel>
+            <translation>ビルダーのリスク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Interruption</masterLabel>
+            <translation>事業停止</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Personal Property</masterLabel>
+            <translation>ビジネスパーソナルプロパティ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collision &amp; Comprehensive</masterLabel>
+            <translation>衝突包括</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>クレジット</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation>障害</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Earthquake</masterLabel>
+            <translation>地震</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flood Building</masterLabel>
+            <translation>洪水ビル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flood Contents</masterLabel>
+            <translation>洪水内容</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hazard</masterLabel>
+            <translation>危険</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liability</masterLabel>
+            <translation>責任</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life</masterLabel>
+            <translation>人生</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi Peril - Excluding Flood</masterLabel>
+            <translation><!-- Multi Peril - Excluding Flood --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi Peril - Including Flood</masterLabel>
+            <translation><!-- Multi Peril - Including Flood --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-Insurance</masterLabel>
+            <translation>再保険</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real and Personal Property</masterLabel>
+            <translation>本物の財産</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sinkhole</masterLabel>
+            <translation>陥没</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terrorism</masterLabel>
+            <translation>テロ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title</masterLabel>
+            <translation>タイトル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Windstorm and Hail</masterLabel>
+            <translation><!-- Windstorm and Hail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workers Compensation</masterLabel>
+            <translation>労災補償</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>サービスタイプを選択</help>
+        <label>タイプ</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Insurance Policy</masterLabel>
+            <translation><!-- Insurance Policy --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel><!-- Service Mgmt Detail Name --></nameFieldLabel>
+</CustomObjectTranslation>

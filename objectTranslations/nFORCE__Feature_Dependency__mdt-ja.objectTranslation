@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Feature Dependency --></value>
+    </caseValues>
+    <fields>
+        <label>管理機能名</label>
+        <name>nFORCE__Controlling_Feature_Name__c</name>
+    </fields>
+    <fields>
+        <label>管理機能</label>
+        <name>nFORCE__Controlling_Feature__c</name>
+        <relationshipLabel>管理機能の依存関係</relationshipLabel>
+    </fields>
+    <fields>
+        <label>依存型</label>
+        <name>nFORCE__Dependency_Type__c</name>
+        <picklistValues>
+            <masterLabel>Not Allowed</masterLabel>
+            <translation>禁止</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Required</masterLabel>
+            <translation>必須</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>依存特徴</label>
+        <name>nFORCE__Dependent_Feature__c</name>
+        <relationshipLabel>依存機能の依存関係</relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Route Terms --></value>
+    </caseValues>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>合意テキスト</label>
+        <name>nFORCE__Agreement_Text__c</name>
+    </fields>
+    <fields>
+        <label>条件付き表示基準</label>
+        <name>nFORCE__Conditional_Display_Criteria__c</name>
+    </fields>
+    <fields>
+        <help>小売融資のワークフローの特定のルートで合意するために表示したい文書のSalesforce IDを入力します。</help>
+        <label>文書</label>
+        <name>nFORCE__Document__c</name>
+    </fields>
+    <fields>
+        <help>このチェックボックスをオンにして、ユーザーが継続することが許可される前にルート用語内の文書を確認して受け入れるように強制します。</help>
+        <label>文書を確認して受け入れます</label>
+        <name>nFORCE__Review_And_Accept_Document__c</name>
+    </fields>
+    <fields>
+        <help>これはSalesforce開示文書を表示するUIルートです。</help>
+        <label>ルート</label>
+        <name>nFORCE__Route__c</name>
+        <relationshipLabel>ルート用語</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Route Terms Name --></nameFieldLabel>
+</CustomObjectTranslation>

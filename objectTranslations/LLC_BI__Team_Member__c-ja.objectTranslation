@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>行内関係者</value>
+    </caseValues>
+    <fields>
+        <label>役割</label>
+        <name>LLC_BI__Role__c</name>
+        <relationshipLabel>行内関係者一覧</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このフィールドは推奨されていません。 Team_Roleは役割に置き換えられました。</help>
+        <label><!-- -D Role --></label>
+        <name>LLC_BI__Team_Role__c</name>
+        <relationshipLabel>行内関係者一覧</relationshipLabel>
+    </fields>
+    <fields>
+        <label>チーム</label>
+        <name>LLC_BI__Team__c</name>
+        <relationshipLabel>行内関係者一覧</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ユーザー</label>
+        <name>LLC_BI__User__c</name>
+        <relationshipLabel>行内関係者一覧</relationshipLabel>
+    </fields>
+    <fields>
+        <help>固有の外部識別子を入力してください。</help>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel>行内関係者</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Screen --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- UI Config Builder --></label>
+        <name>nFORCE__UI_Config_Builder</name>
+    </fieldSets>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>印刷不可</label>
+        <name>nFORCE__Disable_Print__c</name>
+    </fields>
+    <fields>
+        <label>コンテキストオブジェクト名表示</label>
+        <name>nFORCE__Show_Link_To_Context_Object__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the URL for the image. --></help>
+        <label>マルチレコード表示アイコン</label>
+        <name>nPortal__Add_Multi_Record_Display_Icon__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the maximum number of records that users can add. --></help>
+        <label>最大レコード数</label>
+        <name>nPortal__Maximum_Number_of_Records__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the minimum number of records that users can add. --></help>
+        <label>最小レコード数</label>
+        <name>nPortal__Minimum_Number_of_Records__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a header name for the record. --></help>
+        <label>OA レビュー複数レコードラベル</label>
+        <name>nPortal__OA_Review_Multiple_Record_Entry_Label__c</name>
+    </fields>
+    <nameFieldLabel><!-- Screen Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>文書タブ</value>
+    </caseValues>
+    <fields>
+        <help><!-- exists;name;docType;firstReview;exceptionDate;status;comment;owner --></help>
+        <label>列</label>
+        <name>LLC_BI__columns__c</name>
+    </fields>
+    <fields>
+        <label>デフォルト値</label>
+        <name>LLC_BI__defaultOwner__c</name>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation>弁護士</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closer</masterLabel>
+            <translation>クローザー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>コンプライアンス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>建設</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Ops</masterLabel>
+            <translation>融資事務担当者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicing</masterLabel>
+            <translation>サービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Assets</masterLabel>
+            <translation>特別資産</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>文書管理</label>
+        <name>LLC_BI__docManager__c</name>
+        <relationshipLabel>文書タブ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>索引</label>
+        <name>LLC_BI__lookupId__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>並べ替え</label>
+        <name>LLC_BI__sortOrder__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>LLC_BI__status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>承認済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closer Updated</masterLabel>
+            <translation>更新済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exception</masterLabel>
+            <translation>例外</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>期限切れ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In File</masterLabel>
+            <translation>保管中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation>実行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing</masterLabel>
+            <translation><!-- Missing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>オープン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recorded Doc/Policy</masterLabel>
+            <translation><!-- Recorded Doc/Policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed</masterLabel>
+            <translation>審査</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waived</masterLabel>
+            <translation>除外</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>文書タブ</nameFieldLabel>
+</CustomObjectTranslation>

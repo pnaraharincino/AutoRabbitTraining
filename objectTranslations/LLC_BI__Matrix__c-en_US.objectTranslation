@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Enter a description of this matrix --></help>
+        <label><!-- Description --></label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this field to bypass the matrix builder and set one value that applies to all matrix dimensions. --></help>
+        <label><!-- Set a Single Value --></label>
+        <name>LLC_BI__Is_Single_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Matrix Type --></label>
+        <name>LLC_BI__Matrix_Type__c</name>
+        <picklistValues>
+            <masterLabel>Base Rate Matrix</masterLabel>
+            <translation><!-- Base Rate Matrix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Income Policy</masterLabel>
+            <translation><!-- Income Policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rate Adjustment</masterLabel>
+            <translation><!-- Rate Adjustment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the associated policy. --></help>
+        <label><!-- Policy --></label>
+        <name>LLC_BI__Policy__c</name>
+        <relationshipLabel><!-- Matrices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Strategy --></label>
+        <name>LLC_BI__Strategy__c</name>
+        <relationshipLabel><!-- Matrices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+</CustomObjectTranslation>

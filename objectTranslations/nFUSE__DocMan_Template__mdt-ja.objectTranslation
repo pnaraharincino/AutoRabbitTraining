@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- DocMan Template --></value>
+    </caseValues>
+    <fields>
+        <label>プレースホルダーに日付を追加します</label>
+        <name>nFUSE__Add_Date_To_Placeholder_Name__c</name>
+    </fields>
+    <fields>
+        <label>コンテンツタイプ</label>
+        <name>nFUSE__Content_Type__c</name>
+    </fields>
+    <fields>
+        <label>プレースホルダーの名前</label>
+        <name>nFUSE__Doc_Class__c</name>
+    </fields>
+    <fields>
+        <label>文書管理名</label>
+        <name>nFUSE__Doc_Man__c</name>
+    </fields>
+    <fields>
+        <label>文書タブ</label>
+        <name>nFUSE__Doc_Tab__c</name>
+    </fields>
+    <fields>
+        <label>種別名</label>
+        <name>nFUSE__Doc_Type__c</name>
+    </fields>
+    <fields>
+        <label>ファイル名</label>
+        <name>nFUSE__File_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Route --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- UI Config Builder --></label>
+        <name>nFORCE__UI_Config_Builder</name>
+    </fieldSets>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>アプリ</label>
+        <name>nFORCE__App__c</name>
+    </fields>
+    <fields>
+        <help>体の内容が使用する技術。</help>
+        <label>ボディタイプ</label>
+        <name>nFORCE__Body_Type__c</name>
+        <picklistValues>
+            <masterLabel>Lightning Aura Component</masterLabel>
+            <translation><!-- Lightning Aura Component --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning Web Component</masterLabel>
+            <translation>Lightning Webコンポーネント</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visualforce Page</masterLabel>
+            <translation>Visualforceページ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Body</label>
+        <name>nFORCE__Body__c</name>
+    </fields>
+    <fields>
+        <help>このルートがどのようにしてこのルートがどのように使用するかの説明を入力します。</help>
+        <label>概要</label>
+        <name>nFORCE__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Group --></label>
+        <name>nFORCE__Group__c</name>
+    </fields>
+    <fields>
+        <label>アイコンクラス</label>
+        <name>nFORCE__Icon_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Is Hidden --></label>
+        <name>nFORCE__Is_Hidden__c</name>
+    </fields>
+    <fields>
+        <label>ナビゲーション</label>
+        <name>nFORCE__Navigation__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Order --></label>
+        <name>nFORCE__Order__c</name>
+    </fields>
+    <fields>
+        <help>この経路の内容にURLパラメータとして渡されたkey = valueペアのセミコロン区切りのセット。</help>
+        <label>パラメータ</label>
+        <name>nFORCE__Parameters__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Parent App --></label>
+        <name>nFORCE__Parent_App__c</name>
+    </fields>
+    <fields>
+        <help>このルートの内容をレンダリングするために使用された画面。</help>
+        <label>画面</label>
+        <name>nFORCE__Screen__c</name>
+        <relationshipLabel>ルート</relationshipLabel>
+    </fields>
+    <fields>
+        <label>サブナビゲーション</label>
+        <name>nFORCE__Sub_Navigation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxonomy ID --></label>
+        <name>nFORCE__Taxonomy_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Toolbar --></label>
+        <name>nFORCE__Toolbar__c</name>
+    </fields>
+    <fields>
+        <help>ページはベースUIテンプレートのトップバー領域に含まれています。</help>
+        <label>トップバー</label>
+        <name>nFORCE__Topbar__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- This value is displayed in Customer Portal for Routes which are used for dynamic UI generation, such as a page on an Online Application, and varies from header text which might appear internally. --></help>
+        <label>ポータルヘッダーテキスト</label>
+        <name>nPortal__Portal_Header_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the path to an SLDS Icon (Custom, Standard, or Utility) starting after &apos;...icons/&apos;. For example, the account standard icon path would be &apos;standard-sprite/svg/symbols.svg#account&apos;. --></help>
+        <label>ポータルアイコンパス</label>
+        <name>nPortal__Portal_Icon_Path__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a textual description of this route which will be displayed beneath the external header message to users in Customer Portal. --></help>
+        <label>ポータルサブヘッダーテキスト</label>
+        <name>nPortal__Portal_Subheader_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter an optional Where clause to filter the results of the search on this sObject. An example on the Account object would be &quot;Type != &apos;Individual&apos;&quot;. --></help>
+        <label>OA 検索オブジェクトフィルター</label>
+        <name>nPortal__Search_Object_Filter__c</name>
+    </fields>
+    <fields>
+        <label>OA 検索オブジェクトタイプ</label>
+        <name>nPortal__Search_Object_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field set that controls the information displayed in search results. --></help>
+        <label>OA 検索結果項目セット</label>
+        <name>nPortal__Search_Results_Fieldset__c</name>
+    </fields>
+    <fields>
+        <label>OA 検索選択アクティブボタンテキスト</label>
+        <name>nPortal__Search_Select_Active_Text__c</name>
+    </fields>
+    <fields>
+        <label>OA 検索ボタンテキスト</label>
+        <name>nPortal__Search_Select_Text__c</name>
+    </fields>
+    <nameFieldLabel><!-- Route Name --></nameFieldLabel>
+</CustomObjectTranslation>

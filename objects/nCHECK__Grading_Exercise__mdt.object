@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Top-level Metadata for the Grading component. Children records are steps inside this exercise.</description>
+    <fields>
+        <fullName>nCHECK__Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Curriculum__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Curriculum</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Commercial 201</fullName>
+                    <default>true</default>
+                    <label>Commercial 201</label>
+                </value>
+                <value>
+                    <fullName>Commercial 301</fullName>
+                    <default>false</default>
+                    <label>Commercial 301</label>
+                </value>
+                <value>
+                    <fullName>Retail 201</fullName>
+                    <default>false</default>
+                    <label>Retail 201</label>
+                </value>
+                <value>
+                    <fullName>Retail 301</fullName>
+                    <default>false</default>
+                    <label>Retail 301</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Grading_Course__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Grading Course</label>
+        <referenceTo>nCHECK__Grading_Course__mdt</referenceTo>
+        <relationshipLabel>Grading Exercises</relationshipLabel>
+        <relationshipName>Grading_Exercises</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Step__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Step</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCHECK__Title__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Title of the exercise</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Title</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Grading Exercise</label>
+    <listViews>
+        <fullName>nCHECK__ALL</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>nCHECK__Active__c</columns>
+        <columns>nCHECK__Grading_Course__c</columns>
+        <columns>nCHECK__Curriculum__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>ALL</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>nCHECK__Commercial_301_Exercises</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>NamespacePrefix</columns>
+        <columns>nCHECK__Title__c</columns>
+        <columns>nCHECK__Curriculum__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>nCHECK__Curriculum__c</field>
+            <operation>equals</operation>
+            <value>Commercial 301</value>
+        </filters>
+        <label>Commercial 301 Exercises</label>
+        <language>en_US</language>
+    </listViews>
+    <pluralLabel>Grading Exercises</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

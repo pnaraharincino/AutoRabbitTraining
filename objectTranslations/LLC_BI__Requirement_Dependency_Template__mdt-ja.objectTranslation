@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Requirement Dependency Template --></value>
+    </caseValues>
+    <fields>
+        <help>この必須フィールドには、この依存関係を制御する要件テンプレートへの参照が含まれています。</help>
+        <label>管理要件</label>
+        <name>LLC_BI__Controlling_Requirement__c</name>
+        <relationshipLabel>依存要件</relationshipLabel>
+    </fields>
+    <fields>
+        <help>この必須フィールドは、関連する要件間の依存関係の動作を定義します。このテンプレートから作成された要件依存レコードの依存関係タイプフィールドにコピーする必要があります。</help>
+        <label>依存型</label>
+        <name>LLC_BI__Dependency_Type__c</name>
+        <picklistValues>
+            <masterLabel>Finish to Finish</masterLabel>
+            <translation>終了します</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finish to Start</masterLabel>
+            <translation>開始します</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start to Finish</masterLabel>
+            <translation><!-- Start to Finish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start to Start</masterLabel>
+            <translation><!-- Start to Start --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>この必須フィールドには、この依存関係によって制御される要件テンプレートへの参照が含まれています。</help>
+        <label>依存要件</label>
+        <name>LLC_BI__Dependent_Requirement__c</name>
+        <relationshipLabel>管理要件</relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

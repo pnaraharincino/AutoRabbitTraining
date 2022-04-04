@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>収益</value>
+    </caseValues>
+    <fieldSets>
+        <label>収入追加</label>
+        <name>LLC_BI__Add_Income</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Enhanced Income Test --></label>
+        <name>LLC_BI__Enhanced_Income_Test</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Income Schedule --></label>
+        <name>LLC_BI__Income_Schedule</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OA - Income --></label>
+        <name>OA_Income</name>
+    </fieldSets>
+    <fields>
+        <label>アカウント</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>収入</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このフィールドには、収入レコードが参照するアドレスレコードが表示されます。</help>
+        <label>住所</label>
+        <name>LLC_BI__Address__c</name>
+        <relationshipLabel>収入</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このフィールドには、調整されたパーセントフィールドにパーセンテージが入力されたときに調整された年収が表示されます。</help>
+        <label>年間収入の調整</label>
+        <name>LLC_BI__Adjusted_Annual_Income__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドには、調整されたパーセントフィールドにパーセントが入力されたときに調整された月収が調整されます。</help>
+        <label>月間収入の調整</label>
+        <name>LLC_BI__Adjusted_Monthly_Income__c</name>
+    </fields>
+    <fields>
+        <help>年収と毎月の所得価値観を調整するための割合。</help>
+        <label>調整されたパーセント</label>
+        <name>LLC_BI__Adjusted_Percent__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドに債務者の雇用主または業務名を入力してください。</help>
+        <label>事業者名</label>
+        <name>LLC_BI__Business_Name__c</name>
+    </fields>
+    <fields>
+        <label>コンタクト</label>
+        <name>LLC_BI__Contact__c</name>
+        <relationshipLabel>収入</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このフィールドには、申請者の雇用主の電話番号が含まれています。</help>
+        <label>雇用者の電話番号</label>
+        <name>LLC_BI__Employer_Phone__c</name>
+    </fields>
+    <fields>
+        <help>この収入情報を総収入の計算に使用しない場合は、このチェックボックスを選択します。</help>
+        <label>除外</label>
+        <name>LLC_BI__Exclude__c</name>
+    </fields>
+    <fields>
+        <help>収入情報を総収入の計算から除外する理由を説明してください。</help>
+        <label>除外理由</label>
+        <name>LLC_BI__Excluded_Reason__c</name>
+    </fields>
+    <fields>
+        <help>この取引先収入を将来の商品申請に含めない場合は、このチェックボックスを選択します。</help>
+        <label>無効</label>
+        <name>LLC_BI__Inactive__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドには、収入記録が参照する所得特集レコードが表示されます。</help>
+        <label>所得</label>
+        <name>LLC_BI__Income_Feature__c</name>
+        <relationshipLabel>収入</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select the income source type from the picklist. --></help>
+        <label>収入源</label>
+        <name>LLC_BI__Income_Source__c</name>
+        <picklistValues>
+            <masterLabel>Customer Reported</masterLabel>
+            <translation>顧客が報告しました</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Stubs</masterLabel>
+            <translation>給与</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spreads</masterLabel>
+            <translation><!-- Spreads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Return</masterLabel>
+            <translation>納税申告書</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W2</masterLabel>
+            <translation><!-- W2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the type of income you wish to record. --></help>
+        <label>収入タイプ</label>
+        <name>LLC_BI__Income_Type__c</name>
+        <picklistValues>
+            <masterLabel>Alimony Support</masterLabel>
+            <translation>慰謝料サポート</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Bonus/Commission</masterLabel>
+            <translation>年間給与/賞与</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financially Analyzed Income</masterLabel>
+            <translation><!-- Financially Analyzed Income --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gross Annual Income</masterLabel>
+            <translation>年間総収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment/Trust Income</masterLabel>
+            <translation>投資/信託収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military Income</masterLabel>
+            <translation>軍の収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Income</masterLabel>
+            <translation>その他の収益・収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part Time Income</masterLabel>
+            <translation>パートタイム収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rental Income</masterLabel>
+            <translation>賃貸料所得</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self Employment Income</masterLabel>
+            <translation>個人事業所得</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxable Income</masterLabel>
+            <translation>課税所得</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Before Tax Income</masterLabel>
+            <translation>税収入前の合計</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unemployment Benefits</masterLabel>
+            <translation>失業率の利益</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>融資</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>収入</relationshipLabel>
+    </fields>
+    <fields>
+        <label>月間所得</label>
+        <name>LLC_BI__Monthly_Income__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドには、現在の雇用の場所での申請者の総数が含まれています。</help>
+        <label>仕事の数ヶ月</label>
+        <name>LLC_BI__Months_On_Job__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドに債務者のジョブ位置を入力してください。</help>
+        <label>ポジション</label>
+        <name>LLC_BI__Position__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドには、収入記録が指す収入記録が表示されます。</help>
+        <label>関係収入</label>
+        <name>LLC_BI__Relationship_Income__c</name>
+        <relationshipLabel>所得価値</relationshipLabel>
+    </fields>
+    <fields>
+        <label>年収</label>
+        <name>LLC_BI__Yearly_Income__c</name>
+    </fields>
+    <nameFieldLabel>収益</nameFieldLabel>
+    <validationRules>
+        <errorMessage>月間所得は年間所得の12分の1である必要があります。</errorMessage>
+        <name>LLC_BI__Monthly_Yearly_Income</name>
+    </validationRules>
+</CustomObjectTranslation>

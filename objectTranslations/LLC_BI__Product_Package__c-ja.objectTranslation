@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>案件パッケージ</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Administrative Information --></label>
+        <name>Administrative_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Bulk Updates PP Related --></label>
+        <name>Bulk_Updates_PP_Related</name>
+    </fieldSets>
+    <fieldSets>
+        <label>表示項目にコンバート</label>
+        <name>LLC_BI__ConvertTo_Display_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Credit_Actions_New_Package_Details --></label>
+        <name>LLC_BI__Credit_Actions_New_Package_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product_Package_Compliance_Information --></label>
+        <name>LLC_BI__Product_Package_Compliance_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product_Package_Exposure_Information --></label>
+        <name>LLC_BI__Product_Package_Exposure_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Relationship Product Package Header --></label>
+        <name>LLC_BI__Relationship_Product_Package_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReviewDisplay --></label>
+        <name>LLC_BI__ReviewDisplay</name>
+    </fieldSets>
+    <fieldSets>
+        <label>稟議書 標準案件パッケージ</label>
+        <name>LLC_BI__Standard_Product_Package_Credit_Memo</name>
+    </fieldSets>
+    <fieldSets>
+        <label>総エクスポージャー概要</label>
+        <name>LLC_BI__Total_Exposure_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WK_DepAct_DocPrep --></label>
+        <name>WKDDP__WK_DepAct_DocPrep</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Administrative Narrative --></label>
+        <name>Administrative_Narrative__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Officer --></label>
+        <name>Final_Officer__c</name>
+        <relationshipLabel><!-- Product Packages (Final Officer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>取引先</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>案件パッケージ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>承認ステータス</label>
+        <name>LLC_BI__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Not Submitted</masterLabel>
+            <translation>未提出</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>未確定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready</masterLabel>
+            <translation>準備</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>実行済 関連会社エクスポージャー</label>
+        <name>LLC_BI__Booked_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>本欄は案件パッケージに対する予約された直接エクスポージャーを報告するために使用されます。</help>
+        <label>実行済 直接エクスポージャー</label>
+        <name>LLC_BI__Booked_Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>本欄は案件パッケージに対する予約された間接エクスポージャーを報告するために使用されます。</help>
+        <label>実行済 間接エクスポージャー</label>
+        <name>LLC_BI__Booked_Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>コミットされた関連会社エクスポージャー</label>
+        <name>LLC_BI__Committed_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>本欄は案件パッケージに対するコミットされた直接エクスポージャーを報告するために使用されます。</help>
+        <label>コミットされた直接エクスポージャー</label>
+        <name>LLC_BI__Committed_Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>本欄は案件パッケージに対するコミットされた間接エクスポージャーを報告するために使用されます。</help>
+        <label>コミットされた間接エクスポージャー</label>
+        <name>LLC_BI__Committed_Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>稟議書</label>
+        <name>LLC_BI__Credit_Memo__c</name>
+        <relationshipLabel>案件パッケージ</relationshipLabel>
+    </fields>
+    <fields>
+        <help>本欄はnCinoユーザー・インターフェース内で本商品のためのデフォルト・ランディング・ページを決定するために使用されます。</help>
+        <label>デフォルトアプリ</label>
+        <name>LLC_BI__Default_App__c</name>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>リースあり</label>
+        <name>LLC_BI__Has_Leases__c</name>
+    </fields>
+    <fields>
+        <label>シンジケート・ローンあり</label>
+        <name>LLC_BI__Has_Syndicated_Loans__c</name>
+    </fields>
+    <fields>
+        <label>最終エクスポージャー計算日</label>
+        <name>LLC_BI__Last_Exposure_Calc_Date__c</name>
+    </fields>
+    <fields>
+        <label>最終審査日</label>
+        <name>LLC_BI__Last_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label>融資枠数</label>
+        <name>LLC_BI__Loan_Facilities_Count__c</name>
+    </fields>
+    <fields>
+        <label>新規資金</label>
+        <name>LLC_BI__New_Money__c</name>
+    </fields>
+    <fields>
+        <label>次回年次審査</label>
+        <name>LLC_BI__Next_Annual_Review__c</name>
+    </fields>
+    <fields>
+        <label>次回審査期日</label>
+        <name>LLC_BI__Next_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label>残高</label>
+        <name>LLC_BI__Outstanding__c</name>
+    </fields>
+    <fields>
+        <label>主要担当者</label>
+        <name>LLC_BI__Primary_Officer__c</name>
+        <relationshipLabel>案件パッケージ（主要担当者）</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Propagate Action</label>
+        <name>LLC_BI__Propagate_Action__c</name>
+    </fields>
+    <fields>
+        <label>提案中 関係者エクスポージャー</label>
+        <name>LLC_BI__Proposed_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>本欄は案件パッケージに対する提案された直接エクスポージャーを報告するために使用されます。</help>
+        <label>提案中 直接エクスポージャー</label>
+        <name>LLC_BI__Proposed_Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>本欄は案件パッケージに対する提案された間接エクスポージャーを報告するために使用されます。</help>
+        <label>提案中 間接エクスポージャー</label>
+        <name>LLC_BI__Proposed_Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>審査頻度</label>
+        <name>LLC_BI__Review_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>年次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every 2 Months</masterLabel>
+            <translation>2ヶ月ごとに</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>毎月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>四半期毎</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annually</masterLabel>
+            <translation>半期毎</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>審査可能融資枠数</label>
+        <name>LLC_BI__Reviewable_Loan_Facilities_Count__c</name>
+    </fields>
+    <fields>
+        <label>格付け</label>
+        <name>LLC_BI__Risk_Rating__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>代理担当者</label>
+        <name>LLC_BI__Secondary_Officer__c</name>
+        <relationshipLabel>案件パッケージ（代理担当者）</relationshipLabel>
+    </fields>
+    <fields>
+        <label>フェーズ</label>
+        <name>LLC_BI__Stage__c</name>
+        <picklistValues>
+            <masterLabel>Implementation</masterLabel>
+            <translation><!-- Implementation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order Entry</masterLabel>
+            <translation><!-- Order Entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Setup</masterLabel>
+            <translation><!-- Setup --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>1st Approved</masterLabel>
+            <translation><!-- 1st Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1st Rejected</masterLabel>
+            <translation><!-- 1st Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd Approved</masterLabel>
+            <translation><!-- 2nd Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd Rejected</masterLabel>
+            <translation><!-- 2nd Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>承認済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation>却下</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold</masterLabel>
+            <translation>保有</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>レビュー中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediately Approved</masterLabel>
+            <translation>中間承認済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediately Rejected</masterLabel>
+            <translation>中間却下</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation>失注</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>新規</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>オープン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation>リコール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>却下</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation>撤退</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TBE --></label>
+        <name>LLC_BI__TBE__c</name>
+    </fields>
+    <fields>
+        <label><!-- TCE --></label>
+        <name>LLC_BI__TCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- TOE --></label>
+        <name>LLC_BI__TOE__c</name>
+    </fields>
+    <fields>
+        <label>関連会社エクスポージャー総計</label>
+        <name>LLC_BI__Total_Affiliated_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>割当シンジケーション金額総計</label>
+        <name>LLC_BI__Total_Allocated_Syndication_Amount__c</name>
+    </fields>
+    <fields>
+        <help>本欄は案件パッケージに対する直接エクスポージャー総計を報告するために使用されます。</help>
+        <label>直接エクスポージャー総計</label>
+        <name>LLC_BI__Total_Direct_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>本欄は案件パッケージに対する間接エクスポージャー総計を報告するために使用されます。</help>
+        <label>間接エクスポージャー総計</label>
+        <name>LLC_BI__Total_Indirect_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>融資枠金額総計</label>
+        <name>LLC_BI__Total_Loan_Facilities_Amount__c</name>
+    </fields>
+    <fields>
+        <label>融資枠エクスポージャー総計</label>
+        <name>LLC_BI__Total_Loan_Facilities_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>純新規資金総計</label>
+        <name>LLC_BI__Total_Net_New_Funds__c</name>
+    </fields>
+    <fields>
+        <label>シンジケート融資枠金額総計</label>
+        <name>LLC_BI__Total_Syndicated_Facility_Amount__c</name>
+    </fields>
+    <fields>
+        <label>未使用</label>
+        <name>LLC_BI__Unused__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overview Narrative --></label>
+        <name>Overview_Narrative__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requires Final Officer --></label>
+        <name>Requires_Final_Officer__c</name>
+    </fields>
+    <nameFieldLabel>案件パッケージ</nameFieldLabel>
+    <webLinks>
+        <label>稟議書</label>
+        <name>LLC_BI__Credit_Memo</name>
+    </webLinks>
+    <webLinks>
+        <label>マスアクション</label>
+        <name>LLC_BI__Mass_Actions</name>
+    </webLinks>
+    <webLinks>
+        <label>新規融資枠</label>
+        <name>LLC_BI__New_Facility</name>
+    </webLinks>
+    <webLinks>
+        <label>クレジット・アクション</label>
+        <name>LLC_BI__renew_loan</name>
+    </webLinks>
+</CustomObjectTranslation>

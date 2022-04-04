@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Plugin Constant --></value>
+    </caseValues>
+    <fields>
+        <label>プラグインの名前</label>
+        <name>nFUSE__App_Plugin__c</name>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>nFUSE__Description__c</name>
+    </fields>
+    <fields>
+        <label>無効になっています</label>
+        <name>nFUSE__Is_Deactivated__c</name>
+    </fields>
+    <fields>
+        <label>グローバル</label>
+        <name>nFUSE__Is_Global__c</name>
+    </fields>
+    <fields>
+        <label>主要</label>
+        <name>nFUSE__Key__c</name>
+    </fields>
+    <fields>
+        <label>翻訳</label>
+        <name>nFUSE__Translation__c</name>
+    </fields>
+    <fields>
+        <label>値</label>
+        <name>nFUSE__Value__c</name>
+    </fields>
+</CustomObjectTranslation>

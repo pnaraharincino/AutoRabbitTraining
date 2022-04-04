@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>案件パッケージ - 行内関係者</value>
+    </caseValues>
+    <fieldSets>
+        <label>稟議書 標準案件パッケージ</label>
+        <name>LLC_BI__Credit_Memo_Standard_Product_Package</name>
+    </fieldSets>
+    <fields>
+        <label>役割</label>
+        <name>LLC_BI__Assigned_Role__c</name>
+        <relationshipLabel>案件パッケージ行内関係者</relationshipLabel>
+    </fields>
+    <fields>
+        <label>案件パッケージ</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>案件パッケージ行内関係者</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ユーザー</label>
+        <name>LLC_BI__User__c</name>
+        <relationshipLabel>案件パッケージ行内関係者</relationshipLabel>
+    </fields>
+    <nameFieldLabel>案件パッケージ - 行内関係者</nameFieldLabel>
+    <webLinks>
+        <label>チームへの割り当て</label>
+        <name>LLC_BI__Assign_Team</name>
+    </webLinks>
+</CustomObjectTranslation>

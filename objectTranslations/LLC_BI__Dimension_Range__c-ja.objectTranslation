@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Dimension Range --></value>
+    </caseValues>
+    <fields>
+        <help>関連するディメンションを選択してください。</help>
+        <label>寸法</label>
+        <name>LLC_BI__Dimension__c</name>
+        <relationshipLabel>寸法範囲</relationshipLabel>
+    </fields>
+    <fields>
+        <help>この範囲がこの最大値を含むことを示すために、チェックボックスを選択します。</help>
+        <label>最大包括的な</label>
+        <name>LLC_BI__Maximum_Inclusive__c</name>
+    </fields>
+    <fields>
+        <help>この範囲の最大値を入力してください。</help>
+        <label>最大</label>
+        <name>LLC_BI__Maximum__c</name>
+    </fields>
+    <fields>
+        <help>この範囲がこの最小値を含むことを示すためにチェックボックスを選択します。</help>
+        <label>最小限の包括的な</label>
+        <name>LLC_BI__Minimum_Inclusive__c</name>
+    </fields>
+    <fields>
+        <help>この範囲の最小値を入力してください。</help>
+        <label>最小</label>
+        <name>LLC_BI__Minimum__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Dimension Range Name --></nameFieldLabel>
+</CustomObjectTranslation>

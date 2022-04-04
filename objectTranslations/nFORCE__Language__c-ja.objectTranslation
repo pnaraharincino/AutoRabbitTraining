@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Language --></value>
+    </caseValues>
+    <fields>
+        <label>フラッグ画像</label>
+        <name>nFORCE__Flag_Image__c</name>
+    </fields>
+    <fields>
+        <label>ポータルが有効</label>
+        <name>nFORCE__Is_Portal_Enabled__c</name>
+    </fields>
+    <fields>
+        <label>言語表示名</label>
+        <name>nFORCE__Language_Display_Name__c</name>
+    </fields>
+    <fields>
+        <help>この言語の選択を特定のロケールにマッピングするためのオプションのロケールキーを入力します。</help>
+        <label>ロケールキー</label>
+        <name>nFORCE__Locale_Key__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORCE__LookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Language Name --></nameFieldLabel>
+</CustomObjectTranslation>

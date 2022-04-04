@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Loan Collateral Aggregate --></value>
+    </caseValues>
+    <fields>
+        <help>差入担保数記録</help>
+        <label>差入担保数</label>
+        <name>LLC_BI__Collateral_Pledged_Count__c</name>
+    </fields>
+    <fields>
+        <help>全担保貸出可能価値合計</help>
+        <label>現行貸出可能価値</label>
+        <name>LLC_BI__Current_Total_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <help>融資に対する差入担保総額</help>
+        <label>差入担保総額</label>
+        <name>LLC_BI__Total_Collateral_Pledged__c</name>
+    </fields>
+    <fields>
+        <help>融資に対する全担保総価値</help>
+        <label>総担保価値</label>
+        <name>LLC_BI__Total_Collateral_Value__c</name>
+    </fields>
+    <fields>
+        <help>融資に関連する全担保合計</help>
+        <label>現行担保総額</label>
+        <name>LLC_BI__Total_Current_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label>優先担保総額</label>
+        <name>LLC_BI__Total_Superior_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Loan Collateral Aggregate --></nameFieldLabel>
+</CustomObjectTranslation>

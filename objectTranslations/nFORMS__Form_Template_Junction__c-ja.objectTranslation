@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Form Template Junction --></value>
+    </caseValues>
+    <fields>
+        <label>フォームテンプレート</label>
+        <name>nFORMS__Form_Template__c</name>
+        <relationshipLabel>テンプレートジャンクションをフォーム</relationshipLabel>
+    </fields>
+    <fields>
+        <label>原点</label>
+        <name>nFORMS__Origin_Object__c</name>
+    </fields>
+    <nameFieldLabel><!-- Form Template Junction Name --></nameFieldLabel>
+</CustomObjectTranslation>

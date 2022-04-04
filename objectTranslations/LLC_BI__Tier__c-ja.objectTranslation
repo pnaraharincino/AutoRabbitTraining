@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Tier --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Deposit UI - Tiers --></label>
+        <name>Deposit_UI_Tiers</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WK DepAct DocPrep --></label>
+        <name>WKDDP__WK_DepAct_DocPrep</name>
+    </fieldSets>
+    <fields>
+        <label>預金率構造</label>
+        <name>LLC_BI__Deposit_Rate_Structure__c</name>
+        <relationshipLabel><!-- Tiers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>終了日</label>
+        <name>LLC_BI__End_Days__c</name>
+    </fields>
+    <fields>
+        <label>高いバランス</label>
+        <name>LLC_BI__High_Balance__c</name>
+    </fields>
+    <fields>
+        <label>金利</label>
+        <name>LLC_BI__Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <label>低バランス</label>
+        <name>LLC_BI__Low_Balance__c</name>
+    </fields>
+    <fields>
+        <label>リレーションズグレード</label>
+        <name>LLC_BI__Relationship_Grade__c</name>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation>ゴールド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation>プラチナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation>シルバー</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>開始日</label>
+        <name>LLC_BI__Start_Days__c</name>
+    </fields>
+    <fields>
+        <help>預金レコードにティアのリストを表示することを許可します。</help>
+        <label><!-- Tier Deposit --></label>
+        <name>LLC_BI__Tier_Deposit__c</name>
+        <relationshipLabel>預金階層</relationshipLabel>
+    </fields>
+    <fields>
+        <help>システムは、コンテキスト内のティアがクローン化された層テンプレートに入ります。</help>
+        <label><!-- Tier Template --></label>
+        <name>LLC_BI__Tier_Template__c</name>
+        <relationshipLabel>関連ティア</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Tier Name --></nameFieldLabel>
+</CustomObjectTranslation>

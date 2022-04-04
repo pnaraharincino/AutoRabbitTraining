@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <fullName>LLC_BI__Government_Contracts</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Collateral_Mgmt_Default</compactLayoutAssignment>
+        <description>Record Type for Government Contracts Page Layout</description>
+        <label>Government Contracts</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Group</fullName>
+        <active>true</active>
+        <description>Record type for a collateral group</description>
+        <label>Group</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Possessory_Letter_of_Credit</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Collateral_Mgmt_Default</compactLayoutAssignment>
+        <description>Record Type for Possessory Letter of Credit Page Layout</description>
+        <label>Possessory Letter of Credit</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Possessory_Life_Insurance</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Collateral_Mgmt_Default</compactLayoutAssignment>
+        <description>Record Type for Possessory Life Insurance Page Layout</description>
+        <label>Possessory Life Insurance</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Possessory_Other</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Collateral_Mgmt_Default</compactLayoutAssignment>
+        <description>Record Type for Possessory Other Page Layout</description>
+        <label>Possessory Other</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Possessory_Savings_CD</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Collateral_Mgmt_Default</compactLayoutAssignment>
+        <description>Record Type for Possessory Savings/CD Page Layout</description>
+        <label>Possessory Savings/CD</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Possessory_Securities</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Collateral_Mgmt_Default</compactLayoutAssignment>
+        <description>Record Type for Possessory Securities Page Layout</description>
+        <label>Possessory Securities</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Real_Estate</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Collateral_Mgmt_Default</compactLayoutAssignment>
+        <description>Record Type for Real Estate Page Layout</description>
+        <label>Real Estate</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Titled_Aircraft</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Collateral_Mgmt_Default</compactLayoutAssignment>
+        <description>Record Type for Titled Aircraft Page Layout</description>
+        <label>Titled Aircraft</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Titled_Boat</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Collateral_Mgmt_Default</compactLayoutAssignment>
+        <description>Record Type for Titled Boat Page Layout</description>
+        <label>Titled Boat</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Titled_Mobile_Home</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Collateral_Mgmt_Default</compactLayoutAssignment>
+        <description>Record Type for Titled Mobile Home Page Layout</description>
+        <label>Titled Mobile Home</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Titled_Motor_Vehicle</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Collateral_Mgmt_Default</compactLayoutAssignment>
+        <description>Record Type for Titled Motor Vehicle Page Layout</description>
+        <label>Titled Motor Vehicle</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Titled_Trailer_Other</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Collateral_Mgmt_Default</compactLayoutAssignment>
+        <description>Record Type for Titled Trailer/Other Page Layout</description>
+        <label>Titled Trailer/Other</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Titled_Vessel</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Collateral_Mgmt_Default</compactLayoutAssignment>
+        <description>Record Type for Titled Vessel Page Layout</description>
+        <label>Titled Vessel</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__UCC</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Collateral_Mgmt_Default</compactLayoutAssignment>
+        <description>Record Type for UCC Page Layout</description>
+        <label>UCC</label>
+    </recordTypes>
+</CustomObject>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Site Visit Memo --></value>
+    </caseValues>
+    <fields>
+        <label>アカウント</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>サイト訪問メモ</relationshipLabel>
+    </fields>
+    <fields>
+        <help>フォローアップの行動項目は何ですか？</help>
+        <label>アクションアイテム</label>
+        <name>LLC_BI__Action_Items__c</name>
+    </fields>
+    <fields>
+        <help>あなたはオフィスに顧客を見ましたか？顧客フローのための感触は何ですか？</help>
+        <label>顧客の活動</label>
+        <name>LLC_BI__Customer_Flow__c</name>
+    </fields>
+    <fields>
+        <help>このボックスをオンにする準備が整ったら、メモを訪問する準備が整いました。</help>
+        <label>保存時に送付</label>
+        <name>LLC_BI__Send_When_Saved__c</name>
+    </fields>
+    <fields>
+        <help>訪問をした人の名前</help>
+        <label>サービス担当者</label>
+        <name>LLC_BI__Servicing_Officer__c</name>
+    </fields>
+    <fields>
+        <help>オフィスは良い状態にありましたか？</help>
+        <label>オフィスの状態</label>
+        <name>LLC_BI__Site_Status__c</name>
+    </fields>
+    <fields>
+        <help>あなたが実際にサイトを訪問した日付。</help>
+        <label>訪問日</label>
+        <name>LLC_BI__Visit_Date__c</name>
+    </fields>
+    <fields>
+        <help>サイト訪問中に何が起こったのですか？</help>
+        <label>訪問の説明</label>
+        <name>LLC_BI__Visit_Description__c</name>
+    </fields>
+    <fields>
+        <label>訪問の目的</label>
+        <name>LLC_BI__Visit_Objective__c</name>
+    </fields>
+    <fields>
+        <help>私たちはどうやってここへ来ましたか？このローンの歴史は何ですか？</help>
+        <label>ウォッチリストの履歴</label>
+        <name>LLC_BI__Watchlist_History__c</name>
+    </fields>
+    <nameFieldLabel><!-- Site Visit Number --></nameFieldLabel>
+</CustomObjectTranslation>

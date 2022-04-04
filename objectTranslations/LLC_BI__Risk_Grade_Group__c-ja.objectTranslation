@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>リスク評価グループ</value>
+    </caseValues>
+    <fields>
+        <label>グループ番号</label>
+        <name>LLC_BI__Group_Number__c</name>
+    </fields>
+    <fields>
+        <label>格付け テンプレート</label>
+        <name>LLC_BI__Risk_Grade_Template__c</name>
+        <relationshipLabel>格付けグループ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>重み付け</label>
+        <name>LLC_BI__Weight__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel>リスク評価グループ</nameFieldLabel>
+</CustomObjectTranslation>

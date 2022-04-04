@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>A set of key-value pairs that can be used to set organization-wide parameters</description>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>LLC_BI__Category_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is required. It is manually populated. It indicates the category of the system property. The combination of the category and the key is used to uniquely identify the system property.</description>
+        <externalId>false</externalId>
+        <label>Category Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LLC_BI__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is optional. It is manually populated. It describes the system property in more depth.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Description of the custom setting implemented in order to describe the Category and System Property.</inlineHelpText>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>LLC_BI__Is_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is required. It is manually populated. It indicates if the system property is active. If the system property is not active, it will not be used.</description>
+        <externalId>false</externalId>
+        <label>Is Active</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LLC_BI__Key__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is required. It is manually populated. The combination of the category and the key is used to uniquely identify the system property.</description>
+        <externalId>false</externalId>
+        <label>Key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LLC_BI__Value__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is required. It is manually populated. It indicates the value of the system property.</description>
+        <externalId>false</externalId>
+        <label>Value</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>System Properties</label>
+    <listViews>
+        <fullName>All_LLC_BI_System_Properties</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__Category_Name__c</columns>
+        <columns>LLC_BI__Is_Active__c</columns>
+        <columns>LLC_BI__Key__c</columns>
+        <columns>LLC_BI__Value__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All LLC_BI System Properties</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Loan_Facility_Creation_Page_Settings</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__Category_Name__c</columns>
+        <columns>LLC_BI__Key__c</columns>
+        <columns>LLC_BI__Value__c</columns>
+        <columns>LLC_BI__Is_Active__c</columns>
+        <columns>LLC_BI__Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Category_Name__c</field>
+            <operation>contains</operation>
+            <value>Loan_Facility_Creation</value>
+        </filters>
+        <label>Loan Facility Creation Page Settings</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Memo_Settings</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__Category_Name__c</columns>
+        <columns>LLC_BI__Key__c</columns>
+        <columns>LLC_BI__Value__c</columns>
+        <columns>LLC_BI__Is_Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Category_Name__c</field>
+            <operation>contains</operation>
+            <value>MEMO</value>
+        </filters>
+        <label>Memo Settings</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Product_Package_Settings</fullName>
+        <booleanFilter>1 or 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>LLC_BI__Category_Name__c</columns>
+        <columns>LLC_BI__Is_Active__c</columns>
+        <columns>LLC_BI__Key__c</columns>
+        <columns>LLC_BI__Value__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Category_Name__c</field>
+            <operation>contains</operation>
+            <value>product</value>
+        </filters>
+        <filters>
+            <field>LLC_BI__Category_Name__c</field>
+            <operation>contains</operation>
+            <value>deal</value>
+        </filters>
+        <label>Product Package Settings</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Treasury_Management_Settings</fullName>
+        <booleanFilter>1 OR 2 OR 3</booleanFilter>
+        <columns>NAME</columns>
+        <columns>LLC_BI__Category_Name__c</columns>
+        <columns>LLC_BI__Key__c</columns>
+        <columns>LLC_BI__Value__c</columns>
+        <columns>LLC_BI__Is_Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Category_Name__c</field>
+            <operation>equals</operation>
+            <value>TM Maintenance</value>
+        </filters>
+        <filters>
+            <field>LLC_BI__Category_Name__c</field>
+            <operation>equals</operation>
+            <value>TM Proforma</value>
+        </filters>
+        <filters>
+            <field>LLC_BI__Category_Name__c</field>
+            <operation>equals</operation>
+            <value>Treasury Services Summary</value>
+        </filters>
+        <label>Treasury Management Settings</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

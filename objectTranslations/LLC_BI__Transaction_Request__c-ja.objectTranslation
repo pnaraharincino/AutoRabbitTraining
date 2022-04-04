@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Transaction Request --></value>
+    </caseValues>
+    <fieldSets>
+        <label>払い戻しテーブル</label>
+        <name>LLC_BI__Disbursements_Table</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WK_DepAct_DocPrep --></label>
+        <name>WKDDP__WK_DepAct_DocPrep</name>
+    </fieldSets>
+    <fields>
+        <help>IRAの所有者が分配から差し控えることになる、追加の割合（10％連邦所得税引退源泉徴収）。</help>
+        <label>追加 源泉徴収パーセント</label>
+        <name>LLC_BI__Additional_Federal_Withholding_Pct__c</name>
+    </fields>
+    <fields>
+        <help>IRA計画へのベースライン10％以上の連邦源泉徴収金額の追加の裁量労働金額。</help>
+        <label>追加 源泉徴収</label>
+        <name>LLC_BI__Additional_Federal_Withholdings__c</name>
+    </fields>
+    <fields>
+        <label>金額</label>
+        <name>LLC_BI__Amount_Funded__c</name>
+    </fields>
+    <fields>
+        <label>当初金額</label>
+        <name>LLC_BI__Amount_Requested__c</name>
+    </fields>
+    <fields>
+        <help>トランザクションリクエストの量</help>
+        <label>額</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <help>CoverDell Education Savingsアカウント（CESA）の配布の種類を指定します。</help>
+        <label>CESA分布タイプ</label>
+        <name>LLC_BI__CESA_Distribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution after May 31 of the tax year after excess contribution</masterLabel>
+            <translation>過剰投与後の税引前3月31日以降の過剰投与の修正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution in same year as excess contribution</masterLabel>
+            <translation>過剰投与と同じ年の過剰貢献の修正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution in year after excess contribution but by May 31</masterLabel>
+            <translation>過剰投与後の年度の過剰貢献の補正が5月31日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation>死去</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation>障害</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributions - Non Transfer</masterLabel>
+            <translation>分布 - 非転送</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributions - Transfer to CESA of new qualified designated beneficiary</masterLabel>
+            <translation>分布 - 新しい資格指定の受益者のCESAへの移転</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributions - Transfer to CESA of same Designated Beneficiary</masterLabel>
+            <translation>分布 - 同じ指定の受益者のCESAへの転送</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributions - Transfer to former spouse&apos;s CESA due to divorce or legal separation</masterLabel>
+            <translation>分配 - 離婚や法的分離による元配偶者のCESAへの移転</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prohibited Transaction</masterLabel>
+            <translation>禁止トランザクション</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>収益量と見なされる（CESA）転送の部分。</help>
+        <label>CESAの収益量</label>
+        <name>LLC_BI__CESA_Earnings_Amount__c</name>
+    </fields>
+    <fields>
+        <help>基礎量と考えられる（CESA）転送の部分。</help>
+        <label>CESA転送基底量</label>
+        <name>LLC_BI__CESA_Transfer_Basis_Amount__c</name>
+    </fields>
+    <fields>
+        <label>完了日</label>
+        <name>LLC_BI__Completed_Date__c</name>
+    </fields>
+    <fields>
+        <help>IRA / HSAの寄与の量。</help>
+        <label>寄付金額</label>
+        <name>LLC_BI__Contribution_Amount__c</name>
+    </fields>
+    <fields>
+        <help>貢献の額と収益。</help>
+        <label>投稿プラス収益量</label>
+        <name>LLC_BI__Contribution_Plus_Earnings_Amount__c</name>
+    </fields>
+    <fields>
+        <help>IRA / HSAの貢献の税金年度。</help>
+        <label>税金年の貢献</label>
+        <name>LLC_BI__Contribution_Tax_Year__c</name>
+    </fields>
+    <fields>
+        <help>IRA寄付タイプ</help>
+        <label>投稿タイプ</label>
+        <name>LLC_BI__Contribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Regular (including Catch-Up)</masterLabel>
+            <translation>定期的（キャッチアップを含む）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return of Mistaken Distribution</masterLabel>
+            <translation>誤った分布の復帰</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover from an Archer Medical Savings Account</masterLabel>
+            <translation>アーチャーメディア貯蓄口座からのロールオーバー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover from an HSA</masterLabel>
+            <translation>HSAからのロールオーバー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer from an Archer Medical Savings Account</masterLabel>
+            <translation><!-- Transfer from an Archer Medical Savings Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer from an HSA</masterLabel>
+            <translation><!-- Transfer from an HSA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>これは、個人が小切手または証明書登録でどのように参照されるべきかの説明です。</help>
+        <label>配信支払いの説明</label>
+        <name>LLC_BI__Delivery_Payment_Description__c</name>
+    </fields>
+    <fields>
+        <help>要求された支払い/転送の可能な媒体の説明。</help>
+        <label>配達支払いオプション</label>
+        <name>LLC_BI__Delivery_Payment_Options__c</name>
+        <picklistValues>
+            <masterLabel>Certificate registration in the name of</masterLabel>
+            <translation>の名前の証明書登録</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check or electronic fund transfer payable to</masterLabel>
+            <translation>オンまたは電子資金の譲渡を支払う</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check payable to</masterLabel>
+            <translation>支払うべきことをチェック</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check payable to or certificate registration in the name of</masterLabel>
+            <translation>の名前で支払われる、または証明書登録を確認する</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>（CESA）寄与の堆積基底量。基礎量は、ロールオーバーまたは転送寄与の量に等しい。</help>
+        <label>預金基準額</label>
+        <name>LLC_BI__Deposit_Basis_Amount__c</name>
+    </fields>
+    <fields>
+        <help>（CESA）貢献の預金収益量。</help>
+        <label>預金額</label>
+        <name>LLC_BI__Deposit_Earnings_Amount__c</name>
+    </fields>
+    <fields>
+        <label>預金</label>
+        <name>LLC_BI__Deposit__c</name>
+        <relationshipLabel>トランザクションリクエスト</relationshipLabel>
+    </fields>
+    <fields>
+        <help>支払いの説明を入力してください。</help>
+        <label>支払いの説明</label>
+        <name>LLC_BI__Disbursement_Description__c</name>
+    </fields>
+    <fields>
+        <help>支払いの支払い方法を選択してください。</help>
+        <label>支払い支払い方法</label>
+        <name>LLC_BI__Disbursement_Payment_Method__c</name>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation>クレジットカード</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft/Check</masterLabel>
+            <translation>ドラフト/チェック</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Account</masterLabel>
+            <translation>リテール口座</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wire Transfer</masterLabel>
+            <translation>電信送金</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>配布に関連して課金された管理手数料の金額。</help>
+        <label>配布管理料</label>
+        <name>LLC_BI__Distribution_Administration_Fee__c</name>
+    </fields>
+    <fields>
+        <help>総分布の量。</help>
+        <label>分布量</label>
+        <name>LLC_BI__Distribution_Amount__c</name>
+    </fields>
+    <fields>
+        <help>CoverDell教育の節約店舗（CESA）の分配は、分布の基本金額です。</help>
+        <label>配布基準量</label>
+        <name>LLC_BI__Distribution_Basis_Amount__c</name>
+    </fields>
+    <fields>
+        <help>CoverDell教育貯蓄預金口座（CESA）分配事項これは配布の収益です。</help>
+        <label>分配収益量</label>
+        <name>LLC_BI__Distribution_Earnings_Amount__c</name>
+    </fields>
+    <fields>
+        <help>配布に適用可能な支払い方法を指定します。</help>
+        <label>流通支払い方法</label>
+        <name>LLC_BI__Distribution_Payment_Method__c</name>
+        <picklistValues>
+            <masterLabel>Deposit into account with this financial organization</masterLabel>
+            <translation>この金融機関に預金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail Check</masterLabel>
+            <translation>メールチェック</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>外部から計算された小計ドル金額は、配布または選挙形式の支払い詳細表に印刷する。</help>
+        <label>分布小計</label>
+        <name>LLC_BI__Distribution_Subtotal__c</name>
+    </fields>
+    <fields>
+        <help>真の場合、支払いの選挙がすでに存在し、前の選挙のコピーが添付されています。</help>
+        <label>支払添付インジケータの選挙</label>
+        <name>LLC_BI__Election_Of_Payment_Attached_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>trueの場合、選択された支払いタイプの選挙は、選挙期限が経過した後に行われたデフォルトの選挙です。</help>
+        <label>支払デフォルトインジケータの選挙</label>
+        <name>LLC_BI__Election_Of_Payment_Default_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>受益者によって選出された支払いの種類、または受益者の場合は、所有者によって選出された支払いの種類を指定します。</help>
+        <label>支払いタイプの選挙</label>
+        <name>LLC_BI__Election_Of_Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Five Year Rule</masterLabel>
+            <translation>5年間の規則</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Life Expectancy</masterLabel>
+            <translation>単一の寿命</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treat As Own</masterLabel>
+            <translation><!-- Treat As Own --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>過剰な貢献に起因する収益の量。これは、過剰または虚血型の貢献に関連する分布にのみ適用されます。</help>
+        <label>過剰な帰属利益</label>
+        <name>LLC_BI__Excess_Attributable_Earnings__c</name>
+    </fields>
+    <fields>
+        <help>分布に関連する過剰な寄与の量。</help>
+        <label>過剰投与量</label>
+        <name>LLC_BI__Excess_Contribution_Amount__c</name>
+    </fields>
+    <fields>
+        <help>過剰な貢献がなされた税金年度。これは、過剰または虚血型の貢献に関連する分布にのみ適用されます。</help>
+        <label>超過貢献税年度</label>
+        <name>LLC_BI__Excess_Contribution_Tax_Year__c</name>
+    </fields>
+    <fields>
+        <help>流通小計に適用される標準10％を含む連邦源泉徴収の純ドル額</help>
+        <label>連邦源泉徴収金額</label>
+        <name>LLC_BI__Federal_Withholding_Amount__c</name>
+    </fields>
+    <fields>
+        <help>Health Savingアカウント（HSA）の配布の種類を指定します。</help>
+        <label>HSA分布タイプ</label>
+        <name>LLC_BI__HSA_Distribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution - after my tax-filing due date</masterLabel>
+            <translation>過剰投与の修正 - 私の納税期日の後</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution by my tax-filing due date</masterLabel>
+            <translation>私の納税期日による過剰貢献の修正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death - Estate Beneficiary - Distribution is After Year of Death</masterLabel>
+            <translation>死去 - エステート受益者 - 分布は死後</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death - Estate Beneficiary - Distribution is in Year of Death</masterLabel>
+            <translation>死去 - 不動産受益者 - 分配年代には死亡</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death - Other Beneficiary - Distribution is After Year of Death</masterLabel>
+            <translation>死去 - その他の受益者 - 分布は死後</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death - Other Beneficiary - Distribution is in Year of Death</masterLabel>
+            <translation>死去 - その他の受益者 - 分配は死亡の年にあります</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation>障害</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation>普通</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prohibited Transaction</masterLabel>
+            <translation>禁止トランザクション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to former spouse&apos;s HSA due to divorce or legal separation</masterLabel>
+            <translation><!-- Transfer to former spouse&apos;s HSA due to divorce or legal separation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to my HSA</masterLabel>
+            <translation><!-- Transfer to my HSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to spouse&apos;s HSA due to death</masterLabel>
+            <translation><!-- Transfer to spouse&apos;s HSA due to death --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>TRUEの場合、IRAの所有者は、IRA分布から保留された10％の連邦所得税を持つことを選択します。</help>
+        <label>IRA 10％源泉徴収選挙</label>
+        <name>LLC_BI__IRA_10_Withholdings_Election__c</name>
+    </fields>
+    <fields>
+        <help>IRAの所有者が各分布から差し控えることになる追加ドルの金額（10％連邦所得税源泉徴収）。</help>
+        <label>IRA追加の連邦源泉徴収</label>
+        <name>LLC_BI__IRA_Addtl_Federal_Withholdings_Amt__c</name>
+    </fields>
+    <fields>
+        <help>IRAの所有者が各分布から差し控えられていることを追加の割合（10％連邦所得免許源委任）。</help>
+        <label>IRA追加の連邦源泉徴委員会PCT</label>
+        <name>LLC_BI__IRA_Addtl_Federal_Withholdings_Pct__c</name>
+    </fields>
+    <fields>
+        <help>IRAの貢献の日付。</help>
+        <label>IRAの貢献日</label>
+        <name>LLC_BI__IRA_Contribution_Date__c</name>
+    </fields>
+    <fields>
+        <help>IRA分布の日付。</help>
+        <label>IRA配布日</label>
+        <name>LLC_BI__IRA_Distribution_Date__c</name>
+    </fields>
+    <fields>
+        <help>伝統的な受益者またはRoth受益者IRAの分布の種類を指定します。</help>
+        <label>IRA分布タイプ</label>
+        <name>LLC_BI__IRA_Distribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution - After my tax-filing due date</masterLabel>
+            <translation>過剰投与の修正 - 私の納税期日の後</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution - On or before my tax-filing due date in the same year as excess contribution</masterLabel>
+            <translation>過剰な貢献の修正 - 過剰貢献と同じ年の納税期日の前または前に</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution - On or before my tax-filing due date in the year after excess contribution</masterLabel>
+            <translation>過剰投与の訂正 - 過剰投与後の年間の納税期日の前または前に</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation>死去</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IRS Levy</masterLabel>
+            <translation>IRS LEVY</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prohibited Transaction</masterLabel>
+            <translation>禁止トランザクション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization (Roth Beneficiary only)</masterLabel>
+            <translation>校正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revocation</masterLabel>
+            <translation>失効</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation>移行</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>IRA所有者が州所得税の目的で彼らのIRA分布から差し控えることを選択するドル金額。</help>
+        <label>IRA州の源泉徴収金額</label>
+        <name>LLC_BI__IRA_State_Withholdings_Amount__c</name>
+    </fields>
+    <fields>
+        <help>IRAの所有者が州所得税の目的で彼らのIRA分布から差し控えることを選択する割合。</help>
+        <label>IRA州の源泉徴収率</label>
+        <name>LLC_BI__IRA_State_Withholdings_Percent__c</name>
+    </fields>
+    <fields>
+        <help>伝統的または単純なIRAへの転送のための資金の供給源を指定します。</help>
+        <label>IRA転送源</label>
+        <name>LLC_BI__IRA_Transfer_Source__c</name>
+        <picklistValues>
+            <masterLabel>SIMPLE</masterLabel>
+            <translation>単純</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traditional</masterLabel>
+            <translation>伝統的</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>真の場合、分布はIRS Levyに関連しています。これは伝統的なIRASの単純なIRASおよび健康貯蓄勘定（HSA）にのみ適用されます。他のタイプのIRAは、IRS Leviesに使用される別の分布タイプを持っています。</help>
+        <label>IRS Levyインジケータ</label>
+        <name>LLC_BI__IRS_Levy_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>預金への投資額。</help>
+        <label>投資額</label>
+        <name>LLC_BI__Investment_Amount__c</name>
+    </fields>
+    <fields>
+        <help>要求された投資を送信する方法を指定します。</help>
+        <label>投資配達タイプ</label>
+        <name>LLC_BI__Investment_Delivery_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cash Proceeds</masterLabel>
+            <translation>現金収入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Kind</masterLabel>
+            <translation><!-- In Kind --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>投資の種類について説明します。</help>
+        <label>投資の説明</label>
+        <name>LLC_BI__Investment_Description__c</name>
+    </fields>
+    <fields>
+        <help>trueの場合これは払い戻しのない投資です。</help>
+        <label>投資は預金されていません</label>
+        <name>LLC_BI__Investment_Is_Non_Deposit__c</name>
+    </fields>
+    <fields>
+        <help>指定された投資が送信および/または液化されるように要求される日。</help>
+        <label>投資依頼日</label>
+        <name>LLC_BI__Investment_Request_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Is Approved --></label>
+        <name>LLC_BI__Is_Approved__c</name>
+    </fields>
+    <fields>
+        <label>支払いリクエストです</label>
+        <name>LLC_BI__Is_Disbursement_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Is Submitted --></label>
+        <name>LLC_BI__Is_Submitted__c</name>
+    </fields>
+    <fields>
+        <label>融資</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>トランザクションリクエスト</relationshipLabel>
+    </fields>
+    <fields>
+        <help>流通小計から差し控えるための現地法人所得税の追加割合。</help>
+        <label>地域所得税率の割合</label>
+        <name>LLC_BI__Local_Income_Tax_Percent__c</name>
+    </fields>
+    <fields>
+        <help>配布小計から差し控えるために、地域所得税のさらなる1ドル金額または当たりの割合に適用される地域（例えば、市）を指定します。</help>
+        <label>地域所得税の地域</label>
+        <name>LLC_BI__Local_Income_Taxes_Locality__c</name>
+    </fields>
+    <fields>
+        <help>配布小計から差し控えるために、地域所得税の追加ドル金額（割合）。</help>
+        <label>地域所得税は差し控えた</label>
+        <name>LLC_BI__Local_Income_Taxes_Withheld__c</name>
+    </fields>
+    <fields>
+        <help>外部から計算されたドルは、配布または選挙形式の支払い詳細表に印刷するための配布の純ドル量の額。</help>
+        <label>純配布額</label>
+        <name>LLC_BI__Net_Distribution_Amount__c</name>
+    </fields>
+    <fields>
+        <help>真実であれば、受益者は新しい支払い選挙をしています。正式に確立された受益者IRAの場合、それは新しい支払いの選挙を行う所有者です。</help>
+        <label>支払指標の新しい選挙</label>
+        <name>LLC_BI__New_Election_Of_Payment_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>非預金投資の株式数。</help>
+        <label>非払込投資株式</label>
+        <name>LLC_BI__Non_Deposit_Investment_Shares__c</name>
+    </fields>
+    <fields>
+        <help>誤った分布の復帰である貢献のために、これは元の分布の日付の説明です。</help>
+        <label>オリジナルのディスバイムの説明</label>
+        <name>LLC_BI__Original_Distrubtion_Description__c</name>
+    </fields>
+    <fields>
+        <help>支払いに関するその他の配達指示の説明。</help>
+        <label>その他の配達指示</label>
+        <name>LLC_BI__Other_Delivery_Instructions__c</name>
+    </fields>
+    <fields>
+        <help>要求された支払い/転送のための可能な媒体のユーザ定義の説明。 （例えば、「チェックまたはACH転送」）</help>
+        <label>その他の配達支払いオプション</label>
+        <name>LLC_BI__Other_Delivery_Payment_Options__c</name>
+    </fields>
+    <fields>
+        <help>他の支払い方法の種類の説明。</help>
+        <label>その他の配布支払い方法</label>
+        <name>LLC_BI__Other_Distribution_Payment_Method__c</name>
+    </fields>
+    <fields>
+        <help>支払いの支払いタイプを選択してください。</help>
+        <label>支払人のタイプ</label>
+        <name>LLC_BI__Payee_Type__c</name>
+        <picklistValues>
+            <masterLabel>Borrower</masterLabel>
+            <translation>債務者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lender</masterLabel>
+            <translation>貸し手</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Official</masterLabel>
+            <translation>公務員</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>支出受信者の名前を入力してください。</help>
+        <label>支払人</label>
+        <name>LLC_BI__Payee__c</name>
+    </fields>
+    <fields>
+        <help>支払い金額の種類を指定します。注：校正の文脈で使用されるときのこの量には、貢献金額と帰属可能な収益が含まれます。</help>
+        <label>支払い金額の種類</label>
+        <name>LLC_BI__Payment_Amount_Type__c</name>
+        <picklistValues>
+            <masterLabel>Entire balance or contribution amount</masterLabel>
+            <translation>全バランスまたは貢献量</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portion of balance or contribution amount</masterLabel>
+            <translation>バランスまたは貢献量の部分</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>割合が要求されました</label>
+        <name>LLC_BI__Percent_Budget_Requested__c</name>
+    </fields>
+    <fields>
+        <label>パーセントファンドされました</label>
+        <name>LLC_BI__Percent_Funded__c</name>
+    </fields>
+    <fields>
+        <help>転送されるべき勘定残高の一部を転送または直接転写するか、または再虚血の場合には、課金額と課金額に帰属する利益に帰属する利益を説明しています。</help>
+        <label>部分の説明</label>
+        <name>LLC_BI__Portion_Description__c</name>
+    </fields>
+    <fields>
+        <help>TRUEの場合、必要最小限の分布（RMD）は分布年度に満足しています。</help>
+        <label>RMDが充足しています</label>
+        <name>LLC_BI__RMD_Has_Been_Satisfied__c</name>
+    </fields>
+    <fields>
+        <help>他の投資支払いスケジュールおよび/またはタイプについて説明します</help>
+        <label>支払いの種類を要求</label>
+        <name>LLC_BI__Request_Payment_Type_Other__c</name>
+    </fields>
+    <fields>
+        <help>投資支払いスケジュールと種類を指定します。</help>
+        <label>支払いタイプを要求</label>
+        <name>LLC_BI__Request_Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Immediately liquidate investments and send cash</masterLabel>
+            <translation>すぐに投資を清算して現金を送る</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liquidate specified investments</masterLabel>
+            <translation>特定の投資を清算します</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send all investments in kind</masterLabel>
+            <translation><!-- Send all investments in kind --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send assets at maturity</masterLabel>
+            <translation>満期で資産を送る</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>リクエストの種類を指定します。</help>
+        <label>リクエストの種類</label>
+        <name>LLC_BI__Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Conversion</masterLabel>
+            <translation>会話</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Rollover</masterLabel>
+            <translation>直接ロールオーバー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funding Distribution</masterLabel>
+            <translation>資金配布</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization</masterLabel>
+            <translation>校正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation>移行</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>依頼日</label>
+        <name>LLC_BI__Requested_Date__c</name>
+    </fields>
+    <fields>
+        <help>Roth受取人IRAの寄与の種類を指定します。</help>
+        <label><!-- Roth Beneficiary Contribution Type --></label>
+        <name>LLC_BI__Roth_Beneficiary_Contribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Rollover/Direct Rollover from a Designated Roth Account</masterLabel>
+            <translation>指定されたRoth口座からのロールオーバー/直接ロールオーバー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover/Direct Rollover from an Eligible Retirement Plan</masterLabel>
+            <translation>適格な退職プランからのロールオーバー/ダイレクトロール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer from a Roth IRA</masterLabel>
+            <translation><!-- Transfer from a Roth IRA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>投稿タイプの理由コード。 Roth IRAの貢献タイプは、資格のある保護区/指定災害分配返済または災害/戦闘区域延期延期です。</help>
+        <label><!-- Roth Contribution Reason --></label>
+        <name>LLC_BI__Roth_Contribution_Reason__c</name>
+    </fields>
+    <fields>
+        <help>IRA寄付タイプ</help>
+        <label><!-- Roth IRA Contribution Type --></label>
+        <name>LLC_BI__Roth_IRA_Contribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Conversion</masterLabel>
+            <translation>会話</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disaster/Combat Zone Postponed Contribution</masterLabel>
+            <translation>災害/戦闘区域延期</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified Reservist/Designated Disaster Distribution Repayment</masterLabel>
+            <translation>資格のある保護区/指定災害分配返済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization</masterLabel>
+            <translation>校正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular (including Catch-Up)</masterLabel>
+            <translation>定期的（キャッチアップを含む）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover</masterLabel>
+            <translation>ロールオーバー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover/Direct Rollover from a Designated Roth Account</masterLabel>
+            <translation>指定されたRoth口座からのロールオーバー/直接ロールオーバー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover/Direct Rollover from an Eligible Retirement Plan</masterLabel>
+            <translation>適格な退職プランからのロールオーバー/ダイレクトロール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation>移行</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Roth IRAの配布の種類を指定します。</help>
+        <label><!-- Roth IRA Distribution Type --></label>
+        <name>LLC_BI__Roth_IRA_Distribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Age 59 1/2 or Older</masterLabel>
+            <translation>59歳以上1/2以上</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution after my tax-filing due date</masterLabel>
+            <translation>私の納税期日の後の過剰貢献の修正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution in same year as excess contribution</masterLabel>
+            <translation>過剰投与と同じ年の過剰貢献の修正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution in year after excess contribution, but by my tax-filing due date</masterLabel>
+            <translation>過剰拠出後の年度の過剰拠出の修正は、しかし私の納税期日までに</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation>死去</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation>障害</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early Distribution from a Roth IRA</masterLabel>
+            <translation>Roth IRAの早期分布</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IRS Levy</masterLabel>
+            <translation>IRS LEVY</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prohibited Transaction</masterLabel>
+            <translation>禁止トランザクション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified Health Savings Account Funding Distribution (QHSAAFD)</masterLabel>
+            <translation>有資格保健貯蓄勘定資金配布（QHSAAFD）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization of current tax year regular contribution/conversion in the current year</masterLabel>
+            <translation>現在の年の定期的な貢献/変換の定期的な拠出</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization of prior tax year regular contribution/conversion in the current year</masterLabel>
+            <translation>当年度における従来の税務年の定期的な貢献/変換の校正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revocation</masterLabel>
+            <translation>失効</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to beneficiary&apos;s Roth Beneficiary IRA</masterLabel>
+            <translation><!-- Transfer to beneficiary&apos;s Roth Beneficiary IRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to former spouse&apos;s Roth IRA due to divorce or legal separation</masterLabel>
+            <translation><!-- Transfer to former spouse&apos;s Roth IRA due to divorce or legal separation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to my Roth IRA</masterLabel>
+            <translation><!-- Transfer to my Roth IRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to spouse&apos;s Roth IRA due to death</masterLabel>
+            <translation><!-- Transfer to spouse&apos;s Roth IRA due to death --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Roth IRAへの転送または変換のための資金の供給源を指定します。</help>
+        <label><!-- Roth IRA Transfer Source --></label>
+        <name>LLC_BI__Roth_IRA_Transfer_Source__c</name>
+        <picklistValues>
+            <masterLabel>Roth</masterLabel>
+            <translation><!-- Roth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIMPLE</masterLabel>
+            <translation>単純</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traditional</masterLabel>
+            <translation>伝統的</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>ロスIRAへの直接ロールオーバーのための資金の供給源を指定します。</help>
+        <label><!-- Roth Rollover Source Type --></label>
+        <name>LLC_BI__Roth_Rollover_Source_Type__c</name>
+        <picklistValues>
+            <masterLabel>Designated Roth Account</masterLabel>
+            <translation>指定されたロスアカウント</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eligible Retirement Plan (other than a Designated Roth Account)</masterLabel>
+            <translation>適格退職年計画（指定されたロスアカウント以外）</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>単純なIRAの貢献の種類を指定します。</help>
+        <label>単純なIRA株式タイプ</label>
+        <name>LLC_BI__Simple_IRA_Contibution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Employer Contribution</masterLabel>
+            <translation>雇用者の貢献</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization</masterLabel>
+            <translation>校正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover from a SIMPLE IRA</masterLabel>
+            <translation>シンプルなイラからのロールオーバー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer from a SIMPLE IRA</masterLabel>
+            <translation><!-- Transfer from a SIMPLE IRA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>口座保有者は、特定のIRAまたはその他の納税繰延計画分布の時点で州所得税を差し控える。</help>
+        <label>州所得源泉徴候</label>
+        <name>LLC_BI__State_Income_Withholdings_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>IRAの所有者が州所得税の目的でIRA分布から差し控えることを選択した割合。</help>
+        <label>州所得源泉徴収割合</label>
+        <name>LLC_BI__State_Income_Withholdings_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>IRAの所有者が州所得税の目的でIRA分布から差し控えることを選択するドル金額。</help>
+        <label>州所得源泉徴収</label>
+        <name>LLC_BI__State_Income_Withholdings__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>承認済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Amounts</masterLabel>
+            <translation>保留量</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation>承認待ちの</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Inspection</masterLabel>
+            <translation>保留検査</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>拒否された</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation>申請済</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>TRUEの場合、IRAの所有者は、IRA分布から10％の連邦所得税が差し控えられたものです。</help>
+        <label>10％連邦源泉徴収指標</label>
+        <name>LLC_BI__Ten_Pct_Federal_Withholding_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>従来の受益者IRAの寄付の種類を指定します。</help>
+        <label>トラッドベンフィシアリアリー貢献タイプ</label>
+        <name>LLC_BI__Traditional_Benficiary_IRA_Contribution__c</name>
+        <picklistValues>
+            <masterLabel>Direct Rollover from an Eligible Retirement Plan</masterLabel>
+            <translation>適格な退職事項からの直接ロールオーバー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization</masterLabel>
+            <translation>校正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer from an IRA</masterLabel>
+            <translation><!-- Transfer from an IRA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>従来のIRAへのロールオーバーのソースを指定します。</help>
+        <label>伝統的なIRA貢献源</label>
+        <name>LLC_BI__Traditional_IRA_Contribution_Source__c</name>
+        <picklistValues>
+            <masterLabel>457(b)</masterLabel>
+            <translation><!-- 457(b) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified Plan</masterLabel>
+            <translation>認定された計画</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIMPLE</masterLabel>
+            <translation>単純</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax-Sheltered Annuity (TSA)</masterLabel>
+            <translation>税保護年金（TSA）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traditional IRA</masterLabel>
+            <translation>伝統的なIRA</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>IRA寄付タイプ</help>
+        <label>伝統的なIRA貢献タイプ</label>
+        <name>LLC_BI__Traditional_IRA_Contribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Disaster/Combat Zone Postponed Contribution</masterLabel>
+            <translation>災害/戦闘区域延期</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified Reservist/Designated Disaster Distribution Repayment</masterLabel>
+            <translation>資格のある保護区/指定災害分配返済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization</masterLabel>
+            <translation>校正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular (including Catch-Up)</masterLabel>
+            <translation>定期的（キャッチアップを含む）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover</masterLabel>
+            <translation>ロールオーバー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover/Direct Rollover from an Eligible Retirement Plan</masterLabel>
+            <translation>適格な退職プランからのロールオーバー/ダイレクトロール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simplified Employee Pension (SEP) Plan</masterLabel>
+            <translation>簡易従業員年金（SEP）計画</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer</masterLabel>
+            <translation>移行</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>従来のまたは単純なIRAの配布の種類を指定します。</help>
+        <label>伝統的なIRA分布タイプ</label>
+        <name>LLC_BI__Traditional_IRA_Distribution_Type__c</name>
+        <picklistValues>
+            <masterLabel>Conversion</masterLabel>
+            <translation>会話</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution after my tax-filing due date</masterLabel>
+            <translation>私の納税期日の後の過剰貢献の修正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution in same year as excess contribution</masterLabel>
+            <translation>過剰投与と同じ年の過剰貢献の修正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correction of Excess Contribution in year after excess contribution but by my tax-filing due date</masterLabel>
+            <translation>超過貢献後の年度の過剰拠出の訂正は、納税期日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Death</masterLabel>
+            <translation>死去</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Rollover to an employer-sponsored Eligible Retirement Plan</masterLabel>
+            <translation>雇用主への直接ロールオーバー - 必要な適格退職プラン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation>障害</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early Distribution IRS Levy or other exception</masterLabel>
+            <translation>早期配布IRS Levyまたはその他の例外</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Early Distribution no known exception</masterLabel>
+            <translation>早い分布の既知の例外はありません</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation>普通</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prohibited Transaction</masterLabel>
+            <translation>禁止トランザクション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified Health Savings Account Funding Distribution (QHSAAFD)</masterLabel>
+            <translation>有資格保健貯蓄勘定資金配布（QHSAAFD）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization of current tax year regular contribution/conversion in the current year</masterLabel>
+            <translation>現在の年の定期的な貢献/変換の定期的な拠出</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recharacterization of prior tax year regular contribution/conversion in the current year</masterLabel>
+            <translation>当年度における従来の税務年の定期的な貢献/変換の校正</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revocation</masterLabel>
+            <translation>失効</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIMPLE IRA Distribution During Two-Year Period</masterLabel>
+            <translation>2年間の単純なIRA分布</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer to another IRA</masterLabel>
+            <translation><!-- Transfer to another IRA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>このシステム入力フィールドは、トランザクション要求に関連付けられているトランザクション要求集計を示します。</help>
+        <label>トランザクションリクエスト集約</label>
+        <name>LLC_BI__Transaction_Request_Aggregate__c</name>
+        <relationshipLabel>トランザクションリクエスト</relationshipLabel>
+    </fields>
+    <fields>
+        <help>譲渡金融機関で口座または計画に割り当てられたID。整理のために、これは元の貢献が行われた計画のID番号です。</help>
+        <label><!-- Transfer Account ID --></label>
+        <name>LLC_BI__Transfer_Account_ID__c</name>
+    </fields>
+    <fields>
+        <label>タイプ</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Contribution</masterLabel>
+            <translation>貢献</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disbursement</masterLabel>
+            <translation>払い戻し</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribution</masterLabel>
+            <translation>分布</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request</masterLabel>
+            <translation>リクエスト</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel><!-- Transaction Request Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>この必須フィールドに正の値を入力してください。</errorMessage>
+        <name>LLC_BI__Disbursements_Negative_Amount_Error</name>
+    </validationRules>
+</CustomObjectTranslation>

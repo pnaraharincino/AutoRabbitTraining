@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- External Application Lookup --></value>
+    </caseValues>
+    <fields>
+        <label>コンテキストID</label>
+        <name>LLC_BI__Context_Id__c</name>
+    </fields>
+    <fields>
+        <label>外部ID</label>
+        <name>LLC_BI__External_Id__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドには、外部システム内の間接起源の識別コードが表示されます。</help>
+        <label>外部ソースID</label>
+        <name>LLC_BI__External_Source_Id__c</name>
+    </fields>
+    <fields>
+        <help>この自動入力フィールドには、アプリケーションの外部トランザクションIDが含まれています。</help>
+        <label>外部取引ID</label>
+        <name>LLC_BI__External_Transaction_Id__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドには、外部アプリケーションのシステム名が含まれています。</help>
+        <label>リードソース</label>
+        <name>LLC_BI__Lead_Source__c</name>
+    </fields>
+    <nameFieldLabel><!-- External Application Lookup Name --></nameFieldLabel>
+</CustomObjectTranslation>

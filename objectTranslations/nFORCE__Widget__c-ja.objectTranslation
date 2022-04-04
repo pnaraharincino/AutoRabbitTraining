@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Widget --></value>
+    </caseValues>
+    <fields>
+        <label>データ</label>
+        <name>nFORCE__Data__c</name>
+    </fields>
+    <fields>
+        <label>アイコン</label>
+        <name>nFORCE__Icon__c</name>
+    </fields>
+    <fields>
+        <label>is_angular</label>
+        <name>nFORCE__Is_Angular__c</name>
+    </fields>
+    <fields>
+        <label>is_knockout</label>
+        <name>nFORCE__Is_Knockout__c</name>
+    </fields>
+    <fields>
+        <label>所見</label>
+        <name>nFORCE__Is_Narrative__c</name>
+    </fields>
+    <fields>
+        <label>パラメーター</label>
+        <name>nFORCE__Parameters__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むための静的JavaScriptリソース。</help>
+        <label><!-- Script Resource Eight --></label>
+        <name>nFORCE__Script_Resource_Eight__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むための静的JavaScriptリソース。</help>
+        <label><!-- Script Resource Eleven --></label>
+        <name>nFORCE__Script_Resource_Eleven__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むための静的JavaScriptリソース。</help>
+        <label><!-- Script Resource Fifteen --></label>
+        <name>nFORCE__Script_Resource_Fifteen__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むための静的JavaScriptリソース。</help>
+        <label><!-- Script Resource Five --></label>
+        <name>nFORCE__Script_Resource_Five__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むための静的JavaScriptリソース。</help>
+        <label><!-- Script Resource Four --></label>
+        <name>nFORCE__Script_Resource_Four__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むための静的JavaScriptリソース。</help>
+        <label><!-- Script Resource Fourteen --></label>
+        <name>nFORCE__Script_Resource_Fourteen__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むための静的JavaScriptリソース。</help>
+        <label><!-- Script Resource Nine --></label>
+        <name>nFORCE__Script_Resource_Nine__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むための静的JavaScriptリソース。</help>
+        <label><!-- Script Resource One --></label>
+        <name>nFORCE__Script_Resource_One__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むための静的JavaScriptリソース。</help>
+        <label><!-- Script Resource Seven --></label>
+        <name>nFORCE__Script_Resource_Seven__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むための静的JavaScriptリソース。</help>
+        <label><!-- Script Resource Six --></label>
+        <name>nFORCE__Script_Resource_Six__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むための静的JavaScriptリソース。</help>
+        <label><!-- Script Resource Ten --></label>
+        <name>nFORCE__Script_Resource_Ten__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むための静的JavaScriptリソース。</help>
+        <label><!-- Script Resource Thirteen --></label>
+        <name>nFORCE__Script_Resource_Thirteen__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むための静的JavaScriptリソース。</help>
+        <label><!-- Script Resource Three --></label>
+        <name>nFORCE__Script_Resource_Three__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むための静的JavaScriptリソース。</help>
+        <label><!-- Script Resource Twelve --></label>
+        <name>nFORCE__Script_Resource_Twelve__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むための静的JavaScriptリソース。</help>
+        <label><!-- Script Resource Two --></label>
+        <name>nFORCE__Script_Resource_Two__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むためのカスケードスタイルシート（CSS）リソース。</help>
+        <label>スタイルシートリソース8</label>
+        <name>nFORCE__Stylesheet_Resource_Eight__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むためのカスケードスタイルシート（CSS）リソース。</help>
+        <label>スタイルシートリソース5</label>
+        <name>nFORCE__Stylesheet_Resource_Five__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むためのカスケードスタイルシート（CSS）リソース。</help>
+        <label>スタイルシートリソース4</label>
+        <name>nFORCE__Stylesheet_Resource_Four__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むためのカスケードスタイルシート（CSS）リソース。</help>
+        <label>スタイルシートリソース9</label>
+        <name>nFORCE__Stylesheet_Resource_Nine__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むためのカスケードスタイルシート（CSS）リソース。</help>
+        <label>スタイルシートリソース</label>
+        <name>nFORCE__Stylesheet_Resource_One__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むためのカスケードスタイルシート（CSS）リソース。</help>
+        <label>スタイルシートリソース7</label>
+        <name>nFORCE__Stylesheet_Resource_Seven__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むためのカスケードスタイルシート（CSS）リソース。</help>
+        <label>スタイルシートリソース6</label>
+        <name>nFORCE__Stylesheet_Resource_Six__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むためのカスケードスタイルシート（CSS）リソース。</help>
+        <label>スタイルシートリソーステン</label>
+        <name>nFORCE__Stylesheet_Resource_Ten__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むためのカスケードスタイルシート（CSS）リソース。</help>
+        <label>スタイルシートリソース3</label>
+        <name>nFORCE__Stylesheet_Resource_Three__c</name>
+    </fields>
+    <fields>
+        <help>ウィジェットを読み込むためのカスケードスタイルシート（CSS）リソース。</help>
+        <label>スタイルシートリソース2</label>
+        <name>nFORCE__Stylesheet_Resource_Two__c</name>
+    </fields>
+    <fields>
+        <label>タイプ</label>
+        <name>nFORCE__Type__c</name>
+        <picklistValues>
+            <masterLabel>Angular</masterLabel>
+            <translation><!-- Angular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knockout</masterLabel>
+            <translation>ノックアウト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Narrative</masterLabel>
+            <translation>所見</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ビュー</label>
+        <name>nFORCE__View__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Widget Name --></nameFieldLabel>
+</CustomObjectTranslation>

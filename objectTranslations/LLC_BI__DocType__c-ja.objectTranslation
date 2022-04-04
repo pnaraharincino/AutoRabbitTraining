@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- DocType --></value>
+    </caseValues>
+    <fields>
+        <label>説明</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>文書管理</label>
+        <name>LLC_BI__docManager__c</name>
+        <relationshipLabel>文書タイプ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>文書タブ</label>
+        <name>LLC_BI__docTab__c</name>
+        <relationshipLabel>文書タイプ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>索引</label>
+        <name>LLC_BI__lookupId__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>並べ替え</label>
+        <name>LLC_BI__sortOrder__c</name>
+    </fields>
+    <nameFieldLabel><!-- Category --></nameFieldLabel>
+</CustomObjectTranslation>

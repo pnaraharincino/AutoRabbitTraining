@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Limit Change</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Limit Changes</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- ACH Origination Limit Changes --></label>
+        <name>ACH_Origination_Limit_Changes</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Date of Request --></label>
+        <name>Date_of_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested Limit --></label>
+        <name>Requested_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value1</masterLabel>
+            <translation><!-- Value1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Treasury Service --></label>
+        <name>Treasury_Service__c</name>
+        <relationshipLabel><!-- Limit Changes --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

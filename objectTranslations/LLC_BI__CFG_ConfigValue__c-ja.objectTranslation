@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- CFG_ConfigValue --></value>
+    </caseValues>
+    <fields>
+        <label>カテゴリー</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Change Memo</masterLabel>
+            <translation>変更メモ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Product</masterLabel>
+            <translation>商品変更</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete_Feature_Enabled</masterLabel>
+            <translation>delete_feature_enabled</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delete_Versions_Allowed</masterLabel>
+            <translation>delete_versions_allowed.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit Stage</masterLabel>
+            <translation>預金ステージ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit Status</masterLabel>
+            <translation>預金状況</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document Manager</masterLabel>
+            <translation>文書管理</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entity_Check_Enabled</masterLabel>
+            <translation>entity_check_enabled</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation>全般的</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Label</masterLabel>
+            <translation>ラベル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Stage</masterLabel>
+            <translation>融資ステージ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Status</masterLabel>
+            <translation>融資状況</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No_Modification_Stage</masterLabel>
+            <translation><!-- No_Modification_Stage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRODUCT_PACKAGE</masterLabel>
+            <translation><!-- PRODUCT_PACKAGE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relatives_To_Clone</masterLabel>
+            <translation><!-- Relatives_To_Clone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal_Feature_Enabled</masterLabel>
+            <translation>RENEWAL_FEATURE_ENABLABLED</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal_Fields_To_Clone</masterLabel>
+            <translation>RENEWAL_FIELDS_TO_CLONE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal_Name_Format</masterLabel>
+            <translation>RENEWAL_NAME_FORMAT</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal_Starting_Stage</masterLabel>
+            <translation>RENEWAL_STARTING_STAGE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal_Starting_Status</masterLabel>
+            <translation>RENEWAL_STARTING_STATUS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal_Supported</masterLabel>
+            <translation>更新されました</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roles_For_Loan_Renewal</masterLabel>
+            <translation>Roles_For_LOAN_RENEWAL</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roles_For_Multi-Renewal_Delete</masterLabel>
+            <translation>ROLS_FOR_MULTI-RENEWAL_DELETE</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stages_Renewal_Allowed</masterLabel>
+            <translation><!-- Stages_Renewal_Allowed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Status_Renewal_Allowed</masterLabel>
+            <translation>status_renew_allowed</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <help>キーの中のスペースはアンダースコアに置き換える必要があります。</help>
+        <label>主要</label>
+        <name>LLC_BI__Key__c</name>
+    </fields>
+    <fields>
+        <label>値</label>
+        <name>LLC_BI__Value__c</name>
+    </fields>
+    <fields>
+        <label>フィールドバリュー</label>
+        <name>LLC_BI__fieldValue__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- CFG_ConfigValue Name --></nameFieldLabel>
+</CustomObjectTranslation>

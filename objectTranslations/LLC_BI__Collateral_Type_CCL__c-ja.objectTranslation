@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Collateral Type CCL --></value>
+    </caseValues>
+    <fields>
+        <label>クロージングチェックリスト</label>
+        <name>LLC_BI__Closing_Checklist__c</name>
+        <relationshipLabel>担保タイプCCLS</relationshipLabel>
+    </fields>
+    <fields>
+        <label>担保タイプ</label>
+        <name>LLC_BI__Collateral_Type__c</name>
+        <relationshipLabel>担保タイプCCLS</relationshipLabel>
+    </fields>
+    <nameFieldLabel><!-- Collateral Type CCL Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Template Records --></value>
+    </caseValues>
+    <fieldSets>
+        <label>手数料テンプレート</label>
+        <name>LLC_BI__Fees_Template</name>
+    </fieldSets>
+    <fields>
+        <help>ローン金額、総利益、または他の融資欄など、百分率料金の基礎を選択してください。</help>
+        <label>基本ソース</label>
+        <name>LLC_BI__Basis_Source__c</name>
+        <picklistValues>
+            <masterLabel>Loan Amount</masterLabel>
+            <translation>融資金額</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>カテゴリー</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Fees Management</masterLabel>
+            <translation>手数料管理</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>チェックボックス1</label>
+        <name>LLC_BI__Checkbox_1__c</name>
+    </fields>
+    <fields>
+        <label>チェックボックス2</label>
+        <name>LLC_BI__Checkbox_2__c</name>
+    </fields>
+    <fields>
+        <label>チェックボックス3</label>
+        <name>LLC_BI__Checkbox_3__c</name>
+    </fields>
+    <fields>
+        <label>チェックボックス4</label>
+        <name>LLC_BI__Checkbox_4__c</name>
+    </fields>
+    <fields>
+        <help>この選択リストを入力して、料金の収集方法を指定します。</help>
+        <label>収集方法</label>
+        <name>LLC_BI__Collection_Method__c</name>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation>現金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financed</masterLabel>
+            <translation>融資済</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>カウント</label>
+        <name>LLC_BI__CounterCount__c</name>
+    </fields>
+    <fields>
+        <label>通貨フィールド1.</label>
+        <name>LLC_BI__Currency_Field_1__c</name>
+    </fields>
+    <fields>
+        <label>終了日</label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <help>この料金テンプレートレコードを識別する一意の名前を入力してください。</help>
+        <label>料金テンプレートID</label>
+        <name>LLC_BI__Fee_Template_Identifier__c</name>
+    </fields>
+    <fields>
+        <label>有効</label>
+        <name>LLC_BI__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Income --></label>
+        <name>LLC_BI__Is_Income__c</name>
+    </fields>
+    <fields>
+        <help>システムに基本値に基づいて料金を計算するために使用する割合を入力します。</help>
+        <label>パーセント</label>
+        <name>LLC_BI__Percentage__c</name>
+    </fields>
+    <fields>
+        <label>ピックリスト1.</label>
+        <name>LLC_BI__Picklist_1__c</name>
+        <picklistValues>
+            <masterLabel>Appraisal</masterLabel>
+            <translation>鑑定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation>弁護士</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Report</masterLabel>
+            <translation>信用報告書</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DMV</masterLabel>
+            <translation><!-- DMV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government Recording</masterLabel>
+            <translation>政府記録</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Origination</masterLabel>
+            <translation>融資組成</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly Maintenance</masterLabel>
+            <translation><!-- Monthly Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settlement/Close</masterLabel>
+            <translation>決済手数料</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Tax Stamps</masterLabel>
+            <translation>住民税</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey</masterLabel>
+            <translation>調査</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title Insurance</masterLabel>
+            <translation>権原保険</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title Search</masterLabel>
+            <translation>権原調査</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ピックリスト2.</label>
+        <name>LLC_BI__Picklist_2__c</name>
+        <picklistValues>
+            <masterLabel>Borrower</masterLabel>
+            <translation>債務者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lender</masterLabel>
+            <translation>貸し手</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seller</masterLabel>
+            <translation>売り手</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ピックリスト3.</label>
+        <name>LLC_BI__Picklist_3__c</name>
+        <picklistValues>
+            <masterLabel>001</masterLabel>
+            <translation>1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>002</masterLabel>
+            <translation>2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>003</masterLabel>
+            <translation>3</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>004</masterLabel>
+            <translation>4</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>005</masterLabel>
+            <translation>5</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>006</masterLabel>
+            <translation><!-- 006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>007</masterLabel>
+            <translation><!-- 007 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>008</masterLabel>
+            <translation><!-- 008 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>009</masterLabel>
+            <translation><!-- 009 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ピックリスト4.</label>
+        <name>LLC_BI__Picklist_4__c</name>
+        <picklistValues>
+            <masterLabel>Flat Amount</masterLabel>
+            <translation>均一金額</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percentage</masterLabel>
+            <translation>百分率</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>料金、費用、または調整の記録タイプを選択してください。</help>
+        <label>レコードタイプ</label>
+        <name>LLC_BI__Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>Adjustments</masterLabel>
+            <translation>調整</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costs</masterLabel>
+            <translation>コスト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fees</masterLabel>
+            <translation>手数料</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>このオプションのフィールドに画面セクション名を入力して、ローンに料金を追加するときに完了のためにユーザーに表示されているフィールドを決定します。</help>
+        <label>画面セクション</label>
+        <name>LLC_BI__Screen_Section__c</name>
+        <relationshipLabel>テンプレートレコード</relationshipLabel>
+    </fields>
+    <fields>
+        <label>開始日</label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <fields>
+        <help>手数料のTRID開示カテゴリーを選択してください。</help>
+        <label>TRID開示カテゴリー</label>
+        <name>LLC_BI__TRID_Disclosure_Category__c</name>
+        <picklistValues>
+            <masterLabel>Initial Escrow Payment at Closing</masterLabel>
+            <translation>終了時の最初のエスクロー支払い</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Origination Charges</masterLabel>
+            <translation><!-- Origination Charges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepaids</masterLabel>
+            <translation>プリペイド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services You Can Shop For</masterLabel>
+            <translation>購入可能なサービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services You Cannot Shop For</masterLabel>
+            <translation>購入可能なサービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxes and Other Government Fees</masterLabel>
+            <translation>税金およびその他の政府料金</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>料金のTRID許容誤差カテゴリーを選択してください。</help>
+        <label>Trid Tolerancesカテゴリー</label>
+        <name>LLC_BI__TRID_Tolerances_Category__c</name>
+        <picklistValues>
+            <masterLabel>0% Tolerance</masterLabel>
+            <translation>0％の許容範囲</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10% Cumulative Tolerance</masterLabel>
+            <translation>10％累積耐性</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unlimited Tolerance</masterLabel>
+            <translation>無制限の許容範囲</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>テキストフィールド1.</label>
+        <name>LLC_BI__Text_Field_1__c</name>
+    </fields>
+    <fields>
+        <label>テキストフィールド2.</label>
+        <name>LLC_BI__Text_Field_2__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Template Record Name --></nameFieldLabel>
+    <recordTypes>
+        <description>料金管理のためのテンプレート</description>
+        <label>料金管理レコードタイプ</label>
+        <name>LLC_BI__Fee_Management_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description>実際のテンプレートを選択するには、レコードタイプを起動します</description>
+        <label>レコードタイプの開始</label>
+        <name>LLC_BI__Starting_Record_Type</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>システムが計算タイプを計算できるように、基底ソースとパーセンテージに値を入力してください。</errorMessage>
+        <name>LLC_BI__Percentage_Fee_Required_Fields</name>
+    </validationRules>
+</CustomObjectTranslation>

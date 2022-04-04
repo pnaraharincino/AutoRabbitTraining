@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Group-UI --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- UI Config Builder Group List Config --></label>
+        <name>nFORCE__UI_Config_Builder_Group_List_Config</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Config Builder Group Topbar Config --></label>
+        <name>nFORCE__UI_Config_Builder_Group_Topbar_Config</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- nCino User Interface Test --></label>
+        <name>nFORCE__nCino_User_Interface_Test</name>
+    </fieldSets>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <help>このアンケートに関連付けるレコードを選択してください。</help>
+        <label>回答コンテキスト</label>
+        <name>nFORCE__Answer_Context__c</name>
+        <picklistValues>
+            <masterLabel>Business Account</masterLabel>
+            <translation>法人口座</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit</masterLabel>
+            <translation>預金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Account</masterLabel>
+            <translation>個人口座</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan</masterLabel>
+            <translation>融資</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>要求されたアプリのグループ部分を入力してください。\ n \ ne.g。要求されたアプリが &apos;loan.change-product&apos;の場合、グループ部分は &apos;融資&apos;です。</help>
+        <label>アプリ</label>
+        <name>nFORCE__App__c</name>
+    </fields>
+    <fields>
+        <help>このグループが属するカテゴリを指定してください。</help>
+        <label>カテゴリー</label>
+        <name>nFORCE__Category__c</name>
+        <picklistValues>
+            <masterLabel>Customer Dashboard</masterLabel>
+            <translation>顧客ダッシュボード</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Application</masterLabel>
+            <translation>オンラインアプリケーション</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>このグループがどのようにしてこのグループがどのように使用するかという説明を入力してください。</help>
+        <label>概要</label>
+        <name>nFORCE__Description__c</name>
+    </fields>
+    <fields>
+        <label>アーカイブ済み</label>
+        <name>nFORCE__Is_Archived__c</name>
+    </fields>
+    <fields>
+        <label>アンケート</label>
+        <name>nFORCE__Is_Questionnaire__c</name>
+    </fields>
+    <fields>
+        <help>このグループのレイアウトを選択</help>
+        <label>レイアウト</label>
+        <name>nFORCE__Layout__c</name>
+        <relationshipLabel>グループ</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このグループがサブグループであるグループの名前。</help>
+        <label>親グループ</label>
+        <name>nFORCE__Parent_Group__c</name>
+        <relationshipLabel>親グループ</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このグループの内容をレンダリングするために使用される画面。 NCINO UIでは、この画面はトップバーに表示されます。</help>
+        <label>画面</label>
+        <name>nFORCE__Screen__c</name>
+        <relationshipLabel>グループ</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Taxonomy ID --></label>
+        <name>nFORCE__Taxonomy_Id__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a defined Context Type which this Group will be associated to. For primary applicants, enter Applicant. For co-owners added to a deposit, enter Owner. For co-borrowers or guarantors added to a small business loan, enter Other Involved (Individual). --></help>
+        <label>コンテキストタイプ</label>
+        <name>nPortal__Context_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this field to allow access to this Group and related records for UI in Customer Portal. --></help>
+        <label>ポータル利用</label>
+        <name>nPortal__Is_Portal_Enabled__c</name>
+    </fields>
+    <nameFieldLabel><!-- Group Name --></nameFieldLabel>
+    <webLinks>
+        <label>ディープクローングループ</label>
+        <name>Deep_Clone_Group</name>
+    </webLinks>
+    <webLinks>
+        <label>グループアイテム削除</label>
+        <name>Remove_Group_Items</name>
+    </webLinks>
+</CustomObjectTranslation>

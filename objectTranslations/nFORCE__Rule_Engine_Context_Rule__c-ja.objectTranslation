@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Rule Engine Context Rule --></value>
+    </caseValues>
+    <fields>
+        <label>説明</label>
+        <name>nFORCE__Description__c</name>
+    </fields>
+    <fields>
+        <label>ルールエンジンコンテキスト</label>
+        <name>nFORCE__Rule_Engine_Context__c</name>
+        <relationshipLabel>ルールエンジンコンテキストルール</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Context Rule Name --></nameFieldLabel>
+</CustomObjectTranslation>

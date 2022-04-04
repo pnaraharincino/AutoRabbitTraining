@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- WK_DepAct_DocPrep --></label>
+        <name>WKDDP__WK_DepAct_DocPrep</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>LLC_BI__Is_Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this field when this Ownership Structure role is for an authorized business. --></help>
+        <label><!-- Is Authorized Business --></label>
+        <name>LLC_BI__Is_Authorized_Business__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Authorized Individual --></label>
+        <name>LLC_BI__Is_Authorized_Signer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Required --></label>
+        <name>LLC_BI__Is_Required__c</name>
+    </fields>
+    <fields>
+        <help><!-- Populate this field with the API name of the desired field set that will display when you add this role to a deposit. --></help>
+        <label><!-- Ownership Structure Role Field Set --></label>
+        <name>LLC_BI__Ownership_Structure_Role_Field_Set__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ownership Structure Type --></label>
+        <name>LLC_BI__Ownership_Structure_Type__c</name>
+        <relationshipLabel><!-- Ownership Structure Roles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ownership Type --></label>
+        <name>LLC_BI__Relationship_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role Description --></label>
+        <name>LLC_BI__Role_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field displays the unique identifier for Ownership Structure Role. --></help>
+        <label><!-- lookupKey --></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a description of the other rights at death option. --></help>
+        <label><!-- Description --></label>
+        <name>WKDDP__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select whether the power of attorneys for the holder may exercise powers independently or jointly. --></help>
+        <label><!-- Exercise Type --></label>
+        <name>WKDDP__Exercise_Type__c</name>
+        <picklistValues>
+            <masterLabel>Independently</masterLabel>
+            <translation><!-- Independently --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jointly</masterLabel>
+            <translation><!-- Jointly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the checkbox to indicate a true separate Power of Attorney (POA) document is desired. If not, leave the checkbox unselected. --></help>
+        <label><!-- Form Power Of Attorney Indicator --></label>
+        <name>WKDDP__Form_Power_Of_Attorney_Indicator__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the checkbox to indicate that any personal agent assigned on the account is durable. --></help>
+        <label><!-- Personal Agent Durable Indicator --></label>
+        <name>WKDDP__Personal_Agent_Durable_Indicator__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the description of the relationship between the fiduciary (POA) and the account. --></help>
+        <label><!-- Relationship Description --></label>
+        <name>WKDDP__Relationship_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Populate this field with the corresponding role code. --></help>
+        <label><!-- nCino Code --></label>
+        <name>WKDDP__nCino_Code__c</name>
+    </fields>
+</CustomObjectTranslation>

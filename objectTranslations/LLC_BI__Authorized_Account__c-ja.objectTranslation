@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>認定口座</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Add Signer Modal --></label>
+        <name>LLC_BI__Add_Signer_Modal</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Authorized Business Maintenance Delta --></label>
+        <name>LLC_BI__Authorized_Business_Maintenance_Delta</name>
+    </fieldSets>
+    <fieldSets>
+        <label>債務関係者一覧</label>
+        <name>LLC_BI__Borrowing_Structure_Table</name>
+    </fieldSets>
+    <fieldSets>
+        <label>所有権構造テーブル</label>
+        <name>LLC_BI__Ownership_Structure_Table</name>
+    </fieldSets>
+    <fields>
+        <help>システム入力されたフィールドは、許可されたビジネスをアカウントに関連付けます。</help>
+        <label>取引先</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>許可されたアカウント</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter the Tax Favored Account percentage. --></help>
+        <label><!-- Beneficiary Allocation Percentage --></label>
+        <name>LLC_BI__Allocation_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>システム入力フィールドは、許可された事業を別の許可された事業に関連付けます。</help>
+        <label>許可されたアカウント</label>
+        <name>LLC_BI__Authorized_Account__c</name>
+        <relationshipLabel>許可されたアカウント</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select the Beneficiary Type. --></help>
+        <label><!-- Beneficiary Type --></label>
+        <name>LLC_BI__Beneficiary_Type__c</name>
+        <picklistValues>
+            <masterLabel>Contingent</masterLabel>
+            <translation><!-- Contingent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>キャパシティー</label>
+        <name>LLC_BI__Capacity__c</name>
+        <picklistValues>
+            <masterLabel>Beneficiary</masterLabel>
+            <translation>受益者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Partner</masterLabel>
+            <translation>一般的なパートナー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager</masterLabel>
+            <translation>マネジャー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member</masterLabel>
+            <translation>メンバー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>パートナー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trustee</masterLabel>
+            <translation>管財人</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>システム入力フィールドは、許可されたビジネスを特定のエンティティの関与に関連付けます。</help>
+        <label>関係者関与</label>
+        <name>LLC_BI__Entity__c</name>
+        <relationshipLabel>許可されたアカウント</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このシステム入力フィールドは、許可されたビジネスを特定の所有権構造の役割に関連付けます。</help>
+        <label>所有権構造の役割</label>
+        <name>LLC_BI__Ownership_Structure_Role__c</name>
+        <relationshipLabel>許可されたアカウント</relationshipLabel>
+    </fields>
+    <fields>
+        <label>契約権限</label>
+        <name>LLC_BI__Signing_Authority__c</name>
+        <picklistValues>
+            <masterLabel>Authorized</masterLabel>
+            <translation>認証済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Authorized</masterLabel>
+            <translation>未認証</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>固有の外部識別子を入力してください。</help>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel>認定口座</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>財務分析 - レコード区分</value>
+    </caseValues>
+    <fields>
+        <help>スプレッドステートメントレコードの分類</help>
+        <label>分類</label>
+        <name>LLC_BI__Classification__c</name>
+        <relationshipLabel>スプレッドレコード分類</relationshipLabel>
+    </fields>
+    <fields>
+        <help>分類されているスプレッドステートメントレコード。</help>
+        <label>財務分析レコード</label>
+        <name>LLC_BI__Spread_Statement_Record__c</name>
+        <relationshipLabel>スプレッドレコード分類</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel>財務分析 - レコード区分</nameFieldLabel>
+</CustomObjectTranslation>

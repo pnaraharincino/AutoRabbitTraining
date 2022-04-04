@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>財務分析 - 決算期</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Add Rent Roll Modal --></label>
+        <name>LLC_BI__Add_Rent_Roll_Modal</name>
+    </fieldSets>
+    <fieldSets>
+        <label>関連期間</label>
+        <name>LLC_BI__Associated_Periods</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CRE Analysis Add Period Modal --></label>
+        <name>LLC_BI__CRE_Analysis_Add_Period_Modal</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CRE Analysis Edit Period Modal --></label>
+        <name>LLC_BI__CRE_Analysis_Edit_Period_Modal</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CRE Analysis Period Header --></label>
+        <name>LLC_BI__CRE_Analysis_Period_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Edit Rent Roll Modal --></label>
+        <name>LLC_BI__Edit_Rent_Roll_Modal</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Projections Add Period Modal --></label>
+        <name>LLC_BI__Projections_Add_Period_Modal</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Projections Period Header --></label>
+        <name>LLC_BI__Projections_Period_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Rent Roll Details Header --></label>
+        <name>LLC_BI__Rent_Roll_Details_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Spreads Add Period Modal --></label>
+        <name>LLC_BI__Spreads_Add_Period_Modal</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Spreads Edit Period Modal --></label>
+        <name>LLC_BI__Spreads_Edit_Period_Modal</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Spreads Period Header --></label>
+        <name>LLC_BI__Spreads_Period_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Template Migration Field Selections --></label>
+        <name>LLC_BI__Template_Migration_Field_Selections</name>
+    </fieldSets>
+    <fields>
+        <label><!-- -D Accumulate --></label>
+        <name>LLC_BI__Accumulate__c</name>
+    </fields>
+    <fields>
+        <label>アナリスト</label>
+        <name>LLC_BI__Analyst__c</name>
+        <relationshipLabel>スプレッドステートメント期間</relationshipLabel>
+    </fields>
+    <fields>
+        <label>平均為替レート</label>
+        <name>LLC_BI__Average_Exchange_Rate__c</name>
+    </fields>
+    <fields>
+        <label>担保の列タイトル</label>
+        <name>LLC_BI__Collateral_Column_Title__c</name>
+        <picklistValues>
+            <masterLabel>Appraisal</masterLabel>
+            <translation>鑑定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>At Stabilization</masterLabel>
+            <translation><!-- At Stabilization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current</masterLabel>
+            <translation>変動</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation>引受</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- -D Column Number --></label>
+        <name>LLC_BI__Column_Number__c</name>
+    </fields>
+    <fields>
+        <label>データソース</label>
+        <name>LLC_BI__Data_Source__c</name>
+        <relationshipLabel>スプレッドステートメント期間</relationshipLabel>
+    </fields>
+    <fields>
+        <label>債務支払予定</label>
+        <name>LLC_BI__Debt_Schedule__c</name>
+        <relationshipLabel>スプレッドステートメント期間</relationshipLabel>
+    </fields>
+    <fields>
+        <label>為替レート</label>
+        <name>LLC_BI__Exchange_Rate__c</name>
+    </fields>
+    <fields>
+        <label>外部データソースID</label>
+        <name>LLC_BI__External_Data_Source_Id__c</name>
+    </fields>
+    <fields>
+        <label>外部期間キー</label>
+        <name>LLC_BI__External_Period_Key__c</name>
+    </fields>
+    <fields>
+        <label>会計年度</label>
+        <name>LLC_BI__Fiscal_Year_TTM_Period__c</name>
+        <relationshipLabel>会計年度の普及期間</relationshipLabel>
+    </fields>
+    <fields>
+        <label>初期暫定TTM期間</label>
+        <name>LLC_BI__Initial_Interim_TTM_Period__c</name>
+        <relationshipLabel>初期暫定スプレッドステートメント期間</relationshipLabel>
+    </fields>
+    <fields>
+        <label>年次</label>
+        <name>LLC_BI__Is_Annual__c</name>
+    </fields>
+    <fields>
+        <label>会計年度</label>
+        <name>LLC_BI__Is_Fiscal_Year__c</name>
+    </fields>
+    <fields>
+        <label>Flex対応の債務スケジュールです</label>
+        <name>LLC_BI__Is_Flex_Enabled_Debt_Schedule__c</name>
+    </fields>
+    <fields>
+        <help>これは、グローバル分析で選択可能な期間を指定します</help>
+        <label>グローバル分析年</label>
+        <name>LLC_BI__Is_Global_Analysis_Year__c</name>
+    </fields>
+    <fields>
+        <label>月</label>
+        <name>LLC_BI__Month__c</name>
+    </fields>
+    <fields>
+        <help>列の名前を上書きします。この値が設定されている場合、アプリケーションは月と年の代わりにそれを表示します。</help>
+        <label>説明</label>
+        <name>LLC_BI__Name_Override__c</name>
+    </fields>
+    <fields>
+        <label>決算期数</label>
+        <name>LLC_BI__Number_of_Periods__c</name>
+    </fields>
+    <fields>
+        <label>決算期キー</label>
+        <name>LLC_BI__Period_Key__c</name>
+    </fields>
+    <fields>
+        <label>範囲外の決算期</label>
+        <name>LLC_BI__Period_Out_Of_Range__c</name>
+    </fields>
+    <fields>
+        <label>期末からのプロジェクト</label>
+        <name>LLC_BI__Project_from_Period__c</name>
+        <relationshipLabel>スプレッドステートメント期間（期間からのプロジェクト）</relationshipLabel>
+    </fields>
+    <fields>
+        <label>グローバルで選択</label>
+        <name>LLC_BI__Selected_In_Global__c</name>
+    </fields>
+    <fields>
+        <label>選択済</label>
+        <name>LLC_BI__Selected__c</name>
+    </fields>
+    <fields>
+        <label>ソース通貨</label>
+        <name>LLC_BI__Source_Currency__c</name>
+    </fields>
+    <fields>
+        <label>ソース</label>
+        <name>LLC_BI__Source__c</name>
+        <picklistValues>
+            <masterLabel>CPA Audit</masterLabel>
+            <translation>CPA監査</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPA Compiled</masterLabel>
+            <translation>決算書</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPA Review</masterLabel>
+            <translation>CPAレビュー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comp. Prep</masterLabel>
+            <translation><!-- Comp. Prep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFS</masterLabel>
+            <translation><!-- PFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projected</masterLabel>
+            <translation><!-- Projected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Return</masterLabel>
+            <translation>納税申告書</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>スプレッドテンプレート</label>
+        <name>LLC_BI__Spread_Projections_Template__c</name>
+        <relationshipLabel>スプレッドステートメント期間</relationshipLabel>
+    </fields>
+    <fields>
+        <label>スプレッドステートメントタイプ</label>
+        <name>LLC_BI__Spread_Statement_Type__c</name>
+        <relationshipLabel>スプレッドステートメント期間</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ステートメント日付</label>
+        <name>LLC_BI__Statement_Date__c</name>
+    </fields>
+    <fields>
+        <label>末尾の暫定TTM期間</label>
+        <name>LLC_BI__Trailing_Interim_TTM_Period__c</name>
+        <relationshipLabel>TRAILING_INTERIM_TTM_SPREADステートメント期間</relationshipLabel>
+    </fields>
+    <fields>
+        <label>タイプ</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>標準</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trailing Twelve Month</masterLabel>
+            <translation>末尾の12ヶ月</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>マッピングされていない値</label>
+        <name>LLC_BI__Unmapped_Values__c</name>
+    </fields>
+    <fields>
+        <label>グローバルに隠された年</label>
+        <name>LLC_BI__Year_Hidden_In_Global__c</name>
+    </fields>
+    <fields>
+        <label>年間の範囲</label>
+        <name>LLC_BI__Year_Out_Range__c</name>
+    </fields>
+    <fields>
+        <label>年</label>
+        <name>LLC_BI__Year__c</name>
+    </fields>
+    <fields>
+        <label>externalookupkey</label>
+        <name>LLC_BI__externalLookupKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field Deprecated.  Replaced by externalLookup_Key__c. --></help>
+        <label><!-- -D lookupKey --></label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Projected Date --></label>
+        <name>Projected_Date__c</name>
+    </fields>
+    <nameFieldLabel>財務分析 - 決算期</nameFieldLabel>
+</CustomObjectTranslation>

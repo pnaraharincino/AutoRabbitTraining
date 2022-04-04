@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Field Extension --></value>
+    </caseValues>
+    <fields>
+        <label>有効</label>
+        <name>nFORCE__Active__c</name>
+    </fields>
+    <fields>
+        <label>項目名</label>
+        <name>nFORCE__Field_Name__c</name>
+    </fields>
+    <fields>
+        <label>マスキング</label>
+        <name>nFORCE__Mask_Type__c</name>
+        <picklistValues>
+            <masterLabel>Last 4 in Clear</masterLabel>
+            <translation>クリアの最後の4</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mask All Characters</masterLabel>
+            <translation>すべてのキャラクターをマスクします</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>なし</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>オブジェクト名</label>
+        <name>nFORCE__Object_Name__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+</CustomObjectTranslation>

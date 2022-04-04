@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Requirement --></value>
+    </caseValues>
+    <fieldSets>
+        <label>メンテナンス依頼オーダー</label>
+        <name>LLC_BI__Maintenance_Request_Orders</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Smart Checklist Account Fields --></label>
+        <name>LLC_BI__Smart_Checklist_Account_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Smart Checklist Collateral Fields --></label>
+        <name>LLC_BI__Smart_Checklist_Collateral_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Smart Checklist Loan Fields --></label>
+        <name>LLC_BI__Smart_Checklist_Loan_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Smart Checklist Product Package Fields --></label>
+        <name>LLC_BI__Smart_Checklist_Product_Package_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Smart Checklist Treasury Service Fields --></label>
+        <name>LLC_BI__Smart_Checklist_Treasury_Service_Fields</name>
+    </fieldSets>
+    <fields>
+        <help>この必須フィールドは、ユーザーが選択するアクションに基づいて入力されます。このフィールドには、各メンテナンス要求の動作が含まれています。</help>
+        <label>アクション</label>
+        <name>LLC_BI__Action__c</name>
+    </fields>
+    <fields>
+        <help>このオプションフィールドには、この要件を完了するために取られた日数が含まれています。</help>
+        <label>実際日数</label>
+        <name>LLC_BI__Actual_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help>このオプションフィールドは、要件が作成されるかどうかを判断するフォームの構文を格納します。</help>
+        <label>高度な条件</label>
+        <name>LLC_BI__Advanced_Criteria__c</name>
+    </fields>
+    <fields>
+        <help>この読み取り専用フィールドは、この要件の元の所有者のIDを持つシステムによって入力されます。可能な値は、ユーザー、キュー、およびLLC_BI__ROLE__C IDです。</help>
+        <label>パーティー</label>
+        <name>LLC_BI__Assigned_Party__c</name>
+    </fields>
+    <fields>
+        <help>この数式フィールドには、この要件を所有するユーザーまたはキューの名前が表示されます。</help>
+        <label>譲受人</label>
+        <name>LLC_BI__Assignee__c</name>
+    </fields>
+    <fields>
+        <help><!-- The system automatically populates this optional field with the category associated to the requirement. --></help>
+        <label><!-- Category --></label>
+        <name>LLC_BI__Category__c</name>
+        <relationshipLabel><!-- Requirements --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>この必須フィールドには、この要件が属するチェックリストへの参照が含まれています。</help>
+        <label>チェックリスト</label>
+        <name>LLC_BI__Checklist__c</name>
+        <relationshipLabel>チェックリスト</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このフィールドには、この要件に関連するレコードのIDが含まれています。</help>
+        <label>コンテキストID</label>
+        <name>LLC_BI__Context_Id__c</name>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <help>このオプションフィールドには、この要件を完了しなければならない日付が含まれています。</help>
+        <label>期日</label>
+        <name>LLC_BI__Due_Date__c</name>
+    </fields>
+    <fields>
+        <help>このオプションフィールドには、この要件を完了する予定の日数が含まれています。</help>
+        <label>予定の持続日数</label>
+        <name>LLC_BI__Expected_Duration_Days__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドをチェックして、コンテキストオブジェクトがCheckPointコンテキストを超えて移動する前にこの要件を完了する必要があることを示します。</help>
+        <label>ハードストップ</label>
+        <name>LLC_BI__Hard_Stop__c</name>
+    </fields>
+    <fields>
+        <help>この要件がテンプレートであることを示すためにこのフィールドをチェックしてください。</help>
+        <label>テンプレート</label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドは、要件レコードが手動で放棄されたかどうかを示します。ユーザーがユーザーインターフェイス内の「wavived」に要件を設定した場合、システムはこのフィールドを自動的に設定します。</help>
+        <label>手動で放棄されました</label>
+        <name>LLC_BI__Manually_Waived__c</name>
+    </fields>
+    <fields>
+        <help>この要件に必要なコンテキストメタデータレコードを表します。</help>
+        <label>コンテキストによって必要</label>
+        <name>LLC_BI__Needed_By_Context__c</name>
+    </fields>
+    <fields>
+        <label>に必要</label>
+        <name>LLC_BI__Needed_By__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Funded</masterLabel>
+            <translation>ファンド完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closing</masterLabel>
+            <translation>クロージング</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>コンプライアンス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Underwriting</masterLabel>
+            <translation>審査引受</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Prep</masterLabel>
+            <translation>文書準備</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Review</masterLabel>
+            <translation>文書レビュー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final Review</masterLabel>
+            <translation><!-- Final Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Committee</masterLabel>
+            <translation>融資審査委員会</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>処理</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal</masterLabel>
+            <translation>提案</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification</masterLabel>
+            <translation>資格</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicing</masterLabel>
+            <translation>サービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Assets</masterLabel>
+            <translation>特別資産</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>このオプションフィールドは、この要件を完了するシーケンスを指定します。</help>
+        <label>オーダー</label>
+        <name>LLC_BI__Order__c</name>
+    </fields>
+    <fields>
+        <help>このオプションフィールドには、演算されているオブジェクトのIDが自動的に入力されます。</help>
+        <label>プロキシID</label>
+        <name>LLC_BI__Proxy_Id__c</name>
+    </fields>
+    <fields>
+        <help>このオプションのフィールドには、実行されているオブジェクトAPI名が自動的に入力されます。</help>
+        <label>プロキシタイプ</label>
+        <name>LLC_BI__Proxy_Type__c</name>
+    </fields>
+    <fields>
+        <help>この必須フィールドには、この要件の現在の状態が含まれています。</help>
+        <label>ステータス</label>
+        <name>LLC_BI__Status__c</name>
+    </fields>
+    <fields>
+        <help>このオプションフィールドには、この要件が基づいている要件テンプレートの開発者名が含まれています。</help>
+        <label>テンプレート</label>
+        <name>LLC_BI__Template__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

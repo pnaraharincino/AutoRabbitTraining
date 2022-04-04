@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Third Party Report --></value>
+    </caseValues>
+    <fieldSets>
+        <label>稟議書 標準案件パッケージ</label>
+        <name>LLC_BI__Standard_Product_Package_Credit_Memo</name>
+    </fieldSets>
+    <fields>
+        <label>建物規模（平方フィート）</label>
+        <name>LLC_BI__Building_Size_Sq_Ft__c</name>
+    </fields>
+    <fields>
+        <label>現在の不動産利用/居住者</label>
+        <name>LLC_BI__Current_Property_Use__c</name>
+    </fields>
+    <fields>
+        <help>「注文タイプ」EPA設定に依存。価値はRSRA、第１段階および第２段階</help>
+        <label>EPA評価タイプ</label>
+        <name>LLC_BI__EPA_Assessment__c</name>
+        <picklistValues>
+            <masterLabel>Phase 1</masterLabel>
+            <translation>フェーズ1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phase 2</masterLabel>
+            <translation>フェーズ2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RSRA</masterLabel>
+            <translation><!-- RSRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction Screen</masterLabel>
+            <translation>取引画面</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>EPAベンダー</label>
+        <name>LLC_BI__EPA_Vendor__c</name>
+        <picklistValues>
+            <masterLabel>AEI</masterLabel>
+            <translation><!-- AEI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PES</masterLabel>
+            <translation><!-- PES --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>融資</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>サードパーティ報告</relationshipLabel>
+    </fields>
+    <fields>
+        <label>オーダータイプ</label>
+        <name>LLC_BI__Order_Type__c</name>
+        <picklistValues>
+            <masterLabel>As Built</masterLabel>
+            <translation><!-- As Built --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Constructed</masterLabel>
+            <translation><!-- As Constructed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As Is</masterLabel>
+            <translation><!-- As Is --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPA Assessment</masterLabel>
+            <translation><!-- EPA Assessment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Previous Property Use(s)</label>
+        <name>LLC_BI__Previous_Property_Use_s__c</name>
+    </fields>
+    <fields>
+        <label>不動産住所</label>
+        <name>LLC_BI__Property_Address__c</name>
+    </fields>
+    <fields>
+        <label>不動産所在地郡</label>
+        <name>LLC_BI__Property_County__c</name>
+    </fields>
+    <fields>
+        <label>不動産の説明</label>
+        <name>LLC_BI__Property_Description__c</name>
+    </fields>
+    <fields>
+        <label>不動産ステータス</label>
+        <name>LLC_BI__Property_Status__c</name>
+        <picklistValues>
+            <masterLabel>Improved</masterLabel>
+            <translation>改善された</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land Only</masterLabel>
+            <translation>土地のみ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Construction</masterLabel>
+            <translation>工事中</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>プロパティタイプ</label>
+        <name>LLC_BI__Property_Type__c</name>
+        <picklistValues>
+            <masterLabel>Land and Building</masterLabel>
+            <translation>土地と建物</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raw Land</masterLabel>
+            <translation><!-- Raw Land --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>報告請求コメント</label>
+        <name>LLC_BI__Report_Detail__c</name>
+    </fields>
+    <fields>
+        <label>報告締切日</label>
+        <name>LLC_BI__Report_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label>報告指令</label>
+        <name>LLC_BI__Report_Ordered__c</name>
+    </fields>
+    <fields>
+        <label>報告受領</label>
+        <name>LLC_BI__Report_Rcvd__c</name>
+    </fields>
+    <fields>
+        <label>報告タイプ</label>
+        <name>LLC_BI__Report_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business Valuation</masterLabel>
+            <translation>ビジネス評価</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRE Appraisal</masterLabel>
+            <translation>CRE評価</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPA Assessment</masterLabel>
+            <translation>EPAアセスメント</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment Appraisal</masterLabel>
+            <translation>設備評価</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment Property Appraisal</masterLabel>
+            <translation>投資財産評価</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential Property Appraisal</masterLabel>
+            <translation>住宅財産評価</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Verification</masterLabel>
+            <translation>税務検証</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>現地問合せ先名称</label>
+        <name>LLC_BI__Site_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label>現地問合せ先電話番号</label>
+        <name>LLC_BI__Site_Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label>用地規模</label>
+        <name>LLC_BI__Site_Size__c</name>
+    </fields>
+    <fields>
+        <label>建築年</label>
+        <name>LLC_BI__Year_Built__c</name>
+    </fields>
+    <fields>
+        <label>建築規制</label>
+        <name>LLC_BI__Zoning__c</name>
+        <picklistValues>
+            <masterLabel>Agriculture</masterLabel>
+            <translation>農業</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commerical</masterLabel>
+            <translation>法人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial</masterLabel>
+            <translation>産業用</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential</masterLabel>
+            <translation>居住用</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel><!-- Third Party Report --></nameFieldLabel>
+</CustomObjectTranslation>

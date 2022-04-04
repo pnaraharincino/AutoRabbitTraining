@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Bill Point --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- TM Manage Bill Points --></label>
+        <name>LLC_BI__TM_Manage_Bill_Points</name>
+    </fieldSets>
+    <fields>
+        <help>このフィールドは、BillポイントのAFPコードの説明を提供するために使用されます。</help>
+        <label>AFPコードの説明</label>
+        <name>LLC_BI__AFP_Code_Description__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドは、BillポイントのAFPコードを識別します。</help>
+        <label>AFPコード</label>
+        <name>LLC_BI__AFP_Code__c</name>
+    </fields>
+    <fields>
+        <label>ボリューム上書き許可</label>
+        <name>LLC_BI__Allow_Volume_Override__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドは、Bill PointのBSIDコードの説明を提供するために使用されます。</help>
+        <label>BSIDコードの説明</label>
+        <name>LLC_BI__BSID_Code_Description__c</name>
+    </fields>
+    <fields>
+        <label>例外価格ブロック</label>
+        <name>LLC_BI__Block_Exception_Pricing__c</name>
+    </fields>
+    <fields>
+        <label>価格を表示します</label>
+        <name>LLC_BI__Display_Price__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドは、紙幣点??に関連する固定費用を識別するために使用されます。</help>
+        <label>固定単価</label>
+        <name>LLC_BI__Fixed_Unit_Cost__c</name>
+    </fields>
+    <fields>
+        <label>毎月</label>
+        <name>LLC_BI__Is_Monthly__c</name>
+    </fields>
+    <fields>
+        <label>Perm Wave.</label>
+        <name>LLC_BI__Is_Perm_Waive__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドは、紙幣点??の価格が単一の価格、階層化、またはプログレッシブの階層化された価格構造であるかどうかを指定するために使用されます。デフォルト値はシングルです。</help>
+        <label>価格構造</label>
+        <name>LLC_BI__Price_Structure__c</name>
+        <picklistValues>
+            <masterLabel>Progressive Tiered</masterLabel>
+            <translation>プログレッシブ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single</masterLabel>
+            <translation>独身</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiered</masterLabel>
+            <translation><!-- Tiered --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>標準価格</label>
+        <name>LLC_BI__Price__c</name>
+    </fields>
+    <fields>
+        <label>商品タイプ</label>
+        <name>LLC_BI__Product_Type__c</name>
+        <relationshipLabel>ビルポイント</relationshipLabel>
+    </fields>
+    <fields>
+        <label>製品</label>
+        <name>LLC_BI__Product__c</name>
+        <relationshipLabel>ビルポイント</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- -D Progressive Tiers --></label>
+        <name>LLC_BI__Progressive_Tiers__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドは、BILLポイントに対して定義されているレートクラスを示します。これは、金融機関によって構成されたレートクラスに基づいて、数量＆価格設定ページに正しい価格設定を表示するために使用されます。</help>
+        <label>レートクラス</label>
+        <name>LLC_BI__Rate_Class__c</name>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation>ゴールド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation>プラチナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation>シルバー</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>このフィールドは、紙幣点??に関連する半変数コストを識別するために使用されます。</help>
+        <label><!-- Semi Variable Unit Cost --></label>
+        <name>LLC_BI__Semi_Variable_Unit_Cost__c</name>
+    </fields>
+    <fields>
+        <help>これは、与えられた紙幣点の価格情報を格納するために使用されます。</help>
+        <label><!-- Tiers --></label>
+        <name>LLC_BI__Tiers__c</name>
+    </fields>
+    <fields>
+        <label>単価</label>
+        <name>LLC_BI__Unit_Cost__c</name>
+    </fields>
+    <fields>
+        <label>BSID.</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help>指定されている場合、値はこのタイプのすべてのレコードにわたって一意である必要があります。このフィールドには、通常、レコードを外部システム内の一致レコードに関連付けるために使用される外部識別子が含まれています。</help>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookup_Key__c</name>
+    </fields>
+    <nameFieldLabel><!-- Bill Point Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Period Consolidation --></value>
+    </caseValues>
+    <fields>
+        <help>この項目は必須です。システムは自動的にこの必要なルックアップフィールドに移行して、統合バンドルの宛先期間を参照します。</help>
+        <label>宛先期間</label>
+        <name>LLC_BI__Destination_Period__c</name>
+        <relationshipLabel>宛先期間の統合</relationshipLabel>
+    </fields>
+    <fields>
+        <label>所有割合</label>
+        <name>LLC_BI__Ownership_Percentage__c</name>
+    </fields>
+    <fields>
+        <label>選択済</label>
+        <name>LLC_BI__Selected__c</name>
+    </fields>
+    <fields>
+        <help>この項目は必須です。システムは自動的にこの必要なルックアップフィールドに移行して、統合バンドルのソース期間を参照します。</help>
+        <label>ソース期間</label>
+        <name>LLC_BI__Source_Period__c</name>
+        <relationshipLabel>ソース期間の統合</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このフィールドはオプションです。このシステムは自動的にこのオプションのルックアップフィールドに移行して、統合バンドルの補足期間を参照します。</help>
+        <label>補足期間</label>
+        <name>LLC_BI__Supplemental_Period__c</name>
+        <relationshipLabel>補足期間の統合</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Period Consolidation Name --></nameFieldLabel>
+</CustomObjectTranslation>

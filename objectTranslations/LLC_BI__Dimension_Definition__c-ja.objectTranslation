@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Dimension Definition --></value>
+    </caseValues>
+    <fields>
+        <help>コンテキストオブジェクトを入力してください。</help>
+        <label>コンテキストオブジェクト</label>
+        <name>LLC_BI__Context_Object__c</name>
+    </fields>
+    <fields>
+        <help>Matrix Analystがこのディメンションに値を入力するのに役立つ情報を入力してください。例えば、所望の単位タイプ。</help>
+        <label>除外ディメンションヘルプテキスト</label>
+        <name>LLC_BI__Excluded_Dimension_Help_Text__c</name>
+    </fields>
+    <fields>
+        <help>照会寸法の場合は、値抽出のためのソースフィールドパスを入力してください。</help>
+        <label>ソースフィールド経路</label>
+        <name>LLC_BI__Field_Path__c</name>
+    </fields>
+    <fields>
+        <help>ポリシータイプを選択してください。</help>
+        <label>ポリシータイプ</label>
+        <name>LLC_BI__Policy_Type__c</name>
+        <relationshipLabel>寸法定義</relationshipLabel>
+    </fields>
+    <fields>
+        <help>非クエリディメンションの場合は、値マッピングのターゲットフィールドパスを入力します。</help>
+        <label>ターゲットフィールドパス</label>
+        <name>LLC_BI__Target_Field_Path__c</name>
+    </fields>
+    <fields>
+        <help>寸法タイプを選択してください。</help>
+        <label>タイプ</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Continuous: Numeric</masterLabel>
+            <translation>連続：数値</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discrete: Values/Groupable</masterLabel>
+            <translation>離散：値/グループ可能</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excluded</masterLabel>
+            <translation>除外された</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Result Column</masterLabel>
+            <translation>結果列</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Routing</masterLabel>
+            <translation>ルーティング</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Dimension Definition Name --></nameFieldLabel>
+</CustomObjectTranslation>

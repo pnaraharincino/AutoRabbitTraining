@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>資金調達方法タイプ</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- WK_DepAct_DocPrep --></label>
+        <name>WKDDP__WK_DepAct_DocPrep</name>
+    </fieldSets>
+    <fields>
+        <help>アカウントの資金の種類を選択してください。</help>
+        <label>カテゴリー</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>ACH</masterLabel>
+            <translation>ach</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>クレジット</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit</masterLabel>
+            <translation>デビット</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>画面セクション</label>
+        <name>LLC_BI__Screen_Section__c</name>
+        <relationshipLabel>資金調達方法の種類</relationshipLabel>
+    </fields>
+    <fields>
+        <help>固有の外部識別子を入力してください。</help>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this field to display this Funding Method Type in Customer Portal. --></help>
+        <label><!-- Is Portal Enabled --></label>
+        <name>nPortal__Is_Portal_Enabled__c</name>
+    </fields>
+    <nameFieldLabel>資金調達方法タイプ</nameFieldLabel>
+</CustomObjectTranslation>

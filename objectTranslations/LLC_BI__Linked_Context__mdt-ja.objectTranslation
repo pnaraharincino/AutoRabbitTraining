@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Linked Context --></value>
+    </caseValues>
+    <fields>
+        <help>このフィールドには、コンテキストオブジェクトへの参照が含まれています。</help>
+        <label>コンテキストノード</label>
+        <name>LLC_BI__Context_Node__c</name>
+        <relationshipLabel>リンクされたコンテキスト（コンテキストノード）</relationshipLabel>
+    </fields>
+    <fields>
+        <help>次のコンテキストを参照するコンテキストオブジェクトに参加する関係フィールド</help>
+        <label>コンテキストの関係</label>
+        <name>LLC_BI__Context_Relationship__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドには、context_node内のオブジェクトに結合されるコンテキストオブジェクトが含まれています</help>
+        <label>コンテキストに参加する</label>
+        <name>LLC_BI__Joining_Context__c</name>
+        <relationshipLabel>リンクされたコンテキスト（コンテキストへの参加）</relationshipLabel>
+    </fields>
+    <fields>
+        <help>コンテキストオブジェクトの関係フィールドに参加するコンテキスト・オブジェクトのコンテキスト・項目</help>
+        <label>関係への参加</label>
+        <name>LLC_BI__Joining_Relationship__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドには、現在のcontext_nodeが処理された後に次にcontect__mdtオブジェクトが含まれています。</help>
+        <label>次のコンテキスト</label>
+        <name>LLC_BI__Next_Context__c</name>
+        <relationshipLabel>リンクされたコンテキスト（次のコンテキスト）</relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,3418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>融資</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Administrative &amp; Key Dates --></label>
+        <name>Administrative_Key_Dates</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Balloon Loan Details - Vehicle --></label>
+        <name>Balloon_Loan_Details_Vehicle</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Bulk Update Loans - Edit --></label>
+        <name>Bulk_Update_Loans_Edit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Bulk Update Loans - Manage --></label>
+        <name>Bulk_Update_Loans_Manage</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CRE Questionnaire Field Set --></label>
+        <name>CRE_Questionnaire_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label>関係会社詳細</label>
+        <name>LLC_BI__Affiliated_Detail</name>
+    </fieldSets>
+    <fieldSets>
+        <label>残高情報</label>
+        <name>LLC_BI__Balance_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label>融資実行詳細</label>
+        <name>LLC_BI__Booked_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CRA Action Taken --></label>
+        <name>LLC_BI__CRA_Action_Taken</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CRA Loan Information --></label>
+        <name>LLC_BI__CRA_Loan_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CRA Other --></label>
+        <name>LLC_BI__CRA_Other</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CRA Property Location --></label>
+        <name>LLC_BI__CRA_Property_Location</name>
+    </fieldSets>
+    <fieldSets>
+        <label>担保概要</label>
+        <name>LLC_BI__Collateral_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label>建設</label>
+        <name>LLC_BI__Construction</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Deal Management Loan Tree Grid --></label>
+        <name>LLC_BI__Deal_Management_Loan_Tree_Grid</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Fields To Clone --></label>
+        <name>LLC_BI__Fields_To_Clone</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HMDA Action Taken --></label>
+        <name>LLC_BI__HMDA_Action_Taken</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HMDA Application/Loan Information --></label>
+        <name>LLC_BI__HMDA_Application_Loan_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HMDA Loan Lifecycle --></label>
+        <name>LLC_BI__HMDA_Loan_Lifecycle</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HMDA Property Location --></label>
+        <name>LLC_BI__HMDA_Property_Location</name>
+    </fieldSets>
+    <fieldSets>
+        <label>主要日付</label>
+        <name>LLC_BI__Key_Dates</name>
+    </fieldSets>
+    <fieldSets>
+        <label>融資自動決定概要</label>
+        <name>LLC_BI__Loan_Auto_Decision_Overview</name>
+    </fieldSets>
+    <fieldSets>
+        <label>融資担保概要</label>
+        <name>LLC_BI__Loan_Collateral_Summary_SS</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Loan Facility Creation Additional Fields --></label>
+        <name>LLC_BI__Loan_Facility_Creation_Additional_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>融資情報</label>
+        <name>LLC_BI__Loan_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label>融資価格設定情報</label>
+        <name>LLC_BI__Loan_Pricing_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label>融資ダッシュボード概要</label>
+        <name>LLC_BI__Loan_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label>融資枠管理</label>
+        <name>LLC_BI__Manage_Loan_Facilities</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MemoCategoryAmount --></label>
+        <name>LLC_BI__MemoCategoryAmount</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MemoCategoryInformation --></label>
+        <name>LLC_BI__MemoCategoryInformation</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MemoCategoryMaturityDate --></label>
+        <name>LLC_BI__MemoCategoryMaturityDate</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MemoCategoryPostClosingItems --></label>
+        <name>LLC_BI__MemoCategoryPostClosingItems</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MemoCategoryRate --></label>
+        <name>LLC_BI__MemoCategoryRate</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- MemoCategoryTerms --></label>
+        <name>LLC_BI__MemoCategoryTerms</name>
+    </fieldSets>
+    <fieldSets>
+        <label>参加機関詳細</label>
+        <name>LLC_BI__Participation_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label>融資概要</label>
+        <name>LLC_BI__Pricing_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label>クレジット・アクション</label>
+        <name>LLC_BI__Product_Package_Credit_Action</name>
+    </fieldSets>
+    <fieldSets>
+        <label>アクション保留</label>
+        <name>LLC_BI__Product_Package_Facilities</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Package Facilities Active --></label>
+        <name>LLC_BI__Product_Package_Facilities_Active</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Package Facilities Inactive --></label>
+        <name>LLC_BI__Product_Package_Facilities_Inactive</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Package Facilities Non Pending --></label>
+        <name>LLC_BI__Product_Package_Facilities_Non_Pending</name>
+    </fieldSets>
+    <fieldSets>
+        <label>アクション保留</label>
+        <name>LLC_BI__Product_Package_Pending_Actions</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Referral Information --></label>
+        <name>LLC_BI__Referral_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReviewDisplay --></label>
+        <name>LLC_BI__ReviewDisplay</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SBA --></label>
+        <name>LLC_BI__SBA_Loan_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>稟議書 標準案件パッケージ</label>
+        <name>LLC_BI__Standard_Product_Package_Credit_Memo</name>
+    </fieldSets>
+    <fieldSets>
+        <label>稟議書 標準案件パッケージ</label>
+        <name>LLC_BI__Standard_Product_Package_Credit_Memo_Exp</name>
+    </fieldSets>
+    <fieldSets>
+        <label>サードパーティ</label>
+        <name>LLC_BI__Third_Parties</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Asset Summary --></label>
+        <name>LLC_BI__UI_Asset_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Balance Information --></label>
+        <name>LLC_BI__UI_Balance_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Booked Information --></label>
+        <name>LLC_BI__UI_Booked_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Budget Details --></label>
+        <name>LLC_BI__UI_Budget_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI CRA Action Taken --></label>
+        <name>LLC_BI__UI_CRA_Action_Taken</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI CRA Loan Information --></label>
+        <name>LLC_BI__UI_CRA_Loan_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI CRA Other --></label>
+        <name>LLC_BI__UI_CRA_Other</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI CRA Property Location --></label>
+        <name>LLC_BI__UI_CRA_Property_Location</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Collateral Summary --></label>
+        <name>LLC_BI__UI_Collateral_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Fees Summary --></label>
+        <name>LLC_BI__UI_Fees_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI HMDA Action Taken --></label>
+        <name>LLC_BI__UI_HMDA_Action_Taken</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI HMDA Application/Loan Information --></label>
+        <name>LLC_BI__UI_HMDA_Application_Loan_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI HMDA Loan Lifecycle --></label>
+        <name>LLC_BI__UI_HMDA_Loan_Lifecycle</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI HMDA Property Location --></label>
+        <name>LLC_BI__UI_HMDA_Property_Location</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Loan Information --></label>
+        <name>LLC_BI__UI_Loan_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Loan Pricing Information --></label>
+        <name>LLC_BI__UI_Loan_Pricing_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Loan Dashboard Summary --></label>
+        <name>LLC_BI__UI_Loan_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Lookup Fields --></label>
+        <name>LLC_BI__UI_Lookup_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Referral Information --></label>
+        <name>LLC_BI__UI_Referral_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Loan Facility Creation Additional Fields Custom --></label>
+        <name>Loan_Facility_Creation_Additional_Custom</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Loan Identification --></label>
+        <name>Loan_Identification</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OA - Branch --></label>
+        <name>OA_Branch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OA - Credit Card Details --></label>
+        <name>OA_Credit_Card_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OA Retail Loan - Eligibility --></label>
+        <name>OA_Retail_Loan_Eligibility</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Online Application - Topbar --></label>
+        <name>Online_Application_Topbar</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Pricing Route Custom --></label>
+        <name>Pricing_Route_Custom</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Information --></label>
+        <name>Product_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RL Eligibility #2 --></label>
+        <name>RL_Eligibility_2</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Monthly Expenses --></label>
+        <name>RMOR__Monthly_Expenses</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Recalculate Offers --></label>
+        <name>Recalculate_Offers</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Snapshot Loan</label>
+        <name>Snapshot_Loan</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Stage &amp; Product Selection --></label>
+        <name>Stage_Product_Selection</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- -D Loan Application Topbar Fields --></label>
+        <name>nPortal__Loan_Application_Topbar_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Portal_Product_List --></label>
+        <name>nPortal__Portal_Product_List</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RL Eligibility Loan Information --></label>
+        <name>nPortal__RL_Eligibility_Loan</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SBL Eligibility Loan Information --></label>
+        <name>nPortal__SBL_Eligibility_Loan</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Secured RL Eligibility Loan Information --></label>
+        <name>nPortal__Secured_RL_Eligibility_Loan</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Secured SBL Eligibility Loan Information --></label>
+        <name>nPortal__Secured_SBL_Eligibility_Loan</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Your Products Loan Information --></label>
+        <name>nPortal__Your_Products_Loan</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Application Details --></label>
+        <name>nRetail__Application_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Decision Overview --></label>
+        <name>nRetail__Decision_Overview</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Monthly Expenses Test --></label>
+        <name>nRetail__Monthly_Expenses_Test</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Summary Header Topbar --></label>
+        <name>nRetail__Summary_Header_Topbar</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- TRID Tolerances Snapshot --></label>
+        <name>nRetail__TRID_Tolerances_Snapshot</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Underwriting Overview --></label>
+        <name>nRetail__Underwriting_Overview</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Application # --></label>
+        <name>Application_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker True --></label>
+        <name>Broker_True__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor --></label>
+        <name>Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Anchor Bank</masterLabel>
+            <translation><!-- Anchor Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Associated</masterLabel>
+            <translation><!-- Associated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BMO Harris</masterLabel>
+            <translation><!-- BMO Harris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOA</masterLabel>
+            <translation><!-- BOA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank of America</masterLabel>
+            <translation><!-- Bank of America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chase</masterLabel>
+            <translation><!-- Chase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fifth Third</masterLabel>
+            <translation><!-- Fifth Third --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Midwest</masterLabel>
+            <translation><!-- First Midwest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MB</masterLabel>
+            <translation><!-- MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNC</masterLabel>
+            <translation><!-- PNC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smaller Community Bank</masterLabel>
+            <translation><!-- Smaller Community Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Private Bank</masterLabel>
+            <translation><!-- The Private Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Bank</masterLabel>
+            <translation><!-- US Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wells Fargo</masterLabel>
+            <translation><!-- Wells Fargo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wintrust</masterLabel>
+            <translation><!-- Wintrust --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Custom - used in Retail Auto Decisioning --></help>
+        <label><!-- Consumer Loan --></label>
+        <name>ConsumerLoan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Referral --></label>
+        <name>Is_Referral__c</name>
+    </fields>
+    <fields>
+        <label>APR（年率）</label>
+        <name>LLC_BI__APR__c</name>
+    </fields>
+    <fields>
+        <label>アカウント担当者</label>
+        <name>LLC_BI__Account_Officer__c</name>
+    </fields>
+    <fields>
+        <label>取引先</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>融資</relationshipLabel>
+    </fields>
+    <fields>
+        <label>未収利息</label>
+        <name>LLC_BI__Accrued_Interest__c</name>
+    </fields>
+    <fields>
+        <help>AAF = 1の場合、ステージはクレジットによって減少するように変更されました。 AAF = 0の場合、それはクレジット以外および必要な承認によって変更されました。</help>
+        <label>謝絶管理フラグ</label>
+        <name>LLC_BI__Adverse_Action_Flag__c</name>
+    </fields>
+    <fields>
+        <label>融資枠に対する割当金額</label>
+        <name>LLC_BI__Allocated_Facility_Amount__c</name>
+    </fields>
+    <fields>
+        <label>元本償還期間（月数）</label>
+        <name>LLC_BI__Amortized_Term_Months__c</name>
+    </fields>
+    <fields>
+        <label>元本償還期間（月数）</label>
+        <name>LLC_BI__Amortized_Term__c</name>
+    </fields>
+    <fields>
+        <help>債務者の融資残高総額を記入してください。</help>
+        <label>残高</label>
+        <name>LLC_BI__AmountOutstanding__c</name>
+    </fields>
+    <fields>
+        <label>利用可能金額</label>
+        <name>LLC_BI__Amount_Available__c</name>
+    </fields>
+    <fields>
+        <label>新規資金</label>
+        <name>LLC_BI__Amount_New_Money__c</name>
+    </fields>
+    <fields>
+        <label>未使用金額</label>
+        <name>LLC_BI__Amount_Unused__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドは引受時のローンの「元の量」です。これはローンの「プリンシパルバランス」とは異なり、今日のローンの残高です。</help>
+        <label>お申込み金額</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <help>本システム搭載欄は年間金利上昇率を示します。</help>
+        <label>年間上昇率</label>
+        <name>LLC_BI__Annual_Rate_Increase__c</name>
+    </fields>
+    <fields>
+        <label>申請</label>
+        <name>LLC_BI__Application__c</name>
+        <relationshipLabel>融資</relationshipLabel>
+    </fields>
+    <fields>
+        <help>本欄は融資承認された最大額を示します。</help>
+        <label>承認済金額</label>
+        <name>LLC_BI__Approved_Loan_Amount__c</name>
+    </fields>
+    <fields>
+        <label>弁護士</label>
+        <name>LLC_BI__Attorney__c</name>
+    </fields>
+    <fields>
+        <label>認可日</label>
+        <name>LLC_BI__Authorization_Date__c</name>
+    </fields>
+    <fields>
+        <label>自動決定ステータス</label>
+        <name>LLC_BI__Auto_Decision_Status__c</name>
+    </fields>
+    <fields>
+        <label>自動支払口座</label>
+        <name>LLC_BI__Auto_Pay_Account__c</name>
+    </fields>
+    <fields>
+        <label>自動支払</label>
+        <name>LLC_BI__Auto_Pay__c</name>
+    </fields>
+    <fields>
+        <label>コアシステムからの情報</label>
+        <name>LLC_BI__Availability_From_Core__c</name>
+    </fields>
+    <fields>
+        <help>バルーン支払総額</help>
+        <label>バルーン・ペイメント（融資残額一括払い）</label>
+        <name>LLC_BI__Balloon_Payment__c</name>
+    </fields>
+    <fields>
+        <label>バルーン商品構造</label>
+        <name>LLC_BI__Balloon_Product_Structure__c</name>
+        <picklistValues>
+            <masterLabel>Balloon Amount</masterLabel>
+            <translation>バルーン金額</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Balloon Term</masterLabel>
+            <translation>バルーン期間</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>バルーン融資指標</help>
+        <label>バルーン</label>
+        <name>LLC_BI__Balloon__c</name>
+    </fields>
+    <fields>
+        <label>請求先 市区町村</label>
+        <name>LLC_BI__Billing_Address__c</name>
+    </fields>
+    <fields>
+        <label>請求先 都道府県</label>
+        <name>LLC_BI__Billing_State__c</name>
+    </fields>
+    <fields>
+        <label>請求先 番地以降</label>
+        <name>LLC_BI__Billing_Street__c</name>
+    </fields>
+    <fields>
+        <label>請求先 郵便番号</label>
+        <name>LLC_BI__Billing_Zipcode__c</name>
+    </fields>
+    <fields>
+        <help>「融資実行日」とは、融資が「実行された」とみなされる時点を示す予定日です。この期日を編集することはできません。</help>
+        <label>融資実行日時</label>
+        <name>LLC_BI__Booked_DateTime__c</name>
+    </fields>
+    <fields>
+        <help>「融資実行日」とは、融資が「実行された」とみなされる時点を示す予定日です。この期日を編集することはできません。</help>
+        <label>融資実行日</label>
+        <name>LLC_BI__Booked_Date__c</name>
+    </fields>
+    <fields>
+        <label>債務者 市町村</label>
+        <name>LLC_BI__Borrower_City__c</name>
+    </fields>
+    <fields>
+        <help>債務者の総勘定元帳（GL）残高です。通常、融資の元本残高に等しく、例外は、延滞債権及び償却です。</help>
+        <label>債務者 総勘定元帳（GL）残高</label>
+        <name>LLC_BI__Borrower_GL_Balance__c</name>
+    </fields>
+    <fields>
+        <label>債務者 都道府県</label>
+        <name>LLC_BI__Borrower_State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation><!-- AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation><!-- DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation><!-- IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation><!-- KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation><!-- MN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation><!-- MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation><!-- ND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation><!-- NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation><!-- NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation><!-- NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation><!-- NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation><!-- RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation><!-- SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation><!-- VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation><!-- VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation><!-- WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation><!-- WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation><!-- WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation><!-- WY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>支店</label>
+        <name>LLC_BI__Branch__c</name>
+        <relationshipLabel>融資</relationshipLabel>
+    </fields>
+    <fields>
+        <label>紹介料</label>
+        <name>LLC_BI__Broker_Fee__c</name>
+    </fields>
+    <fields>
+        <label>予算</label>
+        <name>LLC_BI__Budget__c</name>
+        <relationshipLabel>融資</relationshipLabel>
+    </fields>
+    <fields>
+        <help>ローンのために取られたCRAの行動</help>
+        <label>行動</label>
+        <name>LLC_BI__CRA_Action_Taken__c</name>
+        <picklistValues>
+            <masterLabel>1 - Loan Originated</masterLabel>
+            <translation>1 - 融資組成</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Loan Purchased By Your Institution</masterLabel>
+            <translation>2 - 他の金融機関が買入した融資</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>CRAアフィリエイト</help>
+        <label>アフィリエイトコード</label>
+        <name>LLC_BI__CRA_Affiliate__c</name>
+        <picklistValues>
+            <masterLabel>1 - Action taken at this institution</masterLabel>
+            <translation>1  - この機関で行われた行動</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Action taken at an affiliate</masterLabel>
+            <translation>2  - アフィリエイトで取られた行動</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>数千に丸みを帯びた数千の量を報告する（500ドルは翌千台まで切り上げる必要があります）。</help>
+        <label>融資額(単位千)</label>
+        <name>LLC_BI__CRA_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Census tract --></help>
+        <label>国勢調査箇所（####。##フォーマット）</label>
+        <name>LLC_BI__CRA_Census_Tract_Text__c</name>
+    </fields>
+    <fields>
+        <help>CRAコミュニティ開発の報告可能です</help>
+        <label>コミュニティ開発報告</label>
+        <name>LLC_BI__CRA_Community_Development_Reportable__c</name>
+    </fields>
+    <fields>
+        <help>CRAコンソーシアム/サードパーティの報告可能</help>
+        <label>コンソーシアム/サードパーティの報告</label>
+        <name>LLC_BI__CRA_Consortium_Third_Party_Reportable__c</name>
+    </fields>
+    <fields>
+        <help>CRA日付アクション</help>
+        <label>取得された日付アクション</label>
+        <name>LLC_BI__CRA_Date_Action_Taken__c</name>
+    </fields>
+    <fields>
+        <help>FIPS郡コード</help>
+        <label>3桁の郡コード</label>
+        <name>LLC_BI__CRA_FIPS_County_Code_Text__c</name>
+    </fields>
+    <fields>
+        <help>FIPS郡コード</help>
+        <label><!-- -D Three Digit County Code --></label>
+        <name>LLC_BI__CRA_FIPS_County_Code__c</name>
+    </fields>
+    <fields>
+        <help>FIPSステートコード</help>
+        <label>2桁の州コード</label>
+        <name>LLC_BI__CRA_FIPS_State_Code_Text__c</name>
+    </fields>
+    <fields>
+        <help>FIPSステートコード</help>
+        <label><!-- -D Two Digit State Code --></label>
+        <name>LLC_BI__CRA_FIPS_State_Code__c</name>
+    </fields>
+    <fields>
+        <help>CRAローンID</help>
+        <label>融資ID番号</label>
+        <name>LLC_BI__CRA_Loan_ID__c</name>
+    </fields>
+    <fields>
+        <help>MSA / MD番号</help>
+        <label>5桁のMSA / MD番号</label>
+        <name>LLC_BI__CRA_MSA_MD_Number_Text__c</name>
+    </fields>
+    <fields>
+        <help>MSA / MD番号</help>
+        <label><!-- -D Five Digit MSA/MD Number --></label>
+        <name>LLC_BI__CRA_MSA_MD_Number__c</name>
+    </fields>
+    <fields>
+        <help>CRA 報告可能</help>
+        <label>CRA 報告可能</label>
+        <name>LLC_BI__CRA_Reportable__c</name>
+    </fields>
+    <fields>
+        <help>CRA歳収</help>
+        <label>収益コード</label>
+        <name>LLC_BI__CRA_Revenue__c</name>
+        <picklistValues>
+            <masterLabel>1 - Less than or equal to $1 million</masterLabel>
+            <translation>1億円以下</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Greater than $1 million</masterLabel>
+            <translation>1億円より大きい</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Not Known</masterLabel>
+            <translation>3-不明</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>融資タイプ</label>
+        <name>LLC_BI__CRA_Type_Code__c</name>
+        <picklistValues>
+            <masterLabel>Credit card</masterLabel>
+            <translation>クレジットカード</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home equity</masterLabel>
+            <translation>不動産担保</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motor vehicle</masterLabel>
+            <translation>自動車</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - Secured</masterLabel>
+            <translation><!-- Other - Secured --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - Unsecured</masterLabel>
+            <translation><!-- Other - Unsecured --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Lines / Loans for Small Business Purposes</masterLabel>
+            <translation><!-- Other Lines / Loans for Small Business Purposes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Miscellaneous Loan Data</masterLabel>
+            <translation><!-- Other Miscellaneous Loan Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small business</masterLabel>
+            <translation>中小企業</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small farm</masterLabel>
+            <translation>小規模農場</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>返済予定を通じて算出されたバルーン金額です。</help>
+        <label>算出バルーン金額</label>
+        <name>LLC_BI__Calculated_Balloon_Amount__c</name>
+    </fields>
+    <fields>
+        <label>電話報告コード</label>
+        <name>LLC_BI__Call_Report_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Census tract --></help>
+        <label>-D国勢調査路（####。##フォーマット）</label>
+        <name>LLC_BI__Census_Tract__c</name>
+    </fields>
+    <fields>
+        <label>クラス・コード</label>
+        <name>LLC_BI__Class_Code__c</name>
+    </fields>
+    <fields>
+        <label>予想手続き完了日</label>
+        <name>LLC_BI__CloseDate__c</name>
+    </fields>
+    <fields>
+        <label>手続き完了日確認</label>
+        <name>LLC_BI__Close_Date_Hard__c</name>
+    </fields>
+    <fields>
+        <label>手続き完了月</label>
+        <name>LLC_BI__Close_Month__c</name>
+    </fields>
+    <fields>
+        <help>「手続き完了日」とは、融資が「手続き完了」とみなされる時点を示す予定日です。この期日を編集することはできません。</help>
+        <label>手続き完了日</label>
+        <name>LLC_BI__Closed_Date__c</name>
+    </fields>
+    <fields>
+        <label>% 完了</label>
+        <name>LLC_BI__Complete__c</name>
+    </fields>
+    <fields>
+        <label>コンプライアンス担当者</label>
+        <name>LLC_BI__Compliance_Officer__c</name>
+    </fields>
+    <fields>
+        <help>コンソーシアム/サードパーティの報告</help>
+        <label>コンソーシアム/サードパーティの報告</label>
+        <name>LLC_BI__Consortium_Third_Party_Reportable__c</name>
+    </fields>
+    <fields>
+        <label>建設CO日付</label>
+        <name>LLC_BI__Construction_CO_Date__c</name>
+    </fields>
+    <fields>
+        <label>信用承認日付</label>
+        <name>LLC_BI__Credit_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label>稟議書</label>
+        <name>LLC_BI__Credit_Memo__c</name>
+        <relationshipLabel>融資</relationshipLabel>
+    </fields>
+    <fields>
+        <label>現在貸出可能額</label>
+        <name>LLC_BI__Current_Gross_Lendable_Value_Collateral1__c</name>
+    </fields>
+    <fields>
+        <label>現在金利</label>
+        <name>LLC_BI__Current_Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help>LTVをご覧になります。掛目はその計算には↓↓↓さん</help>
+        <label>現在LTV（融資比率）</label>
+        <name>LLC_BI__Current_LTV_Collateral1__c</name>
+    </fields>
+    <fields>
+        <help>（元本残高または融資金額　-　全担保のうちの優先担保総額」）/ 全担保の担保価値</help>
+        <label>現在LTV（融資比率）</label>
+        <name>LLC_BI__Current_LTV__c</name>
+    </fields>
+    <fields>
+        <help>全ての担保に関する貸出可能額合計</help>
+        <label>現在貸出可能額</label>
+        <name>LLC_BI__Current_Total_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <label>手続き完了までの日数</label>
+        <name>LLC_BI__Days_to_Close__c</name>
+    </fields>
+    <fields>
+        <help>本欄は申請者の返済負担率を示します。</help>
+        <label>返済負担率</label>
+        <name>LLC_BI__Debt_To_Income_Ratio__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドは、NCINOユーザーインターフェイス内のこのローンのデフォルトのランディングページを決定するために使用されます。</help>
+        <label>デフォルトアプリ</label>
+        <name>LLC_BI__Default_App__c</name>
+    </fields>
+    <fields>
+        <label>深さ</label>
+        <name>LLC_BI__Depth__c</name>
+    </fields>
+    <fields>
+        <label>資金使途</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>出金の説明</label>
+        <name>LLC_BI__Disbursement_Description__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation>口座</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation>当座</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lender</masterLabel>
+            <translation>貸し手</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NonLoan</masterLabel>
+            <translation>非融資</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PayOff</masterLabel>
+            <translation>ペイオフ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payable</masterLabel>
+            <translation>支払満期</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>このチェックボックスは金融機関の従業員に融資が属する時点を特定するために使用されます。</help>
+        <label>従業員向け融資</label>
+        <name>LLC_BI__Employee_Loan__c</name>
+    </fields>
+    <fields>
+        <help>推定物件価値を入力します。数値である必要があります。</help>
+        <label>推定物件価値</label>
+        <name>LLC_BI__Estimated_Property_Value_2__c</name>
+    </fields>
+    <fields>
+        <help>本融資に関連する全手数料情報を集約するオブジェクトです。</help>
+        <label>手数料融資総額</label>
+        <name>LLC_BI__Fee_Loan_Aggregate__c</name>
+        <relationshipLabel>融資</relationshipLabel>
+    </fields>
+    <fields>
+        <help>弁護士参照番号</help>
+        <label>ファイル番号</label>
+        <name>LLC_BI__File_Number__c</name>
+    </fields>
+    <fields>
+        <help>この選択リストから値を選択して、融資金額から融資手数料を加算または減算するか、あるいは手動で計算します。</help>
+        <label>融資手数料の計算</label>
+        <name>LLC_BI__Financed_Fee_Calculations__c</name>
+        <picklistValues>
+            <masterLabel>Add to Loan Amount</masterLabel>
+            <translation>融資金額に追加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Calculation</masterLabel>
+            <translation>手動計算</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subtract From Loan Amount</masterLabel>
+            <translation>融資金額から差し引き</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>初回返済日とは、初回の融資返済が行われる予定日です。本欄は償却及び複雑な返済のために使用されます。</help>
+        <label>初回返済日</label>
+        <name>LLC_BI__First_Payment_Date__c</name>
+    </fields>
+    <fields>
+        <help>本システム搭載欄は最初の金利引き上げの金利上昇率を示します。</help>
+        <label>最初の金利引き上げ</label>
+        <name>LLC_BI__First_Rate_Increase__c</name>
+    </fields>
+    <fields>
+        <label>% 資金手当済</label>
+        <name>LLC_BI__Funded__c</name>
+    </fields>
+    <fields>
+        <label>資金調達 ％</label>
+        <name>LLC_BI__Funding__c</name>
+    </fields>
+    <fields>
+        <label>手続き完了時の資金調達</label>
+        <name>LLC_BI__Funding_at_Close__c</name>
+    </fields>
+    <fields>
+        <label>GTDバランス</label>
+        <name>LLC_BI__GTD_Balance__c</name>
+    </fields>
+    <fields>
+        <label>GTDがバランスを取得しました</label>
+        <name>LLC_BI__GTD_Participated_Balance__c</name>
+    </fields>
+    <fields>
+        <label>GTDが参加した％</label>
+        <name>LLC_BI__GTD_Participated_Percent__c</name>
+    </fields>
+    <fields>
+        <help>ローンを管理する管轄/州法</help>
+        <label><!-- Governing Law State --></label>
+        <name>LLC_BI__Governing_Law_State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation><!-- AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation><!-- DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation><!-- IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation><!-- KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation><!-- MN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation><!-- MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation><!-- ND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation><!-- NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation><!-- NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation><!-- NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation><!-- NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation><!-- RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation><!-- SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation><!-- VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation><!-- VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation><!-- WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation><!-- WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation><!-- WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation><!-- WY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>総担保価値</label>
+        <name>LLC_BI__Gross_Collateral1_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Any time a debt, income, or monthly expense is changed, this field will automatically recalculate. --></help>
+        <label><!-- -D Gross Debt Service Ratio --></label>
+        <name>LLC_BI__Gross_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>支払われた保証料</label>
+        <name>LLC_BI__Guarantee_Fee_Paid__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use the appropriate code to categorize the entry as a loan origination, a purchased loan, or an application (including a preapproval request) that did not result in an origination. --></help>
+        <label><!-- -D Action Taken --></label>
+        <name>LLC_BI__HMDA_Action_Taken__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Loan originated</masterLabel>
+            <translation><!-- Code 1—Loan originated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Application approved but not accepted</masterLabel>
+            <translation><!-- Code 2—Application approved but not accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Application denied</masterLabel>
+            <translation><!-- Code 3—Application denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Application withdrawn</masterLabel>
+            <translation><!-- Code 4—Application withdrawn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 5—File closed for incompleteness</masterLabel>
+            <translation><!-- Code 5—File closed for incompleteness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 6—Loan purchased by your institution</masterLabel>
+            <translation><!-- Code 6—Loan purchased by your institution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 7—Preapproval request denied</masterLabel>
+            <translation><!-- Code 7—Preapproval request denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 8—Preapproval request approved but not accepted (optional reporting)</masterLabel>
+            <translation><!-- Code 8—Preapproval request approved but not accepted (optional reporting) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Report the dollar amount granted or requested in thousands. --></help>
+        <label><!-- -D Loan Amount (Amount in Thousands) --></label>
+        <name>LLC_BI__HMDA_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Census tract --></help>
+        <label><!-- -D Census Tract (####.## format) --></label>
+        <name>LLC_BI__HMDA_Census_Tract_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Census tract --></help>
+        <label><!-- -D Census Tract (####.## format) --></label>
+        <name>LLC_BI__HMDA_Census_Tract__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Co-Applicant --></label>
+        <name>LLC_BI__HMDA_Co_Applicant__c</name>
+    </fields>
+    <fields>
+        <help>融資組成の場合は決済日または締め日を入力してください。</help>
+        <label><!-- Date Action Taken --></label>
+        <name>LLC_BI__HMDA_Date_Action_Taken__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date the loan application was received by your institution. --></help>
+        <label><!-- -D Date Application Received --></label>
+        <name>LLC_BI__HMDA_Date_Application_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Date Interest Rate Set --></label>
+        <name>LLC_BI__HMDA_Date_Rate_Set__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Denial Reasons (Select up to three) --></label>
+        <name>LLC_BI__HMDA_Denial_Reasons__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Debt-to-income ratio</masterLabel>
+            <translation><!-- Code 1—Debt-to-income ratio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Employment history</masterLabel>
+            <translation><!-- Code 2—Employment history --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Credit history</masterLabel>
+            <translation><!-- Code 3—Credit history --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Collateral</masterLabel>
+            <translation><!-- Code 4—Collateral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 5—Insufficient cash</masterLabel>
+            <translation><!-- Code 5—Insufficient cash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 6—Unverifiable information</masterLabel>
+            <translation><!-- Code 6—Unverifiable information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 7—Credit application incomplete</masterLabel>
+            <translation><!-- Code 7—Credit application incomplete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 8—Mortgage insurance denied</masterLabel>
+            <translation><!-- Code 8—Mortgage insurance denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 9—Other</masterLabel>
+            <translation><!-- Code 9—Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn or closed for incompleteness</masterLabel>
+            <translation><!-- Withdrawn or closed for incompleteness --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- FIPS County Code --></help>
+        <label><!-- -D Three Digit County Code --></label>
+        <name>LLC_BI__HMDA_FIPS_County_Code_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- FIPS County Code --></help>
+        <label><!-- -D Three Digit County Code --></label>
+        <name>LLC_BI__HMDA_FIPS_County_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- FIPS State Code --></help>
+        <label><!-- -D Two Digit State Code --></label>
+        <name>LLC_BI__HMDA_FIPS_State_Code_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- FIPS State Code --></help>
+        <label><!-- -D Two Digit State Code --></label>
+        <name>LLC_BI__HMDA_FIPS_State_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D HOEPA Status --></label>
+        <name>LLC_BI__HMDA_HOEPA_Status__c</name>
+        <picklistValues>
+            <masterLabel>Code 1 - For a loan that you originated or purchased that is subject to the Home Ownership and Equity Protection Act of 1994 (HOEPA), because the APR or the points and fees on the loan exceed the HOEPA triggers</masterLabel>
+            <translation>#VALUE!</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2 - all other cases</masterLabel>
+            <translation><!-- Code 2 - all other cases --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- -D Lien Status --></label>
+        <name>LLC_BI__HMDA_Lien_Status__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Secured by a first lien.</masterLabel>
+            <translation><!-- Code 1—Secured by a first lien. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Secured by a subordinate lien.</masterLabel>
+            <translation><!-- Code 2—Secured by a subordinate lien. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Not secured by a lien.</masterLabel>
+            <translation><!-- Code 3—Not secured by a lien. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Not applicable (purchased loan)</masterLabel>
+            <translation><!-- Code 4—Not applicable (purchased loan) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- HMDA Loan ID --></help>
+        <label><!-- -D Loan Identification Number --></label>
+        <name>LLC_BI__HMDA_Loan_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Five Digit MSA/MD Number --></help>
+        <label><!-- -D Five Digit MSA/MD Number --></label>
+        <name>LLC_BI__HMDA_MSA_MD_Number_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Five Digit MSA/MD Number --></label>
+        <name>LLC_BI__HMDA_MSA_MD_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Occupancy --></label>
+        <name>LLC_BI__HMDA_Occupancy__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Owner-occupied as a principal dwelling</masterLabel>
+            <translation><!-- Code 1—Owner-occupied as a principal dwelling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Not owner-occupied as a principal dwelling</masterLabel>
+            <translation><!-- Code 2—Not owner-occupied as a principal dwelling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Not applicable</masterLabel>
+            <translation><!-- Code 3—Not applicable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- -D Request for Preapproval --></label>
+        <name>LLC_BI__HMDA_Preapproval_Requested__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Preapproval requested</masterLabel>
+            <translation><!-- Code 1—Preapproval requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Preapproval not requested</masterLabel>
+            <translation><!-- Code 2—Preapproval not requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Not applicable</masterLabel>
+            <translation><!-- Code 3—Not applicable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Report whether the loan or application was for manufactured housing, a multifamily dwelling, or a one- to-four-family dwelling other than manufactured housing. --></help>
+        <label><!-- -D Property Type --></label>
+        <name>LLC_BI__HMDA_Property_Type__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—One- to four-family dwelling (other than manufactured housing)</masterLabel>
+            <translation><!-- Code 1—One- to four-family dwelling (other than manufactured housing) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Manufactured housing</masterLabel>
+            <translation><!-- Code 2—Manufactured housing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Multifamily dwelling</masterLabel>
+            <translation><!-- Code 3—Multifamily dwelling --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>購入タイプ</label>
+        <name>LLC_BI__HMDA_Purchaser_Type__c</name>
+        <picklistValues>
+            <masterLabel>Code 0—Loan was not originated or was not sold in calendar year covered by register</masterLabel>
+            <translation><!-- Code 0—Loan was not originated or was not sold in calendar year covered by register --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 1—Fannie Mae (FNMA)</masterLabel>
+            <translation><!-- Code 1—Fannie Mae (FNMA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Ginnie Mae (GNMA)</masterLabel>
+            <translation><!-- Code 2—Ginnie Mae (GNMA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Freddie Mac (FHLMC)</masterLabel>
+            <translation><!-- Code 3—Freddie Mac (FHLMC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Farmer Mac (FAMC)</masterLabel>
+            <translation><!-- Code 4—Farmer Mac (FAMC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 5—Private securitization</masterLabel>
+            <translation><!-- Code 5—Private securitization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 6—Commercial bank, savings bank, or savings association</masterLabel>
+            <translation><!-- Code 6—Commercial bank, savings bank, or savings association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 7—Life insurance company, credit union, mortgage bank, or finance company</masterLabel>
+            <translation><!-- Code 7—Life insurance company, credit union, mortgage bank, or finance company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 8—Affiliate institution</masterLabel>
+            <translation><!-- Code 8—Affiliate institution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 9—Other type of purchaser</masterLabel>
+            <translation><!-- Code 9—Other type of purchaser --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- HMDA Loan Purpose --></help>
+        <label><!-- -D Purpose of Loan --></label>
+        <name>LLC_BI__HMDA_Purpose__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Home purchase</masterLabel>
+            <translation><!-- Code 1—Home purchase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Home improvement</masterLabel>
+            <translation><!-- Code 2—Home improvement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Refinancing</masterLabel>
+            <translation><!-- Code 3—Refinancing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- -D Rate Spread (##.## format) --></label>
+        <name>LLC_BI__HMDA_Rate_Spread__c</name>
+    </fields>
+    <fields>
+        <help><!-- HMDA Loan Purpose --></help>
+        <label>HMDAレコードタイプ</label>
+        <name>LLC_BI__HMDA_Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>HMDA-Effective-2017</masterLabel>
+            <translation><!-- HMDA-Effective-2017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HMDA-Effective-2018</masterLabel>
+            <translation><!-- HMDA-Effective-2018 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>HMDA報告可能</label>
+        <name>LLC_BI__HMDA_Reportable__c</name>
+    </fields>
+    <fields>
+        <help><!-- HMDA Loan Type --></help>
+        <label>融資タイプ</label>
+        <name>LLC_BI__HMDA_Type__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Conventional (any loan other than FHA, VA, FSA, or RHS loans)</masterLabel>
+            <translation><!-- Code 1—Conventional (any loan other than FHA, VA, FSA, or RHS loans) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—FHA-insured (Federal Housing Administration)</masterLabel>
+            <translation><!-- Code 2—FHA-insured (Federal Housing Administration) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—VA-guaranteed (Veterans Administration)</masterLabel>
+            <translation><!-- Code 3—VA-guaranteed (Veterans Administration) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—FSA/RHS-guaranteed (Farm Service Agency or Rural Housing Service)</masterLabel>
+            <translation><!-- Code 4—FSA/RHS-guaranteed (Farm Service Agency or Rural Housing Service) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>最大値</label>
+        <name>LLC_BI__Highest__c</name>
+        <relationshipLabel>融資</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このフラグは、nCino導入以前に組成、処理及び記帳された既存融資を示します。</help>
+        <label>インポーテッド</label>
+        <name>LLC_BI__Imported__c</name>
+    </fields>
+    <fields>
+        <help>本システム搭載欄は現行インデックス・バリュー・パーセンテージを示します。</help>
+        <label>インデックス・バリュー</label>
+        <name>LLC_BI__Index_Value__c</name>
+    </fields>
+    <fields>
+        <label>インデックス</label>
+        <name>LLC_BI__Index__c</name>
+        <picklistValues>
+            <masterLabel>Libor</masterLabel>
+            <translation>LIBOR</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WSJ Prime</masterLabel>
+            <translation>WSJ Prime.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WSJP</masterLabel>
+            <translation><!-- WSJP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>当初前払い金</label>
+        <name>LLC_BI__Initial_Advance__c</name>
+    </fields>
+    <fields>
+        <help>債務者に対するプライムを含む金利総額</help>
+        <label>金利</label>
+        <name>LLC_BI__InterestRate__c</name>
+    </fields>
+    <fields>
+        <label>利息計算方法</label>
+        <name>LLC_BI__Interest_Accrual_Method__c</name>
+        <picklistValues>
+            <masterLabel>30_360</masterLabel>
+            <translation><!-- 30_360 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_360</masterLabel>
+            <translation>日割り360日換算</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_365</masterLabel>
+            <translation>日割り365日換算</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actual_Actual</masterLabel>
+            <translation>日割り</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>これまでに支払われた金利の金額</help>
+        <label>これまでに支払われた金利（の金額）</label>
+        <name>LLC_BI__Interest_Amount_Paid__c</name>
+    </fields>
+    <fields>
+        <help>期限一括返済の月数です。これらの月数を上記の総月数条件欄に含めないでください。</help>
+        <label>期限一括返済月</label>
+        <name>LLC_BI__Interest_Only_Months__c</name>
+    </fields>
+    <fields>
+        <label>これまでに支払われた金利</label>
+        <name>LLC_BI__Interest_Paid_To_Date__c</name>
+    </fields>
+    <fields>
+        <label>金利調整頻度</label>
+        <name>LLC_BI__Interest_Rate_Adjustment_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation>毎年</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>日次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Five Years</masterLabel>
+            <translation>5年に1度</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Three Years</masterLabel>
+            <translation>3年に1度</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Two Years</masterLabel>
+            <translation>2年に1度</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>月次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>四半期毎</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annual</masterLabel>
+            <translation>年2回</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>本システム搭載欄は、アカウントに対する適用利率を決定するためにインデックスにシステムが追加するパーセンテージを示します。</help>
+        <label>金利マージン率</label>
+        <name>LLC_BI__Interest_Rate_Margin_Percent__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドは、ユーザーが閲覧するためのローンにローンチームメンバーを追加するトリガー承認プロセスアクションに利用されます。ローンチームメンバーは、アイテムを承認するために選択されたキューとユーザー\ Nから入力されます。</help>
+        <label>ApprovalTriggerfield.</label>
+        <name>LLC_BI__Is_Approved__c</name>
+    </fields>
+    <fields>
+        <label>実行済</label>
+        <name>LLC_BI__Is_Booked__c</name>
+    </fields>
+    <fields>
+        <label>契約締結済</label>
+        <name>LLC_BI__Is_Closed__c</name>
+    </fields>
+    <fields>
+        <label>コピー</label>
+        <name>LLC_BI__Is_Copy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Current Takedown --></label>
+        <name>LLC_BI__Is_Current_Takedown__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is ELOC --></label>
+        <name>LLC_BI__Is_ELOC__c</name>
+    </fields>
+    <fields>
+        <label>除外</label>
+        <name>LLC_BI__Is_Excluded__c</name>
+    </fields>
+    <fields>
+        <help>ローンまたはパッケージがレビューのかどうかを示します</help>
+        <label>レビュー中</label>
+        <name>LLC_BI__Is_In_Review__c</name>
+    </fields>
+    <fields>
+        <help>このチェックボックスを選択して、ローンがジャンボローンであることを示します。</help>
+        <label>ジャンボです</label>
+        <name>LLC_BI__Is_Jumbo__c</name>
+    </fields>
+    <fields>
+        <label>リース</label>
+        <name>LLC_BI__Is_Lease__c</name>
+    </fields>
+    <fields>
+        <label>信用状</label>
+        <name>LLC_BI__Is_Letter_of_Credit__c</name>
+    </fields>
+    <fields>
+        <label>上限</label>
+        <name>LLC_BI__Is_Limit__c</name>
+    </fields>
+    <fields>
+        <help>ローンが編集のためにロックされているかどうかを示します。</help>
+        <label>ロック</label>
+        <name>LLC_BI__Is_Locked__c</name>
+    </fields>
+    <fields>
+        <label>メイン</label>
+        <name>LLC_BI__Is_Main__c</name>
+    </fields>
+    <fields>
+        <label>編集</label>
+        <name>LLC_BI__Is_Modification__c</name>
+    </fields>
+    <fields>
+        <label>マルチレベルの未来です</label>
+        <name>LLC_BI__Is_Multi_Level_Future__c</name>
+    </fields>
+    <fields>
+        <label>アクションプレースホルダーはありません</label>
+        <name>LLC_BI__Is_No_Action_Placeholder__c</name>
+    </fields>
+    <fields>
+        <help>この融資では、もともと融資枠が解除されていました</help>
+        <label>オリジナルの拒否ローンです</label>
+        <name>LLC_BI__Is_Original_Inactive_Loan__c</name>
+    </fields>
+    <fields>
+        <label>支払い済み</label>
+        <name>LLC_BI__Is_Paid_Off__c</name>
+    </fields>
+    <fields>
+        <label>シンジケート参加者</label>
+        <name>LLC_BI__Is_Participation__c</name>
+    </fields>
+    <fields>
+        <label>送信準備完了</label>
+        <name>LLC_BI__Is_Ready_To_Transmit__c</name>
+    </fields>
+    <fields>
+        <label>定期的な未来</label>
+        <name>LLC_BI__Is_Regular_Future__c</name>
+    </fields>
+    <fields>
+        <label>レビュー準備完了</label>
+        <name>LLC_BI__Is_Review_Ready__c</name>
+    </fields>
+    <fields>
+        <help><!-- Populate this field to indicate if this is a SBA loan. --></help>
+        <label><!-- Is SBA --></label>
+        <name>LLC_BI__Is_SBA__c</name>
+    </fields>
+    <fields>
+        <help>貸付金は担保で担保されています</help>
+        <label>有担保</label>
+        <name>LLC_BI__Is_Secured__c</name>
+    </fields>
+    <fields>
+        <label>提出済み</label>
+        <name>LLC_BI__Is_Sublimit__c</name>
+    </fields>
+    <fields>
+        <label>シンジケート</label>
+        <name>LLC_BI__Is_Syndication__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Term Loan/Current --></label>
+        <name>LLC_BI__Is_Term_Loan_Current__c</name>
+    </fields>
+    <fields>
+        <label>最終支払日</label>
+        <name>LLC_BI__Last_Pay_Date__c</name>
+    </fields>
+    <fields>
+        <label>リードソース</label>
+        <name>LLC_BI__LeadSource__c</name>
+        <picklistValues>
+            <masterLabel>Association</masterLabel>
+            <translation>協業企業</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker</masterLabel>
+            <translation>代理店</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Customer</masterLabel>
+            <translation>既存客</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Call</masterLabel>
+            <translation>インバウンド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Campaign</masterLabel>
+            <translation>電子メールキャンペーン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Referral</masterLabel>
+            <translation>従業員紹介</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industry Professional</masterLabel>
+            <translation>業界専門家</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magazine</masterLabel>
+            <translation>雑誌</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prior Origination</masterLabel>
+            <translation>既存</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Show</masterLabel>
+            <translation>イベント</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesaler</masterLabel>
+            <translation>卸売</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>リードソース詳細</label>
+        <name>LLC_BI__Lead_Detail__c</name>
+    </fields>
+    <fields>
+        <label>リード詳細</label>
+        <name>LLC_BI__Lead_Specifics__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>法律事務所</label>
+        <name>LLC_BI__Legal_Firm__c</name>
+        <picklistValues>
+            <masterLabel>Cuong Tran</masterLabel>
+            <translation><!-- Cuong Tran --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DPS</masterLabel>
+            <translation><!-- DPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MMM</masterLabel>
+            <translation><!-- MMM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample Firm</masterLabel>
+            <translation>サンプル会社</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starfield</masterLabel>
+            <translation><!-- Starfield --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>新規／既存</label>
+        <name>LLC_BI__Loan_Class__c</name>
+        <picklistValues>
+            <masterLabel>New Loan</masterLabel>
+            <translation>新規融資</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refinance Existing Loan With Lender</masterLabel>
+            <translation>借換え</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secured Renewal</masterLabel>
+            <translation>担保更改</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsecured Renewal</masterLabel>
+            <translation>無担保更改</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>融資に関連する全ての担保の評価額を集計</help>
+        <label>融資担保総額</label>
+        <name>LLC_BI__Loan_Collateral_Aggregate__c</name>
+        <relationshipLabel>融資</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このLookupフィールドには、関連付けられているローン詳細レコードのIDが含まれています。</help>
+        <label>融資詳細</label>
+        <name>LLC_BI__Loan_Detail__c</name>
+        <relationshipLabel>融資</relationshipLabel>
+    </fields>
+    <fields>
+        <label>融資番号</label>
+        <name>LLC_BI__Loan_Number__c</name>
+    </fields>
+    <fields>
+        <label>融資担当者</label>
+        <name>LLC_BI__Loan_Officer__c</name>
+        <relationshipLabel>融資（融資担当者）</relationshipLabel>
+    </fields>
+    <fields>
+        <label>融資タイプ・コード</label>
+        <name>LLC_BI__Loan_Type_Code__c</name>
+    </fields>
+    <fields>
+        <help>融資ステータスが「流出」または「撤回」に変更される場合、当該融資喪失の理由及び方法を特定してください。</help>
+        <label>失注詳細</label>
+        <name>LLC_BI__Lost_Detail__c</name>
+    </fields>
+    <fields>
+        <help>該当する場合、当該融資が流出した競争相手を特定してください。</help>
+        <label>失注流出先</label>
+        <name>LLC_BI__Lost_To__c</name>
+        <picklistValues>
+            <masterLabel>BofA</masterLabel>
+            <translation>千代田銀行</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass Bank</masterLabel>
+            <translation>みなと銀行</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conventional Lender</masterLabel>
+            <translation>湘南銀行</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Command</masterLabel>
+            <translation>北部銀行</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenwood</masterLabel>
+            <translation>森林銀行</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Bank</masterLabel>
+            <translation>US Bank</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wells Fargo / Matsco</masterLabel>
+            <translation>六甲銀行</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zions</masterLabel>
+            <translation>東川銀行</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>MLAステータスフラグがTRUEに設定されているときに、システムは自動的にこのオプションのフィールドに合計されます。</help>
+        <label><!-- MAPR --></label>
+        <name>LLC_BI__MAPR__c</name>
+    </fields>
+    <fields>
+        <help>ユーザーが選択するか、システムが自動的にこのオプションのブールフィールドに移入して、ローンを作成するときに消費者が軍事貸出行為に適しているかどうかを示します。</help>
+        <label>MLAのステータス</label>
+        <name>LLC_BI__MLA_Status__c</name>
+    </fields>
+    <fields>
+        <label>チームアラート</label>
+        <name>LLC_BI__MailerTeamKey__c</name>
+    </fields>
+    <fields>
+        <label>満期日</label>
+        <name>LLC_BI__Maturity_Date__c</name>
+    </fields>
+    <fields>
+        <label>最大利用可能性</label>
+        <name>LLC_BI__Maximum_Availability__c</name>
+    </fields>
+    <fields>
+        <help>本システム搭載欄は、融資期間中に金利が特定ティーザー金利から引き上げ可能な最大率を示します。</help>
+        <label>最大金利上昇</label>
+        <name>LLC_BI__Maximum_Rate_Increase__c</name>
+    </fields>
+    <fields>
+        <label>変更説明数</label>
+        <name>LLC_BI__Modification_Description_Count__c</name>
+    </fields>
+    <fields>
+        <label>変更回数</label>
+        <name>LLC_BI__Modification_Number__c</name>
+    </fields>
+    <fields>
+        <label>月々返済額</label>
+        <name>LLC_BI__Monthly_Payment__c</name>
+    </fields>
+    <fields>
+        <label>短期価値</label>
+        <name>LLC_BI__Near_Term_Value__c</name>
+    </fields>
+    <fields>
+        <label>純償却額</label>
+        <name>LLC_BI__Net_Charge_Offs__c</name>
+    </fields>
+    <fields>
+        <label>純売却益</label>
+        <name>LLC_BI__Net_Gain_on_Sale__c</name>
+    </fields>
+    <fields>
+        <help>本欄は、更新または変更融資の従前バーションと現行バージョンの間の貸付額の差異を保存するために使用します。</help>
+        <label>純新規資金</label>
+        <name>LLC_BI__Net_New_Funds__c</name>
+    </fields>
+    <fields>
+        <help>本欄は申請者の自己資本合計を示します。</help>
+        <label>自己資本</label>
+        <name>LLC_BI__Net_Worth__c</name>
+    </fields>
+    <fields>
+        <label>次回金利支払日</label>
+        <name>LLC_BI__Next_Interest_Payment_Date__c</name>
+    </fields>
+    <fields>
+        <label>次回返済期限</label>
+        <name>LLC_BI__Next_Payment_Due__c</name>
+    </fields>
+    <fields>
+        <label>次回金利変更日</label>
+        <name>LLC_BI__Next_Rate_Change_Date__c</name>
+    </fields>
+    <fields>
+        <label>延滞債権</label>
+        <name>LLC_BI__Non_Accrual__c</name>
+    </fields>
+    <fields>
+        <label>ノーアクション・プレースホルダー数</label>
+        <name>LLC_BI__Number_Of_No_Action_Placeholders__c</name>
+    </fields>
+    <fields>
+        <label>更新数</label>
+        <name>LLC_BI__Number_Of_Renewals__c</name>
+    </fields>
+    <fields>
+        <label>役員意見</label>
+        <name>LLC_BI__Officer_Comments__c</name>
+    </fields>
+    <fields>
+        <label>当初ペアレント・ローン</label>
+        <name>LLC_BI__OriginalParentLoan__c</name>
+        <relationshipLabel>親ローン</relationshipLabel>
+    </fields>
+    <fields>
+        <label>当初保証金額</label>
+        <name>LLC_BI__Original_Guaranteed_Amount__c</name>
+    </fields>
+    <fields>
+        <help>当該項目は融資実行された時点の「現行LTV」に由来します。この項目はシステムが更新しています。</help>
+        <label>当初融資比率（LTV）</label>
+        <name>LLC_BI__Original_LTV__c</name>
+    </fields>
+    <fields>
+        <help>融資に付随する全担保の貸出可能額の合計です。本欄は融資実行された時点でシステムが更新しています。</help>
+        <label>当初貸出可能価値総額</label>
+        <name>LLC_BI__Original_Total_Lendable_Value__c</name>
+    </fields>
+    <fields>
+        <label>当初ノート金額（純額）</label>
+        <name>LLC_BI__Original_UNGTD_Amount__c</name>
+    </fields>
+    <fields>
+        <label>親融資</label>
+        <name>LLC_BI__ParentLoan__c</name>
+        <relationshipLabel>融資</relationshipLabel>
+    </fields>
+    <fields>
+        <label>シンジケート期日</label>
+        <name>LLC_BI__Participation_Date__c</name>
+    </fields>
+    <fields>
+        <label>案件タイプ</label>
+        <name>LLC_BI__Participation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Participation agreement agented</masterLabel>
+            <translation>シンジケートエージェント</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Participation bought</masterLabel>
+            <translation>シンジケート購入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Participation sold</masterLabel>
+            <translation>シンジケート売却</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>パートナーGTDはファンドに残しました</label>
+        <name>LLC_BI__Partner_GTD_Left_to_Fund__c</name>
+    </fields>
+    <fields>
+        <label>パートナーは基盤上に広がっています</label>
+        <name>LLC_BI__Partner_Spread_Over_Base__c</name>
+    </fields>
+    <fields>
+        <label>パートナーのungtdがファンドに残しました</label>
+        <name>LLC_BI__Partner_UNGTD_Left_to_Fund__c</name>
+    </fields>
+    <fields>
+        <label>返済期限経過</label>
+        <name>LLC_BI__Past_Due_Days__c</name>
+    </fields>
+    <fields>
+        <help>本フォーミュラ期日欄は返済開始日を記録します。</help>
+        <label>返済開始日</label>
+        <name>LLC_BI__Payment_Begin_Date__c</name>
+    </fields>
+    <fields>
+        <label>返済予定</label>
+        <name>LLC_BI__Payment_Schedule__c</name>
+        <picklistValues>
+            <masterLabel>@ Maturity</masterLabel>
+            <translation><!-- @ Maturity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation>年間</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bi-Monthly</masterLabel>
+            <translation>隔月 （または、月2回）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bi-Weekly</masterLabel>
+            <translation>隔週（または、週2回）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>月次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>四半期毎</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Annual</masterLabel>
+            <translation>半年毎</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-Monthly</masterLabel>
+            <translation>月2回</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>週次</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>返済タイプ</label>
+        <name>LLC_BI__Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Balloon</masterLabel>
+            <translation>バルーン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction Permanent</masterLabel>
+            <translation><!-- Construction Permanent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draw Down Line Of Credit</masterLabel>
+            <translation>クレジットの描画線を描きます</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generic Non-Disclosable</masterLabel>
+            <translation>一般的な非開示可能</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installment</masterLabel>
+            <translation>インストール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Irregular</masterLabel>
+            <translation>不定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Principal+Interest</masterLabel>
+            <translation>元金均等返済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revolving Line Of Credit</masterLabel>
+            <translation>信用回数の回転</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Pay</masterLabel>
+            <translation><!-- Single Pay --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>債券が払い出された日付</help>
+        <label>完済日</label>
+        <name>LLC_BI__Payoff_Date__c</name>
+    </fields>
+    <fields>
+        <label>ポートフォリオ番号</label>
+        <name>LLC_BI__Portfolio_Number__c</name>
+    </fields>
+    <fields>
+        <label>手続き完了後の項目</label>
+        <name>LLC_BI__Post_Closing_Items__c</name>
+    </fields>
+    <fields>
+        <help>関連不動産物件の郵便番号を記入してください</help>
+        <label>郵便番号</label>
+        <name>LLC_BI__Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label>手続き完了前のコール期日</label>
+        <name>LLC_BI__Pre_Close_Call_Date__c</name>
+    </fields>
+    <fields>
+        <label>繰上返済ペナルティーの説明</label>
+        <name>LLC_BI__Prepayment_Penalty_Description__c</name>
+    </fields>
+    <fields>
+        <label>繰上返済ペナルティーがありますか?</label>
+        <name>LLC_BI__Prepayment_Penalty__c</name>
+    </fields>
+    <fields>
+        <label>価格設定</label>
+        <name>LLC_BI__Pricing_Basis__c</name>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation>固定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Floating</masterLabel>
+            <translation><!-- Floating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Fixed</masterLabel>
+            <translation>希望の固定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Variable</masterLabel>
+            <translation>希望変動金利</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation>変動</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>適用価格設定オプション</label>
+        <name>LLC_BI__Pricing_Option__c</name>
+        <relationshipLabel>融資</relationshipLabel>
+    </fields>
+    <fields>
+        <label>元本</label>
+        <name>LLC_BI__Principal_Balance__c</name>
+    </fields>
+    <fields>
+        <label>確率（%）</label>
+        <name>LLC_BI__Probabilty__c</name>
+    </fields>
+    <fields>
+        <label>融資業務担当者</label>
+        <name>LLC_BI__Processor_Name__c</name>
+        <relationshipLabel>融資（融資業務担当者）</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Use the &quot;Change Product&quot; button to select a new product line. --></help>
+        <label>商品ライン</label>
+        <name>LLC_BI__Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation>法人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage</masterLabel>
+            <translation>住宅ローン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>案件パッケージ</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>融資枠総額</relationshipLabel>
+    </fields>
+    <fields>
+        <label>商品</label>
+        <name>LLC_BI__Product_Reference__c</name>
+        <relationshipLabel>融資</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Use the &quot;Change Product&quot; button to select a new product type. --></help>
+        <label>案件タイプ</label>
+        <name>LLC_BI__Product_Type__c</name>
+        <picklistValues>
+            <masterLabel>Auto Loan</masterLabel>
+            <translation><!-- Auto Loan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cash Out</masterLabel>
+            <translation><!-- Cash Out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line of Credit</masterLabel>
+            <translation><!-- Line of Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Real Estate</masterLabel>
+            <translation><!-- Non Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase</masterLabel>
+            <translation><!-- Purchase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rate/Term</masterLabel>
+            <translation><!-- Rate/Term --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate</masterLabel>
+            <translation>不動産</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Use the &quot;Change Product&quot; button to select a new product. --></help>
+        <label>商品</label>
+        <name>LLC_BI__Product__c</name>
+        <picklistValues>
+            <masterLabel>3 Year Fixed</masterLabel>
+            <translation><!-- 3 Year Fixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Year Variable</masterLabel>
+            <translation><!-- 3 Year Variable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Year Fixed</masterLabel>
+            <translation><!-- 5 Year Fixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Year Variable</masterLabel>
+            <translation><!-- 5 Year Variable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>建設</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation>設備</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line of Credit</masterLabel>
+            <translation>極度融資</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Auto Loan</masterLabel>
+            <translation><!-- New Auto Loan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revolving Credit Card</masterLabel>
+            <translation><!-- Revolving Credit Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syndication</masterLabel>
+            <translation><!-- Syndication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term Loan</masterLabel>
+            <translation><!-- Term Loan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Used Auto Loan</masterLabel>
+            <translation><!-- Used Auto Loan --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>提案を承認</label>
+        <name>LLC_BI__Proposal_Accepted__c</name>
+    </fields>
+    <fields>
+        <label>レート上限</label>
+        <name>LLC_BI__Rate_Ceiling__c</name>
+    </fields>
+    <fields>
+        <label>金利割引</label>
+        <name>LLC_BI__Rate_Discount__c</name>
+    </fields>
+    <fields>
+        <label>レート下限</label>
+        <name>LLC_BI__Rate_Floor__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Real Estate Value --></label>
+        <name>LLC_BI__Real_Estate_Value__c</name>
+    </fields>
+    <fields>
+        <label>不動産</label>
+        <name>LLC_BI__Real_Estate__c</name>
+    </fields>
+    <fields>
+        <label>参照先</label>
+        <name>LLC_BI__Referred_To__c</name>
+        <picklistValues>
+            <masterLabel>BofA</masterLabel>
+            <translation><!-- BofA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PPC</masterLabel>
+            <translation><!-- PPC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Bank</masterLabel>
+            <translation><!-- US Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wells Fargo</masterLabel>
+            <translation><!-- Wells Fargo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>このチェックボックスは、融資が金融機関REG-O規格に該当するかを指定するために使用されます。</help>
+        <label><!-- Reg O Loan --></label>
+        <name>LLC_BI__Reg_O_Loan__c</name>
+    </fields>
+    <fields>
+        <help>FDICと共有されているローンを持つ場合は、これを1に設定します。</help>
+        <label>レギュレータローンシェア</label>
+        <name>LLC_BI__Regulator_Loan_Share__c</name>
+    </fields>
+    <fields>
+        <label>リニューアル番号</label>
+        <name>LLC_BI__Renewal_Number__c</name>
+    </fields>
+    <fields>
+        <label>保持バランス</label>
+        <name>LLC_BI__Retained_Balance__c</name>
+    </fields>
+    <fields>
+        <label>保持されたサービス普及</label>
+        <name>LLC_BI__Retained_Servicing_Spread__c</name>
+    </fields>
+    <fields>
+        <label>％保持</label>
+        <name>LLC_BI__Retained__c</name>
+    </fields>
+    <fields>
+        <label>コンプライアンス部門による審査</label>
+        <name>LLC_BI__Reviewed_by_Compliance__c</name>
+    </fields>
+    <fields>
+        <label>融資部門が検討</label>
+        <name>LLC_BI__Reviewed_by_Loan_Ops__c</name>
+    </fields>
+    <fields>
+        <label>格付け テンプレート</label>
+        <name>LLC_BI__Risk_Grade_Template__c</name>
+        <relationshipLabel>融資</relationshipLabel>
+    </fields>
+    <fields>
+        <label>格付け</label>
+        <name>LLC_BI__Risk_Grade__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SBA Guarantee Fee --></label>
+        <name>LLC_BI__SBA_Guarantee_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- SBA Guarantee (%) --></label>
+        <name>LLC_BI__SBA_Guarantee__c</name>
+    </fields>
+    <fields>
+        <label><!-- SBA # --></label>
+        <name>LLC_BI__SBA__c</name>
+    </fields>
+    <fields>
+        <label>SNCタイプ</label>
+        <name>LLC_BI__SNC_Type__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SNC agent</masterLabel>
+            <translation>SNCエージェント</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SNC non-agent</masterLabel>
+            <translation>SNCノンエージェント</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>二次市場入札日</label>
+        <name>LLC_BI__Secondary_Market_Bid_Date__c</name>
+    </fields>
+    <fields>
+        <label>二次市場売却日</label>
+        <name>LLC_BI__Secondary_Market_Sold_Date__c</name>
+    </fields>
+    <fields>
+        <label>に売却</label>
+        <name>LLC_BI__Secondary_Market_Sold_To__c</name>
+    </fields>
+    <fields>
+        <label>二次マーク</label>
+        <name>LLC_BI__Secondary_Markt__c</name>
+    </fields>
+    <fields>
+        <label>セカンダリMKT</label>
+        <name>LLC_BI__Secondary_Mkt_Sold__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>No</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Yes</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>セカンダリMKTは販売されています</label>
+        <name>LLC_BI__Secondary_Mkt_Sold_currency__c</name>
+    </fields>
+    <fields>
+        <help>このオプションの番号フィールドは、半日の支払いの支払い日をキャプチャします。</help>
+        <label>半月毎</label>
+        <name>LLC_BI__Semimonthly_Day__c</name>
+    </fields>
+    <fields>
+        <label>サイト訪問日</label>
+        <name>LLC_BI__Site_Visit_Date__c</name>
+    </fields>
+    <fields>
+        <label>サイト訪問所有者</label>
+        <name>LLC_BI__Site_Visit_Owner__c</name>
+    </fields>
+    <fields>
+        <label>売却額（￥）</label>
+        <name>LLC_BI__Sold_Amount__c</name>
+    </fields>
+    <fields>
+        <label>スプレッド（%）</label>
+        <name>LLC_BI__Spread__c</name>
+    </fields>
+    <fields>
+        <label>フェーズ及びステータス</label>
+        <name>LLC_BI__Stage_And_Status__c</name>
+    </fields>
+    <fields>
+        <label>フェーズの進展</label>
+        <name>LLC_BI__Stage_Progress__c</name>
+    </fields>
+    <fields>
+        <label>フェーズ</label>
+        <name>LLC_BI__Stage__c</name>
+        <picklistValues>
+            <masterLabel>Approval/Loan Committee</masterLabel>
+            <translation>承認</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Booked</masterLabel>
+            <translation>融資実行済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closing</masterLabel>
+            <translation>クロージング処理</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>本審査回答</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Underwriting</masterLabel>
+            <translation>審査引受</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doc Prep</masterLabel>
+            <translation>文書準備</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final Review</masterLabel>
+            <translation>最終レビュー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing</masterLabel>
+            <translation>処理中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal</masterLabel>
+            <translation>提案</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification</masterLabel>
+            <translation>初期評価</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>このシステム入力フィールドは、貸付金の期間にわたって金利がティー??ザーレートを下回ることが許可されたときにチェックされ、ティーザーレートを下回ることができないときにチェックされます。</help>
+        <label><!-- Stair Step Down --></label>
+        <name>LLC_BI__Stair_Step_Down__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>1st Approved</masterLabel>
+            <translation><!-- 1st Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1st Rejected</masterLabel>
+            <translation><!-- 1st Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd Approved</masterLabel>
+            <translation><!-- 2nd Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd Rejected</masterLabel>
+            <translation><!-- 2nd Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charge-Off</masterLabel>
+            <translation>償却</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation>拒否</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold</masterLabel>
+            <translation>保留</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation><!-- In Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation>失注</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>進行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Out</masterLabel>
+            <translation>実行済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation><!-- Recalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation>回収</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>構造階層</label>
+        <name>LLC_BI__Structure_Hierarchy__c</name>
+        <picklistValues>
+            <masterLabel>Current Takedown</masterLabel>
+            <translation><!-- Current Takedown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limit</masterLabel>
+            <translation>限界</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Main</masterLabel>
+            <translation>主要</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sub Limit</masterLabel>
+            <translation>サブ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>構造</label>
+        <name>LLC_BI__Structure__c</name>
+        <picklistValues>
+            <masterLabel>ELOC</masterLabel>
+            <translation><!-- ELOC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter of Credit</masterLabel>
+            <translation>信用状</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi Level Future</masterLabel>
+            <translation><!-- Multi Level Future --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular Future</masterLabel>
+            <translation>定期的な未来</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term Loan/Current</masterLabel>
+            <translation>期間ローン</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>「融資実行日」とは、融資が「実行された」とみなされる時点を示す予定日です。この期日を編集することはできません。</help>
+        <label>更新日時</label>
+        <name>LLC_BI__Superceded_DateTime__c</name>
+    </fields>
+    <fields>
+        <label>シンジゲートタイプ</label>
+        <name>LLC_BI__Syndication_Type__c</name>
+        <picklistValues>
+            <masterLabel>Syndication agented</masterLabel>
+            <translation>エージェント</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syndication purchased</masterLabel>
+            <translation>参加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syndication title role</masterLabel>
+            <translation>Syndication title role</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>TDR.</label>
+        <name>LLC_BI__TDR__c</name>
+    </fields>
+    <fields>
+        <help>本システム搭載欄は、融資に当初適用された金利を示します。</help>
+        <label>ティーザー金利</label>
+        <name>LLC_BI__Teaser_Rate__c</name>
+    </fields>
+    <fields>
+        <help>本システム搭載欄は、ティーザー金利が有効な返済回数を示します。</help>
+        <label>ティーザー期間</label>
+        <name>LLC_BI__Teaser_Term__c</name>
+    </fields>
+    <fields>
+        <label>融資期間（月数）</label>
+        <name>LLC_BI__Term_Months__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドには、申請者の総資産量が表示されます。</help>
+        <label>総資産</label>
+        <name>LLC_BI__Total_Assets__c</name>
+    </fields>
+    <fields>
+        <label>償却総額</label>
+        <name>LLC_BI__Total_Charge_Offs__c</name>
+    </fields>
+    <fields>
+        <help>融資に対する差入担保評価額の合計</help>
+        <label>差入担保総額</label>
+        <name>LLC_BI__Total_Collateral_Pledged__c</name>
+    </fields>
+    <fields>
+        <help>融資に対する全ての担保の評価額合計</help>
+        <label>総担保価値</label>
+        <name>LLC_BI__Total_Collateral_Value__c</name>
+    </fields>
+    <fields>
+        <help>融資に関連する全ての先取特権分の担保評価額合計</help>
+        <label>現在優先担保金額</label>
+        <name>LLC_BI__Total_Current_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Any time a debt, income, or monthly expense is changed, this field will automatically recalculate. --></help>
+        <label><!-- -D Total Debt Service Ratio --></label>
+        <name>LLC_BI__Total_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>負債総額</label>
+        <name>LLC_BI__Total_Debts__c</name>
+    </fields>
+    <fields>
+        <label>支払総額</label>
+        <name>LLC_BI__Total_Disbursed__c</name>
+    </fields>
+    <fields>
+        <label>融資枠総額</label>
+        <name>LLC_BI__Total_Facility_Amount__c</name>
+    </fields>
+    <fields>
+        <label>手数料収入総額</label>
+        <name>LLC_BI__Total_Fee_Income__c</name>
+    </fields>
+    <fields>
+        <label>Total GTD Future</label>
+        <name>LLC_BI__Total_Future_Adv__c</name>
+    </fields>
+    <fields>
+        <label>総月間負債額</label>
+        <name>LLC_BI__Total_Monthly_Debt__c</name>
+    </fields>
+    <fields>
+        <help>これは月間費用総額です。</help>
+        <label>総月間費用</label>
+        <name>LLC_BI__Total_Monthly_Expenses__c</name>
+    </fields>
+    <fields>
+        <label>総月間所得</label>
+        <name>LLC_BI__Total_Monthly_Income__c</name>
+    </fields>
+    <fields>
+        <help>次の式により計算される：「期限一括返済月」+「元利均等返済の月」の合計</help>
+        <label>総月間支払</label>
+        <name>LLC_BI__Total_Monthly_Payments__c</name>
+    </fields>
+    <fields>
+        <label>優先担保総額担保1</label>
+        <name>LLC_BI__Total_Prior_Lien_Amount_Collateral1__c</name>
+    </fields>
+    <fields>
+        <help>融資に関連する先取特権を除く、融資に対して所有されている全先取特権です。融資実行時に表示されます。</help>
+        <label>優先担保総額</label>
+        <name>LLC_BI__Total_Prior_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label>総不動産担保</label>
+        <name>LLC_BI__Total_Real_Estate_Collateral__c</name>
+    </fields>
+    <fields>
+        <label>総回収</label>
+        <name>LLC_BI__Total_Recovery__c</name>
+    </fields>
+    <fields>
+        <label>優先担保総額</label>
+        <name>LLC_BI__Total_Superior_Lien_Amount__c</name>
+    </fields>
+    <fields>
+        <label>総未実行</label>
+        <name>LLC_BI__Total_Undisbursed__c</name>
+    </fields>
+    <fields>
+        <label>UCC満期（国）</label>
+        <name>LLC_BI__UCC_County__c</name>
+    </fields>
+    <fields>
+        <label>UCC満期（都道府県）</label>
+        <name>LLC_BI__UCC_State__c</name>
+    </fields>
+    <fields>
+        <label>UNGTD Balance</label>
+        <name>LLC_BI__UNGTD_Balance__c</name>
+    </fields>
+    <fields>
+        <label>ネット・エクスポージャー</label>
+        <name>LLC_BI__UNGTD_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>UNGTD Participated Balance</label>
+        <name>LLC_BI__UNGTD_Participated_Balance__c</name>
+    </fields>
+    <fields>
+        <label>UNGTD Participated %</label>
+        <name>LLC_BI__UNGTD_Participated_Percent__c</name>
+    </fields>
+    <fields>
+        <label>引受概要</label>
+        <name>LLC_BI__Underwriting_Summary__c</name>
+        <relationshipLabel>融資</relationshipLabel>
+    </fields>
+    <fields>
+        <label>未実行GTD</label>
+        <name>LLC_BI__Undisbursed_GTD__c</name>
+    </fields>
+    <fields>
+        <label>未実行 UNGTD</label>
+        <name>LLC_BI__Undisbursed_UNGTD__c</name>
+    </fields>
+    <fields>
+        <label>警戒リスト日付</label>
+        <name>LLC_BI__Watchlist_Date__c</name>
+    </fields>
+    <fields>
+        <label>ワイヤ日付</label>
+        <name>LLC_BI__Wire_Date__c</name>
+    </fields>
+    <fields>
+        <label>リニューアル済</label>
+        <name>LLC_BI__hasRenewal__c</name>
+    </fields>
+    <fields>
+        <label>クローズ済み</label>
+        <name>LLC_BI__isClosed__c</name>
+    </fields>
+    <fields>
+        <label>コベナンツ</label>
+        <name>LLC_BI__isConvert__c</name>
+    </fields>
+    <fields>
+        <label>更改</label>
+        <name>LLC_BI__isRenewal__c</name>
+    </fields>
+    <fields>
+        <label>融資番号</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help>このシステム生成欄は融資の固有識別子を表示します。</help>
+        <label>nCino Loan Number</label>
+        <name>LLC_BI__nCino_Loan_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Main Contact --></label>
+        <name>Main_Contact__c</name>
+        <relationshipLabel><!-- Loans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Name on Credit Card --></label>
+        <name>NameonCreditCard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Code --></label>
+        <name>Opportunity_Code__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400</masterLabel>
+            <translation><!-- 400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PartnerPortalAccess - AddOrRemove --></label>
+        <name>PartnerPortalAccess_AddOrRemove__c</name>
+    </fields>
+    <fields>
+        <label><!-- PartnerPortalAccess - User --></label>
+        <name>PartnerPortalAccess_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Personal Loan --></label>
+        <name>Personal_Loan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Rating Template --></label>
+        <name>Risk_Rating_Template__c</name>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- -D Approved For Amount --></label>
+        <name>nRetail__Approved_Loan_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Debt to Income Ratio --></label>
+        <name>nRetail__Debt_To_Income_Ratio__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Net Worth --></label>
+        <name>nRetail__Net_Worth__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Total Assets --></label>
+        <name>nRetail__Total_Assets__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Total Debts --></label>
+        <name>nRetail__Total_Debts__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Total Monthly Debt --></label>
+        <name>nRetail__Total_Monthly_Debt__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Total Monthly Income --></label>
+        <name>nRetail__Total_Monthly_Income__c</name>
+    </fields>
+    <nameFieldLabel>融資名</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Commercial --></label>
+        <name>Commercial</name>
+    </recordTypes>
+    <recordTypes>
+        <description>これは、「新規レコード」をクリックした場合に表示されているレイアウトです。基本情報と製品選択情報を表示します。</description>
+        <label><!-- Start --></label>
+        <name>LLC_BI__Start</name>
+    </recordTypes>
+    <recordTypes>
+        <description>単体テストに使用されます</description>
+        <label><!-- Test Product Type 1 - Test Product 1 --></label>
+        <name>LLC_BI__Test_Product_Type_1</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- testing the product type broad match --></description>
+        <label><!-- Test Product Type 1 --></label>
+        <name>LLC_BI__Test_Product_Type_1v2</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This record type is used to differentiate a retail loan, which has a distinct experience from other loan types. --></description>
+        <label><!-- Retail Loan --></label>
+        <name>nRetail__Retail_Loan</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>残高は最大利用可能金額を上回ることができないです。</errorMessage>
+        <name>LLC_BI__Amount_Outstanding_Check_Against_Amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>融資期間と元本償還期間は同一価値を持つ必要があります。</errorMessage>
+        <name>LLC_BI__Balloon_Amount_terms_must_be_equal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>融資期間と元本償還期間の価値を入力する必要があります。</errorMessage>
+        <name>LLC_BI__Balloon_Loan_terms_cannot_be_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>融資期間と元本償還期間を同一にすることはできないです。</errorMessage>
+        <name>LLC_BI__Balloon_Term_loan_not_equal_to_amortized</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>ローンには更新と変更があります。 両方になることはありません。</errorMessage>
+        <name>LLC_BI__Cannot_Check_More_Than_One_Loan_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>本融資の金利が金利上限を上回らないようにしてください。</errorMessage>
+        <name>LLC_BI__Interest_Rate_Above_Ceiling</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>本融資の金利が金利下限を下回らないようにしてください。</errorMessage>
+        <name>LLC_BI__Interest_Rate_Below_Floor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>金利上限が金利下限を上回る又は等しくなるようにしてください。</errorMessage>
+        <name>LLC_BI__Rate_Ceiling_Higher_Or_Equal_To_Floor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>金利下限が金利上限を下回る又は等しくなるようにしてください。</errorMessage>
+        <name>LLC_BI__Rate_Floor_Lower_Or_Equal_To_Ceiling</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>コミットされた金額は～から取り崩した金額を上回ることができないです。</errorMessage>
+        <name>LLC_BI__Takedown_Amount_Less_Or_Equal_Parent</name>
+    </validationRules>
+    <webLinks>
+        <label>債務関係者参照</label>
+        <name>LLC_BI__Borrower_Tree</name>
+    </webLinks>
+    <webLinks>
+        <label>商品変更</label>
+        <name>LLC_BI__Change_Product</name>
+    </webLinks>
+    <webLinks>
+        <label>融資コピー</label>
+        <name>LLC_BI__Copy_Loan</name>
+    </webLinks>
+    <webLinks>
+        <label>稟議書</label>
+        <name>LLC_BI__Credit_Memo</name>
+    </webLinks>
+    <webLinks>
+        <label>融資拒否</label>
+        <name>LLC_BI__Decline_Loan</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DocuSign --></label>
+        <name>LLC_BI__DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label>承認申請</label>
+        <name>LLC_BI__Loan_Submit_For_Approval</name>
+    </webLinks>
+    <webLinks>
+        <label>新規融資</label>
+        <name>LLC_BI__NewLoan</name>
+    </webLinks>
+    <webLinks>
+        <label>新融資枠</label>
+        <name>LLC_BI__New_Facility</name>
+    </webLinks>
+    <webLinks>
+        <label>新規制限/サブ/削除</label>
+        <name>LLC_BI__New_Takedown</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Switch_UI --></label>
+        <name>LLC_BI__Switch_UI</name>
+    </webLinks>
+    <webLinks>
+        <label>引受概要</label>
+        <name>LLC_BI__Underwriting_Summary</name>
+    </webLinks>
+    <webLinks>
+        <label>融資取消</label>
+        <name>LLC_BI__deleteLoan</name>
+    </webLinks>
+    <webLinks>
+        <label>融資更新/修正</label>
+        <name>LLC_BI__renew_loan</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Share_Partner_Portal --></label>
+        <name>Share_Partner_Portal</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- VIN_Generation --></label>
+        <name>VIN_Generation</name>
+    </webLinks>
+    <webLinks>
+        <label>財務分析</label>
+        <name>nCRED__StatementLauncher</name>
+    </webLinks>
+    <webLinks>
+        <label>フォーム生成</label>
+        <name>nFORMS__Form_Generation</name>
+    </webLinks>
+    <webLinks>
+        <label>文書要請</label>
+        <name>nPortal__Manage_Customer_Portal</name>
+    </webLinks>
+    <webLinks>
+        <label>新規作成</label>
+        <name>nRetail__New_Retail_Loan</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>文書収集</value>
+    </caseValues>
+    <fields>
+        <label>外部取引ID</label>
+        <name>LLC_BI__External_Transaction_Id__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Progress</masterLabel>
+            <translation>進行中</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>タイプ</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>E-Signature</masterLabel>
+            <translation>電子署名</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>外部コレクションID</label>
+        <name>LLC_BI__Vendor_Collection_Id__c</name>
+    </fields>
+    <nameFieldLabel>文書収集</nameFieldLabel>
+</CustomObjectTranslation>

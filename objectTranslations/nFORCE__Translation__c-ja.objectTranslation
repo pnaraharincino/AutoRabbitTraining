@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Translation --></value>
+    </caseValues>
+    <fields>
+        <help>このフィールドには、関連する機能変換カスタムメタデータ型の名前が含まれています。</help>
+        <label>翻訳可能なフィールド</label>
+        <name>nFORCE__Feature_Translation__c</name>
+    </fields>
+    <fields>
+        <help>これを翻訳値が存在する言語に設定します。このフォーマットは、言語のISO 639-1に続けてISO Alpha-2 Countral Codeが続くようになります。例：（ja-ja）。</help>
+        <label>言語</label>
+        <name>nFORCE__Language__c</name>
+    </fields>
+    <fields>
+        <help>このオプションのテキストフィールドには、元の言語のフィールドの値が含まれています。</help>
+        <label>元のテキスト</label>
+        <name>nFORCE__Original_Text__c</name>
+    </fields>
+    <fields>
+        <help>このオプションのテキストフィールドには、翻訳された言語でのフィールドの値が含まれています。</help>
+        <label>翻訳されたテキスト</label>
+        <name>nFORCE__Translated_Text__c</name>
+    </fields>
+    <fields>
+        <label>翻訳キー</label>
+        <name>nFORCE__Translation_Key__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Translation --></nameFieldLabel>
+</CustomObjectTranslation>

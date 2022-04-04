@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Add Debt --></label>
+        <name>nRetail__Add_Debt</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Debt Schedule --></label>
+        <name>nRetail__Debt_Schedule</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Account --></label>
+        <name>nRetail__Account__c</name>
+        <relationshipLabel><!-- Debts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Available Amount --></label>
+        <name>nRetail__Available_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>nRetail__Contact__c</name>
+        <relationshipLabel><!-- Debts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Debt Type --></label>
+        <name>nRetail__Debt_Type__c</name>
+        <picklistValues>
+            <masterLabel>Monthly Auto/Lease Payments</masterLabel>
+            <translation><!-- Monthly Auto/Lease Payments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly Child Support Payments</masterLabel>
+            <translation><!-- Monthly Child Support Payments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly Credit Card Payments</masterLabel>
+            <translation><!-- Monthly Credit Card Payments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly Student Loan Payments</masterLabel>
+            <translation><!-- Monthly Student Loan Payments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Monthly Installment</masterLabel>
+            <translation><!-- Other Monthly Installment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Exclude --></label>
+        <name>nRetail__Exclude__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a short description of the reason why the debt was excluded from total calculations. --></help>
+        <label><!-- Excluded Reason --></label>
+        <name>nRetail__Excluded_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loan --></label>
+        <name>nRetail__Loan__c</name>
+        <relationshipLabel><!-- Debts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Maturity Date --></label>
+        <name>nRetail__Maturity_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monthly Payment --></label>
+        <name>nRetail__Monthly_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Debt --></label>
+        <name>nRetail__New_Debt__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Loan --></label>
+        <name>nRetail__New_Loan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Amount --></label>
+        <name>nRetail__Original_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Pricing Option --></label>
+        <name>nRetail__Pricing_Option__c</name>
+        <relationshipLabel><!-- Debts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Principal Balance --></label>
+        <name>nRetail__Principal_Balance__c</name>
+    </fields>
+</CustomObjectTranslation>

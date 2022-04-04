@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ポリシータイプ</value>
+    </caseValues>
+    <fields>
+        <help>コンテキストオブジェクトを入力してください。</help>
+        <label>コンテキストオブジェクト</label>
+        <name>LLC_BI__Context_Object__c</name>
+    </fields>
+    <fields>
+        <help>ポリシー型に関連付けられている機能の名前を選択します。</help>
+        <label>ポリシータイプ機能</label>
+        <name>LLC_BI__Policy_Type_Feature__c</name>
+        <picklistValues>
+            <masterLabel>Fee Management</masterLabel>
+            <translation>料金管理</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indirect Automotive Lending</masterLabel>
+            <translation>間接的な自動車融資</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>ルーティングディメンションを選択</help>
+        <label>ルーティングディメンション</label>
+        <name>LLC_BI__Routing_Dimension__c</name>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation>商品</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Type</masterLabel>
+            <translation>商品タイプ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>ポリシータイプのコンテキストオブジェクトからワークフローが開始されたオブジェクトへのパスを定義するLookupフィールドAPI名を入力します。 LookupフィールドAPI名がコンテキストオブジェクトと同じ場合は、このフィールドを空白のままにしてください。</help>
+        <label>ワークフローオブジェクト</label>
+        <name>LLC_BI__Workflow_Object__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel>ポリシータイプ</nameFieldLabel>
+</CustomObjectTranslation>

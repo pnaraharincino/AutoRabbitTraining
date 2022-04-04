@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Field Map --></value>
+    </caseValues>
+    <fields>
+        <label>条件付きマッピング基準</label>
+        <name>LLC_BI__Conditional_Mapping_Criteria__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドには、フィールドが空白の場合にターゲットオブジェクトフィールドをシステムに設定するデフォルト値が表示されます。</help>
+        <label>初期値</label>
+        <name>LLC_BI__Default_Value__c</name>
+    </fields>
+    <fields>
+        <help>指定されたフィールドがソースオブジェクトから提供されていることを確認するには、このオプションを選択します。</help>
+        <label>必須</label>
+        <name>LLC_BI__Is_Required__c</name>
+    </fields>
+    <fields>
+        <help>マッピングのシーケンスを定義するために希望の値を入力してください。</help>
+        <label>オーダー</label>
+        <name>LLC_BI__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Originating Obj Field --></label>
+        <name>LLC_BI__Orig_Obj_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Originating Obj --></label>
+        <name>LLC_BI__Orig_Obj__c</name>
+    </fields>
+    <fields>
+        <label>関係タイプ</label>
+        <name>LLC_BI__Relationship_Type__c</name>
+        <picklistValues>
+            <masterLabel>Association</masterLabel>
+            <translation>協会</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporation</masterLabel>
+            <translation>株式会社</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation>政府</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>個人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Liability Company</masterLabel>
+            <translation>有限責任会社</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partnership</masterLabel>
+            <translation>パートナーシップ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sole Proprietorship</masterLabel>
+            <translation>唯一の所有者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust</masterLabel>
+            <translation>信託</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ソース機能</label>
+        <name>LLC_BI__Source_Feature__c</name>
+    </fields>
+    <fields>
+        <label>ソースの式</label>
+        <name>LLC_BI__Source_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Obj Field --></label>
+        <name>LLC_BI__Target_Obj_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Obj --></label>
+        <name>LLC_BI__Target_Obj__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Field Map Name --></nameFieldLabel>
+</CustomObjectTranslation>

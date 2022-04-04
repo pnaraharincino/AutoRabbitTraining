@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>割り当てグループ</label>
+        <name>LLC_BI__Assignment_Group__c</name>
+    </fields>
+    <fields>
+        <help>タスクを完了するための推定時間を入力してください</help>
+        <label>想定時間</label>
+        <name>LLC_BI__Estimated_Time__c</name>
+    </fields>
+    <fields>
+        <label>割り当てグループ</label>
+        <name>LLC_BI__Group__c</name>
+        <relationshipLabel>活動</relationshipLabel>
+    </fields>
+    <fields>
+        <label>メンテナンス部門</label>
+        <name>LLC_BI__Maintenance_Type__c</name>
+        <picklistValues>
+            <masterLabel>Add</masterLabel>
+            <translation>追加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change</masterLabel>
+            <translation>変更</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove</masterLabel>
+            <translation>削除</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>親タスク</label>
+        <name>LLC_BI__Parent_Task__c</name>
+    </fields>
+    <fields>
+        <label>メンテナンスタイプ</label>
+        <name>LLC_BI__SubType__c</name>
+        <picklistValues>
+            <masterLabel>Add Authorized User</masterLabel>
+            <translation>契約者追加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Address Change</masterLabel>
+            <translation>住所変更</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Limit Change</masterLabel>
+            <translation>クレジット上限変更</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>テンプレート</label>
+        <name>LLC_BI__isTemplate__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Classification --></value>
+    </caseValues>
+    <fields>
+        <help>カテゴリこのスプレッドステートメントレコードまたはスプレッドステートメントの合計グループに関連しています。</help>
+        <label>カテゴリー</label>
+        <name>LLC_BI__Category__c</name>
+        <picklistValues>
+            <masterLabel>Cash Flow</masterLabel>
+            <translation><!-- Cash Flow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOI Statement</masterLabel>
+            <translation><!-- NOI Statement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMA Benchmarking</masterLabel>
+            <translation>RMAベンチマーク</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Classification Name --></nameFieldLabel>
+</CustomObjectTranslation>

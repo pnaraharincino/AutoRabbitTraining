@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Automated Booking Status --></value>
+    </caseValues>
+    <fields>
+        <label>アクション</label>
+        <name>LLC_BI__Action__c</name>
+    </fields>
+    <fields>
+        <label>外部アプリケーションルックアップ</label>
+        <name>LLC_BI__EAL_Id__c</name>
+        <relationshipLabel>自動予約ステータス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>親予約状況</label>
+        <name>LLC_BI__Parent__c</name>
+        <relationshipLabel>子 ステータス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>レコードID</label>
+        <name>LLC_BI__Record_Id__c</name>
+    </fields>
+    <fields>
+        <help>予約または書籍の要求の全体的なステータス</help>
+        <label>ステータスコード</label>
+        <name>LLC_BI__Status_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Status Summary --></label>
+        <name>LLC_BI__Status_Summary__c</name>
+    </fields>
+    <fields>
+        <label>概要</label>
+        <name>LLC_BI__Summary__c</name>
+    </fields>
+    <fields>
+        <label>トランザクションID</label>
+        <name>LLC_BI__Transaction_Id__c</name>
+    </fields>
+    <nameFieldLabel><!-- Category --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>商品カタログ - Route テンプレート</value>
+    </caseValues>
+    <fields>
+        <help>どの製品カタログUIテンプレートに関連付けられているこのルートテンプレートですか？</help>
+        <label>商品カタログUIテンプレート</label>
+        <name>LLC_BI__Product_Catalog_UI_Template__c</name>
+        <relationshipLabel>商品カタログルートテンプレート</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このルートの本文にはどのページが表示されますか？空白のままにすることができます。</help>
+        <label>ルートボディ</label>
+        <name>LLC_BI__Route_Body__c</name>
+    </fields>
+    <fields>
+        <help>どのアイコンが使用されますか？</help>
+        <label>ルートアイコンクラス</label>
+        <name>LLC_BI__Route_Icon_Class__c</name>
+    </fields>
+    <fields>
+        <help>どのナビゲーションコンポーネントが使用されますか？</help>
+        <label>ルートナビゲーション</label>
+        <name>LLC_BI__Route_Navigation__c</name>
+    </fields>
+    <fields>
+        <help>このルートにどのようなソート注文番号が割り当てられますか？これにより、同じグループ内の他のルート間の配置が決定されます。</help>
+        <label>ルート順</label>
+        <name>LLC_BI__Route_Order__c</name>
+    </fields>
+    <fields>
+        <help>どのサブナビゲーションコンポーネントが使用されますか？</help>
+        <label>ルートサブナビゲーション</label>
+        <name>LLC_BI__Route_Sub_Navigation__c</name>
+    </fields>
+    <fields>
+        <help>どのトップバーコンポーネントが使用されますか？</help>
+        <label>ルートトップバー</label>
+        <name>LLC_BI__Route_Topbar__c</name>
+    </fields>
+    <fields>
+        <help>このルートに関連付けられている画面は編集可能ですか？</help>
+        <label>画面 編集可能</label>
+        <name>LLC_BI__Screen_Is_Editable__c</name>
+    </fields>
+    <fields>
+        <help>このルートにはどのスクリーンセクションリソースを使用する必要がありますか？</help>
+        <label>画面セクションリソース</label>
+        <name>LLC_BI__Screen_Section_Resource__c</name>
+    </fields>
+    <nameFieldLabel>商品カタログ - Route テンプレート</nameFieldLabel>
+</CustomObjectTranslation>

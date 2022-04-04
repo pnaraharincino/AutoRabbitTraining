@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>プライシング - 金利方法</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Add Rate Available Fields --></label>
+        <name>LLC_BI__Add_Rate_Available_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Fixed Rate Additional Fields --></label>
+        <name>LLC_BI__Fixed_Rate_Additional_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Fixed With Index Additional Fields --></label>
+        <name>LLC_BI__Fixed_With_Index_Additional_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Rate Data for Pricing Option --></label>
+        <name>LLC_BI__Rate_Data_for_Pricing_Option</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Rate Structure Table --></label>
+        <name>LLC_BI__Rate_Structure_Table</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Variable Rate Additional Fields --></label>
+        <name>LLC_BI__Variable_Rate_Additional_Fields</name>
+    </fieldSets>
+    <fields>
+        <help>システムはこのフィールドにレートフィールドと拡散フィールドの合計を入力します。</help>
+        <label><!-- All-in Rate --></label>
+        <name>LLC_BI__All_In_Rate__c</name>
+    </fields>
+    <fields>
+        <label>適用融資割合</label>
+        <name>LLC_BI__Applied_Loan_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>年間金利から毎月の金利への変換を計算するための式を表示します。</help>
+        <label>毎月の金利</label>
+        <name>LLC_BI__Calculated_Monthly_Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help>コメント</help>
+        <label>コメント</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label>頻度</label>
+        <name>LLC_BI__Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Frequency_Annually</masterLabel>
+            <translation>年</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frequency_Bimonthly</masterLabel>
+            <translation><!-- Frequency_Bimonthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frequency_Monthly</masterLabel>
+            <translation>月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frequency_Quarterly</masterLabel>
+            <translation><!-- Frequency_Quarterly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frequency_Semiannually</masterLabel>
+            <translation><!-- Frequency_Semiannually --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frequency_Semimonthly</masterLabel>
+            <translation><!-- Frequency_Semimonthly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>スプレッド値が正のときにインデックスを追加し、スプレッド値が負の場合はインデックスから減算されます。</help>
+        <label>インデックススプレッドタイプ</label>
+        <name>LLC_BI__Index_Spread_Type__c</name>
+        <picklistValues>
+            <masterLabel>Add Spread to Index</masterLabel>
+            <translation><!-- Add Spread to Index --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subtract Spread from Index</masterLabel>
+            <translation><!-- Subtract Spread from Index --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>インデックス</label>
+        <name>LLC_BI__Index__c</name>
+        <picklistValues>
+            <masterLabel>COF_Overnight</masterLabel>
+            <translation><!-- COF_Overnight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COF_mo_1</masterLabel>
+            <translation><!-- COF_mo_1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COF_mo_2</masterLabel>
+            <translation><!-- COF_mo_2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COF_mo_3</masterLabel>
+            <translation><!-- COF_mo_3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COF_mo_4</masterLabel>
+            <translation><!-- COF_mo_4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COF_mo_5</masterLabel>
+            <translation><!-- COF_mo_5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COF_mo_6</masterLabel>
+            <translation><!-- COF_mo_6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBR</masterLabel>
+            <translation><!-- FBR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fed_Funds_Current</masterLabel>
+            <translation>fed_funds_current</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fed_Funds_Prior_Day</masterLabel>
+            <translation>fed_funds_prior_day</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIB</masterLabel>
+            <translation><!-- LIB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIBOR_Overnight</masterLabel>
+            <translation>LIBOR_オーバーナイト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIBOR_mo_1</masterLabel>
+            <translation>LIBOR_1ヶ月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIBOR_mo_12</masterLabel>
+            <translation>LIBOR_12ヶ月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIBOR_mo_2</masterLabel>
+            <translation>LIBOR_2ヶ月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIBOR_mo_3</masterLabel>
+            <translation>LIBOR_3ヶ月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LIBOR_mo_6</masterLabel>
+            <translation>LIBOR_6ヶ月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prime</masterLabel>
+            <translation>プライム</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prime_FRED</masterLabel>
+            <translation>プライムFRED</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBA</masterLabel>
+            <translation><!-- SBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swap_yr_1</masterLabel>
+            <translation><!-- Swap_yr_1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swap_yr_10</masterLabel>
+            <translation><!-- Swap_yr_10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swap_yr_2</masterLabel>
+            <translation><!-- Swap_yr_2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swap_yr_3</masterLabel>
+            <translation><!-- Swap_yr_3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swap_yr_30</masterLabel>
+            <translation><!-- Swap_yr_30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swap_yr_4</masterLabel>
+            <translation><!-- Swap_yr_4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swap_yr_5</masterLabel>
+            <translation><!-- Swap_yr_5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swap_yr_7</masterLabel>
+            <translation><!-- Swap_yr_7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCMI_yr_1</masterLabel>
+            <translation><!-- TCMI_yr_1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCMI_yr_10</masterLabel>
+            <translation><!-- TCMI_yr_10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCMI_yr_2</masterLabel>
+            <translation><!-- TCMI_yr_2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCMI_yr_20</masterLabel>
+            <translation><!-- TCMI_yr_20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCMI_yr_3</masterLabel>
+            <translation><!-- TCMI_yr_3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCMI_yr_30</masterLabel>
+            <translation><!-- TCMI_yr_30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCMI_yr_5</masterLabel>
+            <translation><!-- TCMI_yr_5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCMI_yr_7</masterLabel>
+            <translation><!-- TCMI_yr_7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury_we_13</masterLabel>
+            <translation><!-- Treasury_we_13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury_we_4</masterLabel>
+            <translation><!-- Treasury_we_4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury_we_52</masterLabel>
+            <translation><!-- Treasury_we_52 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury_yr_10</masterLabel>
+            <translation><!-- Treasury_yr_10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury_yr_2</masterLabel>
+            <translation><!-- Treasury_yr_2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury_yr_20</masterLabel>
+            <translation><!-- Treasury_yr_20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury_yr_30</masterLabel>
+            <translation><!-- Treasury_yr_30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treasury_yr_5</masterLabel>
+            <translation><!-- Treasury_yr_5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WSJ</masterLabel>
+            <translation><!-- WSJ --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>システムはこのフィールドに自動的に入力されます。金利が更新される頻度を指定するために使用されます。</help>
+        <label>金利調整頻度</label>
+        <name>LLC_BI__Interest_Rate_Adjustment_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>毎日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Other Week</masterLabel>
+            <translation>週ごとに</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>毎月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment</masterLabel>
+            <translation>支払い</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>四半期に</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semiannually</masterLabel>
+            <translation>半期毎</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semimonthly</masterLabel>
+            <translation>半月毎</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>週次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Years</masterLabel>
+            <translation>年</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>レートストリームに適用する金利タイプを選択してください。</help>
+        <label>金利タイプ</label>
+        <name>LLC_BI__Interest_Rate_Type__c</name>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation>固定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed with Index</masterLabel>
+            <translation>固定(Index)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Floating with Index</masterLabel>
+            <translation>変動(Index)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>固定</label>
+        <name>LLC_BI__Is_Fixed__c</name>
+    </fields>
+    <fields>
+        <label>スワップされます</label>
+        <name>LLC_BI__Is_Swap__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドに、このフィールドにローンの最初の金利調整日を自動的に入力します。</help>
+        <label>次の金利変更日付</label>
+        <name>LLC_BI__Next_Interest_Rate_Change_Date__c</name>
+    </fields>
+    <fields>
+        <label>価格ストリーム</label>
+        <name>LLC_BI__Pricing_Stream__c</name>
+        <relationshipLabel>価格設定部品</relationshipLabel>
+    </fields>
+    <fields>
+        <help>システム入力フィールドには、設定された期間のローンの金利の最大割合が表示されます。</help>
+        <label>レート上限</label>
+        <name>LLC_BI__Rate_Ceiling__c</name>
+    </fields>
+    <fields>
+        <help>システム入力フィールドは、設定された期間のローンの金利の最小パーセンテージを表示します。</help>
+        <label>レート下限</label>
+        <name>LLC_BI__Rate_Floor__c</name>
+    </fields>
+    <fields>
+        <label>金利</label>
+        <name>LLC_BI__Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spread --></label>
+        <name>LLC_BI__Spread__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel>プライシング - 金利方法</nameFieldLabel>
+</CustomObjectTranslation>

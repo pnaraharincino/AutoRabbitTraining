@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>nCHECK__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Curriculum --></label>
+        <name>nCHECK__Curriculum__c</name>
+        <picklistValues>
+            <masterLabel>Commercial 201</masterLabel>
+            <translation><!-- Commercial 201 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial 301</masterLabel>
+            <translation><!-- Commercial 301 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail 201</masterLabel>
+            <translation><!-- Retail 201 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail 301</masterLabel>
+            <translation><!-- Retail 301 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Grading Course --></label>
+        <name>nCHECK__Grading_Course__c</name>
+        <relationshipLabel><!-- Grading Exercises --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Step --></label>
+        <name>nCHECK__Step__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>nCHECK__Title__c</name>
+    </fields>
+</CustomObjectTranslation>

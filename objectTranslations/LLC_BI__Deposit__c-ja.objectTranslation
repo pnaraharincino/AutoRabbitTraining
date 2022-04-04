@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Deposit --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Deposit_ReviewSubmit --></label>
+        <name>ATBK__Deposit_ReviewSubmit</name>
+    </fieldSets>
+    <fieldSets>
+        <label>預金口座メンテナンス 差分</label>
+        <name>LLC_BI__Deposit_Maintenance_Delta</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Deposits --></label>
+        <name>LLC_BI__Deposit_Product_Package</name>
+    </fieldSets>
+    <fieldSets>
+        <label>関連預金</label>
+        <name>LLC_BI__Related_Deposits</name>
+    </fieldSets>
+    <fieldSets>
+        <label>稟議書 標準案件パッケージ</label>
+        <name>LLC_BI__Standard_Product_Package_Credit_Memo</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Treasury Mass Actions Deposits --></label>
+        <name>LLC_BI__Treasury_Mass_Actions_Deposits</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Lookup Fields --></label>
+        <name>LLC_BI__UI_Lookup_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WK_DepAct_DocPrep --></label>
+        <name>WKDDP__WK_DepAct_DocPrep</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Your Products Deposit Information --></label>
+        <name>nPortal__Your_Products_Deposit</name>
+    </fieldSets>
+    <fields>
+        <help>年率利回り</help>
+        <label><!-- APY --></label>
+        <name>LLC_BI__APY__c</name>
+    </fields>
+    <fields>
+        <label>口座番号</label>
+        <name>LLC_BI__Account_Number__c</name>
+    </fields>
+    <fields>
+        <help>未承認の関心を受け取るアカウントを入力してください。</help>
+        <label>保険金受取口座</label>
+        <name>LLC_BI__Account_To_Receive_Accrued_Interest__c</name>
+        <relationshipLabel>未払金利預金口座</relationshipLabel>
+    </fields>
+    <fields>
+        <label>取引先</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>預金</relationshipLabel>
+    </fields>
+    <fields>
+        <help>貸金庫のリースに追加される追加の用語。</help>
+        <label>追加条件</label>
+        <name>LLC_BI__Additional_Terms__c</name>
+    </fields>
+    <fields>
+        <help>CESA上の責任者の署名回線の下に印刷する代替テキストの説明。責任者の名前以外のものが彼らの署名回線の下に印刷されるべきであるならば、これは使用されます。</help>
+        <label>代替署名の説明</label>
+        <name>LLC_BI__Alternate_Signature_Description__c</name>
+    </fields>
+    <fields>
+        <label>残高</label>
+        <name>LLC_BI__Amount__c</name>
+    </fields>
+    <fields>
+        <help>貸金庫の最初の年間家賃の金額。</help>
+        <label>年間賃料</label>
+        <name>LLC_BI__Annual_Rent_Amount__c</name>
+    </fields>
+    <fields>
+        <label>申請</label>
+        <name>LLC_BI__Application__c</name>
+        <relationshipLabel>預金</relationshipLabel>
+    </fields>
+    <fields>
+        <help>指定された任命者の能力は、裁判所の命令/意志によってよくあります。受託者または不動産口座区の行為。裁判所の命令/法的文書によって保護者、保守者、または法的代理店として識別された容量。一度キャプチャし、任命者に適用されます。</help>
+        <label>任命者 能力 内容</label>
+        <name>LLC_BI__Appointee_Capacity_Description__c</name>
+    </fields>
+    <fields>
+        <help>貸金庫貸付金額が口座から引き落とされる頻度を説明します。</help>
+        <label>請求頻度その他</label>
+        <name>LLC_BI__Billing_Frequency_Other__c</name>
+    </fields>
+    <fields>
+        <help>貸金庫の請求がある頻度がどのくらいの頻度で請求されるかを指定します。</help>
+        <label>請求頻度</label>
+        <name>LLC_BI__Billing_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>年次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biannually</masterLabel>
+            <translation>隔年</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>月次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly on the lease date anniversary</masterLabel>
+            <translation>月次（リース開始日）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>四半期毎</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semiannually</masterLabel>
+            <translation>半年毎</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yearly on the lease date anniversary</masterLabel>
+            <translation>年1回（リース開始日）</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>貸金庫の請求がどのように借手に伝達されるかについて説明します。</help>
+        <label>請求タイプ</label>
+        <name>LLC_BI__Billing_Type__c</name>
+        <picklistValues>
+            <masterLabel>Debit Account</masterLabel>
+            <translation>借方勘定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Give Notice</masterLabel>
+            <translation>知らせる</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>期間の開始日から満期日までの時間の長さ（例えば91日18ヶ月）。</help>
+        <label>定期預金期間</label>
+        <name>LLC_BI__CD_Term__c</name>
+    </fields>
+    <fields>
+        <help>真実であれば、CESAの指定された受益者は、大多数の責任者になるでしょう。</help>
+        <label>CESA責任者個別指標</label>
+        <name>LLC_BI__CESA_Responsible_Individual_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>預金証明書の数。これは、預金証明書に口座番号と証明書番号がある場合に使用されます。</help>
+        <label>証明書番号</label>
+        <name>LLC_BI__Certificate_Number__c</name>
+    </fields>
+    <fields>
+        <help>TRUEの場合、CESAの責任者は指定された受益者を変える可能性があります。</help>
+        <label>指定受取人の変更</label>
+        <name>LLC_BI__Change_Designated_Beneficiary_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>追加の収益を計算する目的で、勘定収益が勘定のプライマリバランスに追加される頻度に関する制度の一般方針を指定します。</help>
+        <label>配合頻度</label>
+        <name>LLC_BI__Compounding_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>年次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Continuous</masterLabel>
+            <translation>連続的</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>日次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Other Week</masterLabel>
+            <translation>隔週</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>月次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No compounding/Simple</masterLabel>
+            <translation><!-- No compounding/Simple --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>四半期毎</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semiannually</masterLabel>
+            <translation>半期毎</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semimonthly</masterLabel>
+            <translation>半月毎</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>週次</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>コンタクト</label>
+        <name>LLC_BI__Contact__c</name>
+        <relationshipLabel>預金</relationshipLabel>
+    </fields>
+    <fields>
+        <help>真実であれば、亡くなったIRAの所有者の死は、必要な開始日（RBD）の前に発生しました。</help>
+        <label>開始時期以前の死亡</label>
+        <name>LLC_BI__Death_Before_Required_Beginning__c</name>
+    </fields>
+    <fields>
+        <help>システムはワークフローを介してこのテキストフィールドを入力します。</help>
+        <label>デフォルトアプリ</label>
+        <name>LLC_BI__Default_App__c</name>
+    </fields>
+    <fields>
+        <label>預金口座種類</label>
+        <name>LLC_BI__Deposit_Account_Type__c</name>
+        <picklistValues>
+            <masterLabel>Checking</masterLabel>
+            <translation>当座預金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Money Market Checking</masterLabel>
+            <translation>保険付き預金口座(当座)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Money Market Savings</masterLabel>
+            <translation>保険付き預金口座(普通)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Savings</masterLabel>
+            <translation>普通預金</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>預金金利体系</label>
+        <name>LLC_BI__Deposit_Rate_Structure__c</name>
+        <relationshipLabel>預金</relationshipLabel>
+    </fields>
+    <fields>
+        <help>発行された貸金庫の鍵盤の説明。</help>
+        <label>キーの内容</label>
+        <name>LLC_BI__Description_of_Keys__c</name>
+    </fields>
+    <fields>
+        <help>配布を行う方法を指定します。</help>
+        <label>分配金支払タイプ</label>
+        <name>LLC_BI__Distribution_Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Immediate</masterLabel>
+            <translation>即時</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>なし</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Periodic</masterLabel>
+            <translation>定期的</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Periodic RMD as calculated (Traditional or SIMPLE only)</masterLabel>
+            <translation>計算された周期的なRMD（従来のまたは単純なみ）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total</masterLabel>
+            <translation>合計</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>定期分布の開始日。</help>
+        <label>配当開始日</label>
+        <name>LLC_BI__Distribution_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help>貸金庫リースの副/代理店に付与された当局は、法的無能力の後に継続的に継続し、任命されている賃貸人の死でのみ終了します。</help>
+        <label>恒久的に取引する代理店</label>
+        <name>LLC_BI__Durable_Agency__c</name>
+    </fields>
+    <fields>
+        <help>定期的なアカウントのステートメントに関する電子開示を受け取ることに同意するには、このチェックボックスを選択します。</help>
+        <label>e開示と文の同意</label>
+        <name>LLC_BI__E_Disclosures_And_Statement_Consent__c</name>
+    </fields>
+    <fields>
+        <help>電子的な手続きの開示に電子文書や通知のための開示を含むべきである場合、このチェックボックスを選択してください。このコンテンツは、関連付けられている利用規約ポリシーに以前に含まれていれば、このコンテンツにも開示に移行します。</help>
+        <label>電子公告の配信に関する同意</label>
+        <name>LLC_BI__Electronic_Notice_Delivery_Consent__c</name>
+    </fields>
+    <fields>
+        <help>デポジット変換にポータル対応文書が必要な場合は、システムはこのチェックボックスを自動的に入力します。</help>
+        <label>ポータル文書有効化</label>
+        <name>LLC_BI__Enable_Portal_Documents__c</name>
+    </fields>
+    <fields>
+        <help>アカウントの種類またはアカウント保持者がMinnesota Transaction Accountアプリケーション開示要件の下のカバレッジから除外されている場合は、このフィールドを選択します。これはMinnesotaのユーザーにのみ適用されます。</help>
+        <label>トランザクションアカウントの開示を除外します</label>
+        <name>LLC_BI__Exclude_Transaction_Account_Disclosure__c</name>
+    </fields>
+    <fields>
+        <help>あなたの金融機関のための正規署名者を選択してください。</help>
+        <label>金融機関 公認署名人</label>
+        <name>LLC_BI__Financial_Institution_Authorized_Signer__c</name>
+        <relationshipLabel>預金</relationshipLabel>
+    </fields>
+    <fields>
+        <help>5年間の期間が終了する年。</help>
+        <label>5年後の年末</label>
+        <name>LLC_BI__Five_Year_Period_Ends_Year__c</name>
+    </fields>
+    <fields>
+        <help>周期分布の周波数を指定します。</help>
+        <label>分配金の頻度</label>
+        <name>LLC_BI__Frequency_of_Distributions__c</name>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation>年次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>月次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>四半期毎</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>資金調達額</label>
+        <name>LLC_BI__Funding_Amount__c</name>
+    </fields>
+    <fields>
+        <label>資金調達方法</label>
+        <name>LLC_BI__Funding_Method__c</name>
+        <relationshipLabel>預金</relationshipLabel>
+    </fields>
+    <fields>
+        <help>真の場合、IRAは自己指向です。</help>
+        <label>IRAは自己指向です</label>
+        <name>LLC_BI__IRA_Is_Self_Directed__c</name>
+    </fields>
+    <fields>
+        <help>開かれているIRA計画の種類を指定します。この情報は常に渡されるべきです。</help>
+        <label>TFAプランタイプ</label>
+        <name>LLC_BI__IRA_Plan_Type__c</name>
+        <picklistValues>
+            <masterLabel>Coverdell Education Savings Account</masterLabel>
+            <translation>カバーデル教育貯蓄口座</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Savings Account</masterLabel>
+            <translation>健康貯蓄口座</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roth Beneficiary IRA</masterLabel>
+            <translation><!-- Roth Beneficiary IRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roth IRA</masterLabel>
+            <translation><!-- Roth IRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIMPLE IRA</masterLabel>
+            <translation><!-- SIMPLE IRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traditional Beneficiary IRA</masterLabel>
+            <translation><!-- Traditional Beneficiary IRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traditional IRA</masterLabel>
+            <translation>伝統的なIRA</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>再評価されている資産の初期寄与額。</help>
+        <label>IRA再虚脱Initial Cont Amt</label>
+        <name>LLC_BI__IRA_Recharacterization_Initial_Cont_Amt__c</name>
+    </fields>
+    <fields>
+        <help>再評価されている資産の初期貢献日。</help>
+        <label>IRA校正第一次日の日付</label>
+        <name>LLC_BI__IRA_Recharacterization_Initial_Cont_Date__c</name>
+    </fields>
+    <fields>
+        <help>校正の種類を指定します。</help>
+        <label>IRA校正タイプ</label>
+        <name>LLC_BI__IRA_Recharacterization_Type__c</name>
+        <picklistValues>
+            <masterLabel>Erroneous rollover or transfer from Traditional to SIMPLE and back to Traditional</masterLabel>
+            <translation>誤ったロールオーバーや伝統的な伝統的な伝統的なものへの転送</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roth beneficiary direct rollover from an ERP to traditional beneficiary</masterLabel>
+            <translation><!-- Roth beneficiary direct rollover from an ERP to traditional beneficiary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roth conversion back to Traditional or SIMPLE</masterLabel>
+            <translation><!-- Roth conversion back to Traditional or SIMPLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roth rollover or direct rollover from an ERP to Traditional</masterLabel>
+            <translation><!-- Roth rollover or direct rollover from an ERP to Traditional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roth to Traditional</masterLabel>
+            <translation><!-- Roth to Traditional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traditional to Roth</masterLabel>
+            <translation><!-- Traditional to Roth --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>この項目は、変数レートアカウントに関連付けられているインデックスの名前を示します。</help>
+        <label>インデックス名</label>
+        <name>LLC_BI__Index_Name__c</name>
+    </fields>
+    <fields>
+        <help>これは、計画が継承されたIRAかどうかを示します。 IRAの元の所有者がIRAの最初の所有者が元のIRAの名前付き受益者に通過するとIRAが継承されます。</help>
+        <label><!-- Inherited IRA --></label>
+        <name>LLC_BI__Inherited_IRA__c</name>
+    </fields>
+    <fields>
+        <label>初期預金</label>
+        <name>LLC_BI__Initial_Deposit__c</name>
+    </fields>
+    <fields>
+        <help>アカウント上の最初の関心率を決定するためにどのようなレートが使用されているかを指定します。</help>
+        <label>当初金利種類</label>
+        <name>LLC_BI__Initial_Interest_Rate_Type__c</name>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation>固定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation>変動</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>アカウントの初期金利。</help>
+        <label>当初金利</label>
+        <name>LLC_BI__Initial_Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help>真の場合、初期レート（すなわち、ティーザーレート）がアカウントに適用された。</help>
+        <label>初期レート表示</label>
+        <name>LLC_BI__Initial_Rate_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>初期（ティーザー）レートを決定するためにインデックスレートに追加される割合。</help>
+        <label>初期レートマージン</label>
+        <name>LLC_BI__Initial_Rate_Margin__c</name>
+    </fields>
+    <fields>
+        <help>初期レートが有効になる期間の数。</help>
+        <label>初期レート期間</label>
+        <name>LLC_BI__Initial_Rate_Period_Number__c</name>
+    </fields>
+    <fields>
+        <help>初期レートが適用される期間を指定します。</help>
+        <label>初期レートタイプ</label>
+        <name>LLC_BI__Initial_Rate_Period_Type__c</name>
+        <picklistValues>
+            <masterLabel>Day(s)</masterLabel>
+            <translation>日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month(s)</masterLabel>
+            <translation>月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week(s)</masterLabel>
+            <translation>週</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year(s)</masterLabel>
+            <translation>年</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>金利返済方法タイプ</label>
+        <name>LLC_BI__Interest_Payment_Method_Type__c</name>
+        <picklistValues>
+            <masterLabel>Add to Principal</masterLabel>
+            <translation>元本に追加</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Account</masterLabel>
+            <translation>クレジット口座</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Account at other financial institution</masterLabel>
+            <translation>他行のクレジット口座</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receive Periodic Check</masterLabel>
+            <translation>定期的なチェック</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>trueの場合、マージンは可変レートアカウントの金利を決定する際に使用されます。</help>
+        <label>金利収益表示</label>
+        <name>LLC_BI__Interest_Rate_Margin_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>アカウントの該当するレートを決定するためにインデックスに追加されるこのパーセント。</help>
+        <label>金利収益割合</label>
+        <name>LLC_BI__Interest_Rate_Margin_Percent__c</name>
+    </fields>
+    <fields>
+        <help>アカウントの金利の種類を指定します。</help>
+        <label>金利タイプ</label>
+        <name>LLC_BI__Interest_Rate_Type__c</name>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation>固定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variable</masterLabel>
+            <translation>変動</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The interest rate of the deposit account. If an initial rate (i.e. a teaser) applies this is the rate that is in effect after the expiration of the teaser period. --></help>
+        <label>金利</label>
+        <name>LLC_BI__Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help>真の未払法の収益がアカウントから分散する必要がある場合。</help>
+        <label>利息 引き出しが必要</label>
+        <name>LLC_BI__Interest_Withdrawal_Required__c</name>
+    </fields>
+    <fields>
+        <help>選択すると、このチェックボックスはデポジットが予約されていることを示します。</help>
+        <label>実行済</label>
+        <name>LLC_BI__Is_Booked__c</name>
+    </fields>
+    <fields>
+        <label>に置き換えられている</label>
+        <name>LLC_BI__Is_Superseded_By__c</name>
+    </fields>
+    <fields>
+        <help>このチェックボックスを選択して、現在のデポジットがメンテナンス中であることを示します。</help>
+        <label>調整中</label>
+        <name>LLC_BI__Is_Under_Maintenance__c</name>
+    </fields>
+    <fields>
+        <help>他のタイプの貸金庫のリースを説明します。</help>
+        <label>リース種類：その他</label>
+        <name>LLC_BI__Lease_Type_Other__c</name>
+    </fields>
+    <fields>
+        <help>適切なIRSテーブルに反映されているとおりの期待係数。</help>
+        <label>余命係数</label>
+        <name>LLC_BI__Life_Expectancy_Factor__c</name>
+    </fields>
+    <fields>
+        <help>預金商品に使用されるストリートアドレス。このフィールドはオプションであり、預金発信ワークフロー中に入力できます。</help>
+        <label>送り先</label>
+        <name>LLC_BI__Mailing_Address__c</name>
+    </fields>
+    <fields>
+        <help>預金製品に使用される住所の都市。このフィールドはオプションであり、預金発信ワークフロー中に入力できます。</help>
+        <label>市</label>
+        <name>LLC_BI__Mailing_City__c</name>
+    </fields>
+    <fields>
+        <help>堆積物製品に使用されるアドレスの状態。このフィールドはオプションであり、預金発信ワークフロー中に入力できます。</help>
+        <label>都道府県</label>
+        <name>LLC_BI__Mailing_State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation><!-- AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation><!-- DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation><!-- IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation><!-- KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation><!-- MN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation><!-- MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation><!-- ND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation><!-- NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation><!-- NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation><!-- NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation><!-- NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation><!-- RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation><!-- SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation><!-- VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VI</masterLabel>
+            <translation><!-- VI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation><!-- VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation><!-- WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation><!-- WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation><!-- WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation><!-- WY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>堆積物製品に使用されるアドレスの郵便番号。このフィールドはオプションであり、預金発信ワークフロー中に入力できます。</help>
+        <label>郵便番号</label>
+        <name>LLC_BI__Mailing_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label>返済完了予定日</label>
+        <name>LLC_BI__Maturity_Date__c</name>
+    </fields>
+    <fields>
+        <help>そのティアの開示されたレートを稼ぐために、勘定科目の中にある可能性がある最大ティアバランスの量。これは特定の層のためのハイエンドドルの金額です。</help>
+        <label>最大残高のある階層化された口座</label>
+        <name>LLC_BI__Maximum_Balance_Tiered_Account__c</name>
+    </fields>
+    <fields>
+        <help>trueの場合、レートの天井はアカウントに適用されます。</help>
+        <label>最大レート表示</label>
+        <name>LLC_BI__Maximum_Rate_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>アカウントに適用できる最高の金利。</help>
+        <label>最大レート</label>
+        <name>LLC_BI__Maximum_Rate__c</name>
+    </fields>
+    <fields>
+        <help>そのティアの開示されたレートを稼ぐためには、勘定に記載されている必要がある最小階層バランスの金額。これは特定の層のためのローエンドドル金額です。</help>
+        <label>最小残高のある階層化された口座</label>
+        <name>LLC_BI__Minimum_Balance_Tiered_Account__c</name>
+    </fields>
+    <fields>
+        <help>TRUEの場合、レートフロアはアカウントに適用されます。</help>
+        <label>最小レート表示</label>
+        <name>LLC_BI__Minimum_Rate_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>アカウントに適用できる最低金利。</help>
+        <label>最小レート</label>
+        <name>LLC_BI__Minimum_Rate__c</name>
+    </fields>
+    <fields>
+        <help>追加の収益/興味/配当を計算する目的で、未払収額がアカウントのプライマリバランスに追加される頻度を指定します。アカウント開始時にネゴシエーションが発生した場合にのみ渡す必要があります。</help>
+        <label>交渉された配合頻度</label>
+        <name>LLC_BI__Negotiated_Compounding_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>年次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Continuous</masterLabel>
+            <translation>連続的</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>日次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Other Week</masterLabel>
+            <translation>隔週</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>月次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No compounding/Simple</masterLabel>
+            <translation><!-- No compounding/Simple --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>四半期毎</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semiannually</masterLabel>
+            <translation>半期毎</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semimonthly</masterLabel>
+            <translation>半月毎</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>週次</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>メモ</label>
+        <name>LLC_BI__Notes__c</name>
+    </fields>
+    <fields>
+        <help>アカウントの代替満期を指定します。これは通知アカウントにのみ適用されます。</help>
+        <label>通知アカウントの満期タイプ</label>
+        <name>LLC_BI__Notice_Account_Maturity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Date</masterLabel>
+            <translation>日付</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Alternate Maturity</masterLabel>
+            <translation>満期設定無し</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Period</masterLabel>
+            <translation>期間</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>貸金庫口座に関して行われる前に存在する必要があるエージェントの数。</help>
+        <label>必要なエージェントの数</label>
+        <name>LLC_BI__Number_of_Agents_Required__c</name>
+    </fields>
+    <fields>
+        <help>貸金庫へのアクセスを得るためには、担当者数（保有者）が存在する必要があります。</help>
+        <label>必要な額数</label>
+        <name>LLC_BI__Number_of_Lessees_Required__c</name>
+    </fields>
+    <fields>
+        <label>必須署名権者の数</label>
+        <name>LLC_BI__Number_of_Required_Signers__c</name>
+        <picklistValues>
+            <masterLabel>1 - One signature line</masterLabel>
+            <translation>1名</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 - Ten signature lines</masterLabel>
+            <translation>10名</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Two signature lines</masterLabel>
+            <translation>2名</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Three signature lines</masterLabel>
+            <translation>3名</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Four signature lines</masterLabel>
+            <translation>4名</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Five signature lines</masterLabel>
+            <translation>5名</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 - Six signature lines</masterLabel>
+            <translation>6名</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 - Seven signature lines</masterLabel>
+            <translation>7名</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 - Eight signature lines</masterLabel>
+            <translation>8名</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 - Nine signature lines</masterLabel>
+            <translation>9名</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>公開日</label>
+        <name>LLC_BI__Open_Date__c</name>
+    </fields>
+    <fields>
+        <label>融資組成を行う営業店</label>
+        <name>LLC_BI__Originating_Branch__c</name>
+        <relationshipLabel>預金</relationshipLabel>
+    </fields>
+    <fields>
+        <help>他の支払い選挙タイプの説明。</help>
+        <label>その他の分配金の支払い</label>
+        <name>LLC_BI__Other_Distribution_Payment__c</name>
+    </fields>
+    <fields>
+        <help>周期分布の他の周波数の説明。</help>
+        <label>他の分布頻度</label>
+        <name>LLC_BI__Other_Frequency_of_Distributions__c</name>
+    </fields>
+    <fields>
+        <help>アカウントからの審査委員会を支払うことへの真の同意が与えられている場合。</help>
+        <label>当座貸越同意書の表示</label>
+        <name>LLC_BI__Overdraft_Consent_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>当座貸越サービス</label>
+        <name>LLC_BI__Overdraft_Services__c</name>
+        <picklistValues>
+            <masterLabel>No Decision</masterLabel>
+            <translation>未定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt-In</masterLabel>
+            <translation>加入する</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt-Out</masterLabel>
+            <translation>加入しない</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>真実であれば、党はIRAの所有者として渡された。通常、IRAの所有者が亡くなったが正式な受益者IRAが作成されていない状況に関連して使用されています。</help>
+        <label>所有者 死亡表示</label>
+        <name>LLC_BI__Owner_Deceased_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>所有者構造タイプ</label>
+        <name>LLC_BI__Ownership_Structure_Type__c</name>
+        <relationshipLabel>預金</relationshipLabel>
+    </fields>
+    <fields>
+        <help>貸金庫のレンタル料金については口座番号。</help>
+        <label>決済口座番号</label>
+        <name>LLC_BI__Payment_Account_Number__c</name>
+    </fields>
+    <fields>
+        <help>trueの場合、可変レートが連続した期間にわたって変化する可能性がある量に制限があります。</help>
+        <label>定期的な変化の限界を表示</label>
+        <name>LLC_BI__Periodic_Change_Limit_Indicator__c</name>
+    </fields>
+    <fields>
+        <help>周期率の変化の間の期間数。</help>
+        <label>定期的な変化の限界を</label>
+        <name>LLC_BI__Periods_Between_Rate_Changes__c</name>
+    </fields>
+    <fields>
+        <help>定期的な金利が異なる/特殊な初期または販売促進率を有する可変レートアカウントに有効になる日（すなわち、指定されたアカウントの初期レート期間の満了日に対応する日付）。</help>
+        <label>恒久的なレートの発効日</label>
+        <name>LLC_BI__Permanent_Rate_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <help>口座投資のためにアカウントが開かれる施設の計画番号。投資口座番号ではありません。所有者は、退職資金を転がすなど、いくつかの資金がコミングすることができない施設との計画を持つことができます。</help>
+        <label>計画番号</label>
+        <name>LLC_BI__Plan_Number__c</name>
+    </fields>
+    <fields>
+        <help>そうでなければ自動的に更新されるであろうアカウントの所有者は、更新を防ぐためにアカウントを開くことを決定しました。</help>
+        <label>自動更新の防止</label>
+        <name>LLC_BI__Prevent_Automatic_Renewal__c</name>
+    </fields>
+    <fields>
+        <label>商品ライン</label>
+        <name>LLC_BI__Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>Business Deposits</masterLabel>
+            <translation><!-- Business Deposits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Deposits</masterLabel>
+            <translation><!-- Consumer Deposits --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>案件パッケージ</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>預金</relationshipLabel>
+    </fields>
+    <fields>
+        <label>商品</label>
+        <name>LLC_BI__Product_Reference__c</name>
+        <relationshipLabel>預金</relationshipLabel>
+    </fields>
+    <fields>
+        <label>案件タイプ</label>
+        <name>LLC_BI__Product_Type__c</name>
+        <picklistValues>
+            <masterLabel>Business Checking</masterLabel>
+            <translation>法人当座預金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Savings</masterLabel>
+            <translation>法人普通預金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Checking</masterLabel>
+            <translation><!-- Consumer Checking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Savings</masterLabel>
+            <translation><!-- Consumer Savings --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>商品</label>
+        <name>LLC_BI__Product__c</name>
+        <picklistValues>
+            <masterLabel>Commercial Checking Account</masterLabel>
+            <translation><!-- Commercial Checking Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Savings Account</masterLabel>
+            <translation><!-- Commercial Savings Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Checking Account</masterLabel>
+            <translation><!-- Preferred Checking Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Savings Account</masterLabel>
+            <translation><!-- Preferred Savings Account --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>可変レートが指定された用語内で変化する可能性がある量。</help>
+        <label>レートの変化率</label>
+        <name>LLC_BI__Rate_Change_Percent__c</name>
+    </fields>
+    <fields>
+        <help>周期レートの変更間の期間を指定します。</help>
+        <label>レート変更期間タイプ</label>
+        <name>LLC_BI__Rate_Change_Period_Type__c</name>
+        <picklistValues>
+            <masterLabel>Day(s)</masterLabel>
+            <translation>日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month(s)</masterLabel>
+            <translation>月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week(s)</masterLabel>
+            <translation>週</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year(s)</masterLabel>
+            <translation>年</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>変数レートがどの程度変更できるかを指定します。</help>
+        <label>レート変更期間</label>
+        <name>LLC_BI__Rate_Change_Period__c</name>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation>年次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>At any time</masterLabel>
+            <translation>随時</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily</masterLabel>
+            <translation>日次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Every Other Week</masterLabel>
+            <translation>隔週</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation>月次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarterly</masterLabel>
+            <translation>四半期毎</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semiannually</masterLabel>
+            <translation>半期毎</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation>週次</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>オンリクエストアカウント開示が作成された日付。この日の時点でレートは正確です。</help>
+        <label>日時点でのレート表示</label>
+        <name>LLC_BI__Rate_Disclosure_As_Of_Date__c</name>
+    </fields>
+    <fields>
+        <help>アカウントに適用されるレートタイプを指定します。</help>
+        <label>レートタイプ</label>
+        <name>LLC_BI__Rate_Type__c</name>
+        <picklistValues>
+            <masterLabel>Exchange</masterLabel>
+            <translation>為替</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single</masterLabel>
+            <translation>単一</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stepped</masterLabel>
+            <translation>段階</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier A</masterLabel>
+            <translation><!-- Tier A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier B</masterLabel>
+            <translation><!-- Tier B --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>関連預金</label>
+        <name>LLC_BI__Related_Deposit__c</name>
+        <relationshipLabel>関連預金</relationshipLabel>
+    </fields>
+    <fields>
+        <help>メンテナンス中のデポジットに関連付けられている関係名を入力してください。</help>
+        <label>取引先 調整中</label>
+        <name>LLC_BI__Relationship_Under_Maintenance__c</name>
+        <relationshipLabel>メンテナンス預金</relationshipLabel>
+    </fields>
+    <fields>
+        <help>アカウントが更新される金利を指定します。</help>
+        <label>リニューアル金利タイプ</label>
+        <name>LLC_BI__Renewal_Interest_Rate_Type__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same Basis</masterLabel>
+            <translation>同一基準</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>自動更新時の新しい興味または配当率。</help>
+        <label>リニューアル金利</label>
+        <name>LLC_BI__Renewal_Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Routing Number --></label>
+        <name>LLC_BI__Routing_Number__c</name>
+    </fields>
+    <fields>
+        <label>ルーティング番号</label>
+        <name>LLC_BI__Routing_Transit_Number__c</name>
+    </fields>
+    <fields>
+        <help>貸金庫のセキュリティデポジットの額。</help>
+        <label>保証金金額</label>
+        <name>LLC_BI__Security_Deposit_Amount__c</name>
+    </fields>
+    <fields>
+        <help>1つの平均寿命の支払いが始まった年。</help>
+        <label>単身 平均寿命</label>
+        <name>LLC_BI__Single_Life_Expectancy_Begins__c</name>
+    </fields>
+    <fields>
+        <help>リースされている貸金庫のサイズ。</help>
+        <label>箱の大きさ</label>
+        <name>LLC_BI__Size_of_Box__c</name>
+    </fields>
+    <fields>
+        <label>フェーズ</label>
+        <name>LLC_BI__Stage__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>有効</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification</masterLabel>
+            <translation>資格</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signature Signed</masterLabel>
+            <translation>署名登録</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation><!-- Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold</masterLabel>
+            <translation><!-- Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>オープン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superseded</masterLabel>
+            <translation><!-- Superseded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation><!-- Withdrawn --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>対応するステップに適用される金利。</help>
+        <label>ステップ金利</label>
+        <name>LLC_BI__Step_Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help>対応するステップレートが適用される期間を指定します。</help>
+        <label>ステップレート期間タイプ</label>
+        <name>LLC_BI__Step_Rate_Period_Type__c</name>
+        <picklistValues>
+            <masterLabel>Day(s)</masterLabel>
+            <translation>日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Month(s)</masterLabel>
+            <translation>月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Week(s)</masterLabel>
+            <translation>週</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year(s)</masterLabel>
+            <translation>年</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>対応する段階レートが適用される期間の数。</help>
+        <label>ステップレート期間</label>
+        <name>LLC_BI__Step_Rate_Period__c</name>
+    </fields>
+    <fields>
+        <help>これは、計画に対して実行される活動の種類を示しています。</help>
+        <label>TFA活動タイプ</label>
+        <name>LLC_BI__TFA_Activity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Manage or maintain an existing plan</masterLabel>
+            <translation>既存の計画の管理・維持</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open a new plan</masterLabel>
+            <translation>新規計画の作成</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>最初のロスIRAの貢献または変換の税金。</help>
+        <label>最初のロス貢献の税金年</label>
+        <name>LLC_BI__Tax_Year_of_First_Roth_Contribution__c</name>
+    </fields>
+    <fields>
+        <label>期間タイプ</label>
+        <name>LLC_BI__Term_Type__c</name>
+        <picklistValues>
+            <masterLabel>day(s)</masterLabel>
+            <translation>日</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>month(s)</masterLabel>
+            <translation>月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>quarter(s)</masterLabel>
+            <translation>四半期</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>year(s)</masterLabel>
+            <translation>年</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>対応する層に適用される金利。</help>
+        <label>階層金利</label>
+        <name>LLC_BI__Tiered_Interest_Rate__c</name>
+    </fields>
+    <fields>
+        <help>可変レート層を持つ特定のアカウント層の該当するレートを決定するために、インデックスに追加（または減算）されたパーセント。</help>
+        <label>段付きマージンパーセント</label>
+        <name>LLC_BI__Tiered_Margin_Percent__c</name>
+    </fields>
+    <fields>
+        <help>貸金庫のために発行されたVaultキーの説明。</help>
+        <label>ボールトキーの説明</label>
+        <name>LLC_BI__Vault_Key_Description__c</name>
+    </fields>
+    <fields>
+        <label>コベナンツ</label>
+        <name>LLC_BI__isConvert__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the account holder&apos;s denial reason from the picklist. --></help>
+        <label><!-- Denial Notice Type --></label>
+        <name>WKDDP__Denial_Notice_Type__c</name>
+        <picklistValues>
+            <masterLabel>Missing Information</masterLabel>
+            <translation><!-- Missing Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial Approval</masterLabel>
+            <translation><!-- Partial Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to Approve</masterLabel>
+            <translation><!-- Unable to Approve --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select this field if joint owners have rights of survivorship. --></help>
+        <label><!-- Joint Owners have ROS --></label>
+        <name>WKDDP__Joint_Owners_Have_ROS__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox if the Texas Multiple Party Account Disclosure document applies. --></help>
+        <label><!-- MultiParty Disclosure --></label>
+        <name>WKDDP__MultiParty_Disclosure__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select Single Party or All Parties to determine if a single party can or all parties must change the terms of a multiple party agreement. --></help>
+        <label><!-- Multiple Party Terms Change --></label>
+        <name>WKDDP__Multiple_Party_Terms_Change__c</name>
+        <picklistValues>
+            <masterLabel>All Parties</masterLabel>
+            <translation><!-- All Parties --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Party</masterLabel>
+            <translation><!-- Single Party --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the checkbox when a temporary account agreement is used for the account. --></help>
+        <label><!-- Temporary Account Agreement Indictor --></label>
+        <name>WKDDP__Temporary_Account_Agreement_Indictor__c</name>
+    </fields>
+    <nameFieldLabel><!-- Deposit Name --></nameFieldLabel>
+    <webLinks>
+        <label>新規作成</label>
+        <name>LLC_BI__New_Deposit</name>
+    </webLinks>
+    <webLinks>
+        <label>メンテナンス実行</label>
+        <name>LLC_BI__Perform_Maintenance</name>
+    </webLinks>
+</CustomObjectTranslation>

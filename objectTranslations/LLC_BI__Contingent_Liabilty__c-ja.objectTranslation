@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>契約者</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Add Signer Modal --></label>
+        <name>LLC_BI__Add_Signer_Modal</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Authorized Signer Maintenance Delta --></label>
+        <name>LLC_BI__Authorized_Signer_Maintenance_Delta</name>
+    </fieldSets>
+    <fieldSets>
+        <label>債務関係者一覧</label>
+        <name>LLC_BI__Borrowing_Structure_Table</name>
+    </fieldSets>
+    <fieldSets>
+        <label>所有権構造テーブル</label>
+        <name>LLC_BI__Ownership_Structure_Table</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Authorized Signer Fieldset --></label>
+        <name>LLC_BI__UI_Authorized_Signer_Fieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WK_DepAct_DocPrep --></label>
+        <name>WKDDP__WK_DepAct_DocPrep</name>
+    </fieldSets>
+    <fields>
+        <label>アカウントエンティティタイプ</label>
+        <name>LLC_BI__Account_Entity_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the Tax Favored Account percentage. --></help>
+        <label><!-- Beneficiary Allocation Percentage --></label>
+        <name>LLC_BI__Allocation_Percentage__c</name>
+    </fields>
+    <fields>
+        <help>許可された署名者が認証署名者ではなく証明者の証人としてのみ行動していることを示すために、このチェックボックスを選択します。</help>
+        <label>証明された証人</label>
+        <name>LLC_BI__Attesting_Witness__c</name>
+    </fields>
+    <fields>
+        <label>署名権限</label>
+        <name>LLC_BI__Authority__c</name>
+        <picklistValues>
+            <masterLabel>Authorized</masterLabel>
+            <translation>認証済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Authorized</masterLabel>
+            <translation>未認証</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>システム入力フィールドは、許可された署名者を許可されたビジネスに関連付けます。</help>
+        <label>許可されたアカウント</label>
+        <name>LLC_BI__Authorized_Account__c</name>
+        <relationshipLabel>署名権者</relationshipLabel>
+    </fields>
+    <fields>
+        <help>システム入力フィールドは、許可された署名者を別の許可された署名者に関連付けます。</help>
+        <label>正規署名者</label>
+        <name>LLC_BI__Authorized_Signer__c</name>
+        <relationshipLabel>署名権者</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select the Beneficiary Type. --></help>
+        <label><!-- Beneficiary Type --></label>
+        <name>LLC_BI__Beneficiary_Type__c</name>
+        <picklistValues>
+            <masterLabel>Contingent</masterLabel>
+            <translation><!-- Contingent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>コンタクト</label>
+        <name>LLC_BI__Contact__c</name>
+        <relationshipLabel>署名権者</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- -D Contingency Type --></label>
+        <name>LLC_BI__Contingency_Type__c</name>
+        <picklistValues>
+            <masterLabel>Assign Specific</masterLabel>
+            <translation>具体的な割り当て</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joint &amp; Several</masterLabel>
+            <translation>連帯責任</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pro Rata</masterLabel>
+            <translation>比例して</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>所有割合</label>
+        <name>LLC_BI__Contingent_Percentage__c</name>
+    </fields>
+    <fields>
+        <label>関係者</label>
+        <name>LLC_BI__Entity__c</name>
+        <relationshipLabel>署名権者</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__LookupKey__c</name>
+    </fields>
+    <fields>
+        <label>所有権構造の役割</label>
+        <name>LLC_BI__Ownership_Structure_Role__c</name>
+        <relationshipLabel>署名権者</relationshipLabel>
+    </fields>
+    <fields>
+        <help>エンティティタイプ\ N \ NASSOCIATION：役員/ Agent \ Ngoberation：担当者/ Agent \ Ngercent：メンバー/エージェント\ NPartnership：Partner / Agent \ Nsole Prietership：Sole Proprietorship \ Ntrust：受託者/受益者/エージェント</help>
+        <label>属性</label>
+        <name>LLC_BI__Role__c</name>
+        <picklistValues>
+            <masterLabel>Agent</masterLabel>
+            <translation>エージェント</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beneficiary</masterLabel>
+            <translation>受益者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member</masterLabel>
+            <translation>メンバー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Officer</masterLabel>
+            <translation>役員</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Official</masterLabel>
+            <translation>所員</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>パートナー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sole Proprietorship</masterLabel>
+            <translation>販売代理店</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trustee</masterLabel>
+            <translation>管財人</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>署名者がBusinessまたはEntity Account HolderにTIN認証またはその他の税関連の文書にサインする資格がある場合は、このチェックボックスをクリックしてください。</help>
+        <label><!-- TIN Certifier --></label>
+        <name>LLC_BI__TIN_Certifier__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the power of attorney&apos;s name and description to display under the signature line for the power of attorney. --></help>
+        <label><!-- Alternate Signature Description --></label>
+        <name>WKDDP__Alternate_Signature_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a description of the relationship between the signer and the account. --></help>
+        <label><!-- Relationship Description --></label>
+        <name>WKDDP__Relationship_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox if the system should not print in the signature block of the signature card. --></help>
+        <label><!-- Suppress Signature --></label>
+        <name>WKDDP__Suppress_Signature__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox to generate a Telephone Consumer Protection Act Consent Account form for the signer. --></help>
+        <label><!-- TCPA Consent Account Form --></label>
+        <name>WKDDP__TCPA_Consent_Account_Form__c</name>
+    </fields>
+    <fields>
+        <help><!-- Populate this field with the corresponding role code. --></help>
+        <label><!-- nCino Code --></label>
+        <name>WKDDP__nCino_Code__c</name>
+    </fields>
+    <nameFieldLabel>契約者</nameFieldLabel>
+    <validationRules>
+        <errorMessage>このエンティティのアカウントタイプ（協会）の有効な容量オプションは、「役員」と「エージェント」です。</errorMessage>
+        <name>LLC_BI__Capacity_Association</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>このエンティティのアカウントタイプ（Corporation）の有効な容量オプションは、「役員」と「エージェント」です。</errorMessage>
+        <name>LLC_BI__Capacity_Corporation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>このエンティティのアカウントタイプ（政府）の有効な容量オプションは、「公式」と「エージェント」です。</errorMessage>
+        <name>LLC_BI__Capacity_Government</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>このエンティティのアカウントタイプ（限定責任会社）の有効な容量オプションは、「メンバー」と「エージェント」です。</errorMessage>
+        <name>LLC_BI__Capacity_Limited_Liability_Company</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>このエンティティのアカウントタイプ（パートナーシップ）の有効な容量オプションは、「パートナー」と「エージェント」です。</errorMessage>
+        <name>LLC_BI__Capacity_Partnership</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>このエンティティのアカウントタイプ（唯一の所有者）の唯一の有効な容量オプションは「唯一の自営業」です。</errorMessage>
+        <name>LLC_BI__Capacity_Soleprietorship</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>このエンティティのアカウントタイプ（信頼）の有効な容量オプションは、「受託者」、「受益者」と「エージェント」です。</errorMessage>
+        <name>LLC_BI__Capacity_Trust</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- - - DEPRECATED- -  A percentage can only be specified if the contingency type is &apos;Assign Specific&apos; or  &apos;Pro Rata&apos; --></errorMessage>
+        <name>LLC_BI__percentage_only_if_assign_specific</name>
+    </validationRules>
+</CustomObjectTranslation>

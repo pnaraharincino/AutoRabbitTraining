@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Context --></value>
+    </caseValues>
+    <fields>
+        <help><!-- A field set used for the SObjectType. --></help>
+        <label>項目セットAPI名</label>
+        <name>LLC_BI__Field_Set_API_Name__c</name>
+    </fields>
+    <fields>
+        <help>それに関連するSObjectTypeと組み合わせて使用??されるSObjectField。</help>
+        <label><!-- SObjectField --></label>
+        <name>LLC_BI__SObjectField__c</name>
+    </fields>
+    <fields>
+        <help>関連付けられているSObjectFieldの型を説明するために使用されるSObjectType。</help>
+        <label>sObjectタイプ</label>
+        <name>LLC_BI__SObjectType__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>関係者関与</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Account Affiliated Exposure --></label>
+        <name>LLC_BI__Account_Affiliated_Exposure</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Account Direct Exposure --></label>
+        <name>LLC_BI__Account_Direct_Exposure</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Account Indirect Exposure --></label>
+        <name>LLC_BI__Account_Indirect_Exposure</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Add Entity Involvement Modal --></label>
+        <name>LLC_BI__Add_Entity_Involvement_Modal</name>
+    </fieldSets>
+    <fieldSets>
+        <label>債務関係者一覧</label>
+        <name>LLC_BI__Borrowing_Structure_Table</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Covenant Bulk Associate Loan Selections --></label>
+        <name>LLC_BI__Covenant_Bulk_Associate_Loan_Selections</name>
+    </fieldSets>
+    <fieldSets>
+        <label>預金 商品</label>
+        <name>LLC_BI__Deposit_Products</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Entity_ID --></label>
+        <name>LLC_BI__Entity_ID</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Entity Involvement Maintenance Delta --></label>
+        <name>LLC_BI__Entity_Involvement_Maintenance_Delta</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Extension Action Page --></label>
+        <name>LLC_BI__Extension_Action_Page</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Global Entity Fields --></label>
+        <name>LLC_BI__Global_Entity_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HMDA Demographic Questions --></label>
+        <name>LLC_BI__HMDA_Demographic_Questions</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- HMDA Entity Relationship Name --></label>
+        <name>LLC_BI__HMDA_Entity_Relationship_Name</name>
+    </fieldSets>
+    <fieldSets>
+        <label>融資商品</label>
+        <name>LLC_BI__Loan_Products</name>
+    </fieldSets>
+    <fieldSets>
+        <label>所有権構造テーブル</label>
+        <name>LLC_BI__Ownership_Structure_Table</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Package Entity --></label>
+        <name>LLC_BI__Product_Package_Entity</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Relationship Loan Products --></label>
+        <name>LLC_BI__Relationship_Loan_Products</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReviewDisplay --></label>
+        <name>LLC_BI__ReviewDisplay</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Spreads Debt Schedule Generator --></label>
+        <name>LLC_BI__Spreads_Debt_Schedule_Generator</name>
+    </fieldSets>
+    <fieldSets>
+        <label>稟議書 標準案件パッケージ</label>
+        <name>LLC_BI__Standard_Product_Package_Credit_Memo</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Total Exposure Expand Loan Product Package --></label>
+        <name>LLC_BI__TE_Expand_Loan_Product_Package</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Total Exposure Expand Loan Relationship --></label>
+        <name>LLC_BI__TE_Expand_Loan_Relationship</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Deposit Products --></label>
+        <name>LLC_BI__UI_Deposit_Products</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Entity Involvement Fieldset --></label>
+        <name>LLC_BI__UI_Entity_Involvement_Fieldset</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI HMDA Demographic Questions --></label>
+        <name>LLC_BI__UI_HMDA_Demographic_Questions</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Loan Products --></label>
+        <name>LLC_BI__UI_Loan_Products</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Lookup Fields --></label>
+        <name>LLC_BI__UI_Lookup_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Treasury Products --></label>
+        <name>LLC_BI__UI_Treasury_Products</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Optional Entity Involvement FS --></label>
+        <name>Optional_Entity_Involvement_FS</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Applicants --></label>
+        <name>RMOR__Applicants</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Entity Involvement Field Set 2 --></label>
+        <name>UI_Entity_Involvement_Field_Set_2</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WK DepAct DocPrep --></label>
+        <name>WKDDP__WK_DepAct_DocPrep</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Portal_Product_List --></label>
+        <name>nPortal__Portal_Product_List</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Others Involved Entity Involvement MRF --></label>
+        <name>nPortal__SBL_Others_Involved_Borrower_Type</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Applicant Schedule --></label>
+        <name>nRetail__Applicant_Schedule</name>
+    </fieldSets>
+    <fields>
+        <label>取引先名称</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>関係者関与</relationshipLabel>
+    </fields>
+    <fields>
+        <label>住所</label>
+        <name>LLC_BI__Address__c</name>
+    </fields>
+    <fields>
+        <label>債務者タイプ</label>
+        <name>LLC_BI__Borrower_Type__c</name>
+        <picklistValues>
+            <masterLabel>Borrower</masterLabel>
+            <translation>債務者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Borrower Household</masterLabel>
+            <translation>借り手(グループ)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Borrower</masterLabel>
+            <translation>共同債務者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contractor</masterLabel>
+            <translation><!-- Contractor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grantor</masterLabel>
+            <translation>付与者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guarantor</masterLabel>
+            <translation>保証人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guarantor Household</masterLabel>
+            <translation>保証人(グループ)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Guarantor</masterLabel>
+            <translation>限定保証人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related Entity</masterLabel>
+            <translation>関連関係者</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>関与金額</label>
+        <name>LLC_BI__Contingent_Amount__c</name>
+    </fields>
+    <fields>
+        <label>関与タイプ</label>
+        <name>LLC_BI__Contingent_Type__c</name>
+        <picklistValues>
+            <masterLabel>Assign Specific</masterLabel>
+            <translation>単独債務</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joint &amp; Several</masterLabel>
+            <translation>連帯債務</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pro Rata</masterLabel>
+            <translation>比率債務</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>預金</label>
+        <name>LLC_BI__Deposit__c</name>
+        <relationshipLabel>関係者関与</relationshipLabel>
+    </fields>
+    <fields>
+        <help>唯一の所有者に関連付けるための唯一の特定の担当者アカウントを入力してください。</help>
+        <label>商号</label>
+        <name>LLC_BI__Doing_Business_As__c</name>
+        <relationshipLabel>関係者関与</relationshipLabel>
+    </fields>
+    <fields>
+        <label>関係者タイプ</label>
+        <name>LLC_BI__Entity_Type__c</name>
+        <picklistValues>
+            <masterLabel>EPC</masterLabel>
+            <translation><!-- EPC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation>個人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operating Company</masterLabel>
+            <translation>運用会社</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sole Proprietorship</masterLabel>
+            <translation>独占権</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- -D Exclude From Account Exposure --></label>
+        <name>LLC_BI__Exclude_From_Account_Exposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Exclude From Product Package Exposure --></label>
+        <name>LLC_BI__Exclude_From_Product_Package_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>保証有効日</label>
+        <name>LLC_BI__Guarantee_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label>保証終了日</label>
+        <name>LLC_BI__Guarantee_End_Date__c</name>
+    </fields>
+    <fields>
+        <label>保証限度</label>
+        <name>LLC_BI__Guarantee_Limit__c</name>
+    </fields>
+    <fields>
+        <label>保証タイプ</label>
+        <name>LLC_BI__Guaranty_Amount__c</name>
+        <picklistValues>
+            <masterLabel>Amount of Note</masterLabel>
+            <translation>債権の額面金額</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited</masterLabel>
+            <translation>有限責任</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unlimited</masterLabel>
+            <translation>無限責任</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The HMDA applicant type. --></help>
+        <label><!-- HMDA Applicant --></label>
+        <name>LLC_BI__HMDA_Applicant_Type__c</name>
+        <picklistValues>
+            <masterLabel>Applicant</masterLabel>
+            <translation><!-- Applicant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Applicant</masterLabel>
+            <translation>共同申請者</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ethnicity --></label>
+        <name>LLC_BI__HMDA_Ethnicity__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Hispanic or Latino</masterLabel>
+            <translation><!-- Code 1—Hispanic or Latino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Not Hispanic or Latino</masterLabel>
+            <translation><!-- Code 2—Not Hispanic or Latino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Information not provided by applicant in mail, internet, or telephone application</masterLabel>
+            <translation><!-- Code 3—Information not provided by applicant in mail, internet, or telephone application --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Not applicable</masterLabel>
+            <translation><!-- Code 4—Not applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 5—No co-applicant</masterLabel>
+            <translation><!-- Code 5—No co-applicant --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Income of Applicant (In Thousands) --></label>
+        <name>LLC_BI__HMDA_Income__c</name>
+    </fields>
+    <fields>
+        <label><!-- I do not wish to supply this information --></label>
+        <name>LLC_BI__HMDA_Not_Provided__c</name>
+    </fields>
+    <fields>
+        <label><!-- Race - May select up to five --></label>
+        <name>LLC_BI__HMDA_Race__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—American Indian or Alaska Native</masterLabel>
+            <translation><!-- Code 1—American Indian or Alaska Native --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Asian</masterLabel>
+            <translation><!-- Code 2—Asian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Black or African American</masterLabel>
+            <translation><!-- Code 3—Black or African American --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Native Hawaiian/Pacific Islander</masterLabel>
+            <translation><!-- Code 4—Native Hawaiian/Pacific Islander --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 5—White</masterLabel>
+            <translation><!-- Code 5—White --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 6—Info not pro­vided by applicant</masterLabel>
+            <translation><!-- Code 6—Info not pro­vided by applicant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 7—Not applicable</masterLabel>
+            <translation><!-- Code 7—Not applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 8—No co-applicant</masterLabel>
+            <translation><!-- Code 8—No co-applicant --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sex of the Applicant --></label>
+        <name>LLC_BI__HMDA_Sex__c</name>
+        <picklistValues>
+            <masterLabel>Code 1—Male</masterLabel>
+            <translation><!-- Code 1—Male --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 2—Female</masterLabel>
+            <translation><!-- Code 2—Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3—Information not provided by applicant in mail, internet, or telephone application</masterLabel>
+            <translation><!-- Code 3—Information not provided by applicant in mail, internet, or telephone application --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 4—Not applicable</masterLabel>
+            <translation><!-- Code 4—Not applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 5—No co-applicant or co-borrower</masterLabel>
+            <translation><!-- Code 5—No co-applicant or co-borrower --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>債務者</label>
+        <name>LLC_BI__Is_Borrower__c</name>
+    </fields>
+    <fields>
+        <label>共同債務者</label>
+        <name>LLC_BI__Is_CoBorrower__c</name>
+    </fields>
+    <fields>
+        <label>保証人</label>
+        <name>LLC_BI__Is_Grantor__c</name>
+    </fields>
+    <fields>
+        <label>保証人</label>
+        <name>LLC_BI__Is_Guarantor__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドは、エンティティがスプレッド内でグローバル分析で表示されているかどうかを設定します。</help>
+        <label>グローバル分析に含まれています</label>
+        <name>LLC_BI__Is_Included_In_Global_Analysis__c</name>
+    </fields>
+    <fields>
+        <label>関連エンティティ</label>
+        <name>LLC_BI__Is_Related_Entity__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Limited Guaranty Amount --></label>
+        <name>LLC_BI__Limited_Guaranty_Amount__c</name>
+    </fields>
+    <fields>
+        <help>法人が関連する担保。</help>
+        <label>融資担保</label>
+        <name>LLC_BI__Loan_Collateral__c</name>
+        <relationshipLabel>関係者関与</relationshipLabel>
+    </fields>
+    <fields>
+        <label>融資</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>関係者関与</relationshipLabel>
+    </fields>
+    <fields>
+        <label>月額債務サービス</label>
+        <name>LLC_BI__Monthly_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>注記</label>
+        <name>LLC_BI__Notes__c</name>
+    </fields>
+    <fields>
+        <label>関与割合</label>
+        <name>LLC_BI__Ownership__c</name>
+    </fields>
+    <fields>
+        <label>案件パッケージ</label>
+        <name>LLC_BI__Product_Package__c</name>
+        <relationshipLabel>関係者関与</relationshipLabel>
+    </fields>
+    <fields>
+        <help>法人が登場した場合はチェックボックスをオンにしてください。法人タイプがEPCの場合は、このボックスをオンにしてください</help>
+        <label>不動産</label>
+        <name>LLC_BI__Realestate__c</name>
+    </fields>
+    <fields>
+        <label>所有権タイプ</label>
+        <name>LLC_BI__Relationship_Type__c</name>
+        <picklistValues>
+            <masterLabel>Joint Owner</masterLabel>
+            <translation>共同オーナー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary Owner</masterLabel>
+            <translation>主オーナー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary Owner</masterLabel>
+            <translation>第二オーナー</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ルート契約</label>
+        <name>LLC_BI__Route_Agreement__c</name>
+        <relationshipLabel>関係者関与</relationshipLabel>
+    </fields>
+    <fields>
+        <help>税IDを入力してください。ダッシュを含める必要はありません。</help>
+        <label>税IDまたはSSN -D</label>
+        <name>LLC_BI__Tax_ID__c</name>
+    </fields>
+    <fields>
+        <label>付帯サービス</label>
+        <name>LLC_BI__Treasury_Service__c</name>
+        <relationshipLabel>関係者関与</relationshipLabel>
+    </fields>
+    <fields>
+        <help>固有の外部識別子を入力してください。</help>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the &apos;other&apos; type description of the relationship between the responsible individual&apos;s and the CESA&apos;s designated beneficiary. --></help>
+        <label><!-- Beneficiary Relationship Type Other Desc --></label>
+        <name>WKDDP__Ben_Rel_Type_Other_Desc__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the responsible individual&apos;s relationship to the CESA&apos;s designated beneficiary. --></help>
+        <label><!-- Beneficiary Relationship Type --></label>
+        <name>WKDDP__Beneficiary_Relationship_Type__c</name>
+        <picklistValues>
+            <masterLabel>Guardian</masterLabel>
+            <translation><!-- Guardian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent</masterLabel>
+            <translation><!-- Parent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter a description of the relationship between the account holder and the account. --></help>
+        <label><!-- Relationship Description --></label>
+        <name>WKDDP__Relationship_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox when the account holder should not print in the signature block of the signature card. --></help>
+        <label><!-- Suppress Signature --></label>
+        <name>WKDDP__Suppress_Signature__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this checkbox to indicate that the financial institution wants to generate a Telephone Consumer Protection Act Consent Account form for the agent of the Power of Attorney. --></help>
+        <label><!-- Telephone Consumer Protection Form --></label>
+        <name>WKDDP__Telephone_Consumer_Protection_Form__c</name>
+    </fields>
+    <fields>
+        <help><!-- Populate this field with the corresponding role code. --></help>
+        <label><!-- nCino Code --></label>
+        <name>WKDDP__nCino_Code__c</name>
+    </fields>
+    <nameFieldLabel>関係者関与</nameFieldLabel>
+    <recordTypes>
+        <label>預金の関与</label>
+        <name>LLC_BI__Deposit_Involvement</name>
+    </recordTypes>
+    <recordTypes>
+        <label>融資の関与</label>
+        <name>LLC_BI__Loan_Involvement</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>条件付き金額は融資金額を上回ることができないです。</errorMessage>
+        <name>LLC_BI__Contingent_Amount_Exceeds_Loan_Amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>条件付き金額はゼロを上回る必要があります。</errorMessage>
+        <name>LLC_BI__Contingent_Amount_Less_Than_0</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>条件付き保証を計算するためにはただ１つの欄しか使用できないです。保存前に金額又は百分率を明記して下さい。</errorMessage>
+        <name>LLC_BI__Contingent_Amount_and_Contingent_Percent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>減価償却</errorMessage>
+        <name>LLC_BI__HMDA_Demographic</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>条件付き百分率はゼロを上回る必要があります。</errorMessage>
+        <name>LLC_BI__Ownership_Less_Than_0</name>
+    </validationRules>
+    <webLinks>
+        <label>新規関係者関与</label>
+        <name>LLC_BI__New_on_Account</name>
+    </webLinks>
+    <webLinks>
+        <label>新規関係者関与</label>
+        <name>LLC_BI__New_on_Loan</name>
+    </webLinks>
+    <webLinks>
+        <label>新規関係者関与</label>
+        <name>LLC_BI__New_on_Package</name>
+    </webLinks>
+</CustomObjectTranslation>

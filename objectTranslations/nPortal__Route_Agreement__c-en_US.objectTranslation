@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Select this field if the terms outlined in the document have been accepted. --></help>
+        <label><!-- Agreed --></label>
+        <name>nPortal__Agreed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application --></label>
+        <name>nPortal__Application__c</name>
+        <relationshipLabel><!-- Route Agreements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Route Terms --></label>
+        <name>nPortal__Route_Terms__c</name>
+        <relationshipLabel><!-- Route Agreements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>nPortal__User__c</name>
+        <relationshipLabel><!-- Route Agreements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>nPortal__lookupKey__c</name>
+    </fields>
+</CustomObjectTranslation>

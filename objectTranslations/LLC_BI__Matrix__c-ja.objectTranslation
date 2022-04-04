@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Matrix --></value>
+    </caseValues>
+    <fields>
+        <help>この行列の説明を入力してください</help>
+        <label>説明</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select this field to bypass the matrix builder and set one value that applies to all matrix dimensions. --></help>
+        <label><!-- Set a Single Value --></label>
+        <name>LLC_BI__Is_Single_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Matrix Type --></label>
+        <name>LLC_BI__Matrix_Type__c</name>
+        <picklistValues>
+            <masterLabel>Base Rate Matrix</masterLabel>
+            <translation><!-- Base Rate Matrix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Income Policy</masterLabel>
+            <translation><!-- Income Policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rate Adjustment</masterLabel>
+            <translation><!-- Rate Adjustment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>関連付けられているポリシーを選択します。</help>
+        <label>ポリシー</label>
+        <name>LLC_BI__Policy__c</name>
+        <relationshipLabel>マトリックス</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Strategy --></label>
+        <name>LLC_BI__Strategy__c</name>
+        <relationshipLabel><!-- Matrices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Matrix Name --></nameFieldLabel>
+</CustomObjectTranslation>

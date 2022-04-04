@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Section Configuration --></value>
+    </caseValues>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label>表示順序</label>
+        <name>nFORCE__Display_Order__c</name>
+    </fields>
+    <fields>
+        <label>項目セット</label>
+        <name>nFORCE__Field_Set_Key__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドはオプションであり、セクションビルダーツールによって入力されます。このフィールドは、ティアが指定された基準を満たすレコードのみを返すべきかどうかを示します。値は、SOQLクエリのWHERE句に適切な構文を使用する必要があります。</help>
+        <label>フィルタークライテリア</label>
+        <name>nFORCE__Filter_Criteria__c</name>
+    </fields>
+    <fields>
+        <label>レイアウト</label>
+        <name>nFORCE__Layout__c</name>
+        <relationshipLabel>セクション設定</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このフィールドはオプションであり、管理者によって入力されます。適切なセクションリソースで使用すると、数値は返されたレコードを制限するために使用されます。すべてのレコードを返すには、デフォルト値が0です。</help>
+        <label>限界</label>
+        <name>nFORCE__Limit__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドはオプションであり、管理者によって入力されます。デフォルト値はfalseです。これは、制限値がハードセット制限であることを示します。 TRUEに更新されると、フィールドは適切なセクションリソースを持つオフセットレコードを返すことができます。</help>
+        <label>オフセット</label>
+        <name>nFORCE__Offset_By_Limit__c</name>
+    </fields>
+    <fields>
+        <label>親コンフィグレーション</label>
+        <name>nFORCE__Parent_Configuration__c</name>
+        <relationshipLabel>子構成</relationshipLabel>
+    </fields>
+    <fields>
+        <label>親リレーション名</label>
+        <name>nFORCE__Parent_Relationship_Name__c</name>
+    </fields>
+    <fields>
+        <label>画面セクション</label>
+        <name>nFORCE__Screen_Section__c</name>
+        <relationshipLabel>セクション設定</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このセクションの上部に表示するヘッダー。</help>
+        <label>セクションヘッダー</label>
+        <name>nFORCE__Section_Header__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドはオプションであり、セクションビルダーツールによって入力されます。このフィールドは、ティアが指定されたソート順にレコードを返すべきかどうかを示します。この値は、SOQLクエリのOrder By句に適切な構文を使用する必要があります。</help>
+        <label>ソートクライテリア</label>
+        <name>nFORCE__Sort_Criteria__c</name>
+    </fields>
+    <fields>
+        <help>このフィールドはオプションであり、セクションビルダーツールによって入力されます。このフィールドは、層が一意のレコードのみを返すべきかどうかを示します。値がtrueに設定されている場合、生成されたHTMLコードは設定を尊重します。</help>
+        <label>ユニーク</label>
+        <name>nFORCE__Unique__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>sObjectタイプ</label>
+        <name>nFORCE__sObject_Type__c</name>
+    </fields>
+    <nameFieldLabel><!-- Section Configuration Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>子構成は、表示順で親に従わなければなりません。</errorMessage>
+        <name>nFORCE__Child_Display_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>親設定と親の関係名は両方を設定する必要があります。</errorMessage>
+        <name>nFORCE__Parent_Integrity</name>
+    </validationRules>
+</CustomObjectTranslation>

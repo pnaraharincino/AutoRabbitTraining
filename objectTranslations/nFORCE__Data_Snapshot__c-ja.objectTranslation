@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Data Snapshot --></value>
+    </caseValues>
+    <fields>
+        <label>コンテキストID</label>
+        <name>nFORCE__Context_Id__c</name>
+    </fields>
+    <fields>
+        <label>画面セクション</label>
+        <name>nFORCE__Screen_Section__c</name>
+        <relationshipLabel>データスナップショット</relationshipLabel>
+    </fields>
+    <fields>
+        <label>スナップショット日付</label>
+        <name>nFORCE__Snapshot_DateTime__c</name>
+    </fields>
+    <fields>
+        <label>スナップショットの説明</label>
+        <name>nFORCE__Snapshot_Description__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORCE__Snapshot_Lookup_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D lookupKey --></label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Data Snapshot Name --></nameFieldLabel>
+</CustomObjectTranslation>

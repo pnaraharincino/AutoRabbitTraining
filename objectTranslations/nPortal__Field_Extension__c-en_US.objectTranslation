@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Alternate Label --></label>
+        <name>nPortal__Alternate_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>nPortal__Field_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Describe the format expression used to indicate what types of inputs are acceptable. --></help>
+        <label><!-- Format Rule Description --></label>
+        <name>nPortal__Format_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- If unchecked, the rule defined for Format Expression will not be applied. --></help>
+        <label><!-- Format Validation Enabled --></label>
+        <name>nPortal__Format_Enabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter an optional regular expression for enforcing a particular format for the field&apos;s contents. --></help>
+        <label><!-- Format Expression --></label>
+        <name>nPortal__Format_Expression__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a message to display to the user when their input does not match the format specified in Format Expression. --></help>
+        <label><!-- Format Message --></label>
+        <name>nPortal__Format_Message__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify the Route that this field extension will apply to, otherwise the field extension will be applied everywhere. --></help>
+        <label><!-- Route --></label>
+        <name>nPortal__Route__c</name>
+        <relationshipLabel><!-- Field Extension Route --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Specify the size of the SLDS Grid column this field should span. This number will be divided into 1 to give the percentage of the row the field will span. For example, a value of 3 will equate to 33.333% of the row. --></help>
+        <label><!-- SLDS Grid Column Size --></label>
+        <name>nPortal__SLDS_Column_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tooltip Contents --></label>
+        <name>nPortal__Tooltip_Contents__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this field to enable a tooltip for the given field in Customer Portal. --></help>
+        <label><!-- Tooltip Enabled --></label>
+        <name>nPortal__Tooltip_Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tooltip Text --></label>
+        <name>nPortal__Tooltip_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- lookupKey --></label>
+        <name>nPortal__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- sObject Name --></label>
+        <name>nPortal__sObject_Name__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Document Collection Index --></value>
+    </caseValues>
+    <fields>
+        <label>文書収集</label>
+        <name>LLC_BI__Document_Collection_Reference__c</name>
+        <relationshipLabel>文書収集インデックス</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- -D Document Collection --></label>
+        <name>LLC_BI__Document_Collection__c</name>
+        <relationshipLabel>文書収集インデックス</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このオプションのフィールドは、関連文書に関連する追加のメタデータを格納するために使用されます。</help>
+        <label>文書メタデータ</label>
+        <name>LLC_BI__Document_Metadata__c</name>
+    </fields>
+    <fields>
+        <label>文書ストア</label>
+        <name>LLC_BI__Document_Store__c</name>
+        <relationshipLabel>文書ストア収集インデックス</relationshipLabel>
+    </fields>
+    <fields>
+        <help>文書収集インデックスのステータス</help>
+        <label>ステータス</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation>失敗した</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>実行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation><!-- Queued --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uploaded</masterLabel>
+            <translation>アップロードされた</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ベンダー文書ID</label>
+        <name>LLC_BI__Vendor_Document_Id__c</name>
+    </fields>
+    <nameFieldLabel><!-- Document Collection Index Name --></nameFieldLabel>
+</CustomObjectTranslation>

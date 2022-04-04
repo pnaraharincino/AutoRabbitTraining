@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Section --></value>
+    </caseValues>
+    <fields>
+        <label><!-- -D Attributes --></label>
+        <name>nFORCE__Attributes__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Content Name --></label>
+        <name>nFORCE__Content_Name__c</name>
+    </fields>
+    <fields>
+        <label>コンテンツ</label>
+        <name>nFORCE__Content__c</name>
+        <relationshipLabel>セクション</relationshipLabel>
+    </fields>
+    <fields>
+        <label>リソース</label>
+        <name>nFORCE__Has_Resource__c</name>
+    </fields>
+    <fields>
+        <label>有効</label>
+        <name>nFORCE__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label>オーダー</label>
+        <name>nFORCE__Order__c</name>
+    </fields>
+</CustomObjectTranslation>

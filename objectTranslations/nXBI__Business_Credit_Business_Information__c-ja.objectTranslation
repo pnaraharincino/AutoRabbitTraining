@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Business Credit Business Information --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Business Credit Report --></label>
+        <name>nXBI__Business_Credit_Report__c</name>
+        <relationshipLabel><!-- Business Credit Business Information --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>事業者名</label>
+        <name>nXBI__Business_Name__c</name>
+    </fields>
+    <fields>
+        <label>市町村</label>
+        <name>nXBI__City__c</name>
+    </fields>
+    <fields>
+        <label>電話</label>
+        <name>nXBI__Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Code --></label>
+        <name>nXBI__SIC_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Description --></label>
+        <name>nXBI__SIC_Description__c</name>
+    </fields>
+    <fields>
+        <label>都道府県</label>
+        <name>nXBI__State__c</name>
+    </fields>
+    <fields>
+        <label>住所</label>
+        <name>nXBI__Street__c</name>
+    </fields>
+    <fields>
+        <label>郵便番号</label>
+        <name>nXBI__Zip__c</name>
+    </fields>
+    <nameFieldLabel><!-- Business Information Name --></nameFieldLabel>
+</CustomObjectTranslation>

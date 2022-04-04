@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Product State Config Pivot --></value>
+    </caseValues>
+    <fields>
+        <label>全ての値</label>
+        <name>LLC_BI__All_Values__c</name>
+    </fields>
+    <fields>
+        <label>値10</label>
+        <name>LLC_BI__Value_10__c</name>
+    </fields>
+    <fields>
+        <label>値1</label>
+        <name>LLC_BI__Value_1__c</name>
+    </fields>
+    <fields>
+        <label>値2</label>
+        <name>LLC_BI__Value_2__c</name>
+    </fields>
+    <fields>
+        <label>値3</label>
+        <name>LLC_BI__Value_3__c</name>
+    </fields>
+    <fields>
+        <label>値4</label>
+        <name>LLC_BI__Value_4__c</name>
+    </fields>
+    <fields>
+        <label>値5</label>
+        <name>LLC_BI__Value_5__c</name>
+    </fields>
+    <fields>
+        <label>値6</label>
+        <name>LLC_BI__Value_6__c</name>
+    </fields>
+    <fields>
+        <label>値7</label>
+        <name>LLC_BI__Value_7__c</name>
+    </fields>
+    <fields>
+        <label>値8</label>
+        <name>LLC_BI__Value_8__c</name>
+    </fields>
+    <fields>
+        <label>値9</label>
+        <name>LLC_BI__Value_9__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Product State Config Pivot Name --></nameFieldLabel>
+</CustomObjectTranslation>

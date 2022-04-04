@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Screen Segment --></value>
+    </caseValues>
+    <fields>
+        <label>オーダー</label>
+        <name>nFORCE__Order__c</name>
+    </fields>
+    <fields>
+        <label>画面セクション</label>
+        <name>nFORCE__Screen_Section__c</name>
+        <relationshipLabel>画面セグメント</relationshipLabel>
+    </fields>
+    <fields>
+        <label>画面</label>
+        <name>nFORCE__Screen__c</name>
+        <relationshipLabel>画面セグメント</relationshipLabel>
+    </fields>
+    <fields>
+        <label>タイプ</label>
+        <name>nFORCE__Type__c</name>
+        <picklistValues>
+            <masterLabel>Bulk Update</masterLabel>
+            <translation>一括更新</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulk Update Field Grid</masterLabel>
+            <translation>一括更新グリッド</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nFORCE__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Screen Segment Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- -D Section Configuration --></value>
+    </caseValues>
+    <fields>
+        <label>表示順</label>
+        <name>nDESIGN__Display_Order__c</name>
+    </fields>
+    <fields>
+        <label>項目セット</label>
+        <name>nDESIGN__Field_Set_Key__c</name>
+    </fields>
+    <fields>
+        <label>レイアウト</label>
+        <name>nDESIGN__Layout__c</name>
+        <relationshipLabel>セクション設定</relationshipLabel>
+    </fields>
+    <fields>
+        <label>親コンフィグレーション</label>
+        <name>nDESIGN__Parent_Configuration__c</name>
+        <relationshipLabel>子構成</relationshipLabel>
+    </fields>
+    <fields>
+        <label>親リレーション名</label>
+        <name>nDESIGN__Parent_Relationship_Name__c</name>
+    </fields>
+    <fields>
+        <label>画面セクション</label>
+        <name>nDESIGN__Screen_Section__c</name>
+        <relationshipLabel>セクション設定</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このセクションの上部に表示するヘッダー。</help>
+        <label>セクションヘッダー</label>
+        <name>nDESIGN__Section_Header__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Section Resource Class --></label>
+        <name>nDESIGN__Section_Resource_Class__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>nDESIGN__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>sObjectタイプ</label>
+        <name>nDESIGN__sObject_Type__c</name>
+    </fields>
+    <nameFieldLabel><!-- Section Configuration Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>子構成は、表示順で親に従わなければなりません。</errorMessage>
+        <name>nDESIGN__Child_Display_Order</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>親設定と親の関係名は両方を設定する必要があります。</errorMessage>
+        <name>nDESIGN__Parent_Integrity</name>
+    </validationRules>
+</CustomObjectTranslation>

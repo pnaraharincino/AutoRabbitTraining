@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>商品カタログ - セクション設定</value>
+    </caseValues>
+    <fields>
+        <help>この画面セクション構成のソート注文キーは何ですか？</help>
+        <label>表示順</label>
+        <name>LLC_BI__Display_Order__c</name>
+    </fields>
+    <fields>
+        <help>どのフィールドセットがこのセクション構成に関連付けられていますか？</help>
+        <label>項目セット</label>
+        <name>LLC_BI__Field_Set__c</name>
+    </fields>
+    <fields>
+        <help>このセクション設定テンプレートにはどのレイアウトが使用されますか？</help>
+        <label>レイアウト</label>
+        <name>LLC_BI__Layout__c</name>
+    </fields>
+    <fields>
+        <help>どの製品カタログルートテンプレートに関連付けられているコンフィギュレーションテンプレートですか？</help>
+        <label>商品カタログルートテンプレート</label>
+        <name>LLC_BI__Product_Catalog_Route_Template__c</name>
+        <relationshipLabel>商品カタログセクション構成</relationshipLabel>
+    </fields>
+    <fields>
+        <help>このセクション構成にはどのようなSObjectタイプが結び付けられていますか？</help>
+        <label>sObjectタイプ</label>
+        <name>LLC_BI__SObject_Type__c</name>
+    </fields>
+    <nameFieldLabel>商品カタログ - セクション設定</nameFieldLabel>
+</CustomObjectTranslation>

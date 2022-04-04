@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>融資チームメンバー</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Product Package Loan Team Member FS --></label>
+        <name>LLC_BI__Product_Package_Loan_Team_Members_FS</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Loan Team Members --></label>
+        <name>LLC_BI__UI_Loan_Team_Members</name>
+    </fieldSets>
+    <fields>
+        <label>役割</label>
+        <name>LLC_BI__Assigned_Role__c</name>
+        <relationshipLabel>行内関係者・メンバー</relationshipLabel>
+    </fields>
+    <fields>
+        <help>行内関係者・メンバーの説明</help>
+        <label>説明</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <help>キュー</help>
+        <label>グループ</label>
+        <name>LLC_BI__Group__c</name>
+    </fields>
+    <fields>
+        <label>融資</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>行内関係者・メンバー</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- -D Role --></label>
+        <name>LLC_BI__Role__c</name>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>コンプライアンス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>審査担当</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Analyst</masterLabel>
+            <translation>審査分析担当</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation>IT担当</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Approver</masterLabel>
+            <translation><!-- Loan Approver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Approver Queue</masterLabel>
+            <translation><!-- Loan Approver Queue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Officer</masterLabel>
+            <translation>融資担当者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Ops</masterLabel>
+            <translation>融資事務担当者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management</masterLabel>
+            <translation>管理者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Officer</masterLabel>
+            <translation>担当者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Loan Officer</masterLabel>
+            <translation>シニア融資担当者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation>引受担当</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>このフィールドは推奨されていません。 assigned_roleに置き換えられました。</help>
+        <label><!-- -D Role --></label>
+        <name>LLC_BI__Team_Role__c</name>
+        <relationshipLabel>行内関係者・メンバー</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ユーザー</label>
+        <name>LLC_BI__User__c</name>
+        <relationshipLabel>行内関係者・メンバー</relationshipLabel>
+    </fields>
+    <nameFieldLabel>融資チームメンバー</nameFieldLabel>
+    <webLinks>
+        <label>チームへの割り当て</label>
+        <name>LLC_BI__Assign_Team</name>
+    </webLinks>
+</CustomObjectTranslation>

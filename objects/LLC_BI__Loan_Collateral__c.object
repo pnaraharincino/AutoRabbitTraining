@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <fullName>LLC_BI__Government_Contracts</fullName>
+        <active>true</active>
+        <description>Record type for Government Contract collateral</description>
+        <label>Government Contracts</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Possessory_Letter_of_Credit</fullName>
+        <active>true</active>
+        <description>Record type for Possessory Letter of Credit collateral</description>
+        <label>Possessory Letter of Credit</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Possessory_Life_Insurance</fullName>
+        <active>true</active>
+        <description>Record type for Possessory Life Insurance Collateral</description>
+        <label>Possessory Life Insurance</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Possessory_Notes_Instrument</fullName>
+        <active>true</active>
+        <description>Record type for Possessory Notes/ Instrument collateral</description>
+        <label>Possessory Notes/ Instrument</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Possessory_Other</fullName>
+        <active>true</active>
+        <description>Record type for Possessory Other collateral</description>
+        <label>Possessory Other</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Possessory_Savings_CD</fullName>
+        <active>true</active>
+        <description>Record type forPossessory Savings/CD collateral</description>
+        <label>Possessory Savings/CD</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Possessory_Securities</fullName>
+        <active>true</active>
+        <description>Record type for Possessory Securities collateral</description>
+        <label>Possessory Securities</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Real_Estate</fullName>
+        <active>true</active>
+        <description>Record type for Real Estate collateral</description>
+        <label>Real Estate</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Titled_Aircraft</fullName>
+        <active>true</active>
+        <description>Record type for Titled Aircraft collateral</description>
+        <label>Titled Aircraft</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Titled_Boat</fullName>
+        <active>true</active>
+        <description>Record type for Titled Boat collateral</description>
+        <label>Titled Boat</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Titled_Mobile_Home</fullName>
+        <active>true</active>
+        <description>Record type for Titled Mobile Home collateral</description>
+        <label>Titled Mobile Home</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Titled_Motor_Vehicle</fullName>
+        <active>true</active>
+        <description>Record type for Titled Motor Vehicle Layout collateral</description>
+        <label>Titled Motor Vehicle</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Titled_Other</fullName>
+        <active>true</active>
+        <description>Record type for Titled Other collateral</description>
+        <label>Titled Other</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Titled_Vessel</fullName>
+        <active>true</active>
+        <description>Record type for Titled Vessel collateral</description>
+        <label>Titled Vessel</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__UCC_Life_Described</fullName>
+        <active>true</active>
+        <description>Record type for UCC Described collateral</description>
+        <label>UCC Described</label>
+    </recordTypes>
+</CustomObject>

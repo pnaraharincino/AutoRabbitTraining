@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>取引先審査</value>
+    </caseValues>
+    <fields>
+        <label>口座</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>審査金額</relationshipLabel>
+    </fields>
+    <fields>
+        <label>データ</label>
+        <name>LLC_BI__Data__c</name>
+    </fields>
+    <fields>
+        <label>審査</label>
+        <name>LLC_BI__Review__c</name>
+        <relationshipLabel>審査口座</relationshipLabel>
+    </fields>
+    <nameFieldLabel>取引先審査</nameFieldLabel>
+</CustomObjectTranslation>

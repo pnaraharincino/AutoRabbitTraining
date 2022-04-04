@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- UI HMDA Entity Compliance --></label>
+        <name>LLC_BI__UI_HMDA_Entity_Compliance</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI HMDA Entity Compliance 2017 --></label>
+        <name>LLC_BI__UI_HMDA_Entity_Compliance_2017</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI HMDA Entity Compliance 2018 --></label>
+        <name>LLC_BI__UI_HMDA_Entity_Compliance_2018</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Age of the Borrower or Co-Borrower --></label>
+        <name>LLC_BI__Age__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field indicates the applicant’s age on the application date for HMDA reportable Loans. --></help>
+        <label><!-- Age on Application Date --></label>
+        <name>LLC_BI__Age_on_Application_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- This fields indicates the birthdate of the borrower or co-borrower for HMDA reportable loans. --></help>
+        <label><!-- Birthdate --></label>
+        <name>LLC_BI__Birthdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entity --></label>
+        <name>LLC_BI__Entity__c</name>
+        <relationshipLabel><!-- Entity Compliances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- HMDA Applicant --></label>
+        <name>LLC_BI__HMDA_Applicant_Type__c</name>
+        <picklistValues>
+            <masterLabel>Applicant</masterLabel>
+            <translation><!-- Applicant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Applicant</masterLabel>
+            <translation><!-- Co-Applicant --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This fields indicates the application date for HMDA reportable loans. --></help>
+        <label><!-- HMDA Application Date --></label>
+        <name>LLC_BI__HMDA_Application_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Score --></label>
+        <name>LLC_BI__HMDA_Credit_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Other Credit Scoring Model is selected as the Credit Scoring Model, this field allows you to enter a description of the model. --></help>
+        <label><!-- Other Credit Scoring Model Description --></label>
+        <name>LLC_BI__HMDA_Credit_Scoring_Model_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Scoring Model --></label>
+        <name>LLC_BI__HMDA_Credit_Scoring_Model__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ethnicity Collection Method --></label>
+        <name>LLC_BI__HMDA_Ethnicity_Collection_Method__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If Other Hispanic or Latino is selected as an Ethnicity, this text field allows you to specify the Other Hispanic or Latino ethnicity(ies). You may enter up to 50 characters. --></help>
+        <label><!-- Hispanic or Latino Ethnicity(ies) Desc --></label>
+        <name>LLC_BI__HMDA_Ethnicity_Other__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ethnicity of Entity Involvement (Up to 5 options can be selected) --></help>
+        <label><!-- Ethnicity --></label>
+        <name>LLC_BI__HMDA_Ethnicity__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter, in dollars, the gross annual income relied on in making the credit decision, or if a credit decision was not made, the gross annual income relied on in processing the application. --></help>
+        <label><!-- Income of Applicant --></label>
+        <name>LLC_BI__HMDA_Income__c</name>
+    </fields>
+    <fields>
+        <label><!-- I do not wish to supply this information --></label>
+        <name>LLC_BI__HMDA_Not_Provided__c</name>
+    </fields>
+    <fields>
+        <label><!-- Race Collection Method --></label>
+        <name>LLC_BI__HMDA_Race_Collected__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If American Indian or Alaska Native is selected as a Race, this text field allows you to specify the enrolled or principal tribe. You may enter up to 50 characters. --></help>
+        <label><!-- American Indian or Alaska Native tribe --></label>
+        <name>LLC_BI__HMDA_Race_Desc_Code_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Other Asian is selected as a Race, this text field allows you to specify the Other Asian race(s). You may enter up to 50 characters. --></help>
+        <label><!-- Other Asian race(s) --></label>
+        <name>LLC_BI__HMDA_Race_Desc_Code_27__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Other Pacific Islander is selected as a Race, this text field allows you to specify the Other Pacific Islander race(s). You may enter up to 50 characters. --></help>
+        <label><!-- Other Pacific Islander race(s) --></label>
+        <name>LLC_BI__HMDA_Race_Desc_Code_44__c</name>
+    </fields>
+    <fields>
+        <help><!-- Race of Entity Involvement (Up to 5 options can be selected) --></help>
+        <label><!-- Race - May select up to five --></label>
+        <name>LLC_BI__HMDA_Race__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation><!-- 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation><!-- 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation><!-- 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation><!-- 24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation><!-- 26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27</masterLabel>
+            <translation><!-- 27 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>41</masterLabel>
+            <translation><!-- 41 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>42</masterLabel>
+            <translation><!-- 42 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>43</masterLabel>
+            <translation><!-- 43 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>44</masterLabel>
+            <translation><!-- 44 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sex Collection Method --></label>
+        <name>LLC_BI__HMDA_Sex_Collection_Method__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sex of the Borrower or Co-Borrower --></label>
+        <name>LLC_BI__HMDA_Sex__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field indicates that the applicant declined to provide their ethnicity, but the loan officer collected this information on the basis of visual observation or surname. --></help>
+        <label><!-- Is Ethnicity Collected Visually --></label>
+        <name>LLC_BI__Is_Ethnicity_Collected_Visually__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field indicates if a user has manually edited the entity compliance record. When selected, the system does not automatically populate fields on the entity compliance record with values entered in the workflow. --></help>
+        <label><!-- Is Manually Edited --></label>
+        <name>LLC_BI__Is_Manually_Edited__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field indicates that the applicant declined to provide their race, but the loan officer collected this information on the basis of visual observation or surname. --></help>
+        <label><!-- Is Race Collected Visually --></label>
+        <name>LLC_BI__Is_Race_Collected_Visually__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field indicates that the applicant declined to provide their sex, but the loan officer collected this information on the basis of visual observation or surname. --></help>
+        <label><!-- Is Sex Collected Visually --></label>
+        <name>LLC_BI__Is_Sex_Collected_Visually__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- HMDA Compliance record, using rules effective as of 2017 --></description>
+        <label><!-- HMDA-Effective-2017 --></label>
+        <name>LLC_BI__HMDA_Effective_2017</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- HMDA Compliance record, using rules effective as of 2018 --></description>
+        <label><!-- HMDA-Effective-2018 --></label>
+        <name>LLC_BI__HMDA_Effective_2018</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>リスク評価審査</value>
+    </caseValues>
+    <fieldSets>
+        <label>法人稟議書</label>
+        <name>LLC_BI__Commercial_Credit_Memo</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Risk Rating --></label>
+        <name>LLC_BI__UI_Risk_Rating</name>
+    </fieldSets>
+    <fields>
+        <label>AP応力指数（G）</label>
+        <name>LLC_BI__AP_Stress_Index_RG__c</name>
+    </fields>
+    <fields>
+        <label>APストレスインデックス -  wght</label>
+        <name>LLC_BI__AP_Stress_Index__c</name>
+    </fields>
+    <fields>
+        <label>APストレス指数</label>
+        <name>LLC_BI__AP_Stress_Index_actual__c</name>
+    </fields>
+    <fields>
+        <label>AR_Management_Experience</label>
+        <name>LLC_BI__AR_Management_Experience__c</name>
+    </fields>
+    <fields>
+        <label>取引先</label>
+        <name>LLC_BI__Account__c</name>
+        <relationshipLabel>格付け審査</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cash Bal Year 1 --></label>
+        <name>LLC_BI__Cash_Bal_Year_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cash Bal Year 2 --></label>
+        <name>LLC_BI__Cash_Bal_Year_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cash Bal Year 3 --></label>
+        <name>LLC_BI__Cash_Bal_Year_3__c</name>
+    </fields>
+    <fields>
+        <label>キャッシュフローカバレッジ（G）</label>
+        <name>LLC_BI__Cash_Flow_Coverage_RG__c</name>
+    </fields>
+    <fields>
+        <label>キャッシュフローカバレッジ -  wght</label>
+        <name>LLC_BI__Cash_Flow_Coverage__c</name>
+    </fields>
+    <fields>
+        <label>キャッシュフローカバレッジ</label>
+        <name>LLC_BI__Cash_Flow_Coverage_actual__c</name>
+    </fields>
+    <fields>
+        <label>コメント</label>
+        <name>LLC_BI__Comments__c</name>
+    </fields>
+    <fields>
+        <label>システム判定債務者区分</label>
+        <name>LLC_BI__Computed_Risk_Grade_Value__c</name>
+    </fields>
+    <fields>
+        <label>クレジットスコア（G）</label>
+        <name>LLC_BI__Credit_Score_RG__c</name>
+    </fields>
+    <fields>
+        <label>クレジットスコア年1</label>
+        <name>LLC_BI__Credit_Score_Year_1__c</name>
+    </fields>
+    <fields>
+        <label>クレジットスコア年2</label>
+        <name>LLC_BI__Credit_Score_Year_2__c</name>
+    </fields>
+    <fields>
+        <label>クレジットスコア年3</label>
+        <name>LLC_BI__Credit_Score_Year_3__c</name>
+    </fields>
+    <fields>
+        <label>クレジットスコア -  wght</label>
+        <name>LLC_BI__Credit_Score__c</name>
+    </fields>
+    <fields>
+        <label>クレジットスコア</label>
+        <name>LLC_BI__Credit_Score_actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- DSC Post OC Year 1 --></label>
+        <name>LLC_BI__DSC_Post_OC_Year_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- DSC Post OC Year 2 --></label>
+        <name>LLC_BI__DSC_Post_OC_Year_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- DSC Post OC Year 3 --></label>
+        <name>LLC_BI__DSC_Post_OC_Year_3__c</name>
+    </fields>
+    <fields>
+        <label>決定日</label>
+        <name>LLC_BI__Date_Decisioned__c</name>
+    </fields>
+    <fields>
+        <label>稟議書上に表示</label>
+        <name>LLC_BI__Display_In_Credit_Memo__c</name>
+    </fields>
+    <fields>
+        <label>最終債務者区分</label>
+        <name>LLC_BI__Final_Risk_Grade__c</name>
+    </fields>
+    <fields>
+        <label>グローバルキャッシュフロー（G）</label>
+        <name>LLC_BI__Global_Cash_Flow_G2__c</name>
+    </fields>
+    <fields>
+        <label>グローバルキャッシュフロー -  wght</label>
+        <name>LLC_BI__Global_Cash_Flow_Wght__c</name>
+    </fields>
+    <fields>
+        <label>グローバル・キャッシュフロー</label>
+        <name>LLC_BI__Global_Cash_Flow__c</name>
+    </fields>
+    <fields>
+        <label>融資</label>
+        <name>LLC_BI__Loan__c</name>
+        <relationshipLabel>格付け審査</relationshipLabel>
+    </fields>
+    <fields>
+        <label>管理体験（G）</label>
+        <name>LLC_BI__Management_Experience_RG__c</name>
+    </fields>
+    <fields>
+        <label>管理体験</label>
+        <name>LLC_BI__Management_Experience_actual__c</name>
+    </fields>
+    <fields>
+        <label>債務者区分(上書き)</label>
+        <name>LLC_BI__Overridden_Risk_Grade_Value__c</name>
+    </fields>
+    <fields>
+        <label>上書き</label>
+        <name>LLC_BI__Override__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pers. &amp; Bus. Liquidity (G) --></label>
+        <name>LLC_BI__Pers_Bus_Liquidity_RG__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pers. &amp; Bus. Liquidity --></label>
+        <name>LLC_BI__Pers_Bus_Liquidity_actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pers. &amp; Bus Liquidity - Wght --></label>
+        <name>LLC_BI__Personal_Liquidity__c</name>
+    </fields>
+    <fields>
+        <label>RGバージョン</label>
+        <name>LLC_BI__RG_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev Year 1 --></label>
+        <name>LLC_BI__Rev_Year_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev Year 2 --></label>
+        <name>LLC_BI__Rev_Year_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev Year 3 --></label>
+        <name>LLC_BI__Rev_Year_3__c</name>
+    </fields>
+    <fields>
+        <label>収益成長（G）</label>
+        <name>LLC_BI__Revenue_Growth_RG__c</name>
+    </fields>
+    <fields>
+        <label>収益成長 -  wght</label>
+        <name>LLC_BI__Revenue_Growth__c</name>
+    </fields>
+    <fields>
+        <label>収益の増加（％）</label>
+        <name>LLC_BI__Revenue_Growth_actual__c</name>
+    </fields>
+    <fields>
+        <label>格付け テンプレート</label>
+        <name>LLC_BI__Risk_Grade_Template__c</name>
+        <relationshipLabel>格付け審査</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>LLC_BI__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>承認済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation>拒否</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>レビュー中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Approved</masterLabel>
+            <translation>未承認</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>1年目</label>
+        <name>LLC_BI__Year_1st__c</name>
+    </fields>
+    <fields>
+        <label>2年目</label>
+        <name>LLC_BI__Year_2nd__c</name>
+    </fields>
+    <fields>
+        <label>3年目</label>
+        <name>LLC_BI__Year_3rd__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel>リスク評価審査</nameFieldLabel>
+    <validationRules>
+        <errorMessage>計算された債務者区分値を無効にする前にコメントを追加してください。</errorMessage>
+        <name>LLC_BI__Mandatory_comment</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Create_New_Risk_Rating_Loan --></label>
+        <name>Create_New_Risk_Rating_Loan</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Risk_Rating_Account --></label>
+        <name>Create_Risk_Rating_Account</name>
+    </webLinks>
+</CustomObjectTranslation>

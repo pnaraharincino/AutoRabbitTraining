@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Id Document Requirement --></value>
+    </caseValues>
+    <fields>
+        <label>取引先タイプ</label>
+        <name>LLC_BI__Relationship_Type__c</name>
+    </fields>
+    <fields>
+        <label>必要な総文書</label>
+        <name>LLC_BI__Total_Documents_Required__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Id Document Requirement Name --></nameFieldLabel>
+</CustomObjectTranslation>

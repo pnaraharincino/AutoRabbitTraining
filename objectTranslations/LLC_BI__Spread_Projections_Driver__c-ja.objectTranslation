@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>財務分析 - シミュレーション</value>
+    </caseValues>
+    <fields>
+        <label>分類</label>
+        <name>LLC_BI__Classification__c</name>
+        <relationshipLabel>運転手</relationshipLabel>
+    </fields>
+    <fields>
+        <label>財務分析シミュレーションテンプレート</label>
+        <name>LLC_BI__Spread_Projections_Template__c</name>
+        <relationshipLabel>運転手</relationshipLabel>
+    </fields>
+    <fields>
+        <label>財務分析レコード値</label>
+        <name>LLC_BI__Spread_Statement_Record_Value__c</name>
+        <relationshipLabel>運転者</relationshipLabel>
+    </fields>
+    <fields>
+        <label>財務分析レコード</label>
+        <name>LLC_BI__Spread_Statement_Record__c</name>
+        <relationshipLabel>運転手</relationshipLabel>
+    </fields>
+    <fields>
+        <label>タイプ</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Dollar Amount Change</masterLabel>
+            <translation>ドル金額の変更</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Change</masterLabel>
+            <translation>変化なし</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent Amount Change</masterLabel>
+            <translation>金額の変更</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent of Revenue</masterLabel>
+            <translation>歳入の割合</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>値</label>
+        <name>LLC_BI__Value__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel>財務分析 - シミュレーション</nameFieldLabel>
+</CustomObjectTranslation>

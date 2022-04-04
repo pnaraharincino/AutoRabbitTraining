@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <fullName>Commercial</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Loan_Highlights</compactLayoutAssignment>
+        <label>Commercial</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Start</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Loan_Highlights</compactLayoutAssignment>
+        <description>This is the layout that&apos;s shown when &quot;New Record&quot; is clicked, only showing the basic info, and product selection info.</description>
+        <label>Start</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Test_Product_Type_1</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Loan_Highlights</compactLayoutAssignment>
+        <description>Used for Unit Tests</description>
+        <label>Test Product Type 1 - Test Product 1</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>LLC_BI__Test_Product_Type_1v2</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Loan_Highlights</compactLayoutAssignment>
+        <description>testing the product type broad match</description>
+        <label>Test Product Type 1</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>nRetail__Retail_Loan</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Loan_Highlights</compactLayoutAssignment>
+        <description>This record type is used to differentiate a retail loan, which has a distinct experience from other loan types.</description>
+        <label>Retail Loan</label>
+    </recordTypes>
+</CustomObject>

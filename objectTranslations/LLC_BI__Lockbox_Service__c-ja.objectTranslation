@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Lockbox Service --></value>
+    </caseValues>
+    <fields>
+        <label>付帯サービス リファレンス</label>
+        <name>LLC_BI__Treasury_Service_Reference__c</name>
+        <relationshipLabel>ロックボックスサービス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ロックボックスタイプ</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation>リテール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesale</masterLabel>
+            <translation>卸売</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ベンダーの選択</label>
+        <name>LLC_BI__Vendor_Selection__c</name>
+        <picklistValues>
+            <masterLabel>FIS</masterLabel>
+            <translation><!-- FIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulus</masterLabel>
+            <translation>校正</translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel><!-- Lockbox Service Name --></nameFieldLabel>
+</CustomObjectTranslation>

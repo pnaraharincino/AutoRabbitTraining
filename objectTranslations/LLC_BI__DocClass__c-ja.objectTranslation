@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- DocClass --></value>
+    </caseValues>
+    <fields>
+        <label>説明</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>Dokowner</label>
+        <name>LLC_BI__DocOwner__c</name>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation>弁護士</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closer</masterLabel>
+            <translation>クローザー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>コンプライアンス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>建設</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan Ops</masterLabel>
+            <translation>融資事務担当者</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>文書タイプ</label>
+        <name>LLC_BI__DocType__c</name>
+        <relationshipLabel>文書クラス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>文書管理</label>
+        <name>LLC_BI__docManager__c</name>
+        <relationshipLabel>文書クラス</relationshipLabel>
+    </fields>
+    <fields>
+        <label>索引</label>
+        <name>LLC_BI__lookupId__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label>業界</label>
+        <name>NDOC__Industry__c</name>
+    </fields>
+    <nameFieldLabel><!-- DocClass Name --></nameFieldLabel>
+</CustomObjectTranslation>

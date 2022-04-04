@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- -D Spread Statement Record Group --></value>
+    </caseValues>
+    <fields>
+        <label>蓄積する</label>
+        <name>LLC_BI__Accumulate__c</name>
+    </fields>
+    <fields>
+        <label>リンク</label>
+        <name>LLC_BI__Is_Linked__c</name>
+    </fields>
+    <fields>
+        <label>名前の上書き</label>
+        <name>LLC_BI__Name_Override__c</name>
+    </fields>
+    <fields>
+        <label>範囲外の期間</label>
+        <name>LLC_BI__Period_Out_Of_Range__c</name>
+    </fields>
+    <fields>
+        <label>四半期</label>
+        <name>LLC_BI__Quarter__c</name>
+    </fields>
+    <fields>
+        <label>スプレッドステートメントレコード</label>
+        <name>LLC_BI__Spread_Statement_Record__c</name>
+        <relationshipLabel>Y - Deprecated Spread Statement Record Groups</relationshipLabel>
+    </fields>
+    <fields>
+        <label>値</label>
+        <name>LLC_BI__Value__c</name>
+    </fields>
+    <fields>
+        <label>年間の範囲</label>
+        <name>LLC_BI__Year_Out_Range__c</name>
+    </fields>
+    <fields>
+        <label>年</label>
+        <name>LLC_BI__Year__c</name>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Spread Statement Record Group Name --></nameFieldLabel>
+</CustomObjectTranslation>

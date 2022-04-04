@@ -1,0 +1,3675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Address --></label>
+        <name>Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Applicant Details Custom --></label>
+        <name>Applicant_Details_Custom</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Entity Involvement Individuals --></label>
+        <name>Entity_Involvement_Individuals</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Equifax Credit --></label>
+        <name>Equifax_Credit</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Authorized Relationship - Individuals --></label>
+        <name>LLC_BI__Authorized_Relationship_Individuals</name>
+    </fieldSets>
+    <fieldSets>
+        <label>署名権者 - 問い合わせ先を検索</label>
+        <name>LLC_BI__Authorized_Signer_Search_Contacts</name>
+    </fieldSets>
+    <fieldSets>
+        <label>署名権者 - 推奨される問い合わせ先</label>
+        <name>LLC_BI__Authorized_Signer_Suggested_Contacts</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Relationship Maintenance --></label>
+        <name>LLC_BI__Contact_Maintenance_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Contact Maintenance Snapshot --></label>
+        <name>LLC_BI__Contact_Maintenance_Snapshot</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Deposit Individual Relationship Details --></label>
+        <name>LLC_BI__Deposit_Individual_Relationship_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Entity Involvement All Relationships --></label>
+        <name>LLC_BI__Entity_Involvement_All_Relationships</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Entity Involvement Individuals Field Set --></label>
+        <name>LLC_BI__Entity_Involvement_Individuals_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Entity Involvement New Individual Fields --></label>
+        <name>LLC_BI__Entity_Involvement_New_Individual_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Indirect Lending Individual Identifiers --></label>
+        <name>LLC_BI__Indirect_Lending_Individual_Identifiers</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Treasury Mass Actions Contacts --></label>
+        <name>LLC_BI__Treasury_Mass_Actions_Contacts</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RL OA - Additional Income --></label>
+        <name>RL_OA_Additional_Income</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RL OA - Income --></label>
+        <name>RL_OA_Income</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Borrower Details --></label>
+        <name>RMOR__Borrower_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WK DepAct DocPrep --></label>
+        <name>WKDDP__WK_DepAct_DocPrep</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WK DepAct DocPrep Bus --></label>
+        <name>WKDDP__WK_DepAct_DocPrep_BusCon</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- WK DepAct DocPrep Ind --></label>
+        <name>WKDDP__WK_DepAct_DocPrep_IndCon</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- nDesign Test --></label>
+        <name>nDESIGN__nDesign_Test</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- UI Lookup Fields --></label>
+        <name>nFORCE__UI_Lookup_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- nCino User Interface Test --></label>
+        <name>nFORCE__nCino_User_Interface_Test</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- nDesign Test --></label>
+        <name>nFORCE__nDesign_Test</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Beneficial Owners Contact Information OA --></label>
+        <name>nPortal__Beneficial_Owners_Contact_Information_OA</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Owners Contact Information MRF --></label>
+        <name>nPortal__DEP_Co_Owners_Multi_Record</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Deposit Application Personal Contact Information (Individual) --></label>
+        <name>nPortal__DEP_Personal_Contact</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Deposit Application Personal Contact Information (Business) --></label>
+        <name>nPortal__DEP_Personal_Contact_Business</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Deposit Application Personal Contact Information (Additional Owner) --></label>
+        <name>nPortal__DEP_Personal_Contact_Owner</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RL Personal Contact Information --></label>
+        <name>nPortal__RL_Personal_Contact</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RL Personal Contact Information (Individual Other Involved) --></label>
+        <name>nPortal__RL_Personal_Contact_Other</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RL Personal SSN Information --></label>
+        <name>nPortal__RL_Personal_SSN</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- RL Personal SSN Information (Individual Other Involved) --></label>
+        <name>nPortal__RL_Personal_SSN_Other</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Others Involved Contact Information MRF --></label>
+        <name>nPortal__SBL_Others_Involved_Multi_Record</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SBL Personal Contact Information --></label>
+        <name>nPortal__SBL_Personal_Contact</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SBL Personal Contact Information (Individual Other Involved) --></label>
+        <name>nPortal__SBL_Personal_Contact_Individual_Other</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SBL Personal SSN Information --></label>
+        <name>nPortal__SBL_Personal_SSN</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SBL Personal SSN Information (Individual Other Involved) --></label>
+        <name>nPortal__SBL_Personal_SSN_Individual_Other</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Secured RL Personal Contact Information --></label>
+        <name>nPortal__Secured_RL_Personal_Contact</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Secured RL Personal Contact Information (Individual Other Involved) --></label>
+        <name>nPortal__Secured_RL_Personal_Contact_Other</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Secured RL Personal SSN Information --></label>
+        <name>nPortal__Secured_RL_Personal_SSN</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Secured RL Personal SSN Information (Individual Other Involved) --></label>
+        <name>nPortal__Secured_RL_Personal_SSN_Other</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Secured SBL Personal Contact Information --></label>
+        <name>nPortal__Secured_SBL_Personal_Contact</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Secured SBL Personal Contact Information (Individual Other Involved) --></label>
+        <name>nPortal__Secured_SBL_Personal_Contact_Other</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Secured SBL Personal SSN Information --></label>
+        <name>nPortal__Secured_SBL_Personal_SSN</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Secured SBL Personal SSN Information (Individual Other Involved) --></label>
+        <name>nPortal__Secured_SBL_Personal_SSN_Other</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Applicant Details --></label>
+        <name>nRetail__Applicant_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Borrower Information --></label>
+        <name>nRetail__Borrower_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Current Address --></label>
+        <name>nRetail__Current_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Mailing Address --></label>
+        <name>nRetail__Mailing_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Marital Status and Dependents --></label>
+        <name>nRetail__Marital_Status_And_Dependents</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Annual Income --></label>
+        <name>AnnualIncome__c</name>
+    </fields>
+    <fields>
+        <help>家計を一にする扶養家族の年齢をご記入ください。</help>
+        <label>扶養家族の年齢</label>
+        <name>LLC_BI__Age_of_Dependents__c</name>
+    </fields>
+    <fields>
+        <help>本欄に債務者の考え得る別名を全てご記入ください。</help>
+        <label>別名</label>
+        <name>LLC_BI__Aliases__c</name>
+    </fields>
+    <fields>
+        <help>申込者の年間所得をご記入ください。</help>
+        <label>年間所得</label>
+        <name>LLC_BI__Annual_Income__c</name>
+    </fields>
+    <fields>
+        <label>国籍</label>
+        <name>LLC_BI__Country_of_Citizenship__c</name>
+        <picklistValues>
+            <masterLabel>Afghanistan</masterLabel>
+            <translation>アフガニスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Albania</masterLabel>
+            <translation>アルバニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Algeria</masterLabel>
+            <translation>アルジェリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>American Samoa</masterLabel>
+            <translation>アメリカンサモア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andorra</masterLabel>
+            <translation>アンドラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angola</masterLabel>
+            <translation>アンゴラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anguilla</masterLabel>
+            <translation>アンギラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antigua &amp; Barbuda</masterLabel>
+            <translation>アンティグア＆バーブーダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Argentina</masterLabel>
+            <translation>アルゼンチン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Armenia</masterLabel>
+            <translation>アルメニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aruba</masterLabel>
+            <translation>アルバ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation>オーストラリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austria</masterLabel>
+            <translation>オーストリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Azerbaijan</masterLabel>
+            <translation>アゼルバイジャン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahamas, The</masterLabel>
+            <translation>バハマ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahrain</masterLabel>
+            <translation>バーレーン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bangladesh</masterLabel>
+            <translation>バングラデシュ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barbados</masterLabel>
+            <translation>バルバドス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belarus</masterLabel>
+            <translation>ベラルーシ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belgium</masterLabel>
+            <translation>ベルギー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belize</masterLabel>
+            <translation>ベリーズ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benin</masterLabel>
+            <translation>ベナン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bermuda</masterLabel>
+            <translation>バミューダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bhutan</masterLabel>
+            <translation>ブータン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bolivia</masterLabel>
+            <translation>ボリビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bosnia &amp; Herzegovina</masterLabel>
+            <translation>ボスニア＆ヘルツェゴビナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Botswana</masterLabel>
+            <translation>ボツワナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation>ブラジル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>British Virgin Is.</masterLabel>
+            <translation>英国ヴァージン諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brunei</masterLabel>
+            <translation>ブルネイ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulgaria</masterLabel>
+            <translation>ブルガリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burkina Faso</masterLabel>
+            <translation>ブルキナファソ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burma</masterLabel>
+            <translation>ビルマ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burundi</masterLabel>
+            <translation>ブルンジー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cambodia</masterLabel>
+            <translation>カンボジア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cameroon</masterLabel>
+            <translation>カメルーン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation>カナダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape Verde</masterLabel>
+            <translation><!-- Cape Verde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cayman Islands</masterLabel>
+            <translation>ケイマン諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central African Rep.</masterLabel>
+            <translation>中央アフリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chad</masterLabel>
+            <translation>チャド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile</masterLabel>
+            <translation>チリ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation>中国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colombia</masterLabel>
+            <translation>コロンビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comoros</masterLabel>
+            <translation><!-- Comoros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congo, Dem. Rep.</masterLabel>
+            <translation><!-- Congo, Dem. Rep. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congo, Repub. of the</masterLabel>
+            <translation><!-- Congo, Repub. of the --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cook Islands</masterLabel>
+            <translation>クック諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costa Rica</masterLabel>
+            <translation>コスタリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cote d&apos;Ivoire</masterLabel>
+            <translation>コートジボワール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatia</masterLabel>
+            <translation>クロアチア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cuba</masterLabel>
+            <translation>キューバ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyprus</masterLabel>
+            <translation>キプロス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech Republic</masterLabel>
+            <translation>チェコ共和国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denmark</masterLabel>
+            <translation>デンマーク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djibouti</masterLabel>
+            <translation>ジブチ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominica</masterLabel>
+            <translation>ドミニカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominican Republic</masterLabel>
+            <translation>ドミニカ共和国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Timor</masterLabel>
+            <translation>東ティモール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador</masterLabel>
+            <translation>エクアドル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egypt</masterLabel>
+            <translation>エジプト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Salvador</masterLabel>
+            <translation>エルサルバドル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equatorial Guinea</masterLabel>
+            <translation>赤道ギニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eritrea</masterLabel>
+            <translation>エリトリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonia</masterLabel>
+            <translation>エストニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ethiopia</masterLabel>
+            <translation>エチオピア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Faroe Islands</masterLabel>
+            <translation>フェロー諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiji</masterLabel>
+            <translation>フィジー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finland</masterLabel>
+            <translation>フィンランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation>フランス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French Guiana</masterLabel>
+            <translation>フレンチギアナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French Polynesia</masterLabel>
+            <translation>フランス領ポリネシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gabon</masterLabel>
+            <translation>ガボン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gambia, The</masterLabel>
+            <translation>ガンビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gaza Strip</masterLabel>
+            <translation>ガザストリップ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia</masterLabel>
+            <translation>ジョージア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation>ドイツ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ghana</masterLabel>
+            <translation>ガーナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gibraltar</masterLabel>
+            <translation>ジブラルタール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greece</masterLabel>
+            <translation>ギリシャ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenland</masterLabel>
+            <translation>グリーンランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grenada</masterLabel>
+            <translation>グレナダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guadeloupe</masterLabel>
+            <translation>グアドループ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guam</masterLabel>
+            <translation>グアム</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guatemala</masterLabel>
+            <translation>グアテマラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guernsey</masterLabel>
+            <translation>ガーンジー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guinea</masterLabel>
+            <translation>ギニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guinea-Bissau</masterLabel>
+            <translation>ギニアビサウ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guyana</masterLabel>
+            <translation>ガイナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Haiti</masterLabel>
+            <translation>ハイチ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honduras</masterLabel>
+            <translation>ホンジュラス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hong Kong</masterLabel>
+            <translation>香港</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungary</masterLabel>
+            <translation>ハンガリー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iceland</masterLabel>
+            <translation>アイスランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation>インド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indonesia</masterLabel>
+            <translation>インドネシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iran</masterLabel>
+            <translation>イラン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iraq</masterLabel>
+            <translation>イラク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ireland</masterLabel>
+            <translation>アイルランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Isle of Man</masterLabel>
+            <translation>マン島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Israel</masterLabel>
+            <translation>イスラエル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation>イタリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jamaica</masterLabel>
+            <translation>ジャマイカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation>日本</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jersey</masterLabel>
+            <translation>ジャージー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jordan</masterLabel>
+            <translation>ヨルダン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kazakhstan</masterLabel>
+            <translation>カザフスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kenya</masterLabel>
+            <translation>ケニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiribati</masterLabel>
+            <translation>キリバチ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea, North</masterLabel>
+            <translation>北朝鮮</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea, South</masterLabel>
+            <translation>韓国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kuwait</masterLabel>
+            <translation>クウェート</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kyrgyzstan</masterLabel>
+            <translation>キルギスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laos</masterLabel>
+            <translation>ラオス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvia</masterLabel>
+            <translation>ラトビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lebanon</masterLabel>
+            <translation>レバノン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lesotho</masterLabel>
+            <translation>レソト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liberia</masterLabel>
+            <translation>リベリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Libya</masterLabel>
+            <translation>リビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liechtenstein</masterLabel>
+            <translation>リヒテンシュタイン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuania</masterLabel>
+            <translation>リトアニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxembourg</masterLabel>
+            <translation>ルクセンブルク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macau</masterLabel>
+            <translation>マカオ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macedonia</masterLabel>
+            <translation>マケドニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madagascar</masterLabel>
+            <translation>マダガスカル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malawi</masterLabel>
+            <translation>マラウイ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malaysia</masterLabel>
+            <translation>マレーシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maldives</masterLabel>
+            <translation>モルディブ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mali</masterLabel>
+            <translation>マリ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malta</masterLabel>
+            <translation>マルタ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marshall Islands</masterLabel>
+            <translation>マーシャル諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Martinique</masterLabel>
+            <translation>マルティニーク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauritania</masterLabel>
+            <translation>モーリタニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauritius</masterLabel>
+            <translation>モーリシャス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mayotte</masterLabel>
+            <translation>マヨット</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation>メキシコ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Micronesia, Fed. St.</masterLabel>
+            <translation>メクロネシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moldova</masterLabel>
+            <translation>モルドバ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monaco</masterLabel>
+            <translation>モナコ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mongolia</masterLabel>
+            <translation>モンゴリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation>モントセラト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morocco</masterLabel>
+            <translation>モロッコ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mozambique</masterLabel>
+            <translation>モザンビーク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N. Mariana Islands</masterLabel>
+            <translation>マリアナ諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Namibia</masterLabel>
+            <translation>ナミビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nauru</masterLabel>
+            <translation>ナウル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nepal</masterLabel>
+            <translation>ネパール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation>オランダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands Antilles</masterLabel>
+            <translation>オランダ領アンティル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Caledonia</masterLabel>
+            <translation>ニューカレドニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand</masterLabel>
+            <translation>ニュージーランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicaragua</masterLabel>
+            <translation>ニカラグア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niger</masterLabel>
+            <translation>ニガー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nigeria</masterLabel>
+            <translation>ナイジェリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norway</masterLabel>
+            <translation>ノルウェー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oman</masterLabel>
+            <translation>オマーン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pakistan</masterLabel>
+            <translation>パキスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palau</masterLabel>
+            <translation>パラオ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panama</masterLabel>
+            <translation>パナマ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Papua New Guinea</masterLabel>
+            <translation>パプアニューギニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paraguay</masterLabel>
+            <translation>パラグアイ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru</masterLabel>
+            <translation>ペルー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation>フィリピン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation>ポーランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal</masterLabel>
+            <translation>ポルトガル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Rico</masterLabel>
+            <translation>プエルトリコ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qatar</masterLabel>
+            <translation>カタール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reunion</masterLabel>
+            <translation>リユニオン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romania</masterLabel>
+            <translation>ルーマニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia</masterLabel>
+            <translation>ロシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rwanda</masterLabel>
+            <translation>ルワンダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Helena</masterLabel>
+            <translation>セントヘレナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Kitts &amp; Nevis</masterLabel>
+            <translation>セントキッツ＆ネビス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Lucia</masterLabel>
+            <translation>セントルシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Vincent and the Grenadines</masterLabel>
+            <translation>セントビンセントとグレナディーン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samoa</masterLabel>
+            <translation>サモア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Marino</masterLabel>
+            <translation>サンマリノ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sao Tome &amp; Principe</masterLabel>
+            <translation>サントーム＆プリンシペ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saudi Arabia</masterLabel>
+            <translation>サウジアラビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senegal</masterLabel>
+            <translation>セネガル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serbia</masterLabel>
+            <translation>セルビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seychelles</masterLabel>
+            <translation>セイシェル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sierra Leone</masterLabel>
+            <translation>シエラレオネ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore</masterLabel>
+            <translation>シンガポール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovakia</masterLabel>
+            <translation>スロバキア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovenia</masterLabel>
+            <translation>スロベニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solomon Islands</masterLabel>
+            <translation>ソロモン諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Somalia</masterLabel>
+            <translation>ソマリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation>南アフリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation>スペイン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sri Lanka</masterLabel>
+            <translation>スリランカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St Pierre &amp; Miquelon</masterLabel>
+            <translation>St Pierre＆Miquelon</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sudan</masterLabel>
+            <translation>スーダン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suriname</masterLabel>
+            <translation>スリナム</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swaziland</masterLabel>
+            <translation>スワジランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweden</masterLabel>
+            <translation>スウェーデン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switzerland</masterLabel>
+            <translation>スイス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syria</masterLabel>
+            <translation>シリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taiwan</masterLabel>
+            <translation>台湾</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tajikistan</masterLabel>
+            <translation>タジキスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanzania</masterLabel>
+            <translation>タンザニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thailand</masterLabel>
+            <translation>タイ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Togo</masterLabel>
+            <translation>トーゴ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tonga</masterLabel>
+            <translation>トンガ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trinidad &amp; Tobago</masterLabel>
+            <translation>トリニダード＆トバゴ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tunisia</masterLabel>
+            <translation>チュニジア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation>トルコ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkmenistan</masterLabel>
+            <translation>トルクメニスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turks &amp; Caicos Is</masterLabel>
+            <translation>タークス・カイコス諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuvalu</masterLabel>
+            <translation>タウバル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uganda</masterLabel>
+            <translation>ウガンダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ukraine</masterLabel>
+            <translation>ウクライナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Arab Emirates</masterLabel>
+            <translation>アラブ首長国連邦</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Kingdom</masterLabel>
+            <translation>イギリス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United States</masterLabel>
+            <translation>アメリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uruguay</masterLabel>
+            <translation>ウルグアイ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uzbekistan</masterLabel>
+            <translation>ウズベキスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanuatu</masterLabel>
+            <translation>バヌツァ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venezuela</masterLabel>
+            <translation>ベネズエラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnam</masterLabel>
+            <translation>ベトナム</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virgin Islands</masterLabel>
+            <translation>ヴァージン諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wallis and Futuna</masterLabel>
+            <translation>ウォリス・フツナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Bank</masterLabel>
+            <translation><!-- West Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Sahara</masterLabel>
+            <translation>西サハラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yemen</masterLabel>
+            <translation>イエメン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zambia</masterLabel>
+            <translation>ザンビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zimbabwe</masterLabel>
+            <translation>ジンバブエ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>居住国</label>
+        <name>LLC_BI__Country_of_Residence__c</name>
+        <picklistValues>
+            <masterLabel>Afghanistan</masterLabel>
+            <translation>アフガニスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Albania</masterLabel>
+            <translation>アルバニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Algeria</masterLabel>
+            <translation>アルジェリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>American Samoa</masterLabel>
+            <translation>アメリカンサモア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andorra</masterLabel>
+            <translation>アンドラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angola</masterLabel>
+            <translation>アンゴラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anguilla</masterLabel>
+            <translation>アンギラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antigua &amp; Barbuda</masterLabel>
+            <translation>アンティグア＆バーブーダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Argentina</masterLabel>
+            <translation>アルゼンチン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Armenia</masterLabel>
+            <translation>アルメニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aruba</masterLabel>
+            <translation>アルバ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation>オーストラリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austria</masterLabel>
+            <translation>オーストリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Azerbaijan</masterLabel>
+            <translation>アゼルバイジャン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahamas, The</masterLabel>
+            <translation>バハマ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahrain</masterLabel>
+            <translation>バーレーン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bangladesh</masterLabel>
+            <translation>バングラデシュ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barbados</masterLabel>
+            <translation>バルバドス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belarus</masterLabel>
+            <translation>ベラルーシ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belgium</masterLabel>
+            <translation>ベルギー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belize</masterLabel>
+            <translation>ベリーズ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benin</masterLabel>
+            <translation>ベナン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bermuda</masterLabel>
+            <translation>バミューダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bhutan</masterLabel>
+            <translation>ブータン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bolivia</masterLabel>
+            <translation>ボリビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bosnia &amp; Herzegovina</masterLabel>
+            <translation>ボスニア＆ヘルツェゴビナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Botswana</masterLabel>
+            <translation>ボツワナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation>ブラジル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>British Virgin Is.</masterLabel>
+            <translation>英国ヴァージン諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brunei</masterLabel>
+            <translation>ブルネイ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulgaria</masterLabel>
+            <translation>ブルガリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burkina Faso</masterLabel>
+            <translation>ブルキナファソ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burma</masterLabel>
+            <translation>ビルマ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Burundi</masterLabel>
+            <translation>ブルンジー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cambodia</masterLabel>
+            <translation>カンボジア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cameroon</masterLabel>
+            <translation>カメルーン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation>カナダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape Verde</masterLabel>
+            <translation><!-- Cape Verde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cayman Islands</masterLabel>
+            <translation>ケイマン諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central African Rep.</masterLabel>
+            <translation>中央アフリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chad</masterLabel>
+            <translation>チャド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile</masterLabel>
+            <translation>チリ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation>中国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colombia</masterLabel>
+            <translation>コロンビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comoros</masterLabel>
+            <translation><!-- Comoros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congo, Dem. Rep.</masterLabel>
+            <translation><!-- Congo, Dem. Rep. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Congo, Repub. of the</masterLabel>
+            <translation><!-- Congo, Repub. of the --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cook Islands</masterLabel>
+            <translation>クック諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costa Rica</masterLabel>
+            <translation>コスタリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cote d&apos;Ivoire</masterLabel>
+            <translation>コートジボワール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatia</masterLabel>
+            <translation>クロアチア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cuba</masterLabel>
+            <translation>キューバ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyprus</masterLabel>
+            <translation>キプロス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech Republic</masterLabel>
+            <translation>チェコ共和国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denmark</masterLabel>
+            <translation>デンマーク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Djibouti</masterLabel>
+            <translation>ジブチ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominica</masterLabel>
+            <translation>ドミニカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominican Republic</masterLabel>
+            <translation>ドミニカ共和国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Timor</masterLabel>
+            <translation>東ティモール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador</masterLabel>
+            <translation>エクアドル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egypt</masterLabel>
+            <translation>エジプト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Salvador</masterLabel>
+            <translation>エルサルバドル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equatorial Guinea</masterLabel>
+            <translation>赤道ギニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eritrea</masterLabel>
+            <translation>エリトリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonia</masterLabel>
+            <translation>エストニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ethiopia</masterLabel>
+            <translation>エチオピア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Faroe Islands</masterLabel>
+            <translation>フェロー諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiji</masterLabel>
+            <translation>フィジー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finland</masterLabel>
+            <translation>フィンランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation>フランス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French Guiana</masterLabel>
+            <translation>フレンチギアナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French Polynesia</masterLabel>
+            <translation>フランス領ポリネシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gabon</masterLabel>
+            <translation>ガボン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gambia, The</masterLabel>
+            <translation>ガンビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gaza Strip</masterLabel>
+            <translation>ガザストリップ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia</masterLabel>
+            <translation>ジョージア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation>ドイツ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ghana</masterLabel>
+            <translation>ガーナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gibraltar</masterLabel>
+            <translation>ジブラルタール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greece</masterLabel>
+            <translation>ギリシャ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greenland</masterLabel>
+            <translation>グリーンランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grenada</masterLabel>
+            <translation>グレナダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guadeloupe</masterLabel>
+            <translation>グアドループ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guam</masterLabel>
+            <translation>グアム</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guatemala</masterLabel>
+            <translation>グアテマラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guernsey</masterLabel>
+            <translation>ガーンジー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guinea</masterLabel>
+            <translation>ギニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guinea-Bissau</masterLabel>
+            <translation>ギニアビサウ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guyana</masterLabel>
+            <translation>ガイナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Haiti</masterLabel>
+            <translation>ハイチ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honduras</masterLabel>
+            <translation>ホンジュラス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hong Kong</masterLabel>
+            <translation>香港</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungary</masterLabel>
+            <translation>ハンガリー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iceland</masterLabel>
+            <translation>アイスランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation>インド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indonesia</masterLabel>
+            <translation>インドネシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iran</masterLabel>
+            <translation>イラン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iraq</masterLabel>
+            <translation>イラク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ireland</masterLabel>
+            <translation>アイルランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Isle of Man</masterLabel>
+            <translation>マン島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Israel</masterLabel>
+            <translation>イスラエル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation>イタリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jamaica</masterLabel>
+            <translation>ジャマイカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation>日本</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jersey</masterLabel>
+            <translation>ジャージー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jordan</masterLabel>
+            <translation>ヨルダン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kazakhstan</masterLabel>
+            <translation>カザフスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kenya</masterLabel>
+            <translation>ケニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiribati</masterLabel>
+            <translation>キリバチ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea, North</masterLabel>
+            <translation>北朝鮮</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea, South</masterLabel>
+            <translation>韓国</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kuwait</masterLabel>
+            <translation>クウェート</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kyrgyzstan</masterLabel>
+            <translation>キルギスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laos</masterLabel>
+            <translation>ラオス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvia</masterLabel>
+            <translation>ラトビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lebanon</masterLabel>
+            <translation>レバノン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lesotho</masterLabel>
+            <translation>レソト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liberia</masterLabel>
+            <translation>リベリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Libya</masterLabel>
+            <translation>リビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liechtenstein</masterLabel>
+            <translation>リヒテンシュタイン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuania</masterLabel>
+            <translation>リトアニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxembourg</masterLabel>
+            <translation>ルクセンブルク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macau</masterLabel>
+            <translation>マカオ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macedonia</masterLabel>
+            <translation>マケドニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madagascar</masterLabel>
+            <translation>マダガスカル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malawi</masterLabel>
+            <translation>マラウイ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malaysia</masterLabel>
+            <translation>マレーシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maldives</masterLabel>
+            <translation>モルディブ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mali</masterLabel>
+            <translation>マリ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malta</masterLabel>
+            <translation>マルタ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marshall Islands</masterLabel>
+            <translation>マーシャル諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Martinique</masterLabel>
+            <translation>マルティニーク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauritania</masterLabel>
+            <translation>モーリタニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauritius</masterLabel>
+            <translation>モーリシャス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mayotte</masterLabel>
+            <translation>マヨット</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation>メキシコ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Micronesia, Fed. St.</masterLabel>
+            <translation>メクロネシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moldova</masterLabel>
+            <translation>モルドバ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monaco</masterLabel>
+            <translation>モナコ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mongolia</masterLabel>
+            <translation>モンゴリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montserrat</masterLabel>
+            <translation>モントセラト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morocco</masterLabel>
+            <translation>モロッコ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mozambique</masterLabel>
+            <translation>モザンビーク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N. Mariana Islands</masterLabel>
+            <translation>マリアナ諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Namibia</masterLabel>
+            <translation>ナミビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nauru</masterLabel>
+            <translation>ナウル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nepal</masterLabel>
+            <translation>ネパール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation>オランダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands Antilles</masterLabel>
+            <translation>オランダ領アンティル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Caledonia</masterLabel>
+            <translation>ニューカレドニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand</masterLabel>
+            <translation>ニュージーランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicaragua</masterLabel>
+            <translation>ニカラグア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niger</masterLabel>
+            <translation>ニガー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nigeria</masterLabel>
+            <translation>ナイジェリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norway</masterLabel>
+            <translation>ノルウェー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oman</masterLabel>
+            <translation>オマーン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pakistan</masterLabel>
+            <translation>パキスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palau</masterLabel>
+            <translation>パラオ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panama</masterLabel>
+            <translation>パナマ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Papua New Guinea</masterLabel>
+            <translation>パプアニューギニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paraguay</masterLabel>
+            <translation>パラグアイ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru</masterLabel>
+            <translation>ペルー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation>フィリピン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation>ポーランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal</masterLabel>
+            <translation>ポルトガル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Rico</masterLabel>
+            <translation>プエルトリコ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qatar</masterLabel>
+            <translation>カタール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reunion</masterLabel>
+            <translation>リユニオン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romania</masterLabel>
+            <translation>ルーマニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia</masterLabel>
+            <translation>ロシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rwanda</masterLabel>
+            <translation>ルワンダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Helena</masterLabel>
+            <translation>セントヘレナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Kitts &amp; Nevis</masterLabel>
+            <translation>セントキッツ＆ネビス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Lucia</masterLabel>
+            <translation>セントルシア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saint Vincent and the Grenadines</masterLabel>
+            <translation>セントビンセントとグレナディーン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samoa</masterLabel>
+            <translation>サモア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Marino</masterLabel>
+            <translation>サンマリノ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sao Tome &amp; Principe</masterLabel>
+            <translation>サントーム＆プリンシペ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saudi Arabia</masterLabel>
+            <translation>サウジアラビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senegal</masterLabel>
+            <translation>セネガル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Serbia</masterLabel>
+            <translation>セルビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seychelles</masterLabel>
+            <translation>セイシェル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sierra Leone</masterLabel>
+            <translation>シエラレオネ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singapore</masterLabel>
+            <translation>シンガポール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovakia</masterLabel>
+            <translation>スロバキア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovenia</masterLabel>
+            <translation>スロベニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solomon Islands</masterLabel>
+            <translation>ソロモン諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Somalia</masterLabel>
+            <translation>ソマリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation>南アフリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation>スペイン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sri Lanka</masterLabel>
+            <translation>スリランカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St Pierre &amp; Miquelon</masterLabel>
+            <translation>St Pierre＆Miquelon</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sudan</masterLabel>
+            <translation>スーダン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suriname</masterLabel>
+            <translation>スリナム</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swaziland</masterLabel>
+            <translation>スワジランド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweden</masterLabel>
+            <translation>スウェーデン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switzerland</masterLabel>
+            <translation>スイス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syria</masterLabel>
+            <translation>シリア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taiwan</masterLabel>
+            <translation>台湾</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tajikistan</masterLabel>
+            <translation>タジキスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanzania</masterLabel>
+            <translation>タンザニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thailand</masterLabel>
+            <translation>タイ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Togo</masterLabel>
+            <translation>トーゴ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tonga</masterLabel>
+            <translation>トンガ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trinidad &amp; Tobago</masterLabel>
+            <translation>トリニダード＆トバゴ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tunisia</masterLabel>
+            <translation>チュニジア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation>トルコ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkmenistan</masterLabel>
+            <translation>トルクメニスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turks &amp; Caicos Is</masterLabel>
+            <translation>タークス・カイコス諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tuvalu</masterLabel>
+            <translation>タウバル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uganda</masterLabel>
+            <translation>ウガンダ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ukraine</masterLabel>
+            <translation>ウクライナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Arab Emirates</masterLabel>
+            <translation>アラブ首長国連邦</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Kingdom</masterLabel>
+            <translation>イギリス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United States</masterLabel>
+            <translation>アメリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uruguay</masterLabel>
+            <translation>ウルグアイ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uzbekistan</masterLabel>
+            <translation>ウズベキスタン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanuatu</masterLabel>
+            <translation>バヌツァ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venezuela</masterLabel>
+            <translation>ベネズエラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnam</masterLabel>
+            <translation>ベトナム</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virgin Islands</masterLabel>
+            <translation>ヴァージン諸島</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wallis and Futuna</masterLabel>
+            <translation>ウォリス・フツナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Bank</masterLabel>
+            <translation><!-- West Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Sahara</masterLabel>
+            <translation>西サハラ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yemen</masterLabel>
+            <translation>イエメン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zambia</masterLabel>
+            <translation>ザンビア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zimbabwe</masterLabel>
+            <translation>ジンバブエ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>運転免許証</label>
+        <name>LLC_BI__Drivers_License__c</name>
+    </fields>
+    <fields>
+        <label>電子メールタイプ</label>
+        <name>LLC_BI__Email_Type__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal</masterLabel>
+            <translation>個人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work</masterLabel>
+            <translation>仕事</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>口座名義人の主たる雇用主の名称</help>
+        <label>雇用主の名称</label>
+        <name>LLC_BI__Employer_Name__c</name>
+    </fields>
+    <fields>
+        <help>アカウントホルダーの主要雇用主の状態。</help>
+        <label>雇用主 都道府県</label>
+        <name>LLC_BI__Employer_State__c</name>
+        <picklistValues>
+            <masterLabel>AB</masterLabel>
+            <translation><!-- AB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation><!-- AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BC</masterLabel>
+            <translation><!-- BC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation><!-- DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation><!-- IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation><!-- KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MB</masterLabel>
+            <translation><!-- MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation><!-- MN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation><!-- MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NB</masterLabel>
+            <translation><!-- NB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation><!-- ND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation><!-- NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NL</masterLabel>
+            <translation><!-- NL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation><!-- NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NS</masterLabel>
+            <translation><!-- NS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NT</masterLabel>
+            <translation><!-- NT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NU</masterLabel>
+            <translation><!-- NU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation><!-- NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation><!-- NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ON</masterLabel>
+            <translation><!-- ON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PE</masterLabel>
+            <translation><!-- PE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QC</masterLabel>
+            <translation><!-- QC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation><!-- RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation><!-- SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SK</masterLabel>
+            <translation><!-- SK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation><!-- VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation><!-- VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation><!-- WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation><!-- WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation><!-- WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation><!-- WY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YT</masterLabel>
+            <translation><!-- YT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Civil Birth Certificate (required for applicants under 18 if passport is not provided) verifies either identity or foreign status (on IRS form W-7(COA)). --></help>
+        <label><!-- Form W7 Birth Certificate --></label>
+        <name>LLC_BI__Form_W7_Birth_Certificate__c</name>
+        <picklistValues>
+            <masterLabel>Foreign Status</masterLabel>
+            <translation><!-- Foreign Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identity</masterLabel>
+            <translation>アイデンティティ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The date of the financial institution&apos;s Certifying Acceptance Agent agreement with the IRS. --></help>
+        <label><!-- Form W7 Certifying Acceptance Date --></label>
+        <name>LLC_BI__Form_W7_Certifying_Acceptance_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The city and state where the institution that the account holder is attending or working at is located if the account holder is a nonresident alien. Form specific for the Application for IRS Individual Taxpayer Identification Number (W-7). --></help>
+        <label><!-- Form W7 College City State --></label>
+        <name>LLC_BI__Form_W7_College_City_State__c</name>
+    </fields>
+    <fields>
+        <help>口座名義人が非居住外国人の場合は、その大学または教育機関に通う期間の説明。IRS Individual Taxpayer Identification Number (W-7)の申請に必要なフォーム。</help>
+        <label><!-- Form W7 College Duration --></label>
+        <name>LLC_BI__Form_W7_College_Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the institution that the account holder is attending or working at if the account holder is a nonresident alien. Form specific for the Application for IRS Individual Taxpayer Identification Number (W-7). --></help>
+        <label><!-- Form W7 College Name --></label>
+        <name>LLC_BI__Form_W7_College_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name of the person signing on behalf of the account holder. Form specific for the Application for IRS Individual Taxpayer Identification Number (W-7). --></help>
+        <label><!-- Form W7 Delegate Name --></label>
+        <name>LLC_BI__Form_W7_Delegate_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The type of relationship the delegate has with the account holder. Form specific for the Application for IRS Individual Taxpayer Identification Number (W-7). --></help>
+        <label><!-- Form W7 Delegate Relationship Type --></label>
+        <name>LLC_BI__Form_W7_Delegate_Relationship_Type__c</name>
+        <picklistValues>
+            <masterLabel>Court-appointed Guardian</masterLabel>
+            <translation><!-- Court-appointed Guardian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent</masterLabel>
+            <translation>親</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Power of Attorney</masterLabel>
+            <translation><!-- Power of Attorney --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>The EIN (Employer Identification Number) of the partnership qualifying for &apos;Exception 1a-Partnership Interest&apos; as described in the IRS instructions to form W-7 for Reason &apos;h&apos; for applying for an ITIN.</help>
+        <label><!-- Form W7 Exception 1a Partnership EIN --></label>
+        <name>LLC_BI__Form_W7_Exception_1a_Partnership_EIN__c</name>
+    </fields>
+    <fields>
+        <help><!-- Foreign Drivers License is being used to verify identity (on IRS form W-7(COA)). --></help>
+        <label><!-- Form W7 Foreign DL Indicator --></label>
+        <name>LLC_BI__Form_W7_Foreign_DL_Indicator__c</name>
+    </fields>
+    <fields>
+        <help><!-- Foreign Voters Registration Card verifies either identity or foreign status (on IRS form W-7(COA)). --></help>
+        <label><!-- Form W7 Foreign Voter ID Card Verifies --></label>
+        <name>LLC_BI__Form_W7_Foreign_Voter_ID_Card_Verifies__c</name>
+        <picklistValues>
+            <masterLabel>Foreign Status</masterLabel>
+            <translation><!-- Foreign Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identity</masterLabel>
+            <translation>アイデンティティ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Medical Records (valid only for dependents under age 14 or under age 18 if a student) verifies either identity or foreign status (on IRS form W-7(COA)). --></help>
+        <label><!-- Form W7 Medical Records ID Verifies --></label>
+        <name>LLC_BI__Form_W7_Medical_Records_ID_Verifies__c</name>
+        <picklistValues>
+            <masterLabel>Foreign Status</masterLabel>
+            <translation><!-- Foreign Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identity</masterLabel>
+            <translation>アイデンティティ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- National Identification Card (must be current and contain name photograph address date of birth and expiration date) verifies either identity or foreign status (on IRS form W-7(COA)). --></help>
+        <label><!-- Form W7 National ID Card Verifies --></label>
+        <name>LLC_BI__Form_W7_National_ID_Card_Verifies__c</name>
+        <picklistValues>
+            <masterLabel>Foreign Status</masterLabel>
+            <translation><!-- Foreign Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identity</masterLabel>
+            <translation>アイデンティティ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicates that the individual&apos;s passport (stand alone document) verifies foreign status identity or both (on IRS form W-7(COA)). --></help>
+        <label><!-- Form W7 Passport Verifies --></label>
+        <name>LLC_BI__Form_W7_Passport_Verifies__c</name>
+        <picklistValues>
+            <masterLabel>Foreign Status</masterLabel>
+            <translation><!-- Foreign Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identity</masterLabel>
+            <translation>アイデンティティ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identity and foreign status</masterLabel>
+            <translation><!-- Identity and foreign status --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The first name of account holder&apos;s previous name. --></help>
+        <label><!-- Form W7 Previous First Name --></label>
+        <name>LLC_BI__Form_W7_Previous_First_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The individual Holder&apos;s IRSN number if one has been previously issued used for purposes of the Form W-7 Application for Individual Taxpayer Identification Number (ITIN). --></help>
+        <label><!-- Form W7 Previous IRSN --></label>
+        <name>LLC_BI__Form_W7_Previous_IRSN__c</name>
+    </fields>
+    <fields>
+        <help><!-- The name under which the individual Holder&apos;s IRSN number if applicable was previously issued. --></help>
+        <label><!-- Form W7 Previous Name --></label>
+        <name>LLC_BI__Form_W7_Previous_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The 8-digit office code that was issued to by the ITIN Program Office for the IRS Form W-7. --></help>
+        <label><!-- Form W7 Program Office --></label>
+        <name>LLC_BI__Form_W7_Program_Office__c</name>
+    </fields>
+    <fields>
+        <help><!-- School Records (valid only for dependents under age 14 or under age 18 if a student) verify either identity or foreign status (on IRS form W-7(COA)). --></help>
+        <label><!-- Form W7 School Records Verifies --></label>
+        <name>LLC_BI__Form_W7_School_Records_Verifies__c</name>
+        <picklistValues>
+            <masterLabel>Foreign Status</masterLabel>
+            <translation><!-- Foreign Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identity</masterLabel>
+            <translation>アイデンティティ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The article number of the treaty under which the account holder receives benefits. --></help>
+        <label><!-- Form W7 Treaty Article Number --></label>
+        <name>LLC_BI__Form_W7_Treaty_Article_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- The country under whose treaty the account holder receives benefits. --></help>
+        <label><!-- Form W7 Treaty Country --></label>
+        <name>LLC_BI__Form_W7_Treaty_Country__c</name>
+    </fields>
+    <fields>
+        <help>米国個人納税者番号申請書を提出するその他の理由。</help>
+        <label><!-- Form W7 Type Other --></label>
+        <name>LLC_BI__Form_W7_Type_Other__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies the reason the account holder is submitting an application for an IRS Individual Taxpayer Identification Number. --></help>
+        <label><!-- Form W7 Type --></label>
+        <name>LLC_BI__Form_W7_Type__c</name>
+        <picklistValues>
+            <masterLabel>Citizen Dependent</masterLabel>
+            <translation><!-- Citizen Dependent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citizen Spouse</masterLabel>
+            <translation><!-- Citizen Spouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dependent or Spouse of Nonresident Alien</masterLabel>
+            <translation><!-- Dependent or Spouse of Nonresident Alien --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nonresident Alien Filing Tax Return</masterLabel>
+            <translation><!-- Nonresident Alien Filing Tax Return --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nonresident Alien Student, Professor, or Researcher</masterLabel>
+            <translation><!-- Nonresident Alien Student, Professor, or Researcher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nonresident Alien Tax Treaty</masterLabel>
+            <translation><!-- Nonresident Alien Tax Treaty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resident Alien Filing Tax Return</masterLabel>
+            <translation><!-- Resident Alien Filing Tax Return --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- United States Citizenship and Immigration Services (USCIS) Photo Identification verifies either identity or foreign status (on IRS form W-7(COA)). --></help>
+        <label><!-- Form W7 USCIS Verifies --></label>
+        <name>LLC_BI__Form_W7_USCIS_Verifies__c</name>
+        <picklistValues>
+            <masterLabel>Foreign Status</masterLabel>
+            <translation><!-- Foreign Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identity</masterLabel>
+            <translation>アイデンティティ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The date the account holder entered the United State. --></help>
+        <label><!-- Form W7 US Entry Date --></label>
+        <name>LLC_BI__Form_W7_US_Entry_Date__c</name>
+    </fields>
+    <fields>
+        <help>アカウントホルダーの以前の雇用主識別番号。</help>
+        <label>元雇用主のアイン</label>
+        <name>LLC_BI__Former_Employer_EIN__c</name>
+    </fields>
+    <fields>
+        <help>口座名義人のために前雇用主の認識番号が発行された名称です。</help>
+        <label>前雇用主の名称</label>
+        <name>LLC_BI__Former_Employer_Name__c</name>
+    </fields>
+    <fields>
+        <help>口座名義人の性別を明記してください。</help>
+        <label>性別</label>
+        <name>LLC_BI__Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation>女性</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation>男性</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Disclosed</masterLabel>
+            <translation>非公開</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>国</label>
+        <name>LLC_BI__Home_Address_County__c</name>
+    </fields>
+    <fields>
+        <label>住所</label>
+        <name>LLC_BI__Home_Address__c</name>
+    </fields>
+    <fields>
+        <label>市区町村</label>
+        <name>LLC_BI__Home_City__c</name>
+    </fields>
+    <fields>
+        <label>所在地</label>
+        <name>LLC_BI__Home_Location__c</name>
+    </fields>
+    <fields>
+        <label>都道府県</label>
+        <name>LLC_BI__Home_State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation><!-- AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation><!-- DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation><!-- IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation><!-- KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation><!-- MN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation><!-- MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation><!-- ND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation><!-- NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation><!-- NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation><!-- NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation><!-- NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation><!-- RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation><!-- SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation><!-- VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VI</masterLabel>
+            <translation><!-- VI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation><!-- VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation><!-- WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation><!-- WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation><!-- WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation><!-- WY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>郵便番号</label>
+        <name>LLC_BI__Home_Zipcode__c</name>
+    </fields>
+    <fields>
+        <help>住居費の希望タイプを選択してください。</help>
+        <label>住居費</label>
+        <name>LLC_BI__Housing_Expense__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>なし</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Own</masterLabel>
+            <translation>持ち家</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rent</masterLabel>
+            <translation>賃貸</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>IDスキャンの検証の日時はこのフィールドに自動的に入力されます。</help>
+        <label>IDスコン評価日</label>
+        <name>LLC_BI__ID_Scan_Verification_Date__c</name>
+    </fields>
+    <fields>
+        <label>IDスーペンタセス</label>
+        <name>LLC_BI__Id_Scan_Status__c</name>
+        <picklistValues>
+            <masterLabel>Bad Image</masterLabel>
+            <translation>不適切な画像</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communication Error</masterLabel>
+            <translation>通信エラー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID Scan Failure</masterLabel>
+            <translation>IDスキャン失敗</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID Scan Success</masterLabel>
+            <translation>IDスキャン成功</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor Error</masterLabel>
+            <translation>ベンダーエラー</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ID証明日本</label>
+        <name>LLC_BI__Identity_Verification_Date__c</name>
+    </fields>
+    <fields>
+        <label>ID証明ステッピング</label>
+        <name>LLC_BI__Identity_Verification_Status__c</name>
+        <picklistValues>
+            <masterLabel>Communication Error</masterLabel>
+            <translation>通信エラー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID Verification Failure</masterLabel>
+            <translation>ID検証失敗</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Eligible for Questions</masterLabel>
+            <translation>質問の対象になりません</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation>合格</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retry Limited Exceeded</masterLabel>
+            <translation>リトライ限定を超えました</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to Generate Questions</masterLabel>
+            <translation>質問を生成できません</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>システム又はユーザーがコンタクト先の収入源を表示するために本欄を生成します。</help>
+        <label>収入源</label>
+        <name>LLC_BI__Income_Source__c</name>
+        <picklistValues>
+            <masterLabel>Spread in nCino</masterLabel>
+            <translation>nCinoの財務分析</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>個々のアカウントに関連付けられています</label>
+        <name>LLC_BI__Is_Associated_To_Individual_Account__c</name>
+    </fields>
+    <fields>
+        <help>追加事業体が顧客でない場合、このチェックボックスを選択してください。</help>
+        <label>非顧客</label>
+        <name>LLC_BI__Is_Non_Customer__c</name>
+    </fields>
+    <fields>
+        <help>追加事業体が第三者事業体の場合、このチェックボックスを選択してください。</help>
+        <label>第三者</label>
+        <name>LLC_BI__Is_Third_Party__c</name>
+    </fields>
+    <fields>
+        <label>言語</label>
+        <name>LLC_BI__Languages__c</name>
+    </fields>
+    <fields>
+        <label>レベル</label>
+        <name>LLC_BI__Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation>主要な</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation>二次</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation><!-- Tertiary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>郵送先住所の郡</label>
+        <name>LLC_BI__Mailing_Address_County__c</name>
+    </fields>
+    <fields>
+        <help>本欄はコンタクト先の配偶者の有無を設定するために使用される。</help>
+        <label>配偶者の有無</label>
+        <name>LLC_BI__Marital_Status__c</name>
+        <picklistValues>
+            <masterLabel>Legally Separated</masterLabel>
+            <translation>法的に分離</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Married</masterLabel>
+            <translation>既婚</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unmarried</masterLabel>
+            <translation>未婚</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>申込者の月間所得を記入してください。</help>
+        <label>月間所得</label>
+        <name>LLC_BI__Monthly_Income__c</name>
+    </fields>
+    <fields>
+        <label><!-- NetConnect Pull Date --></label>
+        <name>LLC_BI__NetConnect_Pull_Date__c</name>
+    </fields>
+    <fields>
+        <help>家計を一にする扶養家族の人数を記入してください。</help>
+        <label>家族数</label>
+        <name>LLC_BI__Number_of_Dependents__c</name>
+    </fields>
+    <fields>
+        <label>OFACチェック完了日</label>
+        <name>LLC_BI__OFAC_Check_Completion_Date__c</name>
+    </fields>
+    <fields>
+        <help>テキストフィールドは自動的にユーザーに登録されている攻撃に関する情報を入力します。</help>
+        <label>Patriot Act Alertの説明</label>
+        <name>LLC_BI__Patriot_Act_Alert_Explanation__c</name>
+    </fields>
+    <fields>
+        <help>システムは自動的にこのチェックボックスを選択します。</help>
+        <label>愛国者法</label>
+        <name>LLC_BI__Patriot_Act_Alert__c</name>
+    </fields>
+    <fields>
+        <label>エントリーの恒久居住日</label>
+        <name>LLC_BI__Permanent_Resident_Entry_Date__c</name>
+    </fields>
+    <fields>
+        <label>永住者発行日</label>
+        <name>LLC_BI__Permanent_Resident_Issue_Date__c</name>
+    </fields>
+    <fields>
+        <label>永住者番号</label>
+        <name>LLC_BI__Permanent_Resident_Number__c</name>
+    </fields>
+    <fields>
+        <label>日本永住者</label>
+        <name>LLC_BI__Permanent_Resident__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>電話番号タイプ</label>
+        <name>LLC_BI__Phone_Number_Type__c</name>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation>自宅</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation>携帯電話</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferred Contact Method --></label>
+        <name>LLC_BI__Preferred_Contact_Method__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>電子メール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail</masterLabel>
+            <translation>郵送</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation>電話</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>主問合せ先</label>
+        <name>LLC_BI__Primary_Contact__c</name>
+    </fields>
+    <fields>
+        <label>主 ID有効期限</label>
+        <name>LLC_BI__Primary_ID_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label>主 ID発行日</label>
+        <name>LLC_BI__Primary_ID_Issue_Date__c</name>
+    </fields>
+    <fields>
+        <label>主 ID発行都道府県</label>
+        <name>LLC_BI__Primary_ID_Issuing_State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation><!-- AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation><!-- IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation><!-- KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation><!-- MN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation><!-- MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation><!-- ND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation><!-- NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation><!-- NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation><!-- NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation><!-- NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation><!-- RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation><!-- SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation><!-- VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation><!-- VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation><!-- WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation><!-- WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation><!-- WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation><!-- WY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>申請者の主要電話番号を選択してください。</help>
+        <label>主 電話番号</label>
+        <name>LLC_BI__Primary_Telephone_Number__c</name>
+        <picklistValues>
+            <masterLabel>Assistant Phone</masterLabel>
+            <translation>アシスタント電話</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Phone</masterLabel>
+            <translation>自宅の電話</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Phone</masterLabel>
+            <translation>携帯電話</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Phone</masterLabel>
+            <translation>その他の電話</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reg O --></label>
+        <name>LLC_BI__Reg_O__c</name>
+        <picklistValues>
+            <masterLabel>Director</masterLabel>
+            <translation>監督</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation>従業員</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family Member</masterLabel>
+            <translation>家族の一員</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Officer</masterLabel>
+            <translation>役員</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SS# --></label>
+        <name>LLC_BI__SS_PE__c</name>
+    </fields>
+    <fields>
+        <label><!-- SS# --></label>
+        <name>LLC_BI__SS__c</name>
+    </fields>
+    <fields>
+        <help>ここで債務者の社会保険番号を入力してください。</help>
+        <label>社会保障番号</label>
+        <name>LLC_BI__Social_Insurance_Number__c</name>
+    </fields>
+    <fields>
+        <help>110：調査調査済み\ N801：調査を終了する</help>
+        <label>調査ステータス</label>
+        <name>LLC_BI__Survey_Status__c</name>
+    </fields>
+    <fields>
+        <label>タイプ</label>
+        <name>LLC_BI__Type__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation>主要な</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional Contact</masterLabel>
+            <translation>専門家</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Source</masterLabel>
+            <translation>紹介元</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>日本の国籍又は特別永住権をお持ちですか？</label>
+        <name>LLC_BI__US_Citizen__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The W-7 applicant&apos;s reason for applying for an ITIN is &apos;Exception 1a-Partnership Interest&apos; as described in the IRS instructions to form W-7 for Reason &apos;h.&apos; --></help>
+        <label><!-- W7 Exception 1a Partnership EIN Ind --></label>
+        <name>LLC_BI__W7_Exception_1a_Partner_EIN_Ind__c</name>
+    </fields>
+    <fields>
+        <help><!-- Foreign Military Identification Card verifies either identity or foreign status (on IRS form W-7(COA)). --></help>
+        <label><!-- W7 Foreign Military ID Card Verifies --></label>
+        <name>LLC_BI__W7_Foreign_Military_ID_Card_Verifies__c</name>
+        <picklistValues>
+            <masterLabel>Foreign Status</masterLabel>
+            <translation><!-- Foreign Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identity</masterLabel>
+            <translation>アイデンティティ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplemental Income --></label>
+        <name>SupplementalIncome__c</name>
+    </fields>
+    <fields>
+        <help><!-- Annual Income + Supplemental Income --></help>
+        <label><!-- Total Income --></label>
+        <name>TotalIncome__c</name>
+    </fields>
+    <fields>
+        <help><!-- Users select the birth state and enter the birth city of the account holder. --></help>
+        <label>誕生 市区町村</label>
+        <name>WKDDP__Birth_City__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the birth state and enter the birth city of the account holder. --></help>
+        <label>誕生 都道府県</label>
+        <name>WKDDP__Birth_State__c</name>
+        <picklistValues>
+            <masterLabel>Alabama</masterLabel>
+            <translation><!-- Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alaska</masterLabel>
+            <translation><!-- Alaska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arkansas</masterLabel>
+            <translation><!-- Arkansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>California</masterLabel>
+            <translation><!-- California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colorado</masterLabel>
+            <translation><!-- Colorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connecticut</masterLabel>
+            <translation><!-- Connecticut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delaware</masterLabel>
+            <translation><!-- Delaware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>District of Columbia</masterLabel>
+            <translation><!-- District of Columbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Florida</masterLabel>
+            <translation><!-- Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia</masterLabel>
+            <translation><!-- Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii</masterLabel>
+            <translation><!-- Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Idaho</masterLabel>
+            <translation><!-- Idaho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Illinois</masterLabel>
+            <translation><!-- Illinois --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indiana</masterLabel>
+            <translation><!-- Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iowa</masterLabel>
+            <translation><!-- Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kansas</masterLabel>
+            <translation><!-- Kansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kentucky</masterLabel>
+            <translation><!-- Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Louisiana</masterLabel>
+            <translation><!-- Louisiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maine</masterLabel>
+            <translation><!-- Maine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maryland</masterLabel>
+            <translation><!-- Maryland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Massachusetts</masterLabel>
+            <translation><!-- Massachusetts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michigan</masterLabel>
+            <translation><!-- Michigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minnesota</masterLabel>
+            <translation><!-- Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mississippi</masterLabel>
+            <translation><!-- Mississippi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missouri</masterLabel>
+            <translation><!-- Missouri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montana</masterLabel>
+            <translation><!-- Montana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nebraska</masterLabel>
+            <translation><!-- Nebraska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nevada</masterLabel>
+            <translation><!-- Nevada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hampshire</masterLabel>
+            <translation><!-- New Hampshire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Jersey</masterLabel>
+            <translation><!-- New Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Mexico</masterLabel>
+            <translation><!-- New Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York</masterLabel>
+            <translation><!-- New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Carolina</masterLabel>
+            <translation><!-- North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North Dakota</masterLabel>
+            <translation><!-- North Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ohio</masterLabel>
+            <translation><!-- Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oklahoma</masterLabel>
+            <translation><!-- Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oregon</masterLabel>
+            <translation><!-- Oregon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pennsylvania</masterLabel>
+            <translation><!-- Pennsylvania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rhode Island</masterLabel>
+            <translation><!-- Rhode Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Carolina</masterLabel>
+            <translation><!-- South Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Dakota</masterLabel>
+            <translation><!-- South Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennessee</masterLabel>
+            <translation><!-- Tennessee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas</masterLabel>
+            <translation><!-- Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utah</masterLabel>
+            <translation><!-- Utah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vermont</masterLabel>
+            <translation><!-- Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virginia</masterLabel>
+            <translation><!-- Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washington</masterLabel>
+            <translation><!-- Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Virginia</masterLabel>
+            <translation><!-- West Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wisconsin</masterLabel>
+            <translation><!-- Wisconsin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wyoming</masterLabel>
+            <translation><!-- Wyoming --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the city of the account holder&apos;s primary employer. --></help>
+        <label>雇用主 市区町村</label>
+        <name>WKDDP__Employer_City__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the name of the account holder&apos;s spouse, or who they&apos;re dependent on for the IRA Application for Individual Taxpayer Identification Number. --></help>
+        <label><!-- Form W7 Dependent US Citizen Name --></label>
+        <name>WKDDP__Form_W7_Dependent_US_Citizen_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the SSN of the account holder&apos;s spouse, or who they&apos;re dependent on for the IRA Application for Individual Taxpayer Identification Number. --></help>
+        <label><!-- Form W7 Dependent US Citizen SSN --></label>
+        <name>WKDDP__Form_W7_Dependent_US_Citizen_SSN__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the type of IRS ITIN application needed for the non-US person account holder. --></help>
+        <label><!-- Form W7 ITIN Application Type --></label>
+        <name>WKDDP__Form_W7_ITIN_Application_Type__c</name>
+        <picklistValues>
+            <masterLabel>New ITIN Application</masterLabel>
+            <translation><!-- New ITIN Application --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None (No Form Needed)</masterLabel>
+            <translation><!-- None (No Form Needed) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal of Existing ITIN</masterLabel>
+            <translation><!-- Renewal of Existing ITIN --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <description>ビジネス関係に適用される連絡先を追加している場合は、「ビジネス連絡先」を選択してください。</description>
+        <label>業務連絡先</label>
+        <name>LLC_BI__Business_Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <description>個々の関係に適用される連絡先を追加している場合は、「個別の連絡先」を選択します。</description>
+        <label>個別のコンタクト</label>
+        <name>LLC_BI__Individual_Contact</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- For this type of Loan, Annual Income cannot be less than $10000 --></errorMessage>
+        <name>Annual_Income_cannot_be_negative</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>個々のアカウントに割り当てられた連絡先は、別のアカウントに再割り当てされません。</errorMessage>
+        <name>LLC_BI__Prevent_Reassigning_Individual_Contacts</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>連絡先が米国市民にとって市民権の国を選択する必要がある場合</errorMessage>
+        <name>LLC_BI__Require_Country_of_Citizenship</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>社会保障番号は12文字を超えることはできません</errorMessage>
+        <name>LLC_BI__Social_Security_Max_Length</name>
+    </validationRules>
+    <webLinks>
+        <label>グーグルマップ</label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label>Google検索</label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label>gmailを送る</label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label>ヤフー地図</label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label>ヤフー天気</label>
+        <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label>フォーム生成</label>
+        <name>nFORMS__Form_Generation</name>
+    </webLinks>
+</CustomObjectTranslation>

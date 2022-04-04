@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Underwriting Summary --></value>
+    </caseValues>
+    <fields>
+        <help>債務者の追加の個人費用を入力してください。数値でなければなりません。</help>
+        <label>追加個人経費</label>
+        <name>LLC_BI__Additional_Personal_Expenses__c</name>
+    </fields>
+    <fields>
+        <label>共同債務者現在の債務サービス</label>
+        <name>LLC_BI__CoBorrower_Current_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>共同債務者現在エクスポージャー</label>
+        <name>LLC_BI__CoBorrower_Current_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>共同債務者現在の未実行</label>
+        <name>LLC_BI__CoBorrower_Current_Unfunded_Commitments__c</name>
+    </fields>
+    <fields>
+        <label>共同債務者提案済債務サービス</label>
+        <name>LLC_BI__CoBorrower_Proposed_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>共同債務者提案済エクスポージャー</label>
+        <name>LLC_BI__CoBorrower_Proposed_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>現在の債務サービスの総</label>
+        <name>LLC_BI__Current_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>全最新エクスポージャー</label>
+        <name>LLC_BI__Current_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>現在の未実行のコミットメントの総</label>
+        <name>LLC_BI__Current_Unfunded_Commitments__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D End Date --></label>
+        <name>LLC_BI__End_Date__c</name>
+    </fields>
+    <fields>
+        <label>保証された最新債務サービス</label>
+        <name>LLC_BI__Guarantor_Current_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>保証された最新エクスポージャー</label>
+        <name>LLC_BI__Guarantor_Current_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>現在の未消費コミットメント</label>
+        <name>LLC_BI__Guarantor_Current_Unfunded_Commitments__c</name>
+    </fields>
+    <fields>
+        <label>保証申告書提案債務サービス</label>
+        <name>LLC_BI__Guarantor_Proposed_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>保証申告書提案されたエクスポージャー</label>
+        <name>LLC_BI__Guarantor_Proposed_Exposure__c</name>
+    </fields>
+    <fields>
+        <help>毎月の毎月の暖房費の価格を入力してください。数値でなければなりません。</help>
+        <label>暖房費</label>
+        <name>LLC_BI__Heating_Expenses__c</name>
+    </fields>
+    <fields>
+        <help>債務者の平均生活費の金額を入力してください。数値でなければなりません。</help>
+        <label>生活費</label>
+        <name>LLC_BI__Living_Expenses__c</name>
+    </fields>
+    <fields>
+        <label>債務者 現在債務サービス</label>
+        <name>LLC_BI__Primary_Current_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>債務者 現在エクスポージャー</label>
+        <name>LLC_BI__Primary_Current_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>債務者 現在未実行</label>
+        <name>LLC_BI__Primary_Current_Unfunded_Commitments__c</name>
+    </fields>
+    <fields>
+        <label>債務者 提案債務サービス</label>
+        <name>LLC_BI__Primary_Proposed_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>債務者 提案エクスポージャー</label>
+        <name>LLC_BI__Primary_Proposed_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>提案された債務サービスの総額</label>
+        <name>LLC_BI__Proposed_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>総提案されたエクスポージャー</label>
+        <name>LLC_BI__Proposed_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>関連エンティティ現在の債務サービス</label>
+        <name>LLC_BI__Rel_Entity_Current_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>関連エンティティ現在のエクスポージャー</label>
+        <name>LLC_BI__Rel_Entity_Current_Exposure__c</name>
+    </fields>
+    <fields>
+        <label>関連エンティティ未実行のコミットメント</label>
+        <name>LLC_BI__Rel_Entity_Current_Unfunded_Commitments__c</name>
+    </fields>
+    <fields>
+        <label>関連事業体提案債務サービス</label>
+        <name>LLC_BI__Rel_Entity_Proposed_Debt_Service__c</name>
+    </fields>
+    <fields>
+        <label>関連エンティティ提案されたエクスポージャー</label>
+        <name>LLC_BI__Rel_Entity_Proposed_Exposure__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Beginning Date --></label>
+        <name>LLC_BI__Start_Date__c</name>
+    </fields>
+    <nameFieldLabel><!-- Underwriting Summary Number --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- - - DEPRECATED- -  The beginning date cannot be after the end date. --></errorMessage>
+        <name>LLC_BI__start_date_cannot_be_after_end_date</name>
+    </validationRules>
+</CustomObjectTranslation>

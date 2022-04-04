@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>関係組織</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Beneficial Ownership --></label>
+        <name>Beneficial_Ownership</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Additional Fields --></label>
+        <name>LLC_BI__Additional_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Beneficial Owners Connection Information OA --></label>
+        <name>nPortal__Beneficial_Owners_Connection_Info_OA</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Owners Connection Information MRF --></label>
+        <name>nPortal__DEP_Co_Owners_Ownership_Percent</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- DEP Personal Business Role --></label>
+        <name>nPortal__DEP_Personal_Business_Role</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Others Involved Connection MRF --></label>
+        <name>nPortal__SBL_Others_Involved_Connection_Role</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SBL Personal Business Role --></label>
+        <name>nPortal__SBL_Personal_Business_Role</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Secured SBL Personal Business Role --></label>
+        <name>nPortal__Secured_SBL_Personal_Business_Role</name>
+    </fieldSets>
+    <fields>
+        <label>認証個人</label>
+        <name>LLC_BI__Certifying_Individual__c</name>
+    </fields>
+    <fields>
+        <label>取引先</label>
+        <name>LLC_BI__Connected_From__c</name>
+        <relationshipLabel>関係組織</relationshipLabel>
+    </fields>
+    <fields>
+        <label>取引先</label>
+        <name>LLC_BI__Connected_To__c</name>
+        <relationshipLabel>関係</relationshipLabel>
+    </fields>
+    <fields>
+        <label>役割</label>
+        <name>LLC_BI__Connection_Role__c</name>
+        <relationshipLabel>関係組織</relationshipLabel>
+    </fields>
+    <fields>
+        <label>管理個人</label>
+        <name>LLC_BI__Controlling_Individual__c</name>
+        <picklistValues>
+            <masterLabel>Executive Officer or Senior Manager</masterLabel>
+            <translation>執行役員またはシニアマネージャー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Person Performing Similar Function</masterLabel>
+            <translation>同等の役割を果たす他のメンバー</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>LLC_BI__Description__c</name>
+    </fields>
+    <fields>
+        <label>間接所有割合</label>
+        <name>LLC_BI__Indirect_Ownership_Percent__c</name>
+    </fields>
+    <fields>
+        <help><!-- This system-populated field indicates if the connection is active or inactive. --></help>
+        <label><!-- Is Active --></label>
+        <name>LLC_BI__Is_Active__c</name>
+    </fields>
+    <fields>
+        <label>職名</label>
+        <name>LLC_BI__Official_Title__c</name>
+    </fields>
+    <fields>
+        <label>所有割合</label>
+        <name>LLC_BI__Ownership_Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- -D Reciprocal Role --></label>
+        <name>LLC_BI__Reciprocal_Role__c</name>
+        <picklistValues>
+            <masterLabel>Affiliated Company</masterLabel>
+            <translation>関連会社</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Partner</masterLabel>
+            <translation>ビジネス・パートナー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation>子供</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client</masterLabel>
+            <translation>顧客</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colleague</masterLabel>
+            <translation>同僚</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company</masterLabel>
+            <translation>企業</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor</masterLabel>
+            <translation>競合他社</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connection</masterLabel>
+            <translation>関係</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation>従業員</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer</masterLabel>
+            <translation>雇用主</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent</masterLabel>
+            <translation>親</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>パートナー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related</masterLabel>
+            <translation>関係している</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provider</masterLabel>
+            <translation>サービスプロバイダー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sibling</masterLabel>
+            <translation>兄弟姉妹</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spouse/Life Partner</masterLabel>
+            <translation>配偶者/ライフ・パートナー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsidiary</masterLabel>
+            <translation>子会社</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- -D Role --></label>
+        <name>LLC_BI__Role__c</name>
+        <picklistValues>
+            <masterLabel>Affiliated Company</masterLabel>
+            <translation>関連会社</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Partner</masterLabel>
+            <translation>ビジネス・パートナー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation>子供</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client</masterLabel>
+            <translation>顧客</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-Owner</masterLabel>
+            <translation>共同所有者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colleague</masterLabel>
+            <translation>同僚</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor</masterLabel>
+            <translation>競合他社</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connection</masterLabel>
+            <translation>関係</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation>従業員</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer</masterLabel>
+            <translation>雇用主</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Officer</masterLabel>
+            <translation>役員</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent</masterLabel>
+            <translation>親</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>パートナー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related</masterLabel>
+            <translation>関係している</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provider</masterLabel>
+            <translation>サービスプロバイダー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sibling</masterLabel>
+            <translation>兄弟姉妹</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spouse/Life Partner</masterLabel>
+            <translation>配偶者/ライフ・パートナー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsidiary</masterLabel>
+            <translation>子会社</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>LLC_BI__Status__c</name>
+    </fields>
+    <fields>
+        <label>直接/関節所有割合合計</label>
+        <name>LLC_BI__Total_Direct_Indirect_Ownership_Percent__c</name>
+    </fields>
+    <fields>
+        <label>タイプ</label>
+        <name>LLC_BI__Type__c</name>
+    </fields>
+    <fields>
+        <help>自動生成された一意の識別子。</help>
+        <label>UID（ノーバーID）</label>
+        <name>LLC_BI__UID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a role. --></help>
+        <label><!-- Connection to Account --></label>
+        <name>nPortal__Connection_To_Account__c</name>
+        <picklistValues>
+            <masterLabel>Beneficial Owner</masterLabel>
+            <translation><!-- Beneficial Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beneficial Owner and Authorized Signer</masterLabel>
+            <translation><!-- Beneficial Owner and Authorized Signer --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>番号</nameFieldLabel>
+    <validationRules>
+        <errorMessage>関係は編集不可能です。</errorMessage>
+        <name>LLC_BI__Prevent_Edit_on_Connections</name>
+    </validationRules>
+</CustomObjectTranslation>

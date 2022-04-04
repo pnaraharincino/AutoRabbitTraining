@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>リスク評価テンプレート</value>
+    </caseValues>
+    <fields>
+        <label>テンプレート</label>
+        <name>LLC_BI__Is_Template__c</name>
+    </fields>
+    <fields>
+        <label>格付け審査</label>
+        <name>LLC_BI__Risk_Rating_Review__c</name>
+        <relationshipLabel>格付け テンプレート</relationshipLabel>
+    </fields>
+    <fields>
+        <help>チェックされている場合、最終リスクグレードは丸い数になります。チェックされていない場合は、最終リスクグレードは10進数です。</help>
+        <label>最終リスクグレード</label>
+        <name>LLC_BI__Round_Final_Risk_Grade__c</name>
+    </fields>
+    <fields>
+        <label>テンプレートオブジェクト項目名</label>
+        <name>LLC_BI__Template_Object_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label>テンプレートオブジェクト項目値</label>
+        <name>LLC_BI__Template_Object_Field_Value__c</name>
+    </fields>
+    <fields>
+        <label>テンプレートオブジェクトタイプ</label>
+        <name>LLC_BI__Template_Object_Type__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation>取引先</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loan__c</masterLabel>
+            <translation>融資</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ルックアップキー</label>
+        <name>LLC_BI__lookupKey__c</name>
+    </fields>
+    <nameFieldLabel>リスク評価テンプレート</nameFieldLabel>
+</CustomObjectTranslation>

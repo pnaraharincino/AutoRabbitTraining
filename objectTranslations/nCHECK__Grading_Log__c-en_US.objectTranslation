@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Test Field Set --></label>
+        <name>nCHECK__Test_Field_Set</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Course --></label>
+        <name>nCHECK__Course__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dependant Test --></label>
+        <name>nCHECK__Dependant_Test__c</name>
+        <picklistValues>
+            <masterLabel>Test</masterLabel>
+            <translation><!-- Test --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Exercise --></label>
+        <name>nCHECK__Exercise__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passed --></label>
+        <name>nCHECK__Passed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Picklist --></label>
+        <name>nCHECK__Test_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>Test</masterLabel>
+            <translation><!-- Test --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Wave --></label>
+        <name>nCHECK__Wave__c</name>
+    </fields>
+</CustomObjectTranslation>
