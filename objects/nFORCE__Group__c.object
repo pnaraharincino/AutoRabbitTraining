@@ -296,6 +296,16 @@
         <unique>true</unique>
     </fields>
     <fields>
+        <fullName>Description_Custom__c</fullName>
+        <description>This is a custom field to describe when and where the Group-UI will be used.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is a custom field to describe when and where the Group-UI will be used.</inlineHelpText>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
         <fullName>nFORCE__Answer_Context__c</fullName>
         <deprecated>false</deprecated>
         <description>Administrators populate this picklist to associate this questionnaire with a record. By default, there is no value.</description>
@@ -500,6 +510,17 @@ E.g. If the requested app is &apos;loan.change-product&apos;, then the group por
         <type>Checkbox</type>
     </fields>
     <label>Group</label>
+    <listViews>
+        <fullName>Master_Groups</fullName>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>MASTER</value>
+        </filters>
+        <label>Master Groups</label>
+    </listViews>
     <listViews>
         <fullName>Portal_Groups</fullName>
         <columns>NAME</columns>

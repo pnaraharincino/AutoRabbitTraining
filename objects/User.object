@@ -230,6 +230,24 @@
         <label>-D Portal Registration Fields</label>
     </fieldSets>
     <fields>
+        <fullName>Edit_Booked_Loans_Permission__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This box should be checked if the user has permissions to edit booked loans</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This box should be checked if the user has permissions to edit booked loans</inlineHelpText>
+        <label>Edit Booked Loans Permission</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_nCino_User__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Is nCino User</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>KEEP_ALIVE_URL__c</fullName>
         <description>Added this column for SSO purpose</description>
         <externalId>false</externalId>
@@ -333,6 +351,46 @@
         <type>Hierarchy</type>
     </fields>
     <fields>
+        <fullName>No_Triggers__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field should be checked when choosing to turn off ALL Triggers for an individual user. This will typically apply to nCino &amp; Salesforce Administrators.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field should be checked when choosing to turn off ALL Triggers for an individual user. This will typically apply to nCino &amp; Salesforce Administrators.</inlineHelpText>
+        <label>No Triggers</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>No_Validation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field should be checked when choosing to turn off ALL validation rules for an individual user.  This will typically apply to nCino &amp; Salesforce Administrators.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field should be checked when choosing to turn off ALL validation rules for an individual user.  This will typically apply to nCino &amp; Salesforce Administrators.</inlineHelpText>
+        <label>No Validation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>No_Workflow__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field should be checked when choosing to turn off ALL workflow rules for an individual user.  This will typically apply to nCino &amp; Salesforce Administrators.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field should be checked when choosing to turn off ALL workflow rules for an individual user.  This will typically apply to nCino &amp; Salesforce Administrators.</inlineHelpText>
+        <label>No Workflow</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Officer_Codes__c</fullName>
+        <externalId>false</externalId>
+        <label>Officer Codes</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Profile_Name__c</fullName>
         <externalId>false</externalId>
         <formula>Profile.Name</formula>
@@ -350,6 +408,16 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>nCino_University_Completion__c</fullName>
+        <externalId>false</externalId>
+        <label>nCino University Completion %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Percent</type>
     </fields>
     <fields>
         <fullName>nPortal__Has_Reached_Ownership_Limit__c</fullName>
@@ -393,6 +461,52 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>
+    <listViews>
+        <fullName>ActiveUsers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Active Users</label>
+    </listViews>
+    <listViews>
+        <fullName>AdminUsers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.PROFILE.NAME</field>
+            <operation>equals</operation>
+            <value>System Administrator</value>
+        </filters>
+        <label>Admin Users</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>AllUsers</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CORE.USERS.USERNAME</columns>
+        <columns>CORE.USERS.LAST_LOGIN</columns>
+        <columns>CORE.USER_ROLE.NAME</columns>
+        <columns>CORE.USERS.ACTIVE</columns>
+        <columns>CORE.PROFILE.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Users</label>
+    </listViews>
     <listViews>
         <fullName>LLC_BI__ActiveUsers</fullName>
         <columns>FULL_NAME</columns>

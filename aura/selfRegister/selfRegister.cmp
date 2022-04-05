@@ -25,8 +25,8 @@
     -->
     <aura:handler event="c:setStartUrl" action="{!c.setStartUrl}"/> 
     <aura:handler event="c:setExpId" action="{!c.setExpId}"/>    
-    <aura:dependency resource="c:setExpId" type="EVENT"/> 
-        
+    <aura:dependency resource="c:setExpId" type="EVENT"/>   
+    
     <div>
             <aura:renderIf isTrue="{!v.showError}">
                 <div id="error">

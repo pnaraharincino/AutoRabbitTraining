@@ -341,10 +341,11 @@
         <fullName>All</fullName>
         <columns>NAME</columns>
         <columns>LLC_BI__Product_Type__c</columns>
-        <columns>LLC_BI__Stage_and_Status__c</columns>
-        <columns>LLC_BI__External_Stage__c</columns>
-        <columns>LLC_BI__External_Stage_Order__c</columns>
-        <columns>LLC_BI__Activate__c</columns>
+        <columns>LLC_BI__Stage__c</columns>
+        <columns>LLC_BI__Status__c</columns>
+        <columns>LLC_BI__Is_Booked__c</columns>
+        <columns>LLC_BI__Is_Closed__c</columns>
+        <columns>LLC_BI__lookupKey__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>

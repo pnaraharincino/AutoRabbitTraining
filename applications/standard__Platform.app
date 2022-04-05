@@ -13,25 +13,10 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>DM_Admin</tabs>
-    <tabs>Base_Config</tabs>
-    <tabs>nFORCE__Group__c</tabs>
-    <tabs>nFORCE__Route__c</tabs>
     <tabs>nFORCE__Route_Group__c</tabs>
-    <tabs>nFORCE__Screen__c</tabs>
-    <tabs>nFORCE__Screen_Section__c</tabs>
-    <tabs>LLC_BI__Scenario__c</tabs>
-    <tabs>LLC_BI__Treasury_Service__c</tabs>
-    <tabs>nFORCE__Tile__c</tabs>
-    <tabs>LLC_BI__Pricing_Matrix__c</tabs>
-    <tabs>nFORCE__Session__c</tabs>
-    <tabs>LLC_BI__Product_Feature__c</tabs>
-    <tabs>LLC_BI__Participation__c</tabs>
-    <tabs>LLC_BI__Deposit_Rate_Structure__c</tabs>
-    <tabs>LLC_BI__Pricing_Option__c</tabs>
-    <tabs>LLC_BI__Product_Collateral_Type__c</tabs>
-    <tabs>LLC_BI__Requirement__c</tabs>
-    <tabs>LLC_BI__Classification__c</tabs>
-    <tabs>LLC_BI__Product_Connection__c</tabs>
-    <tabs>LLC_BI__Policy_Exception__c</tabs>
+    <tabs>LLC_BI__Covenant2__c</tabs>
+    <tabs>nFUSE__Transaction_Log__c</tabs>
     <tabs>LLC_BI__Policy_Exception_Template__c</tabs>
+    <tabs>LLC_BI__Pricing_Matrix__c</tabs>
+    <tabs>LLC_BI__Checklist__c</tabs>
 </CustomApplication>

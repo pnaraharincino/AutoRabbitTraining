@@ -142,6 +142,15 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Closing_Checklist_Layout</fullName>
+        <fields>Name</fields>
+        <fields>LLC_BI__docManager__c</fields>
+        <fields>LLC_BI__docType__c</fields>
+        <fields>LLC_BI__docClass__c</fields>
+        <fields>LLC_BI__lookupKey__c</fields>
+        <label>Closing Checklist Layout</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
     <description>The Closing Checklist Object is used to track details about the documents assigned to the closing checklist</description>

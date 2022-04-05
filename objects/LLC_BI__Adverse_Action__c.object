@@ -145,6 +145,14 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Adverse_Action_Layout</fullName>
+        <fields>Name</fields>
+        <fields>AA_Status__c</fields>
+        <fields>LLC_BI__Credit_Provider__c</fields>
+        <fields>LLC_BI__Loan__c</fields>
+        <label>Adverse Action Layout</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
     <description>The Adverse Action Object stores information regarding the reasons for declined loans.</description>
@@ -209,6 +217,119 @@
         </displayedFields>
         <label>Adverse Actions - nCino UI</label>
     </fieldSets>
+    <fieldSets>
+        <fullName>UI_Adverse_Action</fullName>
+        <description>Used in the UI</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>AA_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Approved_by_Credit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Comments__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI - Adverse Action</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Loan_Adverse_Action</fullName>
+        <description>Used in New UI for Adverse Action route.</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Credit_Provider__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Withdraw_Reason__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Decline_Reason_1__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Decline_Reason_2__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Decline_Reason_3__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Decline_Reason_4__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Comments__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI Loan Adverse Action</label>
+    </fieldSets>
+    <fields>
+        <fullName>AA_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>AA Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Under Review</fullName>
+                    <default>false</default>
+                    <label>Under Review</label>
+                </value>
+                <value>
+                    <fullName>Loan Declined</fullName>
+                    <default>false</default>
+                    <label>Loan Declined</label>
+                </value>
+                <value>
+                    <fullName>Loan Withdrawn</fullName>
+                    <default>false</default>
+                    <label>Loan Withdrawn</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Recalled</fullName>
+                    <default>false</default>
+                    <label>Recalled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <fields>
         <fullName>LLC_BI__Approved_by_Credit__c</fullName>
         <defaultValue>false</defaultValue>
@@ -897,5 +1018,37 @@ flag: 1 = update</description>
     <pluralLabel>Adverse Actions</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Adverse_Action_Validation_01</fullName>
+        <active>true</active>
+        <description>You must select at least (2) reasons for loan declination when declining a loan</description>
+        <errorConditionFormula>AND( 
+OR( 
+
+AND( 
+NOT(ISPICKVAL(LLC_BI__Decline_Reason_1__c , &apos;None&apos;)), 
+ISPICKVAL(LLC_BI__Decline_Reason_2__c , &apos;None&apos;), 
+ISPICKVAL(LLC_BI__Decline_Reason_3__c , &apos;None&apos;), 
+ISPICKVAL(LLC_BI__Decline_Reason_4__c , &apos;None&apos;)), 
+
+AND( 
+NOT(ISPICKVAL(LLC_BI__Decline_Reason_2__c , &apos;None&apos;)), 
+ISPICKVAL(LLC_BI__Decline_Reason_1__c , &apos;None&apos;), 
+ISPICKVAL(LLC_BI__Decline_Reason_3__c , &apos;None&apos;), 
+ISPICKVAL(LLC_BI__Decline_Reason_4__c , &apos;None&apos;)), 
+
+AND( 
+NOT(ISPICKVAL(LLC_BI__Decline_Reason_3__c , &apos;None&apos;)), 
+ISPICKVAL(LLC_BI__Decline_Reason_1__c , &apos;None&apos;), 
+ISPICKVAL(LLC_BI__Decline_Reason_2__c , &apos;None&apos;), 
+ISPICKVAL(LLC_BI__Decline_Reason_4__c , &apos;None&apos;)), 
+
+AND( 
+NOT(ISPICKVAL(LLC_BI__Decline_Reason_4__c , &apos;None&apos;)), 
+ISPICKVAL(LLC_BI__Decline_Reason_1__c , &apos;None&apos;), 
+ISPICKVAL(LLC_BI__Decline_Reason_2__c , &apos;None&apos;), 
+ISPICKVAL(LLC_BI__Decline_Reason_3__c , &apos;None&apos;))))</errorConditionFormula>
+        <errorMessage>You must select at least (2) reasons for loan declination when declining a loan - AA01</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

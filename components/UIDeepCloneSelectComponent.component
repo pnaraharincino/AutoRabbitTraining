@@ -1,27 +1,4 @@
-<apex:component allowDML="true" layout="none" controller="UserInterfaceDeepClone">
-
-    <!-- <apex:attribute name="groupId" type="Id" description="Id" assignTo="{!RecordId}" /> -->
-    <apex:attribute name="groupSFID" description="group id" type="string"/>
-    <apex:attribute name="groupName" description="group name" type="string"/>
-    <apex:attribute name="groupApp" description="group app" type="string"/>  
-    <apex:attribute name="groupLookupkey" description="group lookupkey" type="string"/>    
-    
-    <apex:pageBlock id="pgbk2" mode="detail">
-        <apex:pageBlockSection id="pgbk1_1" title="Original Group Information" columns="2">     
-            <apex:outputLabel value="Name: " style="font-weight:800;" /><apex:outputText value="{!groupName}" />
-            <apex:outputLabel value="App: " style="font-weight:800;" /><apex:outputText value="{!groupApp}" />
-            <apex:outputLabel value="lookupKey: " style="font-weight:800;" /><apex:outputText value="{!groupLookupkey}" />
-        </apex:pageBlockSection>
-    </apex:pageBlock>
-    
-    <!--
-    <apex:pageBlock id="pgbk4" mode="detail">
-        <apex:pageBlockSection id="pgbk4_1" title="Clone Granularity" columns="1">
-            <apex:commandButton value="Clone All" action="{!cloneAll}" rerender="opRG"/>
-            <apex:commandButton value="Select Route Groups" action="{!cloneManual}" rerender="opRG"/>
-        </apex:pageBlockSection>
-    </apex:pageBlock>
-    -->
+<apex:component allowDML="true" layout="none" controller="UserInterfaceDeepClone"> 
     
     <apex:outputPanel id="opRG">
     <apex:pageBlock id="pgbk3" mode="detail">
@@ -43,9 +20,7 @@
             </apex:pageBlockTable>
         </apex:pageBlockSection>
     </apex:pageBlock>
-    </apex:outputPanel>
-    
-    <apex:pageMessages />    
+    </apex:outputPanel>  
     
     <apex:pageBlock id="pgbk1" mode="detail">
         <apex:pageBlockSection id="pgbk1_1" title="New Group Information" columns="2">

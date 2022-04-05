@@ -160,6 +160,17 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>Integration_Source__c</fullName>
+        <description>Custom field to designate source Credit Union of object used by nCino Data Services.</description>
+        <externalId>false</externalId>
+        <label>Integration Source</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>LLC_BI__ClonedFromLoanName__c</fullName>
         <deprecated>false</deprecated>
         <description>This field is automatically populated when a loan renewal/ modification is created. This is the name of the loan that the renewal was created from, linking the history of renewals/ modifications on the loan records.</description>
@@ -372,6 +383,17 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Migration_ID__c</fullName>
+        <description>Custom Migration ID for LoanRenewal object used by nCino Data Services.</description>
+        <externalId>true</externalId>
+        <label>Migration ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <label>LoanRenewal</label>
     <listViews>

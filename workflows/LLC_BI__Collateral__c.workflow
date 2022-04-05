@@ -345,4 +345,15 @@
         <formula>NOT(ISBLANK(TEXT(LLC_BI__Collateral_Type__r.LLC_BI__Group_Type__c)))</formula>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
+    <rules>
+        <fullName>Titled Trailer%2FOther3</fullName>
+        <actions>
+            <name>LLC_BI__Titled_Trailer_Other</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Specifies page layout for Collateral2 based on Collateral Type</description>
+        <formula>TEXT(LLC_BI__Collateral_Type__r.LLC_BI__Type__c) = &quot;Titled&quot;  &amp;&amp;  (TEXT(LLC_BI__Collateral_Type__r.LLC_BI__Subtype__c) = &quot;Trailer&quot; || TEXT(LLC_BI__Collateral_Type__r.LLC_BI__Subtype__c) = &quot;Other Titled&quot;)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
 </Workflow>

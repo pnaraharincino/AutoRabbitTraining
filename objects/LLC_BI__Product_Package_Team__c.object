@@ -157,6 +157,40 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fieldSets>
+        <fullName>Credit_Memo_Standard_Product_Package</fullName>
+        <description>Credit Memo: Standard Product Package Credit Memo
+Screen Section: Product Package Team Members
+Object: Product Package Team Member</description>
+        <displayedFields>
+            <field>LLC_BI__User__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Assigned_Role__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Product Package</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Credit_Memo_Standard_Review_Product_Pack</fullName>
+        <description>Credit Memo: Standard Credit Memo (Product Package)
+Screen Section: Product Package Team Members
+Object: Product Package Team Member</description>
+        <displayedFields>
+            <field>LLC_BI__User__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Assigned_Role__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Review Product Package</label>
+    </fieldSets>
+    <fieldSets>
         <fullName>LLC_BI__Credit_Memo_Standard_Product_Package</fullName>
         <description>Credit Memo: Standard Product Package Credit Memo
 Screen Section: Product Package Team Members

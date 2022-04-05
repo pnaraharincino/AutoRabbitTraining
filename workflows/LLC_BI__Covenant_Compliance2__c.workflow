@@ -289,6 +289,16 @@ DATE(
         <reevaluateOnChange>false</reevaluateOnChange>
         <targetObject>LLC_BI__Covenant__c</targetObject>
     </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Covenant_Compliance_Status</fullName>
+        <field>LLC_BI__Status__c</field>
+        <literalValue>Compliant</literalValue>
+        <name>Update Covenant Compliance Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
     <rules>
         <fullName>LLC_BI__Covenant Compliance Set Last Evaluation Status</fullName>
         <actions>

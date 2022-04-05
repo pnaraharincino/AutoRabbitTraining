@@ -1,5 +1,634 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayouts>
+        <fullName>Review_Layout</fullName>
+        <fields>Name</fields>
+        <fields>LLC_BI__Account__c</fields>
+        <fields>LLC_BI__Review_Type__c</fields>
+        <fields>cm_Review_Stage__c</fields>
+        <fields>LLC_BI__Status__c</fields>
+        <label>Review Layout</label>
+    </compactLayouts>
+    <fieldSets>
+        <fullName>Credit_Memo_Standard_Review_Account</fullName>
+        <description>Credit Memo: Standard Review Credit Memo (Account Only)
+Screen Section: Review Details
+Object: Review</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Review_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Narrative__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Review Account</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Credit_Memo_Standard_Review_Product_Pack</fullName>
+        <description>Credit Memo: Standard Review Credit Memo (Product Package)
+Screen Section: Review Details
+Object: Review</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Review_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Narrative__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard  Review Product Package</label>
+    </fieldSets>
+    <fields>
+        <fullName>cm_Approval_Narrative__c</fullName>
+        <description>Used to capture the approval information for the Review credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Approval Narrative</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Approved_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Approved Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>cm_Are_you_requesting_a_grade_change__c</fullName>
+        <externalId>false</externalId>
+        <label>Are You Requesting a Grade Change?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cm_Collateral_Analysis_Narrative__c</fullName>
+        <description>Used to capture the collateral analysis information for the Review credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Collateral Analysis Narrative</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Credit_Administrator__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Credit Administrator</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Reviews1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>cm_Current_Relationship_Risk_Rating__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Relationship Risk Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>8</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <label>9</label>
+                </value>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+                <value>
+                    <fullName>11</fullName>
+                    <default>false</default>
+                    <label>11</label>
+                </value>
+                <value>
+                    <fullName>12</fullName>
+                    <default>false</default>
+                    <label>12</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cm_Did_the_Covenants_pass_the_test__c</fullName>
+        <externalId>false</externalId>
+        <label>If Yes, Did the Covenants Pass the Test?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cm_Financial_Analyst_Narrative__c</fullName>
+        <description>Used to capture the financial analysis information for the Review credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Financial Analyst Narrative</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Financial_Spreads_Borrower_Narrative__c</fullName>
+        <description>Used to capture the borrower&apos;s financial information for the Review credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Financial Spreads Borrower Narrative</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Financial_Spreads_Property__c</fullName>
+        <externalId>false</externalId>
+        <label>Financial Spreads Property</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Further_Analysis_Stress_Test__c</fullName>
+        <description>Used to capture the stress test information for the Review credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Further Analysis Stress Test</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Guarantor_Narrative__c</fullName>
+        <description>Used to capture the guarantor information for the Review credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Guarantor Narrative</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Have_the_covenants_been_tested__c</fullName>
+        <externalId>false</externalId>
+        <label>Have the Covenants Been Tested?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cm_Loan_Officer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Loan Officer of Review record. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Loan Officer</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Reviews</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>cm_New_Policy_Exception_added__c</fullName>
+        <externalId>false</externalId>
+        <label>New Policy Exception Added?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cm_Recommend_Relationship_Rating__c</fullName>
+        <externalId>false</externalId>
+        <label>Recommend Relationship Rating</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>8</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <label>9</label>
+                </value>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+                <value>
+                    <fullName>11</fullName>
+                    <default>false</default>
+                    <label>11</label>
+                </value>
+                <value>
+                    <fullName>12</fullName>
+                    <default>false</default>
+                    <label>12</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cm_Recommendation_Narrative__c</fullName>
+        <description>Used to capture the recommendation information for the Review credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Recommendation Narrative</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Relationship_Summary__c</fullName>
+        <description>Used to capture the relationship summary information for the Review credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Relationship Summary Narrative</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Review_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Review Completion Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>cm_Review_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Review Stage</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Qualification</fullName>
+                    <default>true</default>
+                    <label>Qualification</label>
+                </value>
+                <value>
+                    <fullName>Underwriting</fullName>
+                    <default>false</default>
+                    <label>Underwriting</label>
+                </value>
+                <value>
+                    <fullName>Final Review</fullName>
+                    <default>false</default>
+                    <label>Final Review</label>
+                </value>
+                <value>
+                    <fullName>Approval</fullName>
+                    <default>false</default>
+                    <label>Approval</label>
+                </value>
+                <value>
+                    <fullName>Complete</fullName>
+                    <default>false</default>
+                    <label>Complete</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cm_Risk_Rating_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Risk Rating Comments</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Send_to_Credit_Committee__c</fullName>
+        <externalId>false</externalId>
+        <label>Send to Credit Committee</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>true</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cm_Set_Next_Review_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Set Next Review Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>cm_Set_Next_Review_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Set Next Review Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Annual</fullName>
+                    <default>false</default>
+                    <label>Annual</label>
+                </value>
+                <value>
+                    <fullName>AdHoc</fullName>
+                    <default>false</default>
+                    <label>AdHoc</label>
+                </value>
+                <value>
+                    <fullName>Problem Loan</fullName>
+                    <default>false</default>
+                    <label>Problem Loan</label>
+                </value>
+                <value>
+                    <fullName>Early Warning</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Early Warning</label>
+                </value>
+                <value>
+                    <fullName>Interim</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Interim</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Semi-Annual</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Semi-Annual</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cm_Strengths_Narrative__c</fullName>
+        <description>Used to capture the strengths information for the Review credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Strengths Narrative</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Weakness_Narrative__c</fullName>
+        <description>Used to capture the weakness information for the Review credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Weakness Narrative</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <listViews>
+        <fullName>cm_Review_Committee_Approval_Queue_Review</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Review Committee Approval Queue</label>
+        <queue>cm_Review_Committee_Approval_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <recordTypes>
         <fullName>LLC_BI__Account_Review_Complete</fullName>
         <active>true</active>
@@ -24,4 +653,28 @@
         <description>Package Review In Progress</description>
         <label>Package Review In Progress</label>
     </recordTypes>
+    <validationRules>
+        <fullName>Review_Validation_01</fullName>
+        <active>true</active>
+        <description>You Cannot Manually Change the Review Stage to Approval. Please Ensure That All Information is Accurate and Press the &apos;Submit for Approval&apos; Button at the Top of the Page. - RV01</description>
+        <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED ( cm_Review_Stage__c )),
+ISPICKVAL(cm_Review_Stage__c, &quot;Approval&quot;), TRUE)</errorConditionFormula>
+        <errorMessage>You Cannot Manually Change the Review Stage to Approval. Please Ensure That All Information is Accurate and Press the &apos;Submit for Approval&apos; Button at the Top of the Page. - RV01</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Review_Validation_02</fullName>
+        <active>true</active>
+        <description>You Cannot Manually Change the Review to a Post Approval Stage. The Review Must be Approved by Pressing the &apos;Submit for Approval&apos; Button at the Top of the Page. - RV02</description>
+        <errorConditionFormula>AND(
+ISPICKVAL( cm_Review_Stage__c  , &apos;Complete&apos;),
+ISBLANK( cm_Approved_Date__c ),
+OR(
+ISPICKVAL( cm_Review_Stage__c , &apos;Approval&apos;),
+ISBLANK( cm_Approved_Date__c )),
+$User.No_Validation__c = False)</errorConditionFormula>
+        <errorMessage>You Cannot Manually Change the Review to a Post Approval Stage. The Review Must be Approved by Pressing the &apos;Submit for Approval&apos; Button at the Top of the Page. - RV02</errorMessage>
+    </validationRules>
 </CustomObject>

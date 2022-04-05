@@ -1681,6 +1681,54 @@
         <label>LoanCovenant_ReviewSubmit</label>
     </fieldSets>
     <fieldSets>
+        <fullName>Credit_Memo_Standard_Loan</fullName>
+        <description>Credit Memo: Standard Loan Credit Memo
+Screen Section: Covenant Summary
+Object: Loan Covenant</description>
+        <displayedFields>
+            <field>LLC_BI__Loan__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Loan</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Credit_Memo_Standard_Product_Package</fullName>
+        <description>Credit Memo: Standard Product Package Credit Memo
+Screen Section: Covenant Summary
+Object: Loan Covenant</description>
+        <displayedFields>
+            <field>LLC_BI__Loan__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Product Package</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Credit_Memo_Standard_Review_Account</fullName>
+        <description>Credit Memo: Standard Review Credit Memo (Account Only)
+Screen Section: Covenant Summary
+Object: Loan Covenant</description>
+        <displayedFields>
+            <field>LLC_BI__Loan__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Review Account</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Credit_Memo_Standard_Review_Product_Pack</fullName>
+        <description>Credit Memo: Standard Review Credit Memo (Product Package)
+Screen Section: Covenant Summary
+Object: Loan Covenant</description>
+        <displayedFields>
+            <field>LLC_BI__Loan__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Review Product Package</label>
+    </fieldSets>
+    <fieldSets>
         <fullName>LLC_BI__Credit_Memo_Standard_Product_Package</fullName>
         <description>Credit Memo: Standard Product Package Credit Memo
 Screen Section: Covenant Summary

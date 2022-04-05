@@ -145,6 +145,16 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Collateral_Type_Layout</fullName>
+        <fields>Name</fields>
+        <fields>LLC_BI__Type__c</fields>
+        <fields>LLC_BI__Subtype__c</fields>
+        <fields>LLC_BI__Collateral_Code__c</fields>
+        <fields>LLC_BI__lookupKey__c</fields>
+        <fields>LLC_BI__Active__c</fields>
+        <label>Collateral Type Layout</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
     <description>The type of a piece of Collateral.</description>

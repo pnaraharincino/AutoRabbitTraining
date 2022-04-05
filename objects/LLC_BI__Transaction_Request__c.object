@@ -3226,6 +3226,15 @@
         </valueSet>
     </fields>
     <label>Transaction Request</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <displayFormat>TXNR-{000000000}</displayFormat>
         <label>Transaction Request Name</label>

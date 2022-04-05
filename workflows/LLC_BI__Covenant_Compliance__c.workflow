@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Covenant_Compliance_Exception</fullName>
+        <description>Covenant Compliance - Exception</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>PSO_Email_Templates/ET11_Covenant_Compliance_Status_Exception</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Covenant_Update_Last_Evaluation_Date</fullName>
+        <field>LLC_BI__Last_Evaluation_Date__c</field>
+        <formula>LLC_BI__Evaluation_Date__c</formula>
+        <name>Covenant - Update Last Evaluation Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>LLC_BI__Covenant__c</targetObject>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Covenant_Update_Last_Evaluation_Status</fullName>
+        <field>LLC_BI__Last_Evaluation_Status__c</field>
+        <formula>Text(LLC_BI__Status__c)</formula>
+        <name>Covenant - Update Last Evaluation Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+        <targetObject>LLC_BI__Covenant__c</targetObject>
+    </fieldUpdates>
     <fieldUpdates>
         <fullName>LLC_BI__Covenant_Update_Last_Evaluation_Status</fullName>
         <description>Update the last evaluation status on the Covenant object.</description>
@@ -135,6 +167,46 @@
         <reevaluateOnChange>false</reevaluateOnChange>
         <targetObject>LLC_BI__Covenant__c</targetObject>
     </fieldUpdates>
+    <rules>
+        <fullName>Covenant Compliance - Set Last Evaluation Status and Date</fullName>
+        <actions>
+            <name>Covenant_Update_Last_Evaluation_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Covenant_Update_Last_Evaluation_Status</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>LLC_BI__Covenant_Compliance__c.CreatedDate</field>
+            <operation>greaterThan</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>LLC_BI__Covenant_Compliance__c.LLC_BI__Status__c</field>
+            <operation>equals</operation>
+            <value>New,Compliant,Exception,Waived</value>
+        </criteriaItems>
+        <description>Set the last evaluation status &amp; date on the Covenant object when it gets updated on the Covenant Compliance object.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Covenant Compliance Status %3D Exception</fullName>
+        <actions>
+            <name>Covenant_Compliance_Exception</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>LLC_BI__Covenant_Compliance__c.LLC_BI__Status__c</field>
+            <operation>equals</operation>
+            <value>Exception</value>
+        </criteriaItems>
+        <description>This workflow rule notifies the Loan Owner that the covenant compliance has been updated to status of Exception.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
     <rules>
         <fullName>LLC_BI__Covenant Compliance Set Last Evaluation Status</fullName>
         <actions>

@@ -145,6 +145,18 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Treasury_Service_Layout</fullName>
+        <fields>Name</fields>
+        <fields>LLC_BI__lookupKey__c</fields>
+        <fields>LLC_BI__Product_Reference__c</fields>
+        <fields>LLC_BI__Product_Package__c</fields>
+        <fields>LLC_BI__Relationship__c</fields>
+        <fields>LLC_BI__Effective_Date__c</fields>
+        <fields>LLC_BI__Status__c</fields>
+        <fields>LLC_BI__Is_Active__c</fields>
+        <label>Treasury Service Layout</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
     <enableActivities>true</enableActivities>
@@ -1106,6 +1118,36 @@
             <isRequired>false</isRequired>
         </displayedFields>
         <label>Treasury Service Details</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Order_Entry_Remote_Deposit</fullName>
+        <description>New UI field set for Order Entry Remote Deposit</description>
+        <displayedFields>
+            <field>LLC_BI__Remote_Deposit_Capture_Service__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI Order Entry Remote Deposit</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Order_Entry_Retail_Lockbox</fullName>
+        <description>New UI field set for Order Entry of Retail Lockbox</description>
+        <displayedFields>
+            <field>LLC_BI__Lockbox_Service__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI Order Entry Retail Lockbox</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Order_Entry_Wire_Transfer</fullName>
+        <description>New UI field set for Order Entry of Wire Transfers</description>
+        <displayedFields>
+            <field>LLC_BI__Wire_Service__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI Order Entry Wire Transfer</label>
     </fieldSets>
     <fieldSets>
         <fullName>WKDDP__WK_DepAct_DocPrep</fullName>

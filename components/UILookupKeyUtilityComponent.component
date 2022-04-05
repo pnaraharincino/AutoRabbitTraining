@@ -9,20 +9,18 @@
     .inactiveTab { background-color: lightgrey; color:black; background-image:none}
     .missingKeys { color: red; }
     .noMissingKeys { color: green; }
-    </style> 
+    </style>   
     
     <apex:pageBlock id="pgbk1" mode="detail">
         <apex:pageBlockSection id="pgbk1_1" title="Analyze" columns="1">
             <apex:outputText value="When cloning a Group, some objects require unique lookupKey values for proper cloning.  Click the button below
-            to analyze lookupKeys on objects for which lookupKeys are required and optional." label="Note:" /> 
+            to analyze lookupKeys on objects for which lookupKeys are required." label="Note:" /> 
             <apex:commandButton id="mainbutton" value="Analyze LookupKeys" style="colStyle4" action="{!analyzeKeys}" />
         </apex:pageBlockSection>
     </apex:pageBlock>
     
-    <apex:pageMessages />
-    
     <apex:pageBlock id="pgbk3" mode="maindetail" rendered="{!showRequiredObjects}">
-        <apex:pageBlockSection id="pgbk1_3" title="LookupKeys Required" columns="1">
+        <apex:pageBlockSection id="pgbk1_3" title="LookupKeys Analysis" columns="1">
             <apex:panelGrid columns="3" width="100%" styleClass="table table-bordered">
                 <apex:outputLabel value="OBJECT" style="font-weight:800;" />
                 <apex:outputLabel value="MISSING LOOKUPKEYS" style="font-weight:800;" />
@@ -52,17 +50,6 @@
                 <apex:outputText title="Layout" value="{!missingKeysLayouts}" styleClass="missingKeys" rendered="{!IF(missingKeysLayouts > 0, true, false)}" />
                 <apex:outputText title="Layout" value="{!missingKeysLayouts}" styleClass="noMissingKeys" rendered="{!IF(missingKeysLayouts = 0, true, false)}" />
                 <apex:outputText title="Layout" value="{!totalNumberLayouts}" />
-            </apex:panelGrid>
-        </apex:pageBlockSection>
-    </apex:pageBlock>
-      
-    
-    <apex:pageBlock id="pgbk4" mode="maindetail" rendered="{!showOptionalObjects}">
-        <apex:pageBlockSection id="pgbk1_4" title="LookupKeys Optional" columns="1">
-            <apex:panelGrid columns="3" width="100%" styleClass="table table-bordered">
-                <apex:outputLabel value="OBJECT" style="font-weight:800;" />
-                <apex:outputLabel value="MISSING LOOKUPKEYS" style="font-weight:800;" />
-                <apex:outputLabel value="OUT OF" style="font-weight:800;" />
                 
                 <apex:outputLabel value="Group" />
                 <apex:outputText title="Group" value="{!missingKeysGroups}" styleClass="missingKeys" rendered="{!IF(missingKeysGroups > 0, true, false)}" />
@@ -84,9 +71,19 @@
                 <apex:outputText title="Field Configuration" value="{!missingKeysFieldConfigs}" styleClass="missingKeys" rendered="{!IF(missingKeysFieldConfigs > 0, true, false)}" />
                 <apex:outputText title="Field Configuration" value="{!missingKeysFieldConfigs}" styleClass="noMissingKeys" rendered="{!IF(missingKeysFieldConfigs = 0, true, false)}" />
                 <apex:outputText title="Field Configuration" value="{!totalNumberFieldConfigs}" />
+                
+                <apex:outputLabel value="Route Tile" />
+                <apex:outputText title="Route Tile" value="{!missingKeysRouteTiles}" styleClass="missingKeys" rendered="{!IF(missingKeysRouteTiles > 0, true, false)}" />
+                <apex:outputText title="Route Tile" value="{!missingKeysRouteTiles}" styleClass="noMissingKeys" rendered="{!IF(missingKeysRouteTiles = 0, true, false)}" />
+                <apex:outputText title="Route Tile" value="{!totalNumberRouteTiles}" />
+                
+                <apex:outputLabel value="Route Term" />
+                <apex:outputText title="Route Term" value="{!missingKeysRouteTerms}" styleClass="missingKeys" rendered="{!IF(missingKeysRouteTerms > 0, true, false)}" />
+                <apex:outputText title="Route Term" value="{!missingKeysRouteTerms}" styleClass="noMissingKeys" rendered="{!IF(missingKeysRouteTerms = 0, true, false)}" />
+                <apex:outputText title="Route Term" value="{!totalNumberRouteTerms}" />
             </apex:panelGrid>
         </apex:pageBlockSection>
-    </apex:pageBlock>
+    </apex:pageBlock>     
     
     <apex:pageBlock id="pgbk5" mode="maindetail" rendered="{!missingKeys}">
         <apex:pageBlockSection id="pgbk1_5" columns="1">

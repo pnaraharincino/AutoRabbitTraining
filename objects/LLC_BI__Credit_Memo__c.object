@@ -269,14 +269,29 @@
         <language>en_US</language>
     </listViews>
     <listViews>
+        <fullName>Credit_Memos_In_Use</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__Description__c</columns>
+        <columns>LLC_BI__FScreen__c</columns>
+        <columns>LLC_BI__lookupKey__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Is_Template__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Credit Memos In Use</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
         <fullName>Templates</fullName>
         <columns>NAME</columns>
         <columns>LLC_BI__Description__c</columns>
+        <columns>LLC_BI__FScreen__c</columns>
         <columns>LLC_BI__Object_API_Name__c</columns>
         <columns>LLC_BI__Is_Template__c</columns>
         <columns>LLC_BI__Is_Disabled__c</columns>
-        <columns>CREATEDBY_USER.ALIAS</columns>
-        <columns>CREATED_DATE</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>LLC_BI__Is_Template__c</field>
@@ -284,6 +299,7 @@
             <value>1</value>
         </filters>
         <label>Templates</label>
+        <language>en_US</language>
     </listViews>
     <nameField>
         <label>Credit Memo Name</label>

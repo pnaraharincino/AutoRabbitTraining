@@ -23,7 +23,7 @@
         }
         helper.setBrandingCookie(component, event, helper);
     },
-        
+    
     onKeyUp: function(component, event, helpler){
         //checks for "enter" key
         if (event.getParam('keyCode')===13) {

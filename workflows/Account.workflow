@@ -11,6 +11,16 @@
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
     <fieldUpdates>
+        <fullName>Account_Update_NAICS_Code</fullName>
+        <field>LLC_BI__Naics_Code__c</field>
+        <formula>cm_Industry_Code__r.cm_Industry_Code__c</formula>
+        <name>Account - Update NAICS Code</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
         <fullName>LLC_BI__Set_Account_Business_Record_Type</fullName>
         <field>RecordTypeId</field>
         <lookupValue>LLC_BI__Business</lookupValue>
@@ -66,6 +76,27 @@
         <protected>false</protected>
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Default_App_Master_Relationship</fullName>
+        <field>LLC_BI__Default_App__c</field>
+        <formula>&apos;master-relationship.master-relationship-loan-products&apos;</formula>
+        <name>Set Default App-Master Relationship</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Account - Industry Code Lookup Populated</fullName>
+        <actions>
+            <name>Account_Update_NAICS_Code</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>When the Industry Code field is populated on the Account, populate the NAICS Code Text field.</description>
+        <formula>AND( $User.No_Workflow__c = false, OR( ISNEW(), ISCHANGED(cm_Industry_Code__c) ))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
     <rules>
         <fullName>Account%3A Set Default App</fullName>
         <actions>
@@ -150,5 +181,15 @@
         </criteriaItems>
         <description>When Record Type is Lender, set default app to be counterparty report.</description>
         <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Set Default App-Master Relationship</fullName>
+        <actions>
+            <name>Set_Default_App_Master_Relationship</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>1=1</formula>
+        <triggerType>onCreateOnly</triggerType>
     </rules>
 </Workflow>

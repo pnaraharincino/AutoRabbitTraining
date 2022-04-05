@@ -265,6 +265,15 @@
         </valueSet>
     </fields>
     <label>Valuation</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <displayFormat>VAL-{000000000}</displayFormat>
         <label>Valuation Name</label>

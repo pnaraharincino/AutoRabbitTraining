@@ -156,6 +156,16 @@
         <fields>LLC_BI__Total_Syndicated_Facility_Amount__c</fields>
         <label>Highlights-PP</label>
     </compactLayouts>
+    <compactLayouts>
+        <fullName>Product_Package_Layout</fullName>
+        <fields>Name</fields>
+        <fields>LLC_BI__Account__c</fields>
+        <fields>LLC_BI__Loan_Facilities_Count__c</fields>
+        <fields>LLC_BI__Reviewable_Loan_Facilities_Count__c</fields>
+        <fields>LLC_BI__Primary_Officer__c</fields>
+        <fields>LLC_BI__Risk_Rating__c</fields>
+        <label>Product Package Layout</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
     <description>The Product Package Object allows the user to group relationships and loans in a singular view to work complex credit packages and exposure purposes</description>
@@ -213,6 +223,103 @@
         <fullName>Bulk_Updates_PP_Related</fullName>
         <description>Bulk Updates PP</description>
         <label>Bulk Updates PP Related</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>CAB_PP_Approval_Level_1</fullName>
+        <description>Used for Product Package approval process. Added for the Commercial Accelerate project.</description>
+        <displayedFields>
+            <field>Approver_1__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Send_to_Level_1__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>PP - Approval Level 1</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>CAB_PP_Approval_Level_2</fullName>
+        <description>Used for Product Package approval process. Added for the Commercial Accelerate project.</description>
+        <displayedFields>
+            <field>Approver_2__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Send_to_Level_2__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>PP - Approval Level 2</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>CAB_PP_Approval_Level_3</fullName>
+        <description>Used for Product Package approval process. Added for the Commercial Accelerate project.</description>
+        <displayedFields>
+            <field>cm_Approval_Committee__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>PP - Approval Level 3</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Credit_Memo_Standard_Review_Product_Pack</fullName>
+        <description>Credit Memo: Standard Credit Memo (Product Package)
+Screen Section: Product Package Details
+Object: Product Package</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Primary_Officer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Risk_Rating__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Secondary_Officer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Total_Loan_Facilities_Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Total_Loan_Facilities_Exposure__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Loan_Facilities_Count__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__New_Money__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Last_Review_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Next_Review_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Review Product Package</label>
     </fieldSets>
     <fieldSets>
         <fullName>LLC_BI__ConvertTo_Display_Fields</fullName>
@@ -650,6 +757,68 @@
         <label>Total Exposure Summary</label>
     </fieldSets>
     <fieldSets>
+        <fullName>Standard_Product_Package_Credit_Memo</fullName>
+        <description>Credit Memo: Standard Product Package Credit Memo
+Screen Section: Product Package Details
+Object: Product Package</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Primary_Officer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Risk_Rating__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Secondary_Officer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Total_Loan_Facilities_Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Total_Loan_Facilities_Exposure__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Loan_Facilities_Count__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__New_Money__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Product Package</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_PP_Approval_Section</fullName>
+        <description>UI-PP-Approval Section</description>
+        <displayedFields>
+            <field>Approver_1__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Approver_2__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI-PP-Approval Section</label>
+    </fieldSets>
+    <fieldSets>
         <fullName>WKDDP__WK_DepAct_DocPrep</fullName>
         <description>WK DepAct DocPrep</description>
         <displayedFields>
@@ -898,6 +1067,34 @@
         <trackTrending>false</trackTrending>
         <type>Html</type>
         <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Approver_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Used in flex approval process to reference the first approver. Added for Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Approver 1</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Commercial_Product_Package_1st_Approver</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Approver_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Used in flex approval process to reference the second approver. Added for Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Approver 2</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Commercial_Product_Packages_2nd_Approver</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Final_Officer__c</fullName>
@@ -1715,7 +1912,211 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
+    <fields>
+        <fullName>X1st_Approver__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>1st Approver</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Product_Package_1st_Approver</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>X2nd_Approver__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>2nd Approver</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Product_Packages_2nd_Approver</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>cm_Approval_Committee__c</fullName>
+        <externalId>false</externalId>
+        <label>Approval Committee</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Loan Committee</fullName>
+                    <default>false</default>
+                    <label>Loan Committee</label>
+                </value>
+                <value>
+                    <fullName>Board of Directors</fullName>
+                    <default>false</default>
+                    <label>Board of Directors</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cm_Background_Loan__c</fullName>
+        <description>Used to capture the loan background for product package credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Background (Loan)</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Collateral_Analysis_Collateral_Mgmt__c</fullName>
+        <description>Used to capture the collateral analysis for product package credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Collateral Analysis (Collateral Mgmt)</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Covenant_Analysis__c</fullName>
+        <description>Used to capture the covenant narrative information for product package credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Covenant Analysis</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Deal_Summary_Loan__c</fullName>
+        <description>Used to capture the deal summary for product package credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Deal Summary (Loan)</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Financial_Analysis_Loan__c</fullName>
+        <description>Used to capture the financial analysis for product package credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Financial Analysis (Loan)</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Loan_Committee__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used in Product Package Approval Process to indicate package should route to a loan committee for approval. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Loan Committee</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>cm_Relationship_Product_Request_Overview__c</fullName>
+        <description>Used to capture the relationship and product request overview information for product package credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Relationship &amp; Product Request Overview</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Risk_Analysis_Loan__c</fullName>
+        <description>Used to capture the risk analysis for product package credit memo. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Risk Analysis (Loan)</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>cm_Send_to_Level_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used in the Product Package approval process. Added for Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Send to Level 1</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>cm_Send_to_Level_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used in the Product Package approval process. Added for Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Send to Level 2</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>isTest__c</fullName>
+        <externalId>false</externalId>
+        <label>isTest</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>true</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <label>Product Package</label>
+    <listViews>
+        <fullName>Board_of_Directors_Product_Package</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Board of Directors</label>
+        <queue>Board_of_Directors</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <listViews>
         <fullName>LLC_BI__All1</fullName>
         <columns>NAME</columns>
@@ -1730,6 +2131,15 @@
         </filters>
         <label>All</label>
     </listViews>
+    <listViews>
+        <fullName>Loan_Committee_Product_Package</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Loan Committee</label>
+        <queue>Loan_Committee</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <label>Product Package Name</label>
         <trackHistory>false</trackHistory>
@@ -1739,6 +2149,19 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Credit_Memo</fullName>
+        <availability>online</availability>
+        <description>Create/Edit a credit memo associated with the product package</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Credit Memo</masterLabel>
+        <openType>noSidebar</openType>
+        <protected>false</protected>
+        <url>/apex/LLC_BI__Credit_Memo_Container?id={!LLC_BI__Product_Package__c.Id}</url>
+    </webLinks>
     <webLinks>
         <fullName>LLC_BI__Credit_Memo</fullName>
         <availability>online</availability>

@@ -273,6 +273,11 @@
     </fields>
     <label>Screen</label>
     <listViews>
+        <fullName>All1</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
         <fullName>nFORCE__All</fullName>
         <columns>NAME</columns>
         <columns>nFORCE__Show_Link_To_Context_Object__c</columns>

@@ -1,5 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayouts>
+        <fullName>Opportunity_Layout</fullName>
+        <fields>Name</fields>
+        <fields>AccountId</fields>
+        <fields>Amount</fields>
+        <fields>CloseDate</fields>
+        <fields>LLC_BI__Product_Line__c</fields>
+        <fields>LLC_BI__Product_Type__c</fields>
+        <fields>LLC_BI__Product__c</fields>
+        <fields>OwnerId</fields>
+        <label>Opportunity Layout</label>
+    </compactLayouts>
+    <fieldSets>
+        <fullName>PMB_Products_Services</fullName>
+        <description>Used in Relationship Products &amp; Services VF page.</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Amount</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CloseDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>StageName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Products &amp; Services</label>
+    </fieldSets>
+    <fields>
+        <fullName>cm_Conversion_Complete__c</fullName>
+        <description>Used to indicate when an Opportunity has been successfully converted. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK(LLC_BI__Converted_Date__c)),
+True,
+False)</formula>
+        <label>Conversion Complete</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>cm_Loan_Assistant__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Used to capture the loan assistant for the opportunity conversion. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Loan Assistant</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Opportunities1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>cm_Loan_Officer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Used to capture the loan officer for the opportunity conversion. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Loan Officer</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Opportunities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>cm_Ready_to_Convert__c</fullName>
+        <description>Used to render a lightning banner and Convert to Product Package action to notify users when the opportunity is ready to be converted. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <formula>IF(
+AND(
+NOT(ISPICKVAL(LLC_BI__Product_Line__c, &apos;&apos;)),
+NOT(ISPICKVAL(LLC_BI__Product_Type__c, &apos;&apos;)),
+NOT(ISPICKVAL(LLC_BI__Product__c, &apos;&apos;)),
+NOT(ISBLANK(Amount)),
+NOT(ISPICKVAL(Account.Type, &apos;&apos;)),
+ISBLANK(LLC_BI__Converted_Date__c)
+),
+True,
+False
+)</formula>
+        <label>Ready to Convert</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>isTest__c</fullName>
+        <externalId>false</externalId>
+        <label>isTest</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>true</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <listViews>
+        <fullName>Default_Opportunity_Pipeline</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>LAST_N_MONTHS:3</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <operation>equals</operation>
+        </filters>
+        <label>Opportunity Pipeline</label>
+    </listViews>
     <recordTypes>
         <fullName>Commercial_Loan</fullName>
         <active>true</active>
@@ -205,4 +338,28 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <webLinks>
+        <fullName>Convert_to_Product_Package</fullName>
+        <availability>online</availability>
+        <description>Converts the source Opportunity to an nCino Product Package</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Convert to Product Package</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/LLC_BI__ComplexLifeCycleConverter?
+id={!Opportunity.Id}&amp;
+relationshipAPIName=Name&amp;
+productApiName=Product__c&amp;
+productTypeApiName=Product_Type__c&amp;
+productLineApiName=Product_Line__c&amp;
+mergeAccountIdApiName=AccountId&amp;
+convertedDateAPIName=Converted_Date__c&amp;
+convertedTargetIdAPI=Loan__c&amp;
+packageReferenceAPI=Product_Package__c&amp;
+targetPackageRefAPI=Product_Package__c&amp;
+productPackageName={!Account.Name} - {!TODAY()}</url>
+    </webLinks>
 </CustomObject>
