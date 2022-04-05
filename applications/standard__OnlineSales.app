@@ -7,7 +7,5 @@
     <label>Online Sales</label>
     <navType>Standard</navType>
     <tabs>standard-OnlineSalesHome</tabs>
-    <tabs>LLC_BI__Policy_Exception__c</tabs>
-    <tabs>LLC_BI__Policy_Exception_Template__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

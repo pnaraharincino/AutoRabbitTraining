@@ -1,10 +1,2804 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayouts>
+        <fullName>Loan_Layout</fullName>
+        <fields>Name</fields>
+        <fields>LLC_BI__Amount__c</fields>
+        <fields>LLC_BI__Product_Line__c</fields>
+        <fields>LLC_BI__Product_Type__c</fields>
+        <fields>LLC_BI__Product__c</fields>
+        <fields>LLC_BI__lookupKey__c</fields>
+        <fields>LLC_BI__Loan_Officer__c</fields>
+        <label>Loan Layout</label>
+    </compactLayouts>
+    <fieldSets>
+        <fullName>Credit_Memo_Standard_Loan</fullName>
+        <description>Credit Memo: Standard Loan Credit Memo 
+Screen Section: Loan Summary 
+Object: Loan</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__lookupKey__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Full_Product_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Loan_Officer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Risk_Grade__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Reg_O_Loan__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Employee_Loan__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Term_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amortized_Term_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Payment_Schedule__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Maturity_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Payment_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Total_Collateral_Value__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Current_LTV__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Total_Collateral_Pledged__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Current_Total_Lendable_Value__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Loan</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Credit_Memo_Standard_Loan_Exp</fullName>
+        <description>Credit Memo: Standard Loan Credit Memo 
+Screen Section: Related Exposure 
+Object: Loan</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__lookupKey__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Full_Product_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__CloseDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Principal_Balance__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__InterestRate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Monthly_Payment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Past_Due_Days__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Maturity_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__hasRenewal__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Loan</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Credit_Memo_Standard_Review</fullName>
+        <description>Credit Memo: Standard Review Credit Memo
+Screen Sections: Related Relationships, Collateral Summary, Covenant Summary
+Object: Loan</description>
+        <displayedFields>
+            <field>LLC_BI__Is_In_Review__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Review</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Credit_Memo_Standard_Review_Account</fullName>
+        <description>Credit Memo: Standard Review Credit Memo (Account Only)
+Screen Section: Loan Summary
+Object: Loan</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__lookupKey__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Full_Product_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Loan_Officer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Risk_Grade__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Reg_O_Loan__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Employee_Loan__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Term_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amortized_Term_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Payment_Schedule__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Maturity_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Payment_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Total_Collateral_Value__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Current_LTV__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Total_Collateral_Pledged__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Current_Total_Lendable_Value__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Is_In_Review__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Review Account</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Credit_Memo_Standard_Review_Product_Pack</fullName>
+        <description>Credit Memo: Standard Review Credit Memo (Product Package) 
+Screen Section: Loan Summary 
+Object: Loan</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__lookupKey__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Full_Product_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Loan_Officer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Risk_Grade__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Reg_O_Loan__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Employee_Loan__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Term_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amortized_Term_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Payment_Schedule__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Maturity_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Payment_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Total_Collateral_Value__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Current_LTV__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Total_Collateral_Pledged__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Current_Total_Lendable_Value__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Is_In_Review__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Review Product Package</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Fields_To_Not_Clone_Modification</fullName>
+        <description>Used for modification credit actions to denote which fields to not clone to the newly-created loan record from the original loan record.</description>
+        <displayedFields>
+            <field>LLC_BI__Credit_Approval_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Completed_Application__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Application_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Loan_Officer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Loan_Assistant__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Loan_Ops__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Portfolio_Manager__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Closer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Credit_Analyst_Underwriter__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__CloseDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Method_of_Doc_Prep__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Post_Closing_Review_Completed_By__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Post_Closing_Review_Completed_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Fee_Loan_Aggregate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Reviewed_by_Loan_Ops__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Fields To Not Clone Modification</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Fields_To_Not_Clone_Renewal</fullName>
+        <description>Used for renewal credit actions to denote which fields to not clone to the newly-created loan record from the original loan record.</description>
+        <displayedFields>
+            <field>LLC_BI__Credit_Approval_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Completed_Application__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Application_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Maturity_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Loan_Officer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Loan_Assistant__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Closer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Portfolio_Manager__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Credit_Analyst_Underwriter__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Loan_Ops__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__CloseDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Risk_Grade__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Method_of_Doc_Prep__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Post_Closing_Review_Completed_By__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Post_Closing_Review_Completed_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Fee_Loan_Aggregate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Reviewed_by_Loan_Ops__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Fields To Not Clone Renewal</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>MemoCategoryLoanInformation</fullName>
+        <description>This field set is used in the Change Memo VF page when Loan Information is selected.</description>
+        <displayedFields>
+            <field>LLC_BI__Amortized_Term_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Index__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Interest_Only_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__InterestRate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Interest_Rate_Adjustment_Frequency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Payment_Schedule__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Payment_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Prepayment_Penalty_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Pricing_Basis__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Term_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Rate_Ceiling__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Rate_Floor__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Spread__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>MemoCategoryLoanInformation</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>PricingReadOnly</fullName>
+        <description>Fields On Loan that get overwritten by Rate and Payment:
+Loan__c.Pricing_Basis__c
+Loan__c.Payment_Type__c
+Loan__c.Index__c
+Loan__c.Payment_Schedule__c
+Loan__c.Spread__c
+Loan__c.Interest_Rate__c
+Loan__c.Calculated_Balloon_Amount__c
+Loan__c.Monthly_Payment__c</description>
+        <displayedFields>
+            <field>LLC_BI__Pricing_Basis__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Payment_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Index__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Payment_Schedule__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Spread__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__InterestRate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Calculated_Balloon_Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Monthly_Payment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>PricingReadOnly</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>RequiredLoanFieldsToCreateRateOrPayment</fullName>
+        <description>Loan UI, just before the Rate and Payment pages, allow users to ensure that the required loan fields are filled out before going to the Rate route.</description>
+        <displayedFields>
+            <field>LLC_BI__Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Term_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amortized_Term_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__First_Payment_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__CloseDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Prepayment_Penalty_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Primary_Source_of_Repayment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Secondary_Source_of_Repayment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tertiary_Source_of_Repayment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>RequiredLoanFieldsToCreateRateOrPayment</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Standard_Product_Package_Credit_Memo</fullName>
+        <description>Credit Memo: Standard Product Package Credit Memo
+Screen Section: Loan Details
+Object: Loan</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__lookupKey__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Full_Product_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Loan_Officer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Reg_O_Loan__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Risk_Grade__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Employee_Loan__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Term_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amortized_Term_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Payment_Schedule__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Maturity_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Payment_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Total_Collateral_Value__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Current_LTV__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Total_Collateral_Pledged__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Current_Total_Lendable_Value__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Primary_Source_of_Repayment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Secondary_Source_of_Repayment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tertiary_Source_of_Repayment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Product Package</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Standard_Product_Package_Credit_Memo_Exp</fullName>
+        <description>Credit Memo: Standard Product Package Credit Memo 
+Screen Section: Related Exposure 
+Object: Loan</description>
+        <displayedFields>
+            <field>LLC_BI__Account__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__lookupKey__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Full_Product_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__CloseDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Principal_Balance__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__InterestRate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Monthly_Payment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Past_Due_Days__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Maturity_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__hasRenewal__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Product Package</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Approval_Fields</fullName>
+        <description>Fields that are editable after approval.</description>
+        <displayedFields>
+            <field>LLC_BI__lookupKey__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Auto_Pay__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Auto_Pay_Account__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Disbursement_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Reviewed_by_Loan_Ops__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Post_Closing_Review_Completed_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Post_Closing_Review_Completed_By__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Post_Closing_Review_Comments__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Is_Participation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Method_of_Doc_Prep__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Close_Date_Hard__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI - Approval Fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Attorney_Info</fullName>
+        <description>UI</description>
+        <displayedFields>
+            <field>LLC_BI__Attorney__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Legal_Firm__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__File_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI - Attorney Info</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Compliance_Information</fullName>
+        <description>The UI Compliance section</description>
+        <displayedFields>
+            <field>LLC_BI__Compliance_Officer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Reviewed_by_Compliance__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI - Compliance Information</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Construction_Info</fullName>
+        <description>UI info from the Loan relating to Construction</description>
+        <displayedFields>
+            <field>LLC_BI__Complete__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Funding__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Construction_CO_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI - Construction Info</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Key_Dates_Editable</fullName>
+        <description>UI</description>
+        <displayedFields>
+            <field>LLC_BI__Authorization_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Last_Pay_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Maturity_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Participation_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Pre_Close_Call_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__CloseDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Site_Visit_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Wire_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI - Key Dates Editable</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Key_Dates_Read_Only</fullName>
+        <description>UI</description>
+        <displayedFields>
+            <field>Application_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Credit_Approval_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Submitted_for_Approval_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI - Key Dates Read Only</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Loan_Collateral1_Summary</fullName>
+        <description>UI_Loan_Collateral_Aggregate</description>
+        <displayedFields>
+            <field>LLC_BI__Gross_Collateral1_Value__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Current_LTV_Collateral1__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Current_Gross_Lendable_Value_Collateral1__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI Loan Collateral1 Summary</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Loan_Collateral_Pledged</fullName>
+        <description>Loan Collateral Pledged Description.</description>
+        <label>UI Loan Collateral Pledged</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Loan_Compliance_Certifications</fullName>
+        <description>Used in loan UI to dictate whether or not compliance questions have been completed.</description>
+        <displayedFields>
+            <field>LLC_BI__Employee_Loan__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Reg_O_Loan__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__CRA_Reportable__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__HMDA_Record_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>HVCRE_Reportable__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__HMDA_Reportable__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Reg_W_Reportable__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__CRA_Action_Taken__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__CRA_Date_Action_Taken__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__HMDA_Date_Action_Taken__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Compliance_Officer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Reviewed_by_Compliance__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI - Loan Compliance Certifications</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Loan_Details</fullName>
+        <description>New UI Loan Details Field Set</description>
+        <displayedFields>
+            <field>LLC_BI__lookupKey__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Loan_Officer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__CRA_Type_Code__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Loan_Assistant__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Branch__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Application_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Completed_Application__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>cm_Method_of_Doc_Prep__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Is_Review_Ready__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Is_Participation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Is_Syndication__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Structure__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Structure_Hierarchy__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI Loan Details</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Loan_Narrative</fullName>
+        <description>New UI field set for Loan Narrative</description>
+        <displayedFields>
+            <field>LLC_BI__Amount_Available__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amortized_Term_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Authorization_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Billing_Street__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Billing_Address__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Billing_State__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Billing_Zipcode__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Credit_Memo__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Current_LTV__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Loan_Officer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI Loan Narrative</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Loan_Pricing</fullName>
+        <description>UI</description>
+        <displayedFields>
+            <field>LLC_BI__Rate_Floor__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Rate_Ceiling__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Interest_Rate_Adjustment_Frequency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amortized_Term_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Term_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Interest_Only_Months__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__First_Payment_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Primary_Source_of_Repayment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Secondary_Source_of_Repayment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Tertiary_Source_of_Repayment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI Loan Pricing</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Post_Closing_Review</fullName>
+        <description>UI</description>
+        <displayedFields>
+            <field>Post_Closing_Review_Completed_By__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Post_Closing_Review_Completed_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Post_Closing_Review_Comments__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Post_Closing_Items__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI - Post Closing Review</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Product_Selection</fullName>
+        <description>UI</description>
+        <displayedFields>
+            <field>LLC_BI__Product_Line__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Product_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Product__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI - Product Selection</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Secondary_Market</fullName>
+        <description>UI</description>
+        <displayedFields>
+            <field>Secondary_Market_Buyer__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Secondary_Market_Bid_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Secondary_Market_Sold_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Secondary_Mkt_Sold__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Secondary_Mkt_Sold_currency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Secondary_Markt__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI - Secondary Market</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Structure_Information</fullName>
+        <description>UI</description>
+        <displayedFields>
+            <field>LLC_BI__Product_Package__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Structure__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Structure_Hierarchy__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI - Structure Information</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>cm_Review_Display</fullName>
+        <description>Custom Review Display field set to update LLC_BI custom setting.</description>
+        <displayedFields>
+            <field>LLC_BI__lookupKey__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Full_Product_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Stage__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Risk_Grade__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__AmountOutstanding__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Principal_Balance__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Maturity_Date__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Review Display</label>
+    </fieldSets>
+    <fields>
+        <fullName>Application_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Application Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Full_Product_Name__c</fullName>
+        <description>Combined fields of product, line and type</description>
+        <externalId>false</externalId>
+        <formula>text(LLC_BI__Product__c)  &amp; &quot; - &quot; &amp; text(LLC_BI__Product_Line__c)  &amp; &quot; - &quot; &amp; text(LLC_BI__Product_Type__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Full Product Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Funding_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Funding Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HVCRE_Reportable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>HVCRE Reportable</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Integration_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Integration Source</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_this_a_Test__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please denote if this a Test Record.</inlineHelpText>
+        <label>Is this a Test?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Legal_Firm_Customer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is used to lookup Legal Firms that have been entered as a Relationship within nCino.  If you do not see your Legal Firm&apos;s name, please create them as a new Relationship and return to this field.</inlineHelpText>
+        <label>Legal Firm</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Legal Firm</relationshipLabel>
+        <relationshipName>Loans</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Migration_ID__c</fullName>
+        <description>Custom Migration ID for Loan object used by nCino Data Services</description>
+        <externalId>true</externalId>
+        <label>Migration ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Post_Closing_Review_Comments__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter comments relevant to Post Closing Review findings.</inlineHelpText>
+        <label>Post Closing Review Comments</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Post_Closing_Review_Completed_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field to list the user who completed the Post Closing Review.</inlineHelpText>
+        <label>Post Closing Review Completed By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Loans</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Post_Closing_Review_Completed_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the date that the Post Closing Review was completed.</inlineHelpText>
+        <label>Post Closing Review Completed Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Source_of_Repayment__c</fullName>
+        <description>This was a requested field for our Baseline Config.</description>
+        <externalId>false</externalId>
+        <label>Primary Source of Repayment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cash flow from Operations</fullName>
+                    <default>false</default>
+                    <label>Cash flow from Operations</label>
+                </value>
+                <value>
+                    <fullName>Lease Income</fullName>
+                    <default>false</default>
+                    <label>Lease Income</label>
+                </value>
+                <value>
+                    <fullName>Liquidation of Collateral</fullName>
+                    <default>false</default>
+                    <label>Liquidation of Collateral</label>
+                </value>
+                <value>
+                    <fullName>Receivables</fullName>
+                    <default>false</default>
+                    <label>Receivables</label>
+                </value>
+                <value>
+                    <fullName>Reliance on Guarantors</fullName>
+                    <default>false</default>
+                    <label>Reliance on Guarantors</label>
+                </value>
+                <value>
+                    <fullName>Working Capital Turnover</fullName>
+                    <default>false</default>
+                    <label>Working Capital Turnover</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Reg_W_Reportable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates this transactions meets the criteria for Reg W Reportability.</inlineHelpText>
+        <label>Reg W Reportable</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Secondary_Market_Buyer__c</fullName>
+        <externalId>false</externalId>
+        <label>Secondary Market Buyer</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Secondary_Source_of_Repayment__c</fullName>
+        <description>This was a requested field added in our baseline configuration.</description>
+        <externalId>false</externalId>
+        <label>Secondary Source of Repayment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cash flow from Operations</fullName>
+                    <default>false</default>
+                    <label>Cash flow from Operations</label>
+                </value>
+                <value>
+                    <fullName>Lease Income</fullName>
+                    <default>false</default>
+                    <label>Lease Income</label>
+                </value>
+                <value>
+                    <fullName>Liquidation of Collateral</fullName>
+                    <default>false</default>
+                    <label>Liquidation of Collateral</label>
+                </value>
+                <value>
+                    <fullName>Receivables</fullName>
+                    <default>false</default>
+                    <label>Receivables</label>
+                </value>
+                <value>
+                    <fullName>Reliance on Guarantors</fullName>
+                    <default>false</default>
+                    <label>Reliance on Guarantors</label>
+                </value>
+                <value>
+                    <fullName>Working Capital Turnover</fullName>
+                    <default>false</default>
+                    <label>Working Capital Turnover</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Submitted_for_Approval_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This date is automatically populated when a loan is Submitted for Approval.  It cannot be manually updated.</inlineHelpText>
+        <label>Submitted for Approval Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Tertiary_Source_of_Repayment__c</fullName>
+        <description>This was a custom field requested to be added to the baseline configuration.</description>
+        <externalId>false</externalId>
+        <label>Tertiary Source of Repayment</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cash flow from Operations</fullName>
+                    <default>false</default>
+                    <label>Cash flow from Operations</label>
+                </value>
+                <value>
+                    <fullName>Lease Income</fullName>
+                    <default>false</default>
+                    <label>Lease Income</label>
+                </value>
+                <value>
+                    <fullName>Liquidation of Collateral</fullName>
+                    <default>false</default>
+                    <label>Liquidation of Collateral</label>
+                </value>
+                <value>
+                    <fullName>Receivables</fullName>
+                    <default>false</default>
+                    <label>Receivables</label>
+                </value>
+                <value>
+                    <fullName>Reliance on Guarantors</fullName>
+                    <default>false</default>
+                    <label>Reliance on Guarantors</label>
+                </value>
+                <value>
+                    <fullName>Working Capital Turnover</fullName>
+                    <default>false</default>
+                    <label>Working Capital Turnover</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cm_Closer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Used to capture the assigned Closer. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Closer</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Loans4</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>cm_Completed_Application__c</fullName>
+        <description>This field tracks the completed application date for the loan record. Added for the commercial accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Completed Application</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>cm_Credit_Analyst_Underwriter__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Used to capture the assigned Credit Analyst / Underwriter. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Credit Analyst / Underwriter</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Loans2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>cm_Loan_Assistant__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Used to capture the loan assistant. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Loan Assistant</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Loans1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>cm_Loan_Ops__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Used to capture the assigned Loan Ops. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Loan Ops</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Loans5</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>cm_Memo_Modification_Count__c</fullName>
+        <description>A hidden roll-up summary field to count the number of Under Review Change Memo records.  Used in Memo AP automation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A hidden roll-up summary field to count the number of Under Review Change Memo records.  Used in Memo AP automation.</inlineHelpText>
+        <label>Memo Modification Count</label>
+        <summaryFilterItems>
+            <field>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__Approval_Status__c</field>
+            <operation>equals</operation>
+            <value>Under Review</value>
+        </summaryFilterItems>
+        <summaryForeignKey>LLC_BI__Credit_Memo_Modifcation__c.LLC_BI__Loan__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>cm_Method_of_Doc_Prep__c</fullName>
+        <description>Tracks method of document preparation. Added for the commercial accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Method of Doc Prep</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Attorney Prepared</fullName>
+                    <default>false</default>
+                    <label>Attorney Prepared</label>
+                </value>
+                <value>
+                    <fullName>Internally Prepared</fullName>
+                    <default>false</default>
+                    <label>Internally Prepared</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cm_Portfolio_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Used to capture the assigned Portfolio Manager. Added for the Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Portfolio Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Loans3</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>cm_Roll_Up_Adverse_Action__c</fullName>
+        <description>Used to conditionally render the adverse action route on loans. Added for Commercial Accelerate project.</description>
+        <externalId>false</externalId>
+        <label>Roll Up Adverse Action</label>
+        <summaryForeignKey>LLC_BI__Adverse_Action__c.LLC_BI__Loan__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>cm_Today_s_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>TODAY()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Today&apos;s Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <listViews>
+        <fullName>Board_of_Directors_Loan</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Board of Directors</label>
+        <queue>Board_of_Directors</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CLA_Queue_Loan</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CLA Queue</label>
+        <queue>CLA_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Loan_Approval_Queue_Loan</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Loan Approval Queue</label>
+        <queue>Loan_Approval_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Loan_Committee_Loan</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Loan Committee</label>
+        <queue>Loan_Committee</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Shadow_Queue_Loan</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Loan Approval Queue</label>
+        <queue>Loan_Approval_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Stage_Approval_Loan_Committee</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__lookupKey__c</columns>
+        <columns>LLC_BI__Amount__c</columns>
+        <columns>LLC_BI__Account__c</columns>
+        <columns>LLC_BI__Product_Line__c</columns>
+        <columns>LLC_BI__Product_Type__c</columns>
+        <columns>LLC_BI__Product__c</columns>
+        <columns>LLC_BI__InterestRate__c</columns>
+        <columns>LLC_BI__Risk_Grade__c</columns>
+        <columns>LLC_BI__Stage__c</columns>
+        <columns>LLC_BI__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Stage__c</field>
+            <operation>equals</operation>
+            <value>Approval / Loan Committee</value>
+        </filters>
+        <label>Stage = Approval / Loan Committee</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Stage_Booked</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__lookupKey__c</columns>
+        <columns>LLC_BI__Amount__c</columns>
+        <columns>LLC_BI__Account__c</columns>
+        <columns>LLC_BI__Product_Line__c</columns>
+        <columns>LLC_BI__Product_Type__c</columns>
+        <columns>LLC_BI__Product__c</columns>
+        <columns>LLC_BI__InterestRate__c</columns>
+        <columns>LLC_BI__Risk_Grade__c</columns>
+        <columns>LLC_BI__Stage__c</columns>
+        <columns>LLC_BI__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Stage__c</field>
+            <operation>equals</operation>
+            <value>Booked</value>
+        </filters>
+        <filters>
+            <field>LLC_BI__Status__c</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </filters>
+        <label>Stage = Booked</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Stage_Closing</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__lookupKey__c</columns>
+        <columns>LLC_BI__Amount__c</columns>
+        <columns>LLC_BI__Account__c</columns>
+        <columns>LLC_BI__Product_Line__c</columns>
+        <columns>LLC_BI__Product_Type__c</columns>
+        <columns>LLC_BI__Product__c</columns>
+        <columns>LLC_BI__InterestRate__c</columns>
+        <columns>LLC_BI__Risk_Grade__c</columns>
+        <columns>LLC_BI__Stage__c</columns>
+        <columns>LLC_BI__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Stage__c</field>
+            <operation>equals</operation>
+            <value>Closing</value>
+        </filters>
+        <label>Stage = Closing</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Stage_Complete</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__lookupKey__c</columns>
+        <columns>LLC_BI__Amount__c</columns>
+        <columns>LLC_BI__Account__c</columns>
+        <columns>LLC_BI__Product_Line__c</columns>
+        <columns>LLC_BI__Product_Type__c</columns>
+        <columns>LLC_BI__Product__c</columns>
+        <columns>LLC_BI__InterestRate__c</columns>
+        <columns>LLC_BI__Risk_Grade__c</columns>
+        <columns>LLC_BI__Stage__c</columns>
+        <columns>LLC_BI__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Stage__c</field>
+            <operation>equals</operation>
+            <value>Complete</value>
+        </filters>
+        <label>Stage = Complete</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Stage_Credit_Underwriting</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__lookupKey__c</columns>
+        <columns>LLC_BI__Amount__c</columns>
+        <columns>LLC_BI__Account__c</columns>
+        <columns>LLC_BI__Product_Line__c</columns>
+        <columns>LLC_BI__Product_Type__c</columns>
+        <columns>LLC_BI__Product__c</columns>
+        <columns>LLC_BI__InterestRate__c</columns>
+        <columns>LLC_BI__Risk_Grade__c</columns>
+        <columns>LLC_BI__Stage__c</columns>
+        <columns>LLC_BI__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Stage__c</field>
+            <operation>equals</operation>
+            <value>Credit Underwriting</value>
+        </filters>
+        <label>Stage = Credit Underwriting</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Stage_Doc_Prep</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__lookupKey__c</columns>
+        <columns>LLC_BI__Amount__c</columns>
+        <columns>LLC_BI__Account__c</columns>
+        <columns>LLC_BI__Product_Line__c</columns>
+        <columns>LLC_BI__Product_Type__c</columns>
+        <columns>LLC_BI__Product__c</columns>
+        <columns>LLC_BI__InterestRate__c</columns>
+        <columns>LLC_BI__Risk_Grade__c</columns>
+        <columns>LLC_BI__Stage__c</columns>
+        <columns>LLC_BI__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Stage__c</field>
+            <operation>equals</operation>
+            <value>Doc Prep</value>
+        </filters>
+        <label>Stage = Doc Prep</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Stage_Final_Review</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__lookupKey__c</columns>
+        <columns>LLC_BI__Amount__c</columns>
+        <columns>LLC_BI__Account__c</columns>
+        <columns>LLC_BI__Product_Line__c</columns>
+        <columns>LLC_BI__Product_Type__c</columns>
+        <columns>LLC_BI__Product__c</columns>
+        <columns>LLC_BI__InterestRate__c</columns>
+        <columns>LLC_BI__Risk_Grade__c</columns>
+        <columns>LLC_BI__Stage__c</columns>
+        <columns>LLC_BI__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Stage__c</field>
+            <operation>equals</operation>
+            <value>Final Review</value>
+        </filters>
+        <label>Stage = Final Review</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Stage_Processing</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__lookupKey__c</columns>
+        <columns>LLC_BI__Amount__c</columns>
+        <columns>LLC_BI__Account__c</columns>
+        <columns>LLC_BI__Product_Line__c</columns>
+        <columns>LLC_BI__Product_Type__c</columns>
+        <columns>LLC_BI__Product__c</columns>
+        <columns>LLC_BI__InterestRate__c</columns>
+        <columns>LLC_BI__Risk_Grade__c</columns>
+        <columns>LLC_BI__Stage__c</columns>
+        <columns>LLC_BI__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Stage__c</field>
+            <operation>equals</operation>
+            <value>Processing</value>
+        </filters>
+        <label>Stage = Processing</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Stage_Proposal</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__Amount__c</columns>
+        <columns>LLC_BI__lookupKey__c</columns>
+        <columns>LLC_BI__Account__c</columns>
+        <columns>LLC_BI__Product_Line__c</columns>
+        <columns>LLC_BI__Product_Type__c</columns>
+        <columns>LLC_BI__Product__c</columns>
+        <columns>LLC_BI__InterestRate__c</columns>
+        <columns>LLC_BI__Risk_Grade__c</columns>
+        <columns>LLC_BI__Stage__c</columns>
+        <columns>LLC_BI__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Stage__c</field>
+            <operation>equals</operation>
+            <value>Proposal</value>
+        </filters>
+        <label>Stage = Proposal</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Stage_Qualification</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__lookupKey__c</columns>
+        <columns>LLC_BI__Amount__c</columns>
+        <columns>LLC_BI__Account__c</columns>
+        <columns>LLC_BI__Product_Line__c</columns>
+        <columns>LLC_BI__Product_Type__c</columns>
+        <columns>LLC_BI__Product__c</columns>
+        <columns>LLC_BI__InterestRate__c</columns>
+        <columns>LLC_BI__Risk_Grade__c</columns>
+        <columns>LLC_BI__Stage__c</columns>
+        <columns>LLC_BI__Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Stage__c</field>
+            <operation>equals</operation>
+            <value>Qualification</value>
+        </filters>
+        <label>Stage = Qualification</label>
+        <language>en_US</language>
+    </listViews>
     <recordTypes>
         <fullName>Commercial</fullName>
         <active>true</active>
         <compactLayoutAssignment>Loan_Highlights</compactLayoutAssignment>
         <label>Commercial</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Commercial_Loan_Record_Type</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Loan_Layout</compactLayoutAssignment>
+        <description>This Record Type will Apply to Commercial Loans</description>
+        <label>Commercial Loan Record Type</label>
+        <picklistValues>
+            <picklist>Is_this_a_Test__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Source_of_Repayment__c</picklist>
+            <values>
+                <fullName>Cash flow from Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Liquidation of Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Receivables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reliance on Guarantors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Secondary_Source_of_Repayment__c</picklist>
+            <values>
+                <fullName>Cash flow from Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Liquidation of Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Receivables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reliance on Guarantors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tertiary_Source_of_Repayment__c</picklist>
+            <values>
+                <fullName>Cash flow from Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Liquidation of Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Receivables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reliance on Guarantors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>cm_Method_of_Doc_Prep__c</picklist>
+            <values>
+                <fullName>Attorney Prepared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internally Prepared</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Consumer_Loan_Record_Type</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Loan_Layout</compactLayoutAssignment>
+        <description>This Record Type will Apply to Consumer Loans</description>
+        <label>Consumer Loan Record Type</label>
+        <picklistValues>
+            <picklist>Is_this_a_Test__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Source_of_Repayment__c</picklist>
+            <values>
+                <fullName>Cash flow from Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Liquidation of Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Receivables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reliance on Guarantors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Secondary_Source_of_Repayment__c</picklist>
+            <values>
+                <fullName>Cash flow from Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Liquidation of Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Receivables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reliance on Guarantors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tertiary_Source_of_Repayment__c</picklist>
+            <values>
+                <fullName>Cash flow from Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Liquidation of Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Receivables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reliance on Guarantors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>cm_Method_of_Doc_Prep__c</picklist>
+            <values>
+                <fullName>Attorney Prepared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internally Prepared</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Government_Guaranteed_Record_Type</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Loan_Layout</compactLayoutAssignment>
+        <description>This Record Type will Apply to Government Guaranteed Loans</description>
+        <label>Government Guaranteed Record Type</label>
+        <picklistValues>
+            <picklist>Is_this_a_Test__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Source_of_Repayment__c</picklist>
+            <values>
+                <fullName>Cash flow from Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Liquidation of Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Receivables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reliance on Guarantors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Secondary_Source_of_Repayment__c</picklist>
+            <values>
+                <fullName>Cash flow from Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Liquidation of Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Receivables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reliance on Guarantors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tertiary_Source_of_Repayment__c</picklist>
+            <values>
+                <fullName>Cash flow from Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Liquidation of Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Receivables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reliance on Guarantors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>cm_Method_of_Doc_Prep__c</picklist>
+            <values>
+                <fullName>Attorney Prepared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internally Prepared</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Guidance_LOC_Sub_Loan_Record_Type</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Loan_Layout</compactLayoutAssignment>
+        <description>This Record Type will Apply to Guidance LOC Sub Loans</description>
+        <label>Guidance LOC Sub Loan Record Type</label>
+        <picklistValues>
+            <picklist>Is_this_a_Test__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Source_of_Repayment__c</picklist>
+            <values>
+                <fullName>Cash flow from Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Liquidation of Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Receivables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reliance on Guarantors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Secondary_Source_of_Repayment__c</picklist>
+            <values>
+                <fullName>Cash flow from Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Liquidation of Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Receivables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reliance on Guarantors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tertiary_Source_of_Repayment__c</picklist>
+            <values>
+                <fullName>Cash flow from Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Liquidation of Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Receivables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reliance on Guarantors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>cm_Method_of_Doc_Prep__c</picklist>
+            <values>
+                <fullName>Attorney Prepared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internally Prepared</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Guidance_Line_Record_Type</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Loan_Layout</compactLayoutAssignment>
+        <description>This Record Type will Apply to Guidance Lines of Credit</description>
+        <label>Guidance Line Record Type</label>
+        <picklistValues>
+            <picklist>Is_this_a_Test__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Source_of_Repayment__c</picklist>
+            <values>
+                <fullName>Cash flow from Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Liquidation of Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Receivables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reliance on Guarantors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Secondary_Source_of_Repayment__c</picklist>
+            <values>
+                <fullName>Cash flow from Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Liquidation of Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Receivables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reliance on Guarantors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tertiary_Source_of_Repayment__c</picklist>
+            <values>
+                <fullName>Cash flow from Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Income</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Liquidation of Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Receivables</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reliance on Guarantors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Working Capital Turnover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>cm_Method_of_Doc_Prep__c</picklist>
+            <values>
+                <fullName>Attorney Prepared</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internally Prepared</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>LLC_BI__Start</fullName>
@@ -34,4 +2828,116 @@
         <description>This record type is used to differentiate a retail loan, which has a distinct experience from other loan types.</description>
         <label>Retail Loan</label>
     </recordTypes>
+    <validationRules>
+        <fullName>Loan_Validation_01</fullName>
+        <active>true</active>
+        <description>Check to make sure the amount outstanding is not being set to be greater than the Amount (total) available</description>
+        <errorConditionFormula>AND(
+IF(LLC_BI__AmountOutstanding__c &gt; LLC_BI__Amount__c, true, false),
+$User.No_Validation__c = False)</errorConditionFormula>
+        <errorDisplayField>LLC_BI__AmountOutstanding__c</errorDisplayField>
+        <errorMessage>Amount Outstanding cannot exceed the maximum Amount available - LV01</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Validation_02</fullName>
+        <active>true</active>
+        <description>Ensure that Interest rate is not above the ceiling rate.</description>
+        <errorConditionFormula>AND (
+LLC_BI__Rate_Ceiling__c &gt;= 0,
+(LLC_BI__InterestRate__c &gt;  LLC_BI__Rate_Ceiling__c),
+$User.No_Validation__c = False
+)</errorConditionFormula>
+        <errorDisplayField>LLC_BI__InterestRate__c</errorDisplayField>
+        <errorMessage>Please ensure that the interest rate for this loan is not above the ceiling rate - LV02</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Validation_03</fullName>
+        <active>true</active>
+        <description>Ensure that Interest rate is not below the floor rate.</description>
+        <errorConditionFormula>AND (
+!ISNULL(LLC_BI__Rate_Floor__c),
+(LLC_BI__InterestRate__c &lt; LLC_BI__Rate_Floor__c),
+$User.No_Validation__c = False
+)</errorConditionFormula>
+        <errorDisplayField>LLC_BI__InterestRate__c</errorDisplayField>
+        <errorMessage>Please ensure that the interest rate for this loan is not below the floor rate - LV03</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Validation_04</fullName>
+        <active>true</active>
+        <description>Prevents Users from manually selecting the Approval / Loan Committee Stage.</description>
+        <errorConditionFormula>AND(
+OR(
+ISNEW(),
+ISCHANGED (LLC_BI__Stage__c)),
+ISPICKVAL(LLC_BI__Stage__c, &quot;Approval / Loan Committee&quot;), TRUE)</errorConditionFormula>
+        <errorDisplayField>LLC_BI__Stage__c</errorDisplayField>
+        <errorMessage>You Cannot Manually Change the Loan Stage to Approval / Loan Committee. Please Ensure That All Information is Accurate and Press the &apos;Submit for Approval&apos; Button at the Top of the Page. - LV04</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Validation_05</fullName>
+        <active>true</active>
+        <description>A Loan Number is Required Prior to Changing the Loan Stage to &apos;Booked&apos;</description>
+        <errorConditionFormula>AND(
+ISPICKVAL(LLC_BI__Stage__c , &apos;Booked&apos;),
+ISBLANK(LLC_BI__lookupKey__c),
+$User.No_Validation__c = False)</errorConditionFormula>
+        <errorDisplayField>LLC_BI__Stage__c</errorDisplayField>
+        <errorMessage>A Loan Number is Required Prior to Changing the Loan Stage to &apos;Booked&apos; - LV05</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Validation_06</fullName>
+        <active>true</active>
+        <description>You Cannot Manually Change the Loan to a Post Approval Stage. The Loan Must be Approved by pressing the &apos;Submit for Approval&apos; Button at the top of the page.</description>
+        <errorConditionFormula>AND(
+OR(
+ISPICKVAL(LLC_BI__Stage__c , &apos;Processing&apos;),
+ISPICKVAL(LLC_BI__Stage__c , &apos;Doc Prep&apos;),
+ISPICKVAL(LLC_BI__Stage__c , &apos;Closing&apos;)),
+ISBLANK(LLC_BI__Credit_Approval_Date__c),
+$User.No_Validation__c = False)</errorConditionFormula>
+        <errorDisplayField>LLC_BI__Stage__c</errorDisplayField>
+        <errorMessage>You Cannot Manually Change the Loan to a Post Approval Stage. The Loan Must be Approved by pressing the &apos;Submit for Approval&apos; Button at the top of the page. - LV06</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Validation_07</fullName>
+        <active>true</active>
+        <description>Ensure that the rate ceiling is higher or equal to the floor rate.</description>
+        <errorConditionFormula>AND (
+   !ISNULL(LLC_BI__Rate_Ceiling__c),
+   !ISNULL(LLC_BI__Rate_Floor__c),
+   (LLC_BI__Rate_Ceiling__c &lt; LLC_BI__Rate_Floor__c),
+$User.No_Validation__c = False
+)</errorConditionFormula>
+        <errorDisplayField>LLC_BI__Rate_Ceiling__c</errorDisplayField>
+        <errorMessage>Please ensure that the rate ceiling is higher or equal to the floor rate - LV07</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Validation_09</fullName>
+        <active>false</active>
+        <description>Renewed Loans with a Status of &apos;Superseded&apos; cannot be edited</description>
+        <errorConditionFormula>AND(
+NOT(ISNEW()),
+NOT(ISCHANGED(LLC_BI__Status__c)),
+ISPICKVAL(LLC_BI__Status__c , &apos;Superseded&apos;),
+$User.No_Validation__c = False)</errorConditionFormula>
+        <errorMessage>This Loan has been Superseded and cannot be edited.  Please review the most recent Renewal or contact your Administrator for more information. - LV09</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Loan_Validation_10</fullName>
+        <active>true</active>
+        <description>Prevents users from marking Is Review Ready to True in a post-approval loan stage.</description>
+        <errorConditionFormula>AND(
+OR(
+ISPICKVAL(LLC_BI__Stage__c, &apos;Processing&apos;),
+ISPICKVAL(LLC_BI__Stage__c, &apos;Doc Prep&apos;),
+ISPICKVAL(LLC_BI__Stage__c, &apos;Closing&apos;),
+ISPICKVAL(LLC_BI__Stage__c, &apos;Boarding&apos;),
+ISPICKVAL(LLC_BI__Stage__c, &apos;Booked&apos;)
+),
+LLC_BI__Is_Review_Ready__c = True,
+$User.No_Workflow__c = False
+)</errorConditionFormula>
+        <errorMessage>Is Review Ready cannot be marked True in a post-approval loan stage.</errorMessage>
+    </validationRules>
 </CustomObject>

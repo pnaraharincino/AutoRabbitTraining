@@ -145,6 +145,14 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Risk_Grade_Template_Layout</fullName>
+        <fields>Name</fields>
+        <fields>LLC_BI__Template_Object_Type__c</fields>
+        <fields>LLC_BI__Template_Object_Field_Name__c</fields>
+        <fields>LLC_BI__Template_Object_Field_Value__c</fields>
+        <label>Risk Grade Template Layout</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
     <enableActivities>true</enableActivities>
@@ -267,6 +275,35 @@
             <operation>equals</operation>
         </filters>
         <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Templates_Only</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__Risk_Rating_Review__c</columns>
+        <columns>LLC_BI__Template_Object_Field_Name__c</columns>
+        <columns>LLC_BI__Template_Object_Field_Value__c</columns>
+        <columns>LLC_BI__Template_Object_Type__c</columns>
+        <columns>LLC_BI__Round_Final_Risk_Grade__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Risk_Rating_Review__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>Templates Only</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Templates_and_Reviews</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__Risk_Rating_Review__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LLC_BI__Template_Object_Field_Name__c</columns>
+        <columns>LLC_BI__Template_Object_Field_Value__c</columns>
+        <columns>LLC_BI__Template_Object_Type__c</columns>
+        <columns>LLC_BI__Round_Final_Risk_Grade__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Templates and Reviews</label>
+        <language>en_US</language>
     </listViews>
     <nameField>
         <label>Risk Grade Template Name</label>

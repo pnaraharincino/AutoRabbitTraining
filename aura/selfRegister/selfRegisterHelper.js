@@ -6,7 +6,7 @@
     qsToEventMap2: {
         'expid'  : 'e.c:setExpId'
     },
-        
+    
     handleSelfRegister: function (component, event, helpler) {
         var accountId = component.get("v.accountId");
         var regConfirmUrl = component.get("v.regConfirmUrl");
@@ -53,6 +53,6 @@
             action.setParams({expId:expId});
             action.setCallback(this, function(a){ });
             $A.enqueueAction(action);
-        }        
+        }
     }    
 })

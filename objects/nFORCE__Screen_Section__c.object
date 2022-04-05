@@ -145,6 +145,15 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Screen_Section_Layout</fullName>
+        <fields>Name</fields>
+        <fields>nFORCE__Screen__c</fields>
+        <fields>nFORCE__sObject_Type__c</fields>
+        <fields>nFORCE__Section_Resource__c</fields>
+        <fields>nFORCE__Display_Order__c</fields>
+        <label>Screen Section Layout</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
     <enableActivities>false</enableActivities>
@@ -309,6 +318,16 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Custom_Code_in_Screen_Section__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please add the custom code used in the screen section to this field.</inlineHelpText>
+        <label>Custom Code in Screen Section?</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
     </fields>
     <fields>
         <fullName>Reference__c</fullName>

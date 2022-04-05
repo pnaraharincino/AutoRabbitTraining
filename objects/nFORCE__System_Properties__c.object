@@ -110,6 +110,17 @@
         <language>en_US</language>
     </listViews>
     <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>nFORCE__Category_Name__c</columns>
+        <columns>nFORCE__Key__c</columns>
+        <columns>nFORCE__Value__c</columns>
+        <columns>nFORCE__Is_Active__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
         <fullName>Customer_Portal_System_Properties</fullName>
         <columns>NAME</columns>
         <columns>nFORCE__Category_Name__c</columns>

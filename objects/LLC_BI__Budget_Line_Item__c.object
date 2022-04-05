@@ -145,6 +145,15 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Budget_Line_Item_Layout</fullName>
+        <fields>Name</fields>
+        <fields>LLC_BI__Budget__c</fields>
+        <fields>LLC_BI__Amount_Budgeted__c</fields>
+        <fields>LLC_BI__Description__c</fields>
+        <fields>LLC_BI__Order__c</fields>
+        <label>Budget Line Item Layout</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
     <description>The individual line items that make up the overall budget.</description>

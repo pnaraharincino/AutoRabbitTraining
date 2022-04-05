@@ -180,94 +180,14 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>DM_Admin</tabs>
-    <tabs>Base_Config</tabs>
-    <tabs>nFORCE__Group__c</tabs>
-    <tabs>nFORCE__Route__c</tabs>
     <tabs>nFORCE__Route_Group__c</tabs>
-    <tabs>nFORCE__Screen__c</tabs>
-    <tabs>nFORCE__Screen_Section__c</tabs>
-    <tabs>LLC_BI__Scenario__c</tabs>
-    <tabs>LLC_BI__Treasury_Service__c</tabs>
-    <tabs>nFORCE__Tile__c</tabs>
-    <tabs>LLC_BI__Pricing_Matrix__c</tabs>
-    <tabs>nFORCE__Session__c</tabs>
-    <tabs>LLC_BI__Product_Feature__c</tabs>
-    <tabs>LLC_BI__Participation__c</tabs>
-    <tabs>LLC_BI__Deposit_Rate_Structure__c</tabs>
-    <tabs>LLC_BI__Pricing_Option__c</tabs>
-    <tabs>LLC_BI__Product_Collateral_Type__c</tabs>
-    <tabs>LLC_BI__Requirement__c</tabs>
-    <tabs>LLC_BI__Classification__c</tabs>
-    <tabs>LLC_BI__Product_Connection__c</tabs>
-    <tabs>LLC_BI__Policy_Exception__c</tabs>
-    <tabs>LLC_BI__Policy_Exception_Template__c</tabs>
+    <tabs>LLC_BI__Covenant2__c</tabs>
     <workspaceConfig>
         <mappings>
-            <tab>Base_Config</tab>
-        </mappings>
-        <mappings>
-            <tab>DM_Admin</tab>
-        </mappings>
-        <mappings>
-            <tab>LLC_BI__Classification__c</tab>
-        </mappings>
-        <mappings>
-            <tab>LLC_BI__Deposit_Rate_Structure__c</tab>
-        </mappings>
-        <mappings>
-            <tab>LLC_BI__Participation__c</tab>
-        </mappings>
-        <mappings>
-            <tab>LLC_BI__Policy_Exception_Template__c</tab>
-        </mappings>
-        <mappings>
-            <tab>LLC_BI__Policy_Exception__c</tab>
-        </mappings>
-        <mappings>
-            <tab>LLC_BI__Pricing_Matrix__c</tab>
-        </mappings>
-        <mappings>
-            <tab>LLC_BI__Pricing_Option__c</tab>
-        </mappings>
-        <mappings>
-            <tab>LLC_BI__Product_Collateral_Type__c</tab>
-        </mappings>
-        <mappings>
-            <tab>LLC_BI__Product_Connection__c</tab>
-        </mappings>
-        <mappings>
-            <tab>LLC_BI__Product_Feature__c</tab>
-        </mappings>
-        <mappings>
-            <tab>LLC_BI__Requirement__c</tab>
-        </mappings>
-        <mappings>
-            <tab>LLC_BI__Scenario__c</tab>
-        </mappings>
-        <mappings>
-            <tab>LLC_BI__Treasury_Service__c</tab>
-        </mappings>
-        <mappings>
-            <tab>nFORCE__Group__c</tab>
+            <tab>LLC_BI__Covenant2__c</tab>
         </mappings>
         <mappings>
             <tab>nFORCE__Route_Group__c</tab>
-        </mappings>
-        <mappings>
-            <tab>nFORCE__Route__c</tab>
-        </mappings>
-        <mappings>
-            <tab>nFORCE__Screen_Section__c</tab>
-        </mappings>
-        <mappings>
-            <tab>nFORCE__Screen__c</tab>
-        </mappings>
-        <mappings>
-            <tab>nFORCE__Session__c</tab>
-        </mappings>
-        <mappings>
-            <tab>nFORCE__Tile__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

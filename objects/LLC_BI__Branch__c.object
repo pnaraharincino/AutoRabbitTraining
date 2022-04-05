@@ -145,6 +145,16 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Branch_Layout</fullName>
+        <fields>Name</fields>
+        <fields>LLC_BI__Branch_Id__c</fields>
+        <fields>LLC_BI__Street__c</fields>
+        <fields>LLC_BI__City__c</fields>
+        <fields>LLC_BI__State__c</fields>
+        <fields>LLC_BI__Zip_Code__c</fields>
+        <label>Branch Layout</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
     <description>The Branch Object contains information about specific branch locations of a financial institution .</description>

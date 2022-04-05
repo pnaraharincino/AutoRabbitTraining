@@ -10,15 +10,19 @@
     <tabs>standard-CmsChannel</tabs>
     <tabs>standard-CmsWorkspaces</tabs>
     <tabs>standard-CmsExperiences</tabs>
-    <tabs>LLC_BI__Policy_Exception__c</tabs>
+    <tabs>nFUSE__Transaction_Log__c</tabs>
     <tabs>LLC_BI__Policy_Exception_Template__c</tabs>
+    <tabs>LLC_BI__Pricing_Matrix__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
         <mappings>
             <tab>LLC_BI__Policy_Exception_Template__c</tab>
         </mappings>
         <mappings>
-            <tab>LLC_BI__Policy_Exception__c</tab>
+            <tab>LLC_BI__Pricing_Matrix__c</tab>
+        </mappings>
+        <mappings>
+            <tab>nFUSE__Transaction_Log__c</tab>
         </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>

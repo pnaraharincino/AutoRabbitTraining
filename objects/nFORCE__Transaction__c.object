@@ -335,6 +335,15 @@
         <unique>false</unique>
     </fields>
     <label>Transaction</label>
+    <listViews>
+        <fullName>CLA_Queue_Transaction</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CLA Queue</label>
+        <queue>CLA_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <label>Transaction Name</label>
         <type>Text</type>

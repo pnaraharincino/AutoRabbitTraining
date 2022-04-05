@@ -480,6 +480,12 @@
         <label>All</label>
     </listViews>
     <listViews>
+        <fullName>Spreads_in_Use</fullName>
+        <columns>NAME</columns>
+        <filterScope>Mine</filterScope>
+        <label>Spreads in Use</label>
+    </listViews>
+    <listViews>
         <fullName>Templates</fullName>
         <columns>NAME</columns>
         <columns>LLC_BI__Source_Template__c</columns>

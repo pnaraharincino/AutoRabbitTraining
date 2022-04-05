@@ -722,6 +722,24 @@
         <unique>true</unique>
     </fields>
     <fields>
+        <fullName>Is_Consumer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Designates if a Product is a Consumer Product</description>
+        <externalId>false</externalId>
+        <label>Is Consumer</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_SBA__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Designates if Product is SBA</description>
+        <externalId>false</externalId>
+        <label>Is SBA</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>LLC_BI__Allow_Participation__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>

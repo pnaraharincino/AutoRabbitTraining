@@ -157,6 +157,38 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fieldSets>
+        <fullName>Credit_Memo_Standard_Loan</fullName>
+        <description>Credit Memo: Standard Loan Credit Memo 
+Screen Section: Borrower Structure
+Object: Authorized Signer</description>
+        <displayedFields>
+            <field>LLC_BI__Contact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Account_Entity_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Authority__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Role__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Contingent_Percentage__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Loan</label>
+    </fieldSets>
+    <fieldSets>
         <fullName>LLC_BI__Add_Signer_Modal</fullName>
         <availableFields>
             <field>LLC_BI__Contact__r.LLC_BI__SS__c</field>
@@ -730,6 +762,16 @@ Trust: Trustee/Beneficiary/Agent</inlineHelpText>
     <pluralLabel>Authorized Signers</pluralLabel>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Authorized_Signer_Validation_01</fullName>
+        <active>true</active>
+        <description>Only populate percentage is contingency type is &apos;Assign Specific&apos; or &apos;Pro Rata&apos;</description>
+        <errorConditionFormula>AND(
+ISPICKVAL(LLC_BI__Entity__r.LLC_BI__Contingent_Type__c , &apos;Joint &amp; Several&apos;),
+NOT(ISNULL(LLC_BI__Contingent_Percentage__c)))</errorConditionFormula>
+        <errorDisplayField>LLC_BI__Contingent_Percentage__c</errorDisplayField>
+        <errorMessage>A percentage can only be specified if the contingency type is &apos;Assign Specific&apos; or  &apos;Pro Rata&apos; - AS#01</errorMessage>
+    </validationRules>
     <validationRules>
         <fullName>LLC_BI__Capacity_Association</fullName>
         <active>true</active>

@@ -91,6 +91,23 @@
         <language>en_US</language>
     </listViews>
     <listViews>
+        <fullName>Memo_Configuration</fullName>
+        <columns>NAME</columns>
+        <columns>LLC_BI__Category_Name__c</columns>
+        <columns>LLC_BI__Description__c</columns>
+        <columns>LLC_BI__Is_Active__c</columns>
+        <columns>LLC_BI__Key__c</columns>
+        <columns>LLC_BI__Value__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LLC_BI__Category_Name__c</field>
+            <operation>contains</operation>
+            <value>MEMO</value>
+        </filters>
+        <label>Memo Configuration</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
         <fullName>Memo_Settings</fullName>
         <columns>NAME</columns>
         <columns>LLC_BI__Category_Name__c</columns>

@@ -159,6 +159,119 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fieldSets>
+        <fullName>Credit_Memo_Standard_Loan</fullName>
+        <description>Credit Memo: Standard Loan Credit Memo
+Screen Section: Collateral Summary
+Object: Liens</description>
+        <displayedFields>
+            <field>LLC_BI__Position__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Institution__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Loan_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Loan</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Credit_Memo_Standard_Product_Package</fullName>
+        <description>Credit Memo: Standard Product Package Credit Memo
+Screen Section: Collateral Summary
+Object: Liens</description>
+        <displayedFields>
+            <field>LLC_BI__Position__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Institution__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Loan_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Active__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Product Package</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Credit_Memo_Standard_Review_Account</fullName>
+        <description>Credit Memo: Standard Review Credit Memo (Account Only)
+Screen Section: Collateral Summary
+Object: Liens</description>
+        <displayedFields>
+            <field>LLC_BI__Position__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Institution__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Loan_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Review Account</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Credit_Memo_Standard_Review_Product_Pack</fullName>
+        <description>Credit Memo: Standard Review Credit Memo (Product Package)
+Screen Section: Collateral Summary
+Object: Liens</description>
+        <displayedFields>
+            <field>LLC_BI__Position__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Institution__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Loan_Number__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Review Product Package</label>
+    </fieldSets>
+    <fieldSets>
         <fullName>LLC_BI__Credit_Memo_Standard_Product_Package</fullName>
         <description>Credit Memo: Standard Product Package Credit Memo
 Screen Section: Collateral Summary
@@ -284,6 +397,11 @@ Object: Liens</description>
             <isRequired>false</isRequired>
         </displayedFields>
         <label>Lien Collateral Description</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>UI_Liens</fullName>
+        <description>New UI Liens field set</description>
+        <label>UI Liens</label>
     </fieldSets>
     <fields>
         <fullName>LLC_BI__Active__c</fullName>

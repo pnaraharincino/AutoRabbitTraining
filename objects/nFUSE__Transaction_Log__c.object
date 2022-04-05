@@ -356,6 +356,11 @@
         <unique>false</unique>
     </fields>
     <label>Transaction Log</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>Transaction Log Name</label>
         <type>Text</type>

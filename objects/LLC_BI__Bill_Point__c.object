@@ -142,6 +142,16 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Bill_Point_Layout</fullName>
+        <fields>Name</fields>
+        <fields>LLC_BI__Price__c</fields>
+        <fields>LLC_BI__Unit_Cost__c</fields>
+        <fields>LLC_BI__Price_Structure__c</fields>
+        <fields>LLC_BI__Product__c</fields>
+        <fields>LLC_BI__Product_Type__c</fields>
+        <label>Bill Point Layout</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
     <description>Standard pricing for a product.</description>

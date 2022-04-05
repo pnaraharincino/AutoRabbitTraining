@@ -277,6 +277,29 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Route_App_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>nFORCE__Route__r.nFORCE__App__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This is a custom formula field that indicates the corresponding App Name for the Roue.</inlineHelpText>
+        <label>Route -  App Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Route_Screen__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;/&quot;&amp;nFORCE__Route__r.nFORCE__Screen__r.Id, nFORCE__Route__r.nFORCE__Screen__r.Name)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Route Screen</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>nFORCE__Conditional_Display_Criteria__c</fullName>
         <defaultValue>&quot;&quot;</defaultValue>
         <deprecated>false</deprecated>

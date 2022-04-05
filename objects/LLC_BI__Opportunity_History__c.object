@@ -181,6 +181,52 @@
         </displayedFields>
         <label>Opp History For Dashboard</label>
     </fieldSets>
+    <fieldSets>
+        <fullName>UI_Stage_History</fullName>
+        <description>New UI field set for Stage History</description>
+        <displayedFields>
+            <field>LLC_BI__StageName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Stage_Duration__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Stage_Change__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Previous_Stage_Duration_Minutes__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Final_Stage_Change__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Stage_And_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>UI Stage History</label>
+    </fieldSets>
+    <fields>
+        <fullName>Integration_Source__c</fullName>
+        <description>Custom field to designate source Credit Union of object used by nCino Data Services.</description>
+        <externalId>false</externalId>
+        <label>Integration Source</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <fields>
         <fullName>LLC_BI__Amount_Change__c</fullName>
         <defaultValue>false</defaultValue>
@@ -689,6 +735,30 @@
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Migration_ID__c</fullName>
+        <description>Custom Migration ID for Opportunity History object used by nCino Data Services.</description>
+        <externalId>true</externalId>
+        <label>Migration ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Verify_Duration__c</fullName>
+        <externalId>false</externalId>
+        <formula>LLC_BI__End_Time__c - LLC_BI__Change_Time__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Verify Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>5</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
     </fields>
     <label>Opportunity History</label>
     <listViews>

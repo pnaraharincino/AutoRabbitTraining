@@ -145,6 +145,15 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Deposit_Layout</fullName>
+        <fields>Name</fields>
+        <fields>LLC_BI__Account_Number__c</fields>
+        <fields>LLC_BI__Amount__c</fields>
+        <fields>LLC_BI__Product__c</fields>
+        <fields>LLC_BI__Account__c</fields>
+        <label>Deposit Layout</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
     <description>The Deposit Object is used to track details of a deposit within nCino</description>
@@ -1880,6 +1889,28 @@
         <label>Deposit_ReviewSubmit</label>
     </fieldSets>
     <fieldSets>
+        <fullName>Credit_Memo_Standard_Loan</fullName>
+        <description>Credit Memo: Standard Loan Credit Memo 
+Screen Section: Related Exposure
+Object: Deposits</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Full_Product_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Loan</label>
+    </fieldSets>
+    <fieldSets>
         <fullName>LLC_BI__Deposit_Maintenance_Delta</fullName>
         <description>Default field set to capture a Deposit record snapshot in the Deposit Maintenance workflow.</description>
         <displayedFields>
@@ -2770,6 +2801,28 @@
         <label>UI Lookup Fields</label>
     </fieldSets>
     <fieldSets>
+        <fullName>Standard_Product_Package_Credit_Memo</fullName>
+        <description>Credit Memo: Standard Product Package Credit Memo 
+Screen Section: Related Exposure
+Object: Deposits</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Full_Product_Name__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LLC_BI__Amount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Credit Memo Standard Product Package</label>
+    </fieldSets>
+    <fieldSets>
         <fullName>WKDDP__WK_DepAct_DocPrep</fullName>
         <description>WK DepAct DocPrep</description>
         <displayedFields>
@@ -3349,6 +3402,19 @@
         </displayedFields>
         <label>Your Products Deposit Information</label>
     </fieldSets>
+    <fields>
+        <fullName>Full_Product_Name__c</fullName>
+        <description>Combined product, line and type</description>
+        <externalId>false</externalId>
+        <formula>text( LLC_BI__Product__c) &amp; &quot; - &quot; &amp; text(LLC_BI__Product_Line__c) &amp; &quot; - &quot; &amp; text( LLC_BI__Product_Type__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Full Product Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <fields>
         <fullName>LLC_BI__APY__c</fullName>
         <deprecated>false</deprecated>

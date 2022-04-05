@@ -712,19 +712,8 @@
     <label>Field Configuration</label>
     <listViews>
         <fullName>All</fullName>
-        <columns>NAME</columns>
-        <columns>nFORCE__Field_Name__c</columns>
-        <columns>nFORCE__sObject_Name__c</columns>
-        <columns>nFORCE__Alternate_Label__c</columns>
-        <columns>nFORCE__Screen_Section__c</columns>
-        <columns>nFORCE__Is_Editable__c</columns>
-        <columns>nFORCE__Is_Hidden__c</columns>
-        <columns>nFORCE__Is_Read_Only__c</columns>
-        <columns>nFORCE__Is_Required__c</columns>
-        <columns>nFORCE__Field_Hint__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
-        <language>en_US</language>
     </listViews>
     <nameField>
         <displayFormat>FC-{000000}</displayFormat>

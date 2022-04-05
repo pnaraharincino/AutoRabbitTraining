@@ -295,6 +295,16 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Estimated_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated Completion Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>IsClosedOnCreate</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -576,6 +586,19 @@
             <value>0</value>
         </filters>
         <label>All Open Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Cases</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Cases</label>
+        <language>en_US</language>
     </listViews>
     <listViews>
         <fullName>LLC_BI__AllClosedCases</fullName>
